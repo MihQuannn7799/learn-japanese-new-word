@@ -49,10 +49,26 @@ function walk(dir) {
 
 const allFiles = walk(sourceRoot);
 const frontendJs = allFiles.filter((file) => /\.m?js$/.test(file));
-const backend = join(repoRoot, 'backend');
-const jsFiles = [...frontendJs, ...walk(backend).filter((file) => /\.m?js$/.test(file))];
+const supportFiles = ['backend', 'scripts', 'tests']
+  .map((name) => join(repoRoot, name))
+  .filter(existsSync)
+  .flatMap(walk);
+const jsFiles = [...frontendJs, ...supportFiles.filter((file) => /\.m?js$/.test(file))];
 const htmlFiles = allFiles.filter((file) => file.endsWith('.html'));
 const cssFiles = allFiles.filter((file) => file.endsWith('.css'));
+
+// Reject unresolved merges, including markers in files without JS syntax checks.
+const textFiles = [...allFiles, ...supportFiles, join(repoRoot, 'README.md')]
+  .filter((file) => /\.(?:m?js|html|css|json|md|txt)$/.test(file) && existsSync(file));
+for (const file of textFiles) {
+  const source = readFileSync(file, 'utf8');
+  if (/^(?:<{7}(?: .*)?|={7}|>{7}(?: .*)?|\|{7}(?: .*)?)\r?$/m.test(source)) {
+    fail(`${rel(file)} còn dấu xung đột Git chưa được giải quyết.`);
+  }
+  if (/\.test\.m?js$/.test(file) && !source.trim()) {
+    fail(`${rel(file)} rỗng nên không kiểm tra được chức năng nào.`);
+  }
+}
 
 // --- 1. Cú pháp JS (coi là ES module qua stdin) -----------------------------
 for (const file of jsFiles) {
