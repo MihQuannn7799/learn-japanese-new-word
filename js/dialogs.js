@@ -51,6 +51,7 @@ export function initDialogs({ state, notify, onChange }) {
         if (wordKey(previous) !== wordKey(word)) {
           state.known.delete(id);
           state.correctAnswers.delete(id);
+          state.dictationDrafts.delete(id);
         }
         state.words = state.words.map((item) => item.id === id ? { ...word, id } : item);
       } else state.words = [...state.words, { ...word, id }];
@@ -104,6 +105,7 @@ export function initDialogs({ state, notify, onChange }) {
     state.words = state.words.filter((word) => word.id !== deletingId);
     state.known.delete(deletingId);
     state.correctAnswers.delete(deletingId);
+    state.dictationDrafts.delete(deletingId);
     deleteDialog.close();
     notify('Đã xóa từ khỏi sổ tay.');
     onChange();

@@ -23,7 +23,10 @@ test('reads and updates the existing Kotoba localStorage format', (t) => {
   assert.deepEqual(state.words, [word]);
   assert.equal(state.known.has(word.id), true);
   assert.equal(state.speed, 1.2);
+  assert.equal(state.repeats, 1);
   state.speed = 0.8;
+  state.repeats = 3;
   assert.equal(storeNotebook(state), true);
-  assert.deepEqual(JSON.parse(data.get(key)), { words: [word], known: [word.id], speed: 0.8 });
+  assert.deepEqual(JSON.parse(data.get(key)), { words: [word], known: [word.id], speed: 0.8, repeats: 3 });
+  assert.equal(createState(loadNotebook().saved).repeats, 3);
 });

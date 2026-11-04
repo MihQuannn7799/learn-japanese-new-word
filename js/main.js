@@ -1,12 +1,12 @@
 import { createAudioPlayer } from './audio.js';
 import { initDialogs } from './dialogs.js';
 import { answerMatches } from './lib/kana.js';
-import { createState, currentWord, resetDictation, resetStudyPositions, wordById } from './state.js';
+import { createState, currentWord, resetStudyPositions, wordById } from './state.js';
 import { loadNotebook, storeNotebook } from './storage.js';
-import { dictationView } from './views/dictation.js';
+import { dictationFeedback, dictationView } from './views/dictation.js';
 import { flashView } from './views/flashcard.js';
 import { readingView } from './views/reading.js';
-import { icon, speedText } from './views/shared.js';
+import { icon, progressPanel, speedFill, speedText } from './views/shared.js';
 import { rowsView, vocabularyView } from './views/vocabulary.js';
 
 const $ = (selector) => document.querySelector(selector);
@@ -19,7 +19,7 @@ let toastTimer;
 
 const sections = {
   flash: ['01 / GHI NHỚ', 'Flashcard', 'Nhìn từ tiếng Nhật, thử nhớ nghĩa rồi lật thẻ để kiểm tra.'],
-  dictation: ['02 / LUYỆN TAI', 'Nghe chép chính tả', 'Nghe phát âm và gõ lại từ bạn nghe được.'],
+  dictation: ['02 / LUYỆN TAI', 'Nghe chép chính tả', 'Gõ từ nghe được bằng hiragana, katakana hoặc kanji.'],
   reading: ['03 / PHÁT ÂM', 'Chế độ đọc', 'Nghe từng từ hoặc phát liên tiếp từ vị trí đang chọn.'],
   words: ['04 / SỔ TAY', 'Danh sách từ vựng', 'Tra cứu và cập nhật từ tiếng Nhật, nghĩa tiếng Việt và kanji.'],
 };
@@ -50,9 +50,33 @@ function updateAudioUi() {
   }
   const listButton = $('[data-action="play-list"]');
   if (!listButton) return;
-  const label = audio.continuous ? `${icon('stop')} Dừng đọc` : `${icon('play')} Đọc liên tiếp`;
-  if (listButton.innerHTML !== label) listButton.innerHTML = label;
-  $('#reading-status').textContent = audio.status;
+  const isDictation = state.mode === 'dictation';
+  const playing = String(audio.continuous);
+  if (listButton.dataset.playing !== playing) {
+    listButton.dataset.playing = playing;
+    const idleLabel = isDictation ? 'Nghe cả danh sách' : 'Đọc liên tiếp';
+    listButton.innerHTML = audio.continuous ? `${icon('stop')} Dừng đọc` : `${icon('play')} ${idleLabel}`;
+  }
+  if (!isDictation) {
+    $('#reading-status').textContent = audio.status;
+    return;
+  }
+  const previousRow = $('.dictation-row.is-speaking');
+  const row = audio.active ? $(`#dictation-row-${state.dictationIndex}`) : null;
+  if (previousRow !== row) {
+    previousRow?.classList.remove('is-speaking');
+    row?.classList.add('is-speaking');
+  }
+  const previousButton = $('.dictation-listen[aria-pressed="true"]');
+  const button = audio.continuous ? null : row?.querySelector('.dictation-listen') ?? null;
+  if (previousButton !== button) {
+    previousButton?.setAttribute('aria-pressed', 'false');
+    button?.setAttribute('aria-pressed', 'true');
+  }
+  const progress = $('#dictation-status');
+  const label = audio.active ? `Đang đọc từ ${state.dictationIndex + 1} / ${state.words.length}`
+    : audio.finished ? 'Đã đọc hết danh sách' : 'Sẵn sàng';
+  if (progress.textContent !== label) progress.textContent = label;
 }
 
 function render(focusSelector) {
@@ -65,7 +89,7 @@ function render(focusSelector) {
   const empty = `<div class="empty-state"><h3>Sổ tay chưa có từ</h3><p class="muted">Thêm từ mới hoặc nhập danh sách để bắt đầu.</p>
     <div class="inline-actions"><button class="btn primary" data-action="add">${icon('plus')} Thêm từ mới</button><button class="btn secondary" data-action="import">${icon('upload')} Nhập danh sách</button></div></div>`;
   const content = mode === 'words' ? vocabularyView(state)
-    : word ? { flash: flashView, dictation: dictationView, reading: readingView }[mode](state, word) : empty;
+    : words.length ? { flash: flashView, dictation: dictationView, reading: readingView }[mode](state, word) : empty;
   workspace.innerHTML = `<section aria-labelledby="study-title">
     <div class="section-heading"><div><p class="section-kicker">${section}</p><h2 id="study-title" tabindex="-1">${heading}</h2><p>${description}</p></div>${shuffleButton}</div>
     ${content}</section>`;
@@ -84,14 +108,33 @@ function render(focusSelector) {
   }
 }
 
-function playReadingList() {
-  const advance = state.readingIndex + 1 < state.words.length ? () => {
-    state.readingIndex++;
-    const listControl = '[data-action="play-list"]';
-    render(document.activeElement === $(listControl) ? listControl : undefined);
-    playReadingList();
+function playList() {
+  const isDictation = state.mode === 'dictation';
+  const indexKey = isDictation ? 'dictationIndex' : 'readingIndex';
+  const advance = state[indexKey] + 1 < state.words.length ? () => {
+    state[indexKey]++;
+    if (!isDictation) {
+      const listControl = '[data-action="play-list"]';
+      const focused = document.activeElement;
+      const focusSelector = focused === $(listControl) ? listControl
+        : ['speed', 'repeats'].includes(focused?.id) ? `#${focused.id}` : undefined;
+      render(focusSelector);
+    }
+    playList();
   } : undefined;
-  audio.play(currentWord(state).kana, state.speed, { playlist: true, advance });
+  audio.play(currentWord(state).kana, state.speed, {
+    playlist: true, advance, repeats: state.repeats, wordGap: isDictation ? 2000 : 450,
+  });
+}
+
+function setDictationDraft(form, feedback = '') {
+  const index = Number(form.dataset.index);
+  const word = state.words[index];
+  const answer = form.elements.namedItem('answer').value;
+  state.dictationDrafts.set(word.id, { answer, feedback });
+  const result = $(`#dictation-feedback-${index}`);
+  result.classList.toggle('incorrect', feedback === 'incorrect');
+  result.innerHTML = dictationFeedback(word, feedback);
 }
 
 function switchMode(nextMode, focusHeading = false) {
@@ -102,14 +145,13 @@ function switchMode(nextMode, focusHeading = false) {
 
 function moveWord(delta, focusSelector) {
   const { mode, words } = state;
-  const indexKey = { flash: 'flashIndex', dictation: 'dictationIndex', reading: 'readingIndex' }[mode];
+  const indexKey = { flash: 'flashIndex', reading: 'readingIndex' }[mode];
   if (!indexKey) return;
   const index = state[indexKey] + delta;
   if (index < 0 || index >= words.length) return;
   audio.stop();
   state[indexKey] = index;
   if (mode === 'flash') state.flipped = false;
-  if (mode === 'dictation') resetDictation(state);
   const atBoundary = (index === 0 && delta < 0) || (index === words.length - 1 && delta > 0);
   const positionTarget = focusSelector && atBoundary
     ? `[data-action="${delta > 0 ? 'previous' : 'next'}"]` : focusSelector;
@@ -157,16 +199,26 @@ const actions = {
   next: () => moveWord(1, '[data-action="next"]'),
   speak: (button) => {
     const word = button.dataset.id ? wordById(state, button.dataset.id) : currentWord(state);
-    audio.play(word.kana, state.speed);
+    audio.play(word.kana, state.speed, { repeats: state.repeats });
+  },
+  'listen-row': (button) => {
+    if (button.getAttribute('aria-pressed') === 'true') {
+      audio.stop();
+      return;
+    }
+    state.dictationIndex = Number(button.form.dataset.index);
+    audio.play(currentWord(state).kana, state.speed, { repeats: state.repeats });
   },
   'play-list': () => {
     if (audio.continuous) audio.stop();
     else {
-      if (audio.finished) {
+      if (state.mode === 'dictation') {
+        state.dictationIndex = 0;
+      } else if (audio.finished) {
         state.readingIndex = 0;
         render('[data-action="play-list"]');
       }
-      playReadingList();
+      playList();
     }
   },
   'choose-word': (button) => {
@@ -174,10 +226,7 @@ const actions = {
     state.readingIndex = Number(button.dataset.index);
     render(`[data-action="choose-word"][data-index="${state.readingIndex}"]`);
   },
-  reveal: () => {
-    state.feedback = 'revealed';
-    render('[data-action="reveal"]');
-  },
+  reveal: (button) => setDictationDraft(button.form, 'revealed'),
 };
 
 document.addEventListener('click', (event) => {
@@ -190,20 +239,21 @@ document.addEventListener('input', (event) => {
   if (input.id === 'speed') {
     state.speed = Number(input.value);
     input.setAttribute('aria-valuetext', speedText(state.speed));
+    input.style.setProperty('--speed-fill', speedFill(state.speed));
     $('#speed-value').textContent = speedText(state.speed);
   } else if (input.id === 'word-search') {
     state.search = input.value;
     $('#word-rows').innerHTML = rowsView(state);
-  } else if (input.id === 'dictation-input') {
-    state.dictationInput = input.value;
-    if (state.feedback === 'incorrect') {
-      state.feedback = '';
-      $('#dictation-feedback').hidden = true;
-    }
+  } else if (input.name === 'answer' && input.form?.matches('.dictation-form')) {
+    setDictationDraft(input.form);
   }
 });
 
 document.addEventListener('change', (event) => {
+  if (event.target.id === 'repeats') {
+    state.repeats = Number(event.target.value);
+    persist();
+  }
   if (event.target.id === 'speed') persist();
 });
 
@@ -221,15 +271,18 @@ document.addEventListener('keydown', (event) => {
 });
 
 workspace.addEventListener('submit', (event) => {
-  if (event.target.id !== 'dictation-form') return;
+  const form = event.target;
+  if (!form.matches('.dictation-form')) return;
   event.preventDefault();
-  const word = currentWord(state);
-  state.dictationInput = event.target.elements.namedItem('answer').value;
-  if (answerMatches(state.dictationInput, word)) {
+  const word = state.words[Number(form.dataset.index)];
+  const input = form.elements.namedItem('answer');
+  const correct = answerMatches(input.value, word);
+  setDictationDraft(form, correct ? 'correct' : 'incorrect');
+  if (correct) {
     state.correctAnswers.add(word.id);
-    state.feedback = 'correct';
-  } else state.feedback = 'incorrect';
-  render('#dictation-input');
+    $('#dictation-progress').innerHTML = progressPanel(state, true);
+  }
+  input.focus({ preventScroll: true });
 });
 
 window.addEventListener('pagehide', audio.stop);

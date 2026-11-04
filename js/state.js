@@ -6,15 +6,17 @@ export function createState(saved) {
   const speed = typeof saved.speed === 'number' && saved.speed >= 0.5 && saved.speed <= 1.5
     ? saved.speed : 0.85;
 
+  const repeats = Number.isInteger(saved.repeats) && saved.repeats >= 1 && saved.repeats <= 5
+    ? saved.repeats : 1;
+
   return {
-    words, known, speed,
+    words, known, speed, repeats,
     mode: 'flash',
     flashOrder: words.map((word) => word.id),
     flashIndex: 0,
     flipped: false,
     dictationIndex: 0,
-    dictationInput: '',
-    feedback: '',
+    dictationDrafts: new Map(),
     correctAnswers: new Set(),
     readingIndex: 0,
     search: '',
@@ -31,17 +33,11 @@ export function currentWord(state) {
   return state.words[state.readingIndex];
 }
 
-export function resetDictation(state) {
-  state.dictationInput = '';
-  state.feedback = '';
-}
-
 export function resetStudyPositions(state) {
   state.flashOrder = state.words.map((word) => word.id);
   state.flashIndex = 0;
   state.flipped = false;
   state.dictationIndex = 0;
-  resetDictation(state);
   state.readingIndex = 0;
   state.search = '';
 }

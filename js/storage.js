@@ -8,9 +8,9 @@ export function loadNotebook() {
   }
 }
 
-export function storeNotebook({ words, known, speed }) {
+export function storeNotebook({ words, known, speed, repeats }) {
   try {
-    localStorage.setItem(storageKey, JSON.stringify({ words, known: [...known], speed }));
+    localStorage.setItem(storageKey, JSON.stringify({ words, known: [...known], speed, repeats }));
     return true;
   } catch {
     return false;

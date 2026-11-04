@@ -4,11 +4,18 @@ export const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (characte
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]
 );
 
-export function speedPanel(speed) {
+export const speedFill = (speed) => `${Math.round((speed - 0.5) * 100)}%`;
+
+export function speedPanel(speed, repeats) {
   return `<section class="panel">
     <label class="range-label" for="speed"><span class="panel-title">${icon('volume')} Tốc độ đọc</span><output id="speed-value" for="speed">${speedText(speed)}</output></label>
-    <input id="speed" type="range" min="0.5" max="1.5" step="0.05" value="${speed}" aria-valuetext="${speedText(speed)}">
+    <input id="speed" class="speed-slider" type="range" min="0.5" max="1.5" step="0.01" value="${speed}" style="--speed-fill: ${speedFill(speed)}" aria-valuetext="${speedText(speed)}">
     <div class="speed-scale" aria-hidden="true"><span>0.5× · Chậm</span><span>1.5× · Nhanh</span></div>
+    <label class="repeat-setting" for="repeats"><span>Số lần đọc mỗi từ</span>
+      <select id="repeats">
+        ${[1, 2, 3, 4, 5].map((count) => `<option value="${count}"${count === repeats ? ' selected' : ''}>${count} lần</option>`).join('')}
+      </select>
+    </label>
     <p class="voice-message" data-voice-message role="status" hidden></p>
   </section>`;
 }

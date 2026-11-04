@@ -1,6 +1,6 @@
 import { escapeHtml, icon, japanese, speedPanel, stepper } from './shared.js';
 
-export function readingView({ words, readingIndex, speed }, word) {
+export function readingView({ words, readingIndex, speed, repeats }, word) {
   return `<div class="study-grid">
     <section class="study-card" aria-label="Trình đọc từ vựng">
       <div class="exercise-listen reading">
@@ -17,7 +17,7 @@ export function readingView({ words, readingIndex, speed }, word) {
       </div>
     </section>
     <aside class="side-stack">
-      ${speedPanel(speed)}
+      ${speedPanel(speed, repeats)}
       <section class="panel">
         <h3 class="panel-title">${icon('book')} Danh sách đọc</h3>
         <ol class="playlist">

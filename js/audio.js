@@ -24,7 +24,7 @@ export function createAudioPlayer({ onChange, notify }) {
     onChange();
   }
 
-  function play(text, speed, { playlist = false, advance } = {}) {
+  function play(text, speed, { playlist = false, advance, repeats = 1, wordGap = 450 } = {}) {
     const voice = japaneseVoice();
     if (!synth || !Utterance || !voice) {
       stop();
@@ -52,29 +52,39 @@ export function createAudioPlayer({ onChange, notify }) {
       notify(message);
     };
 
-    try {
-      const utterance = new Utterance(text);
-      utterance.voice = voice;
-      utterance.lang = voice.lang;
-      utterance.rate = speed;
-      utterance.onend = () => {
-        if (playback !== token) return;
-        playing = false;
-        if (continuous && advance) {
-          playTimer = setTimeout(() => {
-            if (playback === token) advance();
-          }, 450);
-        } else {
-          finished = continuous;
-          continuous = false;
-        }
-        onChange();
-      };
-      utterance.onerror = reportError;
-      synth.speak(utterance);
-    } catch {
-      reportError();
+    let spoken = 0;
+    function speak() {
+      if (playback !== token) return;
+      try {
+        const utterance = new Utterance(text);
+        utterance.voice = voice;
+        utterance.lang = voice.lang;
+        utterance.rate = speed;
+        utterance.onend = () => {
+          if (playback !== token) return;
+          if (spoken < repeats) {
+            playTimer = setTimeout(speak, 450);
+            return;
+          }
+          playing = false;
+          if (continuous && advance) {
+            playTimer = setTimeout(() => {
+              if (playback === token) advance();
+            }, wordGap);
+          } else {
+            finished = continuous;
+            continuous = false;
+          }
+          onChange();
+        };
+        utterance.onerror = reportError;
+        spoken++;
+        synth.speak(utterance);
+      } catch {
+        reportError();
+      }
     }
+    speak();
     onChange();
   }
 
@@ -86,6 +96,7 @@ export function createAudioPlayer({ onChange, notify }) {
   return {
     play,
     stop,
+    get active() { return playing || continuous; },
     get continuous() { return continuous; },
     get finished() { return finished; },
     get status() { return continuous || playing ? 'ĐANG ĐỌC' : finished ? 'ĐÃ ĐỌC HẾT' : 'SẴN SÀNG'; },
