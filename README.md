@@ -6,17 +6,23 @@ Trang học từ vựng tiếng Nhật bằng tiếng Việt. Trang có 8 từ m
 
 ## Clone và chạy trên máy
 
-Cần có Git và Python 3. Mở PowerShell, Git Bash hoặc Terminal và chạy:
+Cần Git và Node.js 22.13 trở lên. Chạy các lệnh sau trong PowerShell, Git Bash hoặc Terminal.
 
 ```sh
 git clone https://github.com/MihQuannn7799/learn-japanese-new-word.git
 cd learn-japanese-new-word
-python -m http.server 8000 --bind 127.0.0.1
+npm start
 ```
 
-Mở [http://localhost:8000](http://localhost:8000) trong trình duyệt. Nếu máy dùng lệnh `py` (Windows) hoặc `python3` (macOS/Linux), thay `python` bằng lệnh tương ứng. Giữ cửa sổ terminal mở trong lúc học và nhấn `Ctrl+C` để dừng máy chủ.
+Mở [http://localhost:8000](http://localhost:8000). Máy chủ chỉ nghe trên máy của bạn. Nhấn `Ctrl+C` để dừng. Kotoba không cần cài thư viện, tài khoản hoặc API key.
 
-Nếu đã clone repo trước đây, chạy `git pull` trong thư mục dự án để cập nhật. Trang chạy trực tiếp từ mã nguồn, không cần cài thư viện hay đăng nhập. Nếu có Node.js, bạn cũng có thể dùng `npm start` khi máy nhận lệnh `python`.
+Sổ tay, dấu đã nhớ và thiết lập học được ghi vào `backend/storage/kotoba.sqlite`. Ở lần mở đầu tiên với SQLite trống, Kotoba chép sổ tay đang lưu tại đúng địa chỉ `localhost:8000` sang SQLite và giữ bản lưu trình duyệt. Nếu dữ liệu cũ nằm ở trình duyệt hoặc địa chỉ khác, nó vẫn nằm ở địa chỉ cũ. Có thể sao lưu tệp SQLite sau khi dừng máy chủ.
+
+## Kho N5 và gợi ý kanji
+
+- **Thêm từ mới** · Gõ hiragana hoặc katakana để tra cách viết. Chọn kanji phù hợp trong các gợi ý hoặc tự nhập. Kana có thể trùng giữa nhiều từ.
+- **Kho N5** · Tìm 674 mục bằng kana, kanji hoặc nghĩa tiếng Anh. Thêm từng từ để sửa nghĩa sang tiếng Việt, hoặc thêm cả bộ và bỏ qua mục đã có cùng cách đọc và cách viết.
+- Dữ liệu tra cứu được đóng gói cùng app, dùng mục từ từ N5 đến N1. Phân cấp N5 là danh sách tham khảo. Xem [nguồn và giấy phép](frontend/data/SOURCES.md).
 
 ## Cách học
 
@@ -38,18 +44,18 @@ Dán danh sách hoặc chọn một tệp UTF-8 `.csv`, `.tsv` hay `.txt`. Mỗi
 
 Có thể dùng dấu phẩy hoặc tab thay dấu `|` cho cả danh sách. Nếu nghĩa có dấu phân cách, đặt nghĩa trong ngoặc kép. Trang báo dòng lỗi trước khi lưu và bỏ qua các mục trùng.
 
-Từ vựng, dấu đã nhớ, cài đặt phát và tùy chọn hiển thị được lưu trong trình duyệt theo địa chỉ trang. Tính năng nghe dùng giọng đọc tiếng Nhật mà trình duyệt cung cấp. Nếu trang báo thiếu giọng Nhật, hãy thêm giọng tiếng Nhật trong cài đặt đọc văn bản của thiết bị rồi tải lại trang.
+Tính năng nghe dùng giọng đọc tiếng Nhật mà trình duyệt cung cấp. Nếu trang báo thiếu giọng Nhật, hãy thêm giọng tiếng Nhật trong cài đặt đọc văn bản của thiết bị rồi tải lại trang.
 
-## Mã nguồn và kiểm thử
+## Cấu trúc và kiểm thử
 
-- `index.html`, `icons.svg` và `css/` chứa khung trang, biểu tượng và kiểu giao diện.
-- `js/views/` chứa bốn chế độ học. `js/lib/` chứa logic chuẩn hóa kana và nhập danh sách. Từ mẫu nằm trong `js/data/starter-words.js`.
-- `npm test` chạy kiểm thử bằng Node.js 22 trở lên. `npm run build` chép tệp cần phục vụ sang `dist/` để triển khai. Các lệnh này không cần cài thư viện.
+- `frontend/` chứa giao diện, mã học từ và dữ liệu từ điển.
+- `backend/` phục vụ giao diện và API sổ tay. SQLite kiểm tra phiên bản trước khi ghi để hai cửa sổ không ghi đè dữ liệu của nhau.
+- `npm test` chạy kiểm thử. `npm run check` kiểm tra thêm cú pháp, import và đường dẫn. `npm run build` tạo bản tĩnh ở `dist/`.
 
 ## GitHub Pages
 
-Để xuất bản demo công khai, chọn **Settings → Pages → Source → GitHub Actions** trong repo, rồi chạy **Actions → Publish Kotoba to GitHub Pages → Run workflow** trên nhánh `main`. Sau khi thiết lập, các lần push lên `main` chạy kiểm thử và cập nhật bản demo. GitHub hiển thị URL trong **Settings → Pages** sau khi triển khai thành công.
+Bản GitHub Pages lưu sổ tay trong trình duyệt. Để xuất bản demo công khai, chọn **Settings → Pages → Source → GitHub Actions** trong repo, rồi chạy **Actions → Publish Kotoba to GitHub Pages → Run workflow** trên nhánh `main`. Sau khi thiết lập, các lần push lên `main` chạy kiểm thử và cập nhật bản demo. GitHub hiển thị URL trong **Settings → Pages** sau khi triển khai thành công.
 
 ## Giấy phép
 
-Mã nguồn dùng [giấy phép MIT](LICENSE).
+Mã nguồn dùng [giấy phép MIT](LICENSE). Dữ liệu OpenJLPT dùng [CC BY-SA 4.0](frontend/data/LICENSE-CC-BY-SA-4.0.txt).

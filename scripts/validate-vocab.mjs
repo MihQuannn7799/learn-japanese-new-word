@@ -6,26 +6,15 @@
 // Báo: lỗi định dạng, từ trùng trong file, từ trùng với starterWords.
 
 import { readFileSync } from 'node:fs';
-import { dirname, join, resolve } from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
-import { existsSync } from 'node:fs';
-
-const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const sourceRoot = ['dist', 'src', '.'].map((name) => join(repoRoot, name))
-  .find((dir) => existsSync(join(dir, 'words.js')));
+import { parseImport } from '../frontend/js/lib/import.js';
+import { starterWords } from '../frontend/js/data/starter-words.js';
+import { wordKey } from '../frontend/js/lib/word.js';
 
 const file = process.argv[2];
 if (!file) {
   console.error('Cách dùng: node scripts/validate-vocab.mjs <tệp .txt/.csv/.tsv>');
   process.exit(2);
 }
-if (!sourceRoot) {
-  console.error('Không tìm thấy words.js.');
-  process.exit(2);
-}
-
-const { parseImport, starterWords, wordKey } = await import(pathToFileURL(join(sourceRoot, 'words.js')).href);
-
 let words;
 try {
   words = parseImport(readFileSync(file, 'utf8'));

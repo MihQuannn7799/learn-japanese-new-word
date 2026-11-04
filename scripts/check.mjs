@@ -18,8 +18,8 @@ import { fileURLToPath } from 'node:url';
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const EXPECTED_STORAGE_KEY = 'kotoba.notebook.v1';
 
-// Thư mục source: dist/ (hiện tại), src/, hoặc gốc repo nếu index.html nằm ở gốc.
-const sourceRoot = ['dist', 'src', '.']
+// Kiểm tra nguồn thay vì bản dist được tạo từ nguồn.
+const sourceRoot = ['frontend', 'src', '.', 'dist']
   .map((name) => join(repoRoot, name))
   .find((dir) => existsSync(join(dir, 'index.html')));
 
@@ -30,11 +30,11 @@ const warn = (message) => warnings.push(message);
 const rel = (path) => relative(repoRoot, path) || '.';
 
 if (!sourceRoot) {
-  console.error('Không tìm thấy index.html trong dist/, src/ hay thư mục gốc.');
+  console.error('Không tìm thấy index.html trong frontend/.');
   process.exit(1);
 }
 
-const skipDirs = new Set(['.git', 'node_modules', '.claude', 'tests', 'scripts']);
+const skipDirs = new Set(['.git', 'node_modules', '.claude', 'tests', 'scripts', 'storage']);
 
 function walk(dir) {
   const files = [];
@@ -48,7 +48,9 @@ function walk(dir) {
 }
 
 const allFiles = walk(sourceRoot);
-const jsFiles = allFiles.filter((file) => /\.m?js$/.test(file));
+const frontendJs = allFiles.filter((file) => /\.m?js$/.test(file));
+const backend = join(repoRoot, 'backend');
+const jsFiles = [...frontendJs, ...walk(backend).filter((file) => /\.m?js$/.test(file))];
 const htmlFiles = allFiles.filter((file) => file.endsWith('.html'));
 const cssFiles = allFiles.filter((file) => file.endsWith('.css'));
 
@@ -82,7 +84,7 @@ function exportedNames(source) {
 
 for (const file of jsFiles) {
   const source = readFileSync(file, 'utf8');
-  const importPattern = /import\s+(?:([\s\S]*?)\s+from\s+)?['"](\.{1,2}\/[^'"]+)['"]/g;
+  const importPattern = /import\s+(?:([^;]*?)\s+from\s+)?['"](\.{1,2}\/[^'"]+)['"]/g;
   for (const match of source.matchAll(importPattern)) {
     const [, clause, specifier] = match;
     const target = resolve(dirname(file), specifier);
@@ -113,7 +115,7 @@ for (const file of htmlFiles) {
 
 // --- 4. Không có URL mạng ngoài ---------------------------------------------
 const allowedHosts = ['www.w3.org']; // xmlns của SVG
-for (const file of [...htmlFiles, ...jsFiles, ...cssFiles]) {
+for (const file of [...htmlFiles, ...frontendJs, ...cssFiles]) {
   const source = readFileSync(file, 'utf8');
   for (const match of source.matchAll(/https?:\/\/([A-Za-z0-9.-]+)[^\s"'`)<>]*/g)) {
     if (!allowedHosts.includes(match[1])) {
@@ -133,7 +135,7 @@ for (const file of jsFiles) {
 // --- 6. Test (nếu có) -------------------------------------------------------
 const testsDir = join(repoRoot, 'tests');
 if (existsSync(testsDir) && readdirSync(testsDir).some((name) => /\.test\.m?js$/.test(name))) {
-  const result = spawnSync(process.execPath, ['--test', testsDir], { encoding: 'utf8' });
+  const result = spawnSync(process.execPath, ['--test'], { cwd: repoRoot, encoding: 'utf8' });
   if (result.status !== 0) fail(`Test thất bại:\n${(result.stdout + result.stderr).trim().split('\n').slice(-25).join('\n')}`);
 } else {
   warn('Chưa có tests/*.test.mjs (bỏ qua bước test).');

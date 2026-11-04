@@ -2,9 +2,12 @@
   "name": "kotoba-notebook",
   "private": true,
   "type": "module",
+  "engines": { "node": ">=22.13.0" },
   "scripts": {
-    "start": "python -m http.server 8000",
+    "start": "node backend/start.js",
+    "dev": "node backend/start.js",
     "test": "node --test",
-    "build": "node scripts/stage.mjs"
+    "build": "node scripts/stage.mjs",
+    "check": "node scripts/check.mjs"
   }
 }

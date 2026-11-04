@@ -20,6 +20,7 @@
       </button>
       <div class="top-actions">
         <button class="btn secondary" data-action="import"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-upload"/></svg> <span>Nhập danh sách</span></button>
+        <button class="btn secondary" data-action="n5"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-book"/></svg> Kho N5</button>
         <button class="btn primary" data-action="add"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-plus"/></svg> <span>Thêm từ mới</span></button>
       </div>
     </div>
@@ -66,18 +67,36 @@
     </nav>
     <div id="workspace"><noscript>Bật JavaScript để dùng sổ tay từ vựng.</noscript></div>
   </main>
-  <footer class="shell footer"><span><strong>Kotoba.</strong> Sổ tay từ vựng Nhật–Việt</span><span>Dữ liệu lưu trên trình duyệt này</span></footer>
+  <footer class="shell footer"><span><strong>Kotoba.</strong> Sổ tay từ vựng Nhật–Việt</span><div><span id="storage-status" role="status">Đang mở sổ tay…</span>
+    <span id="storage-recovery" hidden><button class="btn plain" type="button" data-action="retry-save" hidden>Thử lưu lại</button><button class="btn plain" type="button" data-action="download-draft">Tải bản nháp</button><button class="btn plain" type="button" data-action="use-server" hidden>Dùng bản SQLite</button></span></div></footer>
   <dialog id="entry-dialog" aria-labelledby="entry-title">
     <form id="entry-form">
       <div class="dialog-heading"><div><p class="section-kicker">SỔ TAY CỦA BẠN</p><h2 id="entry-title">Thêm từ mới</h2></div><button type="button" class="btn icon-only plain" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-close"/></svg></button></div>
       <label class="field">Từ tiếng Nhật (kana) <input name="kana" lang="ja" required maxlength="120" placeholder="Ví dụ: さくら" autofocus></label>
-      <label class="field">Nghĩa tiếng Việt <input name="meaning" required maxlength="240" placeholder="Ví dụ: hoa anh đào"></label>
-      <label class="field">Kanji <span class="muted">(không bắt buộc)</span><input name="kanji" lang="ja" maxlength="120" placeholder="Ví dụ: 桜"></label>
+      <label class="field">Nghĩa <input name="meaning" required maxlength="240" placeholder="Ví dụ: hoa anh đào"></label>
+      <label class="repeat-setting">Ngôn ngữ của nghĩa <select name="meaningLanguage"><option value="vi">Tiếng Việt</option><option value="en">Tiếng Anh</option></select></label>
+      <label class="field">Kanji <span class="muted">(không bắt buộc)</span><input name="kanji" lang="ja" maxlength="120" placeholder="Ví dụ: 桜" aria-describedby="kanji-status"></label>
+      <div class="kanji-suggestions">
+        <p class="muted" id="kanji-status" role="status">Nhập kana để tra cách viết.</p>
+        <div id="kanji-candidates" class="inline-actions"></div>
+      </div>
       <label class="field">Câu ví dụ tiếng Nhật <span class="muted">(không bắt buộc)</span><input name="example" lang="ja" maxlength="240" placeholder="Ví dụ: 桜が咲きました。"></label>
       <label class="field">Dịch câu sang tiếng Việt <span class="muted">(không bắt buộc)</span><input name="exampleMeaning" maxlength="240" placeholder="Ví dụ: Hoa anh đào đã nở."></label>
       <p class="form-error" id="entry-error" role="alert"></p>
       <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close">Hủy</button><button type="submit" class="btn primary">Lưu từ</button></div>
     </form>
+  </dialog>
+  <dialog id="n5-dialog" class="catalog-dialog" aria-labelledby="n5-title">
+    <div class="dialog-heading"><div><p class="section-kicker">TỪ VỰNG THAM KHẢO</p><h2 id="n5-title">Kho từ JLPT N5</h2></div><button class="btn icon-only plain" type="button" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-close"/></svg></button></div>
+    <p class="muted">Nghĩa tiếng Anh từ OpenJLPT. Bạn có thể đổi sang tiếng Việt khi thêm từng từ.</p>
+    <label class="field">Tìm trong kho N5<input type="search" placeholder="Kana, kanji hoặc nghĩa tiếng Anh" autofocus></label>
+    <p class="catalog-status muted" role="status"></p>
+    <ul class="catalog-rows"></ul>
+    <div class="catalog-actions">
+      <div class="inline-actions"><button class="btn secondary" type="button" data-action="n5-prev" disabled>Trang trước</button><button class="btn secondary" type="button" data-action="n5-next" disabled>Trang sau</button></div>
+      <button class="btn primary" type="button" data-action="n5-bulk" disabled>Thêm cả bộ N5</button>
+    </div>
+    <p class="catalog-source"><a href="./data/SOURCES.md" target="_blank" rel="noopener">Nguồn và giấy phép dữ liệu</a></p>
   </dialog>
   <dialog id="import-dialog" aria-labelledby="import-title">
     <form id="import-form">

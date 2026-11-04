@@ -1,5 +1,7 @@
+import { findKanji } from './dictionary.js';
 import { importLimit, parseImport, uniqueImports } from './lib/import.js';
 import { makeWord, wordKey } from './lib/word.js';
+import { escapeHtml } from './views/shared.js';
 import { wordById } from './state.js';
 
 const $ = (selector) => document.querySelector(selector);
@@ -15,14 +17,53 @@ export function initDialogs({ state, notify, onChange }) {
   let editingId = '';
   let deletingId = '';
   let importFileVersion = 0;
+  let lookupVersion = 0;
+  const kanaInput = entryForm.elements.namedItem('kana');
+  const kanjiInput = entryForm.elements.namedItem('kanji');
+  const kanjiStatus = $('#kanji-status');
+  const candidates = $('#kanji-candidates');
 
-  function openEntry(word) {
+  async function lookupKanji() {
+    const version = ++lookupVersion;
+    const kana = kanaInput.value.trim();
+    candidates.replaceChildren();
+    kanjiStatus.textContent = kana ? 'Đang tra kanji…' : 'Nhập kana để tra cách viết.';
+    if (!kana) return;
+    try {
+      const choices = await findKanji(kana);
+      if (version !== lookupVersion || !entryDialog.open) return;
+      kanjiStatus.textContent = choices.length
+        ? 'Chọn cách viết khớp với nghĩa bạn muốn.'
+        : 'Chưa thấy kanji phù hợp trong kho. Bạn có thể nhập tay hoặc để trống.';
+      candidates.innerHTML = choices.map(({ kanji, meaning, level }) =>
+        `<button type="button" class="btn secondary kanji-choice" data-kanji="${escapeHtml(kanji)}"><strong lang="ja">${escapeHtml(kanji)}</strong><span lang="en">${escapeHtml(meaning)}</span><span class="badge">${escapeHtml(level)}</span></button>`
+      ).join('');
+    } catch {
+      if (version === lookupVersion && entryDialog.open) kanjiStatus.textContent = 'Không tải được gợi ý kanji. Bạn vẫn có thể nhập tay.';
+    }
+  }
+
+  kanaInput.addEventListener('input', (event) => {
+    if (!event.isComposing) void lookupKanji();
+  });
+  kanaInput.addEventListener('compositionend', lookupKanji);
+  candidates.addEventListener('click', (event) => {
+    const choice = event.target.closest('button[data-kanji]');
+    if (!choice) return;
+    kanjiInput.value = choice.dataset.kanji;
+    kanjiInput.focus();
+  });
+  entryDialog.addEventListener('close', () => { lookupVersion++; });
+
+  function openEntry(word, initial = word) {
     editingId = word?.id ?? '';
     entryForm.reset();
     $('#entry-title').textContent = word ? 'Sửa từ vựng' : 'Thêm từ mới';
     $('#entry-error').textContent = '';
-    for (const name of ['kana', 'meaning', 'kanji', 'example', 'exampleMeaning']) entryForm.elements.namedItem(name).value = word?.[name] ?? '';
+    for (const name of ['kana', 'meaning', 'kanji', 'example', 'exampleMeaning']) entryForm.elements.namedItem(name).value = initial?.[name] ?? '';
+    entryForm.elements.namedItem('meaningLanguage').value = initial?.meaningLanguage === 'en' ? 'en' : 'vi';
     entryDialog.showModal();
+    void lookupKanji();
   }
 
   function openImport() {
@@ -42,6 +83,7 @@ export function initDialogs({ state, notify, onChange }) {
     const fields = new FormData(entryForm);
     try {
       const word = makeWord(fields.get('kana'), fields.get('meaning'), fields.get('kanji'));
+      if (fields.get('meaningLanguage') === 'en') word.meaningLanguage = 'en';
       const example = fields.get('example').trim();
       const exampleMeaning = fields.get('exampleMeaning').trim();
       if (exampleMeaning && !example) throw new Error('Nhập câu tiếng Nhật trước khi thêm bản dịch.');

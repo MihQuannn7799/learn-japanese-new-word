@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { createState } from '../js/state.js';
-import { loadNotebook, storeNotebook } from '../js/storage.js';
+import { createState } from '../frontend/js/state.js';
+import { loadNotebook, storeNotebook } from '../frontend/js/storage.js';
 
 test('reads and updates the existing Kotoba localStorage format', (t) => {
   const word = { id: 'existing-id', kana: 'いぬ', meaning: 'con chó', kanji: '犬' };

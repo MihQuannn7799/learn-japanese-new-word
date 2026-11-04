@@ -163,3 +163,15 @@ dialog .field { margin-bottom: 10px; }
   .card-controls .icon-only { width: 39px; }
   .side-stack { grid-template-columns: 1fr; }
 }
+
+.kanji-suggestions { margin: 0 0 12px; font-size: .85rem; }
+#kanji-candidates { margin-top: 5px; max-height: 155px; overflow: auto; }
+.kanji-choice { justify-content: start; text-align: left; white-space: normal; }
+.catalog-dialog { width: min(670px, calc(100% - 28px)); }
+.catalog-status, .catalog-source { font-size: .85rem; }
+.catalog-rows { list-style: none; padding: 0; margin: 8px 0; max-height: 42vh; overflow: auto; }
+.catalog-rows li, .catalog-actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.catalog-rows li { padding: 8px 0; border-top: 1px solid var(--line); }
+.catalog-rows li p { font-size: .84rem; overflow-wrap: anywhere; }
+.catalog-actions { flex-wrap: wrap; }
+.catalog-source { margin-top: 8px; }

@@ -7,7 +7,7 @@ export function flashView({ words, known, flipped, flashIndex, flashOrder }, wor
       <div class="flash-face ${flipped ? 'flipped' : ''}">
         <button class="card-toggle" data-action="flip" id="flip-card" aria-label="${flipped ? 'Lật về mặt tiếng Nhật' : 'Lật để xem nghĩa'}" aria-describedby="card-answer">
           <span id="card-answer">
-            ${flipped ? `<span class="card-meaning">${escapeHtml(word.meaning)}</span><span class="kana" lang="ja">${escapeHtml(word.kana)}</span>` : japanese(word)}
+            ${flipped ? `<span class="card-meaning" lang="${word.meaningLanguage === 'en' ? 'en' : 'vi'}">${escapeHtml(word.meaning)}</span><span class="kana" lang="ja">${escapeHtml(word.kana)}</span>` : japanese(word)}
           </span>
           <span class="flip-hint">${icon('flip')} ${flipped ? 'Chạm để xem mặt tiếng Nhật' : 'Chạm để xem nghĩa'}</span>
         </button>

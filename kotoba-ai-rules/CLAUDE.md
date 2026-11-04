@@ -1,8 +1,8 @@
 # Kotoba · Sổ tay từ vựng tiếng Nhật
 
 Web học từ vựng Nhật–Việt: flashcard, nghe chép, chế độ đọc, quản lý từ vựng.
-Chạy bằng **HTML + CSS + JavaScript thuần (ES modules)**. Không framework, không bundler, không bước build.
-Dữ liệu người dùng lưu trong `localStorage`; giọng đọc dùng `speechSynthesis` của trình duyệt.
+Chạy bằng **HTML + CSS + JavaScript thuần (ES modules)**. Không framework hay thư viện ngoài.
+Backend Node.js lưu sổ tay trong SQLite và giao diện giữ bản lưu trong `localStorage`; giọng đọc dùng `speechSynthesis` của trình duyệt.
 
 ## Chế độ làm việc: vibe coding tự chủ
 
@@ -16,27 +16,23 @@ Người dùng thường chỉ nói ý tưởng mơ hồ ("thêm chế độ ôn
 
 ## Cấu trúc hiện tại
 
-Source nằm trong `dist/` (không có bước build, nên `dist/` chính là source được phục vụ trực tiếp).
+Mã giao diện nằm trong `frontend/`. `dist/` là bản tĩnh được tạo bởi `npm run build`.
 
 ```
-dist/
-├── index.html   # khung trang, thư viện icon SVG, 3 dialog (entry, import, delete)
-├── styles.css   # toàn bộ CSS, biến màu ở :root
-├── app.js       # state, render 4 chế độ, audio, dialog, sự kiện
-├── words.js     # starterWords + chuẩn hóa kana + parseImport (logic thuần)
-└── favicon.svg
-scripts/check.mjs           # kiểm tra tĩnh (xem skill `verify`)
-scripts/validate-vocab.mjs  # kiểm tra danh sách từ trước khi nhập (xem skill `vocab-data`)
-.claude/skills/     # quy trình lặp lại được
+frontend/
+├── index.html, css/          # giao diện tiếng Việt
+├── js/                      # chế độ học, tra kanji và đồng bộ sổ tay
+└── data/                    # dữ liệu từ điển có ghi nguồn
+backend/                     # HTTP, API sổ tay và SQLite
+scripts/check.mjs            # kiểm tra tĩnh và test
+scripts/validate-vocab.mjs   # kiểm tra danh sách trước khi nhập
 ```
-
-Nếu bạn tái cấu trúc thư mục (ví dụ tách `app.js` thành module), **cập nhật luôn mục này** và `scripts/check.mjs`.
 
 ## Chạy thử
 
 ```sh
-python3 -m http.server 8000 --directory dist   # mở http://localhost:8000
-node scripts/check.mjs                         # kiểm tra tĩnh
+npm start                 # mở http://localhost:8000
+node scripts/check.mjs
 ```
 
 ## Quy ước code
@@ -75,7 +71,7 @@ node scripts/check.mjs                         # kiểm tra tĩnh
 
 - Không `git push --force`, không `git reset --hard`, không xóa nhánh, không sửa lịch sử đã có.
 - Không xóa hoặc ghi đè dữ liệu `localStorage` của người dùng khi chưa có migration.
-- Không thêm tracking, analytics, quảng cáo, hay gọi mạng ra ngoài. App này chạy hoàn toàn offline.
+- Không thêm tracking, analytics, quảng cáo, hay gọi mạng ra ngoài. Không gọi dịch vụ bên ngoài khi chạy app. API sổ tay chạy cùng địa chỉ local.
 - Không commit bí mật (`.env`, khóa API, token). Repo này không cần bí mật nào.
 - Không tải script từ CDN. Mọi thứ tự chứa trong repo.
 - Dữ liệu từ file import là **không đáng tin**: luôn qua `parseImport`, giới hạn `importLimit`, escape khi hiển thị.
