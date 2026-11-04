@@ -2,25 +2,27 @@
 
 Trang học từ vựng tiếng Nhật bằng tiếng Việt. Trang có 8 từ mẫu và chạy bằng HTML, CSS và JavaScript thuần.
 
-[Mở bản riêng tư trên ChatGPT](https://kotoba-nhat-ky-tu-vung.meanderingbun.chatgpt.site/) (cần đăng nhập).
-
 ![Giao diện chế độ Flashcard của Kotoba](docs/kotoba-flashcard.jpg)
 
-## Chạy trên máy
+## Clone và chạy trên máy
 
-Tại thư mục gốc của repo, chạy:
+Cần có Git và Python 3. Mở PowerShell, Git Bash hoặc Terminal và chạy:
 
 ```sh
-python -m http.server 8000
+git clone https://github.com/MihQuannn7799/learn-japanese-new-word.git
+cd learn-japanese-new-word
+python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Mở [http://localhost:8000](http://localhost:8000). Có thể dùng `npm start` nếu máy có Node.js và lệnh `python`. Trên máy dùng `python3` hoặc `py`, thay `python` bằng lệnh tương ứng.
+Mở [http://localhost:8000](http://localhost:8000) trong trình duyệt. Nếu máy dùng lệnh `py` (Windows) hoặc `python3` (macOS/Linux), thay `python` bằng lệnh tương ứng. Giữ cửa sổ terminal mở trong lúc học và nhấn `Ctrl+C` để dừng máy chủ.
+
+Nếu đã clone repo trước đây, chạy `git pull` trong thư mục dự án để cập nhật. Trang chạy trực tiếp từ mã nguồn, không cần cài thư viện hay đăng nhập. Nếu có Node.js, bạn cũng có thể dùng `npm start` khi máy nhận lệnh `python`.
 
 ## Cách học
 
 - **Flashcard** · Xem chữ Nhật, lật thẻ để xem nghĩa và đánh dấu từ đã nhớ. Dùng mũi tên để chuyển từ.
-- **Nghe chép** · Bấm nghe rồi gõ lại bằng kana hoặc kanji đã lưu. Trang chấp nhận hiragana và katakana tương đương, kiểm tra câu trả lời và cho phép xem đáp án.
-- **Chế độ đọc** · Chọn một từ, nghe riêng hoặc đọc liên tiếp từ vị trí đó. Thanh **Tốc độ đọc** dùng chung cho mọi chế độ, từ 0.5× đến 1.5×.
+- **Nghe chép** · Chọn **Nghe cả danh sách** để phát từng dòng từ trên xuống. Bấm biểu tượng loa để nghe riêng một dòng, gõ kana hoặc kanji và chọn **Kiểm tra**. Có thể xem đáp án ở từng dòng.
+- **Chế độ đọc** · Chọn một từ, nghe riêng hoặc đọc liên tiếp từ vị trí đó. **Tốc độ đọc** (0.5×–1.5×) và **Số lần đọc mỗi từ** (1–5) dùng chung cho mọi chế độ phát âm.
 - **Từ vựng** · Tìm theo kana, nghĩa hoặc kanji. Bạn có thể thêm, sửa, xóa hoặc nhập nhiều từ cùng lúc.
 
 ## Nhập danh sách
@@ -35,7 +37,7 @@ Dán danh sách hoặc chọn một tệp UTF-8 `.csv`, `.tsv` hay `.txt`. Mỗi
 
 Có thể dùng dấu phẩy hoặc tab thay dấu `|` cho cả danh sách. Nếu nghĩa có dấu phân cách, đặt nghĩa trong ngoặc kép. Trang báo dòng lỗi trước khi lưu và bỏ qua các mục trùng.
 
-Từ vựng, dấu đã nhớ và tốc độ đọc được lưu trong trình duyệt hiện tại. Tính năng nghe dùng giọng đọc tiếng Nhật mà trình duyệt cung cấp. Nếu trang báo thiếu giọng Nhật, hãy thêm giọng tiếng Nhật trong cài đặt đọc văn bản của thiết bị rồi tải lại trang.
+Từ vựng, dấu đã nhớ, tốc độ và số lần đọc được lưu trong trình duyệt theo địa chỉ trang. Tính năng nghe dùng giọng đọc tiếng Nhật mà trình duyệt cung cấp. Nếu trang báo thiếu giọng Nhật, hãy thêm giọng tiếng Nhật trong cài đặt đọc văn bản của thiết bị rồi tải lại trang.
 
 ## Mã nguồn và kiểm thử
 
@@ -46,8 +48,6 @@ Từ vựng, dấu đã nhớ và tốc độ đọc được lưu trong trình 
 ## GitHub Pages
 
 Để xuất bản demo công khai, chọn **Settings → Pages → Source → GitHub Actions** trong repo, rồi chạy **Actions → Publish Kotoba to GitHub Pages → Run workflow** trên nhánh `main`. Sau khi thiết lập, các lần push lên `main` chạy kiểm thử và cập nhật bản demo. GitHub hiển thị URL trong **Settings → Pages** sau khi triển khai thành công.
-
-Dữ liệu lưu theo địa chỉ trang. Bản trên ChatGPT và bản GitHub Pages có sổ tay riêng trên cùng trình duyệt.
 
 ## Giấy phép
 
