@@ -30,6 +30,7 @@ export function createState(saved: SavedNotebook): StudyState {
     correctAnswers: new Set(),
     readingIndex: 0,
     search: '',
+    vocabularyLayout: 'cards',
   };
 }
 

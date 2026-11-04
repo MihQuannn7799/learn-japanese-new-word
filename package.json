@@ -14,6 +14,7 @@
     "typecheck": "tsc --noEmit",
     "build": "tsc --noEmit && vite build",
     "validate:vocab": "node --experimental-strip-types scripts/validate-vocab.mjs",
+    "data:import": "node --experimental-strip-types scripts/import-minna.mjs",
     "check": "node scripts/check.mjs"
   },
   "dependencies": {

@@ -50,6 +50,7 @@ export function stepper(position: number, size: number): string {
 }
 
 export function japanese(word: Word): string {
-  return `<span class="jp-word" lang="ja">${escapeHtml(word.kanji || word.kana)}</span>
-    ${word.kanji ? `<span class="kana" lang="ja">${escapeHtml(word.kana)}</span>` : ''}`;
+  return `<span class="jp-word" lang="ja">${escapeHtml(word.display || word.kanji || word.kana)}</span>
+    ${word.kanji || word.displayKana ? `<span class="kana" lang="ja">${escapeHtml(word.displayKana || word.kana)}</span>` : ''}
+    ${word.hanViet ? `<span class="word-hanviet">${escapeHtml(word.hanViet)}</span>` : ''}`;
 }

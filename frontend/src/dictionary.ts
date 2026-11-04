@@ -1,10 +1,12 @@
 import { normalizeKana } from '../../shared/kana.ts';
 import type { KanjiCandidate, Lesson, Word, WordFields } from './types.ts';
+import type { LegacyMeaningUpgrade } from '../../shared/legacy.ts';
 
 interface Datasets {
-  n5: Word[];
-  'minna-n5-lessons': Lesson[];
-  kanji: Record<string, KanjiCandidate[]>;
+  'minna-vi': Word[];
+  'minna-lessons': Lesson[];
+  'kanji-vi': Record<string, KanjiCandidate[]>;
+  'legacy-n5-vi': LegacyMeaningUpgrade[];
 }
 const datasets = new Map<keyof Datasets, Promise<unknown>>();
 
@@ -22,8 +24,9 @@ function dataset<K extends keyof Datasets>(name: K): Promise<Datasets[K]> {
   return datasets.get(name) as Promise<Datasets[K]>;
 }
 
-export const loadN5 = () => dataset('n5');
-export const loadN5Lessons = () => dataset('minna-n5-lessons');
+export const loadMinna = () => dataset('minna-vi');
+export const loadMinnaLessons = () => dataset('minna-lessons');
+export const loadLegacyMeanings = () => dataset('legacy-n5-vi');
 
 export function wordsInLesson(catalog: Word[], lesson?: Lesson): Word[] {
   if (!lesson) return catalog;
@@ -31,13 +34,13 @@ export function wordsInLesson(catalog: Word[], lesson?: Lesson): Word[] {
   return catalog.filter(({ id }) => ids.has(id));
 }
 
-export function kanjiCandidates(index: Datasets['kanji'], kana: string): KanjiCandidate[] {
+export function kanjiCandidates(index: Datasets['kanji-vi'], kana: string): KanjiCandidate[] {
   const key = normalizeKana(kana);
   return Object.hasOwn(index, key) ? index[key] : [];
 }
 
 export async function findKanji(kana: string): Promise<KanjiCandidate[]> {
-  return kanjiCandidates(await dataset('kanji'), kana);
+  return kanjiCandidates(await dataset('kanji-vi'), kana);
 }
 
 export function spellingKey({ kana, kanji }: Pick<WordFields, 'kana' | 'kanji'>): string {

@@ -8,7 +8,7 @@ export function flashView({ words, known, flipped, flashIndex, flashOrder }: Stu
       <div class="flash-face ${flipped ? 'flipped' : ''}">
         <button class="card-toggle" data-action="flip" id="flip-card" aria-label="${flipped ? 'Lật về mặt tiếng Nhật' : 'Lật để xem nghĩa'}" aria-describedby="card-answer">
           <span id="card-answer">
-            ${flipped ? `<span class="card-meaning" lang="${word.meaningLanguage === 'en' ? 'en' : 'vi'}">${escapeHtml(word.meaning)}</span><span class="kana" lang="ja">${escapeHtml(word.kana)}</span>` : japanese(word)}
+            ${flipped ? `<span class="card-meaning" lang="${word.meaningLanguage === 'en' ? 'en' : 'vi'}">${escapeHtml(word.meaning)}</span><span class="kana" lang="ja">${escapeHtml(word.displayKana || word.kana)}</span>` : japanese(word)}
           </span>
           <span class="flip-hint">${icon('flip')} ${flipped ? 'Chạm để xem mặt tiếng Nhật' : 'Chạm để xem nghĩa'}</span>
         </button>
@@ -17,6 +17,7 @@ export function flashView({ words, known, flipped, flashIndex, flashOrder }: Stu
           <button class="btn icon-only secondary" data-action="speak" aria-label="Nghe phát âm" title="Nghe phát âm">${icon('volume')}</button>
         </div>
       </div>
+      ${flipped && word.example ? `<div class="word-card-example flash-example"><div><p lang="ja">${escapeHtml(word.example)}</p>${word.exampleMeaning ? `<p class="muted" lang="vi">${escapeHtml(word.exampleMeaning)}</p>` : ''}</div><button class="btn plain icon-only" type="button" data-action="speak-example" aria-label="Nghe câu ví dụ">${icon('volume')}</button></div>` : ''}
       <div class="card-controls">
         ${stepper(flashIndex, flashOrder.length)}
         <button id="known-button" class="btn ${remembered ? 'subtle' : 'secondary'}" data-action="known" aria-pressed="${remembered}">${icon('check')} ${remembered ? 'Đã nhớ' : 'Đánh dấu đã nhớ'}</button>

@@ -19,6 +19,7 @@ export function initDialogs({ state, notify, onChange }: DialogOptions) {
   const importForm = $<HTMLFormElement>('#import-form');
 
   let editingId = '';
+  let entrySource: WordFields | undefined;
   let deletingId = '';
   let importFileVersion = 0;
   let lookupVersion = 0;
@@ -40,7 +41,7 @@ export function initDialogs({ state, notify, onChange }: DialogOptions) {
         ? 'Chọn cách viết khớp với nghĩa bạn muốn.'
         : 'Chưa thấy kanji phù hợp trong kho. Bạn có thể nhập tay hoặc để trống.';
       candidates.innerHTML = choices.map(({ kanji, meaning, level }) =>
-        `<button type="button" class="btn secondary kanji-choice" data-kanji="${escapeHtml(kanji)}"><strong lang="ja">${escapeHtml(kanji)}</strong><span lang="en">${escapeHtml(meaning)}</span><span class="badge">${escapeHtml(level)}</span></button>`
+        `<button type="button" class="btn secondary kanji-choice" data-kanji="${escapeHtml(kanji)}"><strong lang="ja">${escapeHtml(kanji)}</strong><span lang="vi">${escapeHtml(meaning)}</span><span class="badge">${escapeHtml(level)}</span></button>`
       ).join('');
     } catch {
       if (version === lookupVersion && entryDialog.open) kanjiStatus.textContent = 'Không tải được gợi ý kanji. Bạn vẫn có thể nhập tay.';
@@ -62,6 +63,7 @@ export function initDialogs({ state, notify, onChange }: DialogOptions) {
 
   function openEntry(word?: Word, initial: WordFields | undefined = word) {
     editingId = word?.id ?? '';
+    entrySource = initial;
     entryForm.reset();
     $('#entry-title').textContent = word ? 'Sửa từ vựng' : 'Thêm từ mới';
     $('#entry-error').textContent = '';
@@ -94,8 +96,11 @@ export function initDialogs({ state, notify, onChange }: DialogOptions) {
     const fields = new FormData(entryForm);
     const value = (name: string) => String(fields.get(name) ?? '');
     try {
-      const word = makeWord(value('kana'), value('meaning'), value('kanji'));
-      if (value('meaningLanguage') === 'en') word.meaningLanguage = 'en';
+      const base = makeWord(value('kana'), value('meaning'), value('kanji'));
+      const { display, displayKana, hanViet, lesson, alternateKana, alternateKanji } = entrySource ?? {};
+      const word: WordFields = entrySource?.kana === base.kana && entrySource.kanji === base.kanji
+        ? { ...base, display, displayKana, hanViet, lesson, alternateKana, alternateKanji } : base;
+      word.meaningLanguage = value('meaningLanguage') === 'en' ? 'en' : 'vi';
       const example = value('example').trim();
       const exampleMeaning = value('exampleMeaning').trim();
       if (exampleMeaning && !example) throw new Error('Nhập câu tiếng Nhật trước khi thêm bản dịch.');

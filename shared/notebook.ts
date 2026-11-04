@@ -5,6 +5,12 @@ export interface WordFields {
   meaningLanguage?: 'vi' | 'en';
   example?: string;
   exampleMeaning?: string;
+  display?: string;
+  displayKana?: string;
+  hanViet?: string;
+  lesson?: number;
+  alternateKana?: string[];
+  alternateKanji?: string[];
 }
 
 export interface Word extends WordFields {

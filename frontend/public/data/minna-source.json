@@ -1,0 +1,335 @@
+{
+  "repository": "NhatPrv/Guga-Gangs",
+  "revision": "75d02e0ca61c63796e4e5723f35d2eb5aa8871f8",
+  "catalogCount": 1929,
+  "corrections": [
+    "2:13",
+    "2:23",
+    "3:22",
+    "6:35",
+    "8:18",
+    "9:40",
+    "10:44",
+    "10:46",
+    "12:4",
+    "12:8",
+    "15:5",
+    "15:24",
+    "15:25",
+    "15:27",
+    "16:34",
+    "17:29",
+    "20:21",
+    "26:6",
+    "26:38",
+    "32:6",
+    "32:10",
+    "34:30",
+    "44:30",
+    "47:4",
+    "48:1",
+    "49:31"
+  ],
+  "lessons": [
+    {
+      "number": 1,
+      "count": 48,
+      "sha256": "db2d7c2827b35d77f82f5872b32e7655563e4423d85111b47f7f8815add2d1fc",
+      "path": "data/minna-no-nihongo-n5/unit-01/vocabulary.json"
+    },
+    {
+      "number": 2,
+      "count": 47,
+      "sha256": "4fee37022633008037a46cfdfd8ee5fa448a32ef8b870c516581c7aea1d535d1",
+      "path": "data/minna-no-nihongo-n5/unit-02/vocabulary.json"
+    },
+    {
+      "number": 3,
+      "count": 38,
+      "sha256": "2fee485a073fe5670e4303ea423128594e3406a8f2c56abbda91c12cb2cb5359",
+      "path": "data/minna-no-nihongo-n5/unit-03/vocabulary.json"
+    },
+    {
+      "number": 4,
+      "count": 59,
+      "sha256": "2ad18cb399a762b79ec9fcfdc1fd59303782ec42926f3aaa92a093233feb9103",
+      "path": "data/minna-no-nihongo-n5/unit-04/vocabulary.json"
+    },
+    {
+      "number": 5,
+      "count": 54,
+      "sha256": "9626f485dba0138481e7928f7332e20e81d734dfdd529bd161b150de09234eb8",
+      "path": "data/minna-no-nihongo-n5/unit-05/vocabulary.json"
+    },
+    {
+      "number": 6,
+      "count": 57,
+      "sha256": "751dd5fed4d6f385b7311738890bf18184b935487cee631a944bfa600dc187e7",
+      "path": "data/minna-no-nihongo-n5/unit-06/vocabulary.json"
+    },
+    {
+      "number": 7,
+      "count": 42,
+      "sha256": "cd56515a0ddbbddcaae8d5133d8968e26ae885067d24ca89509212b7f60a67db",
+      "path": "data/minna-no-nihongo-n5/unit-07/vocabulary.json"
+    },
+    {
+      "number": 8,
+      "count": 63,
+      "sha256": "221793cac5b8d3f28b45ecb99aeb8223b814a8b885d759425604321cb6593e2f",
+      "path": "data/minna-no-nihongo-n5/unit-08/vocabulary.json"
+    },
+    {
+      "number": 9,
+      "count": 47,
+      "sha256": "e93c64a91fab39acc0789c43b8985467be98c4c8a1c9846fce8e4f876a6e898f",
+      "path": "data/minna-no-nihongo-n5/unit-09/vocabulary.json"
+    },
+    {
+      "number": 10,
+      "count": 47,
+      "sha256": "f9fae195c8f8b3d72571ee7d174997a6a6b2cffb99bcb4748505011e342d7cde",
+      "path": "data/minna-no-nihongo-n5/unit-10/vocabulary.json"
+    },
+    {
+      "number": 11,
+      "count": 58,
+      "sha256": "e1a02ccbcaf9a8007c902b8d472dfaf94c243da0ae9e38e37c7b82c13bbccb9f",
+      "path": "data/minna-no-nihongo-n5/unit-11/vocabulary.json"
+    },
+    {
+      "number": 12,
+      "count": 46,
+      "sha256": "e4a615a2994557ab5f1fac829e89a03eff442937581aff7865481298d2846767",
+      "path": "data/minna-no-nihongo-n5/unit-12/vocabulary.json"
+    },
+    {
+      "number": 13,
+      "count": 40,
+      "sha256": "90a530de5bdb37002ea4378a12515e7b0f586558f3f259cb7a697adb415c2483",
+      "path": "data/minna-no-nihongo-n5/unit-13/vocabulary.json"
+    },
+    {
+      "number": 14,
+      "count": 39,
+      "sha256": "6b1af82492ea4429d70f65eba5573f3a5bc2404a7c63ea1a46e2a5c8f563a9c6",
+      "path": "data/minna-no-nihongo-n5/unit-14/vocabulary.json"
+    },
+    {
+      "number": 15,
+      "count": 27,
+      "sha256": "4cdeb9efd80e5e0296019ae5d43e49b58366315215a30f4560ad18755053dec2",
+      "path": "data/minna-no-nihongo-n5/unit-15/vocabulary.json"
+    },
+    {
+      "number": 16,
+      "count": 45,
+      "sha256": "32289beca043cd92e3d4e372e14aa5c5e0f8e5d54e16fb0b48fd7997fc0b5bdf",
+      "path": "data/minna-no-nihongo-n5/unit-16/vocabulary.json"
+    },
+    {
+      "number": 17,
+      "count": 36,
+      "sha256": "1c239c9e1d5d2b847785df501465d6720e2dbe6c259dda20b11c6f5df76a20ba",
+      "path": "data/minna-no-nihongo-n5/unit-17/vocabulary.json"
+    },
+    {
+      "number": 18,
+      "count": 27,
+      "sha256": "a53a6e3e6ff44ca9892855e8ba62c2175e37d53de998e420f89a52964110d47f",
+      "path": "data/minna-no-nihongo-n5/unit-18/vocabulary.json"
+    },
+    {
+      "number": 19,
+      "count": 29,
+      "sha256": "8913623eb2dcdc7f6d9da9bf72af91dffeed0229ab3bc18d73b76ff58c33053f",
+      "path": "data/minna-no-nihongo-n5/unit-19/vocabulary.json"
+    },
+    {
+      "number": 20,
+      "count": 22,
+      "sha256": "f575707a7810ddf8b3674a624b63b3bd02ee66cbfd44e0043b76466ba355f59c",
+      "path": "data/minna-no-nihongo-n5/unit-20/vocabulary.json"
+    },
+    {
+      "number": 21,
+      "count": 35,
+      "sha256": "66f2b3070bcac61ed0875dbc055d4613610c85344b17bb45b30c378973f7f7b8",
+      "path": "data/minna-no-nihongo-n5/unit-21/vocabulary.json"
+    },
+    {
+      "number": 22,
+      "count": 21,
+      "sha256": "ef61b779df3a7c87b82b12eef5ea53389b8bd2fc017d218495ef567d731e4454",
+      "path": "data/minna-no-nihongo-n5/unit-22/vocabulary.json"
+    },
+    {
+      "number": 23,
+      "count": 28,
+      "sha256": "b9d65b38fcedb2602a09e37d1b77fcb1a8b592afcaf599befcc570cab403aa79",
+      "path": "data/minna-no-nihongo-n5/unit-23/vocabulary.json"
+    },
+    {
+      "number": 24,
+      "count": 18,
+      "sha256": "e4a760c17759142649167411a892e8acb0dc9400910dedc526d60bcd049e4559",
+      "path": "data/minna-no-nihongo-n5/unit-24/vocabulary.json"
+    },
+    {
+      "number": 25,
+      "count": 15,
+      "sha256": "5e92ba00ea7ef7ffe5a146dd699d8328b7bd66e6c13bb81d2a725d88c6311a6a",
+      "path": "data/minna-no-nihongo-n5/unit-25/vocabulary.json"
+    },
+    {
+      "number": 26,
+      "count": 41,
+      "sha256": "c862b55e7fdd353d943e0b4a01888e7a1559683c2074da03dcd4559d07b94d4f",
+      "path": "data/minna-no-nihongo-n4/unit-26/vocabulary.json"
+    },
+    {
+      "number": 27,
+      "count": 39,
+      "sha256": "8b01d2149a3208ab2fcf0e9746a7b7d1a1a9dff9cb5c08247621c19569bfcc98",
+      "path": "data/minna-no-nihongo-n4/unit-27/vocabulary.json"
+    },
+    {
+      "number": 28,
+      "count": 42,
+      "sha256": "4acf2c789a4e138361d296186b578cbb3e96be0f2c003aed3ded18b1a1120dee",
+      "path": "data/minna-no-nihongo-n4/unit-28/vocabulary.json"
+    },
+    {
+      "number": 29,
+      "count": 43,
+      "sha256": "eb5aa0a491f234d5f017d12dc26787e73636d86a03a01af846afb5c300ab29e7",
+      "path": "data/minna-no-nihongo-n4/unit-29/vocabulary.json"
+    },
+    {
+      "number": 30,
+      "count": 42,
+      "sha256": "fdc9821cf6be134ed8e7dfac71bb6239d4a9c3f26fb6a243b7785c4819917afe",
+      "path": "data/minna-no-nihongo-n4/unit-30/vocabulary.json"
+    },
+    {
+      "number": 31,
+      "count": 34,
+      "sha256": "534bceb74475cb05e2034b74e93c909152b253ca13b51cbb83e9c1ddb26b422a",
+      "path": "data/minna-no-nihongo-n4/unit-31/vocabulary.json"
+    },
+    {
+      "number": 32,
+      "count": 46,
+      "sha256": "ad599db12c7bc089ca02bf306009027bc8a00548a10f2323172569e01b8c8a58",
+      "path": "data/minna-no-nihongo-n4/unit-32/vocabulary.json"
+    },
+    {
+      "number": 33,
+      "count": 47,
+      "sha256": "a786b7ea117756c3a2972dcb801170f752be56083697093fc0644849c53c693c",
+      "path": "data/minna-no-nihongo-n4/unit-33/vocabulary.json"
+    },
+    {
+      "number": 34,
+      "count": 37,
+      "sha256": "1cad7274b58081ed9d36b68df9040da7220473d3201ebb9e59ec26a27c870348",
+      "path": "data/minna-no-nihongo-n4/unit-34/vocabulary.json"
+    },
+    {
+      "number": 35,
+      "count": 37,
+      "sha256": "e14dbf12a6684159f60e110004fe1400eb6e6d0620e89d1f1dbf2e19e25f592b",
+      "path": "data/minna-no-nihongo-n4/unit-35/vocabulary.json"
+    },
+    {
+      "number": 36,
+      "count": 35,
+      "sha256": "1521867e44ef78012772653edca11bd1dd291e4f5a72d44d67f8c87f64a61216",
+      "path": "data/minna-no-nihongo-n4/unit-36/vocabulary.json"
+    },
+    {
+      "number": 37,
+      "count": 43,
+      "sha256": "b5d88300f4f71024275f0596feaed6a60370cd930252acb22277cb73457ce18b",
+      "path": "data/minna-no-nihongo-n4/unit-37/vocabulary.json"
+    },
+    {
+      "number": 38,
+      "count": 34,
+      "sha256": "119e82f6e27cafadcdcbdb93a62915ead8e22ce60ffddc28a3a3c855b8cca452",
+      "path": "data/minna-no-nihongo-n4/unit-38/vocabulary.json"
+    },
+    {
+      "number": 39,
+      "count": 33,
+      "sha256": "bef11069be104370229d49f7c8a4dc8117a993c455a1aff478e15eb049125eac",
+      "path": "data/minna-no-nihongo-n4/unit-39/vocabulary.json"
+    },
+    {
+      "number": 40,
+      "count": 49,
+      "sha256": "00125e36784c7c970961d2a533567ea61a0d72d9530a993bc53c143efa0b287e",
+      "path": "data/minna-no-nihongo-n4/unit-40/vocabulary.json"
+    },
+    {
+      "number": 41,
+      "count": 45,
+      "sha256": "81c34da525d6673f7403d0fb1d14f5c938c277719b7ffca64a3ffe1a3d6488f6",
+      "path": "data/minna-no-nihongo-n4/unit-41/vocabulary.json"
+    },
+    {
+      "number": 42,
+      "count": 43,
+      "sha256": "6b81b1bc5dcccf6a787488bfaee885b629252b5bd48aa925a3257783c3774c1e",
+      "path": "data/minna-no-nihongo-n4/unit-42/vocabulary.json"
+    },
+    {
+      "number": 43,
+      "count": 26,
+      "sha256": "9aac019f6a5089fdcc9ba0dd6ab4bf13a15d96212c4a8d3601b0b9671a56ca98",
+      "path": "data/minna-no-nihongo-n4/unit-43/vocabulary.json"
+    },
+    {
+      "number": 44,
+      "count": 36,
+      "sha256": "6d9c7272bcab504d8d854fffe0f836c47bdcdf7b0504f1c19dfbfa400f86bdb0",
+      "path": "data/minna-no-nihongo-n4/unit-44/vocabulary.json"
+    },
+    {
+      "number": 45,
+      "count": 29,
+      "sha256": "8c0c4290d1a3bb274fe5c793701fe7406edb4e423952c74562419c3357f342ce",
+      "path": "data/minna-no-nihongo-n4/unit-45/vocabulary.json"
+    },
+    {
+      "number": 46,
+      "count": 28,
+      "sha256": "f6c5313f1d48f719a20cebeaf69b6462741093406f2c13ba21bf5e2b518b463a",
+      "path": "data/minna-no-nihongo-n4/unit-46/vocabulary.json"
+    },
+    {
+      "number": 47,
+      "count": 35,
+      "sha256": "9067c913427927273578d40592d4bcd10404b5e3c6206f79d3f3ea7e4792958e",
+      "path": "data/minna-no-nihongo-n4/unit-47/vocabulary.json"
+    },
+    {
+      "number": 48,
+      "count": 26,
+      "sha256": "07e2c6aeb10bbe9ad494d0b672667f94114517c9a2d45fc3dfe842b980feef8f",
+      "path": "data/minna-no-nihongo-n4/unit-48/vocabulary.json"
+    },
+    {
+      "number": 49,
+      "count": 35,
+      "sha256": "7d0ab726e5f6b628e1b42af17c7530c0ccb7f9116e1a1b1cfe4d76aa8332148d",
+      "path": "data/minna-no-nihongo-n4/unit-49/vocabulary.json"
+    },
+    {
+      "number": 50,
+      "count": 36,
+      "sha256": "8f7c9953c54f7fc2cf948a1f0182ad77007163944c14a307a3dce379ee322151",
+      "path": "data/minna-no-nihongo-n4/unit-50/vocabulary.json"
+    }
+  ]
+}

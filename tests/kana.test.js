@@ -30,3 +30,12 @@ test('WanaKana preserves long vowel marks and Latin search text', () => {
   assert.equal(normalizeSearch('coffee'), 'coffee');
   assert.equal(answerMatches('koohii', { kana: 'コーヒー', kanji: '' }), false);
 });
+
+test('accepts optional textbook forms and alternative written spellings', () => {
+  const word = { kana: 'しずか', kanji: '静か', alternateKana: ['しずかな'], alternateKanji: [] };
+  assert.equal(answerMatches('シズカ', word), true);
+  assert.equal(answerMatches('しずかな', word), true);
+  assert.equal(answerMatches('静か', word), true);
+  assert.equal(answerMatches('静かな町', word), false);
+  assert.equal(answerMatches('熱い', { kana: 'あつい', kanji: '暑い', alternateKanji: ['熱い'] }), true);
+});

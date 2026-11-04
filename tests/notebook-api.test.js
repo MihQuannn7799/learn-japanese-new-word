@@ -1,5 +1,5 @@
 import { once } from 'node:events';
-import { mkdtemp, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import assert from 'node:assert/strict';
@@ -58,6 +58,17 @@ test('validates input, rejects cross-origin writes, and serves only frontend fil
   assert.equal((await put(server.base, 0, { ...notebook, known: ['missing-id'] })).status, 422);
   assert.equal((await put(server.base, 0, { ...notebook, words: [word, word] })).status, 422);
   assert.equal((await fetch(`${server.base}/backend/storage/kotoba.sqlite`)).status, 404);
-  assert.equal((await fetch(`${server.base}/data/n5.json`)).status, 200);
+  assert.equal((await fetch(`${server.base}/data/minna-vi.json`)).status, 200);
   assert.match(await fetch(server.base).then((response) => response.text()), /name="kotoba-backend"/);
+});
+
+test('persists all 50 lessons with readings, Han Viet and examples', async (t) => {
+  const server = await listen(':memory:');
+  t.after(server.close);
+  const words = JSON.parse(await readFile(new URL('../frontend/public/data/minna-vi.json', import.meta.url), 'utf8'));
+  const data = { ...notebook, words, known: [words[0].id, words.at(-1).id] };
+  assert.equal((await put(server.base, 0, data)).status, 200);
+  const stored = await fetch(`${server.base}/api/notebook`).then((response) => response.json());
+  assert.deepEqual(stored.notebook, data);
+  assert.equal((await put(server.base, 1, { ...data, words: [{ ...words[0], lesson: 51 }], known: [] })).status, 422);
 });

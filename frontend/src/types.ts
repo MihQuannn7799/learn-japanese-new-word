@@ -3,6 +3,7 @@ import type { StudySettings, Word } from '../../shared/notebook.ts';
 export type { Notebook, SavedNotebook, Word, WordFields } from '../../shared/notebook.ts';
 export type StudyMode = 'flash' | 'dictation' | 'reading' | 'words';
 export type Feedback = '' | 'correct' | 'incorrect' | 'revealed';
+export type VocabularyLayout = 'cards' | 'list';
 
 export interface DictationDraft {
   answer: string;
@@ -21,6 +22,7 @@ export interface StudyState extends StudySettings {
   correctAnswers: Set<string>;
   readingIndex: number;
   search: string;
+  vocabularyLayout: VocabularyLayout;
 }
 
 export interface Lesson {

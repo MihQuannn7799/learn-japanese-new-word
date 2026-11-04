@@ -24,9 +24,14 @@ function validNotebook(value: unknown): value is Notebook {
       if (!isRecord(word) || typeof word.id !== 'string' || !/^[\w-]{1,100}$/.test(word.id) || ids.has(word.id) ||
           typeof word.kana !== 'string' || typeof word.meaning !== 'string' || typeof word.kanji !== 'string') return false;
       makeWord(word.kana, word.meaning, word.kanji);
-      for (const key of ['example', 'exampleMeaning']) {
+      for (const key of ['example', 'exampleMeaning', 'display', 'displayKana', 'hanViet']) {
         const text = word[key];
         if (text !== undefined && (typeof text !== 'string' || text.length > 240)) return false;
+      }
+      if (word.lesson !== undefined && (typeof word.lesson !== 'number' || !Number.isInteger(word.lesson) || word.lesson < 1 || word.lesson > 50)) return false;
+      for (const key of ['alternateKana', 'alternateKanji']) {
+        const variants = word[key];
+        if (variants !== undefined && (!Array.isArray(variants) || variants.length > 16 || variants.some((text: unknown) => typeof text !== 'string' || text.length > 120))) return false;
       }
       if (word.meaningLanguage !== undefined && word.meaningLanguage !== 'vi' && word.meaningLanguage !== 'en') return false;
       ids.add(word.id);

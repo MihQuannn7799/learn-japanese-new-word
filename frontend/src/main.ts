@@ -1,4 +1,6 @@
 import { initCatalog } from './catalog.ts';
+import { loadLegacyMeanings } from './dictionary.ts';
+import { upgradeLegacyMeanings } from '../../shared/legacy.ts';
 import { connectNotebook } from './notebook-sync.ts';
 import { createAudioPlayer } from './audio.ts';
 import { initDialogs } from './dialogs.ts';
@@ -29,7 +31,7 @@ const sync = await connectNotebook({
 const state = createState(sync.saved);
 const audio = createAudioPlayer({ onChange: updateAudioUi, notify: toast });
 const dialogs = initDialogs({ state, notify: toast, onChange: refreshAfterEdit });
-const openCatalog = initCatalog({ state, openEntry: dialogs.openEntry, notify: toast, onChange: refreshAfterEdit });
+const openCatalog = initCatalog({ state, openEntry: dialogs.openEntry, notify: toast, onChange: refreshAfterEdit, speak: (text) => audio.play(text), stopAudio: audio.stop });
 let toastTimer: ReturnType<typeof setTimeout> | undefined;
 let readExamples = false;
 
@@ -219,7 +221,11 @@ const actions: Record<string, (button: HTMLButtonElement) => void | Promise<void
     if (mode === 'flash' || mode === 'dictation' || mode === 'reading' || mode === 'words') switchMode(mode, !button.classList.contains('mode'));
   },
   add: () => dialogs.openEntry(),
-  n5: openCatalog,
+  n5: () => { audio.stop(); return openCatalog(); },
+  'vocabulary-layout': (button) => {
+    state.vocabularyLayout = button.dataset.layout === 'list' ? 'list' : 'cards';
+    render(`[data-action="vocabulary-layout"][data-layout="${state.vocabularyLayout}"]`);
+  },
   'download-draft': downloadDraft,
   'retry-save': sync.retry,
   'use-server': () => {
@@ -267,8 +273,8 @@ const actions: Record<string, (button: HTMLButtonElement) => void | Promise<void
     const word = button.dataset.id ? wordById(state, button.dataset.id) : currentWord(state);
     if (word) audio.play(word.kana);
   },
-  'speak-example': () => {
-    const example = currentWord(state)?.example;
+  'speak-example': (button) => {
+    const example = (button.dataset.id ? wordById(state, button.dataset.id) : currentWord(state))?.example;
     if (example) audio.play(example);
   },
   'listen-row': (button) => {
@@ -385,3 +391,16 @@ updateStorageNotice(sync.status);
 render();
 if (sync.needsMigration) persist();
 else void sync.retry();
+
+if (state.words.some(({ id, meaningLanguage }) => id.startsWith('n5-') && meaningLanguage === 'en')) {
+  void loadLegacyMeanings().then((upgrades) => {
+    const result = upgradeLegacyMeanings(state.words, upgrades);
+    if (!result.changed) return;
+    state.words = result.words;
+    persist();
+    render();
+    toast(`Đã cập nhật nghĩa tiếng Việt cho ${result.changed} thẻ từ kho N5 cũ.`);
+  }).catch(() => {
+    toast('Chưa tải được nghĩa tiếng Việt cho thẻ cũ. Hãy tải lại trang để thử lại.');
+  });
+}

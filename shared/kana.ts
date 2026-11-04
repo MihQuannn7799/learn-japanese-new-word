@@ -13,8 +13,8 @@ export function normalizeSearch(text: string): string {
     .replace(/[\u0300-\u036f]/g, '').replaceAll('đ', 'd').normalize('NFC');
 }
 
-export function answerMatches(answer: string, word: Pick<WordFields, 'kana' | 'kanji'>): boolean {
+export function answerMatches(answer: string, word: Pick<WordFields, 'kana' | 'kanji' | 'alternateKana' | 'alternateKanji'>): boolean {
   const normalized = normalizeKana(answer);
-  return normalized !== '' && (normalized === normalizeKana(word.kana) ||
-    (word.kanji !== '' && normalized === normalizeKana(word.kanji)));
+  const accepted = [word.kana, word.kanji, ...(word.alternateKana ?? []), ...(word.alternateKanji ?? [])];
+  return normalized !== '' && accepted.some((value) => value !== '' && normalized === normalizeKana(value));
 }

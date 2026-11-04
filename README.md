@@ -21,12 +21,14 @@ Chạy `npm start` để kiểm tra kiểu, tạo bản build Vite và phục v�
 
 Sổ tay, dấu đã nhớ và thiết lập học được ghi vào `backend/storage/kotoba.sqlite`. Ở lần mở đầu tiên với SQLite trống, Kotoba chép sổ tay đang lưu tại đúng địa chỉ `localhost:8000` sang SQLite và giữ bản lưu trình duyệt. Nếu dữ liệu cũ nằm ở trình duyệt hoặc địa chỉ khác, nó vẫn nằm ở địa chỉ cũ. Có thể sao lưu tệp SQLite sau khi dừng máy chủ.
 
-## Kho N5 và gợi ý kanji
+## Kho Minna Nhật–Việt và gợi ý kanji
 
 - **Thêm từ mới** · Gõ hiragana hoặc katakana để tra cách viết. Chọn kanji phù hợp trong các gợi ý hoặc tự nhập. Kana có thể trùng giữa nhiều từ.
-- **Kho N5** · 674 mục được chia theo chủ đề của 25 bài *Minna no Nihongo Sơ cấp I, bản 2*. Chọn **Bài học** để tìm trong bài theo kana, kanji hoặc nghĩa tiếng Anh. Chọn **Thêm cả bài** để thêm toàn bộ từ của bài đã chọn, kể cả khi đang tìm kiếm. Kho từ bỏ qua mục có cùng cách đọc và cách viết trong sổ tay.
-- Chọn **Tất cả 25 bài** để tìm trong toàn bộ kho. Khi thêm từng từ, bạn có thể đổi nghĩa sang tiếng Việt. Các bài dùng dữ liệu OpenJLPT được phân nhóm theo chủ đề để ôn tập.
-- Dữ liệu tra cứu được đóng gói cùng app, dùng mục từ từ N5 đến N1. Phân cấp N5 là danh sách tham khảo. Xem [nguồn và giấy phép](frontend/public/data/SOURCES.md).
+- **Kho Minna** · 1.929 mục Nhật–Việt trong 50 bài Minna N5–N4, gồm từ vựng và cách nói giao tiếp. Chọn số bài hoặc danh sách bài để tìm theo kana, kanji, âm Hán Việt hay nghĩa tiếng Việt. Bài 2 có 47 mục.
+- Chuyển giữa **Danh sách** và **Thẻ từ**. Thẻ trình bày chữ Nhật, cách đọc, âm Hán Việt, nghĩa và câu ví dụ Nhật–Việt; có loa nghe từ và câu. Có thể bật/tắt cách đọc trong kho từ.
+- **Thêm cả bài** thêm toàn bộ mục của bài, kể cả khi đang tìm kiếm. **Tất cả 50 bài** tìm trong toàn kho. Khi thêm vào sổ tay, app bỏ qua cách đọc/cách viết đã có; một số mục xuất hiện ở nhiều bài nên số thẻ thêm có thể ít hơn số mục hiển thị.
+- Dữ liệu và gợi ý kanji đều được đóng gói trong app, có nghĩa tiếng Việt. Kho dùng toàn bộ mục của bản nguồn cộng đồng đã ghi nhận trong [nguồn và giấy phép](frontend/public/data/SOURCES.md).
+- Các thẻ còn nguyên nghĩa tiếng Anh từ kho N5 cũ được chuyển sang nghĩa Việt khi mở app, giữ ID và tiến độ học. App không ghi đè những nghĩa/cách viết bạn đã tự sửa.
 - WanaKana chuẩn hóa hiragana/katakana khi tìm kiếm, tra kanji và kiểm tra đáp án. Cách đọc vẫn giữ dấu kéo dài `ー`; tìm nghĩa tiếng Việt/Anh không tự chuyển thành kana.
 
 ## Cách học
@@ -35,8 +37,8 @@ Sổ tay, dấu đã nhớ và thiết lập học được ghi vào `backend/st
 - **Nghe chép** · Chọn **Nghe cả danh sách** để phát từng dòng từ trên xuống. Bấm biểu tượng loa để nghe một dòng đúng một lần, gõ kana hoặc kanji và chọn **Kiểm tra**. Có thể xem đáp án ở từng dòng.
 - **Chế độ đọc** · Bấm chữ Nhật hoặc chọn một dòng để nghe từ một lần ở tốc độ 1×. Chọn **Tự đọc từ** hoặc **Tự đọc từ + câu** để phát liên tiếp từ vị trí đang chọn. Có thể nghe câu riêng và bật/tắt cách đọc hoặc nghĩa tiếng Việt.
 - **Cài đặt danh sách** · Chỉnh tốc độ (0,5×–1,5×), số lần đọc mỗi từ (1–5) và khoảng nghỉ giữa hai từ (0–5 giây). Khi đọc kèm câu, mỗi câu ví dụ được phát một lần sau các lượt đọc từ. Dòng chưa có câu vẫn phát từ bình thường.
-- **Từ vựng** · Tìm theo kana, nghĩa hoặc kanji. Bạn có thể thêm, sửa, xóa hoặc nhập nhiều từ cùng lúc. Khi thêm hoặc sửa từ, có thể nhập câu ví dụ và bản dịch.
-- **Xóa toàn bộ thẻ** · Trong **Từ vựng**, chọn **Xóa toàn bộ thẻ** rồi xác nhận để xóa mọi thẻ trong sổ tay và tiến độ học, kể cả các thẻ không hiện do tìm kiếm. Thao tác không thể hoàn tác; thiết lập học và kho N5 vẫn được giữ.
+- **Từ vựng** · Xem dạng danh sách hoặc thẻ từ dọc, tìm theo kana, nghĩa, kanji hay âm Hán Việt. Bạn có thể thêm, sửa, xóa hoặc nhập nhiều từ cùng lúc. Khi thêm hoặc sửa từ, có thể nhập câu ví dụ và bản dịch.
+- **Xóa toàn bộ thẻ** · Trong **Từ vựng**, chọn **Xóa toàn bộ thẻ** rồi xác nhận để xóa mọi thẻ trong sổ tay và tiến độ học, kể cả các thẻ không hiện do tìm kiếm. Thao tác không thể hoàn tác; thiết lập học và kho Minna vẫn được giữ.
 
 ## Nhập danh sách
 
@@ -60,6 +62,7 @@ Tính năng nghe dùng giọng đọc tiếng Nhật mà trình duyệt cung c�
 - `backend/` chứa TypeScript phục vụ giao diện và API sổ tay. Node.js chạy TypeScript bằng `--experimental-strip-types`; SQLite kiểm tra phiên bản trước khi ghi để hai cửa sổ không ghi đè dữ liệu của nhau.
 - `npm test` chạy kiểm thử Node.js. `npm run typecheck` kiểm tra TypeScript ở chế độ strict. `npm run check` kiểm tra thêm cú pháp script, import, đường dẫn, dấu xung đột và chạy test.
 - `npm run build` kiểm tra kiểu và tạo bản tĩnh ở `dist/`, có thể đặt dưới đường dẫn con như GitHub Pages. `npm run validate:vocab -- danh-sach.csv` kiểm tra tệp từ vựng trước khi nhập.
+- `npm run data:import -- <thư-mục-cache> --download` tải lại dữ liệu từ phiên bản nguồn cố định và tạo catalog, chỉ mục kanji, danh sách bài, bản ghi số mục/hash từng bài. Bỏ `--download` để tạo lại từ bản cache mà không gọi mạng. Các lỗi nguồn được sửa rõ ràng trong `scripts/data/minna-corrections.json`; không bỏ qua mục lỗi khi nhập.
 
 ## GitHub Pages
 
@@ -67,6 +70,6 @@ Bản GitHub Pages lưu sổ tay trong trình duyệt. Để xuất bản demo c
 
 ## Giấy phép
 
-Mã nguồn dùng [giấy phép MIT](LICENSE). Dữ liệu OpenJLPT dùng [CC BY-SA 4.0](frontend/public/data/LICENSE-CC-BY-SA-4.0.txt). Bản build kèm giấy phép MIT của WanaKana trong `LICENSE-WANAKANA.txt`.
+Mã nguồn dùng [giấy phép MIT](LICENSE). Kho Minna Nhật–Việt dùng [MIT của nguồn](frontend/public/data/LICENSE-MINNA-MIT.txt); dữ liệu nâng cấp kho OpenJLPT cũ giữ [CC BY-SA 4.0](frontend/public/data/LICENSE-CC-BY-SA-4.0.txt). Bản build kèm giấy phép MIT của WanaKana trong `LICENSE-WANAKANA.txt`.
 
 Tài liệu công nghệ: [Vite](https://vite.dev/guide/), [TypeScript](https://www.typescriptlang.org/docs/), [WanaKana](https://wanakana.com/).
