@@ -197,6 +197,7 @@ function moveWord(delta, focusSelector) {
 }
 
 function refreshAfterEdit() {
+  audio.stop();
   resetStudyPositions(state);
   switchMode('words', true);
   persist();
@@ -215,6 +216,7 @@ const actions = {
   },
   edit: (button) => dialogs.openEntry(wordById(state, button.dataset.id)),
   delete: (button) => dialogs.openDelete(wordById(state, button.dataset.id)),
+  'delete-all': () => dialogs.openDeleteAll(),
   import: () => dialogs.openImport(),
   close: (button) => button.closest('dialog').close(),
   flip: () => {

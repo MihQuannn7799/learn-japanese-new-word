@@ -23,7 +23,10 @@ export function vocabularyView(state) {
   return `<section class="book-panel">
     <div class="book-tools">
       <label class="search">${icon('search')}<input id="word-search" type="search" placeholder="Tìm kana, nghĩa hoặc kanji…" aria-label="Tìm từ vựng" value="${escapeHtml(search)}"></label>
-      <span class="muted">${words.length} từ trong sổ tay</span>
+      <div class="inline-actions">
+        <span class="muted">${words.length} từ trong sổ tay</span>
+        <button class="btn danger" type="button" data-action="delete-all" ${words.length ? '' : 'disabled'}>${icon('trash')} Xóa toàn bộ thẻ</button>
+      </div>
     </div>
     <div class="table-wrap" tabindex="0" role="region" aria-label="Bảng từ vựng">
       <table class="word-table"><thead><tr><th scope="col">Từ tiếng Nhật</th><th scope="col">Nghĩa</th><th scope="col">Kanji</th><th scope="col">Tiến độ</th><th scope="col">Thao tác</th></tr></thead>

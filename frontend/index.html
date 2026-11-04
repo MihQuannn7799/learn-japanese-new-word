@@ -118,6 +118,13 @@
       <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close" autofocus>Hủy</button><button type="submit" class="btn danger">Xóa từ</button></div>
     </form>
   </dialog>
+  <dialog id="delete-all-dialog" aria-labelledby="delete-all-title" aria-describedby="delete-all-description">
+    <form id="delete-all-form">
+      <div class="dialog-heading"><h2 id="delete-all-title">Xóa toàn bộ thẻ?</h2><button type="button" class="btn icon-only plain" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-close"/></svg></button></div>
+      <p id="delete-all-description" class="muted"></p>
+      <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close" autofocus>Hủy</button><button type="submit" class="btn danger">Xóa toàn bộ thẻ</button></div>
+    </form>
+  </dialog>
   <div id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

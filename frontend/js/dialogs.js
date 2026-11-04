@@ -11,6 +11,7 @@ export function initDialogs({ state, notify, onChange }) {
   const entryDialog = $('#entry-dialog');
   const importDialog = $('#import-dialog');
   const deleteDialog = $('#delete-dialog');
+  const deleteAllDialog = $('#delete-all-dialog');
   const entryForm = $('#entry-form');
   const importForm = $('#import-form');
 
@@ -76,6 +77,12 @@ export function initDialogs({ state, notify, onChange }) {
     deletingId = word.id;
     $('#delete-word').textContent = `${word.kanji || word.kana} · ${word.meaning}`;
     deleteDialog.showModal();
+  }
+
+  function openDeleteAll() {
+    if (!state.words.length) return;
+    $('#delete-all-description').textContent = `Bạn sẽ xóa toàn bộ ${state.words.length} thẻ trong sổ tay, kể cả các thẻ không hiện do tìm kiếm, cùng tiến độ học của chúng. Không thể hoàn tác thao tác này.`;
+    deleteAllDialog.showModal();
   }
 
   entryForm.addEventListener('submit', (event) => {
@@ -161,5 +168,17 @@ export function initDialogs({ state, notify, onChange }) {
     onChange();
   });
 
-  return { openEntry, openImport, openDelete };
+  $('#delete-all-form').addEventListener('submit', (event) => {
+    event.preventDefault();
+    const count = state.words.length;
+    state.words = [];
+    state.known.clear();
+    state.correctAnswers.clear();
+    state.dictationDrafts.clear();
+    deleteAllDialog.close();
+    notify(`Đã xóa toàn bộ ${count} thẻ khỏi sổ tay.`);
+    onChange();
+  });
+
+  return { openEntry, openImport, openDelete, openDeleteAll };
 }

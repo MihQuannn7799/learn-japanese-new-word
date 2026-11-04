@@ -32,6 +32,7 @@ Sổ tay, dấu đã nhớ và thiết lập học được ghi vào `backend/st
 - **Chế độ đọc** · Bấm chữ Nhật hoặc chọn một dòng để nghe từ một lần ở tốc độ 1×. Chọn **Tự đọc từ** hoặc **Tự đọc từ + câu** để phát liên tiếp từ vị trí đang chọn. Có thể nghe câu riêng và bật/tắt cách đọc hoặc nghĩa tiếng Việt.
 - **Cài đặt danh sách** · Chỉnh tốc độ (0,5×–1,5×), số lần đọc mỗi từ (1–5) và khoảng nghỉ giữa hai từ (0–5 giây). Khi đọc kèm câu, mỗi câu ví dụ được phát một lần sau các lượt đọc từ. Dòng chưa có câu vẫn phát từ bình thường.
 - **Từ vựng** · Tìm theo kana, nghĩa hoặc kanji. Bạn có thể thêm, sửa, xóa hoặc nhập nhiều từ cùng lúc. Khi thêm hoặc sửa từ, có thể nhập câu ví dụ và bản dịch.
+- **Xóa toàn bộ thẻ** · Trong **Từ vựng**, chọn **Xóa toàn bộ thẻ** rồi xác nhận để xóa mọi thẻ trong sổ tay và tiến độ học, kể cả các thẻ không hiện do tìm kiếm. Thao tác không thể hoàn tác; thiết lập học và kho N5 vẫn được giữ.
 
 ## Nhập danh sách
 
