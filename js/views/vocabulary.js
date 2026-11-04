@@ -7,9 +7,9 @@ export function rowsView({ search, words, known }) {
     [word.kana, word.meaning, word.kanji].some((value) => normalizeSearch(value).includes(query))
   );
   return visible.map((word) => `<tr>
-    <td lang="ja">${escapeHtml(word.kana)}</td>
+    <td lang="ja"><button class="word-pronunciation" type="button" data-action="speak" data-id="${escapeHtml(word.id)}" title="Nghe phát âm">${escapeHtml(word.kana)}</button></td>
     <td>${escapeHtml(word.meaning)}</td>
-    <td lang="${word.kanji ? 'ja' : 'vi'}">${word.kanji ? escapeHtml(word.kanji) : '<span aria-label="Không có kanji">—</span>'}</td>
+    <td lang="${word.kanji ? 'ja' : 'vi'}">${word.kanji ? `<button class="word-pronunciation" type="button" data-action="speak" data-id="${escapeHtml(word.id)}" title="Nghe phát âm">${escapeHtml(word.kanji)}</button>` : '<span aria-label="Không có kanji">—</span>'}</td>
     <td>${known.has(word.id) ? '<span class="badge known">Đã nhớ</span>' : '—'}</td>
     <td><div class="inline-actions">
       <button class="btn plain icon-only" data-action="speak" data-id="${escapeHtml(word.id)}" aria-label="Nghe ${escapeHtml(word.kana)}" title="Nghe phát âm">${icon('volume')}</button>

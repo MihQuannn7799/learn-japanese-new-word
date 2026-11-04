@@ -26,7 +26,7 @@ function dictationRow(word, index, draft) {
 }
 
 export function dictationView(state) {
-  const { words, dictationDrafts, speed, repeats } = state;
+  const { words, dictationDrafts } = state;
   return `<div class="study-grid dictation-layout">
     <section class="study-card dictation-card" aria-label="Bài nghe chép">
       <div class="dictation-intro">
@@ -34,7 +34,7 @@ export function dictationView(state) {
           <h3>Bài nghe · ${words.length} từ</h3>
           <p class="muted">Nghe lần lượt từ trên xuống hoặc phát lại một dòng bất kỳ.</p>
         </div>
-        <button class="btn primary" data-action="play-list">${icon('play')} Nghe cả danh sách</button>
+        <button class="btn primary" data-action="play-list" data-label="Nghe cả danh sách">${icon('play')} Nghe cả danh sách</button>
         <p id="dictation-status" class="muted" role="status">Sẵn sàng</p>
       </div>
       <ol class="dictation-list" aria-label="Danh sách từ nghe chép" role="list">
@@ -42,7 +42,7 @@ export function dictationView(state) {
       </ol>
     </section>
     <aside class="side-stack dictation-sidebar">
-      ${speedPanel(speed, repeats)}
+      ${speedPanel(state)}
       <div id="dictation-progress">${progressPanel(state, true)}</div>
     </aside>
   </div>`;

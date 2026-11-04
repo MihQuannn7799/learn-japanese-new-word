@@ -1,6 +1,6 @@
-import { escapeHtml, icon, japanese, progressPanel, speedPanel, stepper } from './shared.js';
+import { escapeHtml, icon, japanese, progressPanel, stepper } from './shared.js';
 
-export function flashView({ words, known, flipped, flashIndex, flashOrder, speed, repeats }, word) {
+export function flashView({ words, known, flipped, flashIndex, flashOrder }, word) {
   const remembered = known.has(word.id);
   return `<div class="study-grid">
     <section class="study-card" aria-label="Thẻ từ vựng">
@@ -23,7 +23,7 @@ export function flashView({ words, known, flipped, flashIndex, flashOrder, speed
     </section>
     <aside class="side-stack">
       ${progressPanel({ words, known })}
-      ${speedPanel(speed, repeats)}
+      <p class="panel voice-message" data-voice-message role="status" hidden></p>
       <p class="shortcut-tip">${icon('keyboard')} <span><kbd>←</kbd> <kbd>→</kbd> đổi từ · <kbd>Space</kbd> lật thẻ</span></p>
     </aside>
   </div>`;

@@ -97,6 +97,14 @@ kbd { padding: 1px 4px; border: 1px solid var(--line); border-radius: 4px; backg
 .feedback { padding: 8px 11px; border-radius: 8px; background: var(--sage); color: var(--green-dark); font-size: .85rem; overflow-wrap: anywhere; }
 .feedback.incorrect { background: #faede0; color: #733d21; }
 .reading-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.word-pronunciation { background: transparent; color: inherit; border: 0; border-radius: 8px; padding: 2px 5px; overflow-wrap: anywhere; }
+.word-pronunciation:hover { background: var(--sage); }
+#reading-word .word-pronunciation { max-width: 100%; }
+.reading-example { max-width: 100%; margin-top: 7px; padding: 7px 10px; border-radius: 9px; background: var(--white); overflow-wrap: anywhere; }
+.reading-options { display: flex; flex-wrap: wrap; gap: 5px 12px; margin-top: 8px; font-size: .82rem; }
+.reading-options label { display: flex; align-items: center; gap: 3px; }
+.reading-options input { accent-color: var(--green); }
+.hide-kana .reading-kana, .hide-meaning .reading-meaning { display: none; }
 .playlist { display: grid; padding: 0; margin: 9px 0 0; max-height: 365px; overflow: auto; list-style: none; }
 .playlist button { display: flex; width: 100%; align-items: center; gap: 8px; border: 0; border-radius: 7px; padding: 6px 8px; text-align: left; background: none; color: var(--ink); font-size: .85rem; overflow-wrap: anywhere; }
 .playlist button:hover, .playlist button[aria-current=true] { background: var(--sage); }

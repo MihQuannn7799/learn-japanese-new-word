@@ -21,7 +21,7 @@ export function initDialogs({ state, notify, onChange }) {
     entryForm.reset();
     $('#entry-title').textContent = word ? 'Sửa từ vựng' : 'Thêm từ mới';
     $('#entry-error').textContent = '';
-    for (const name of ['kana', 'meaning', 'kanji']) entryForm.elements.namedItem(name).value = word?.[name] ?? '';
+    for (const name of ['kana', 'meaning', 'kanji', 'example', 'exampleMeaning']) entryForm.elements.namedItem(name).value = word?.[name] ?? '';
     entryDialog.showModal();
   }
 
@@ -42,6 +42,14 @@ export function initDialogs({ state, notify, onChange }) {
     const fields = new FormData(entryForm);
     try {
       const word = makeWord(fields.get('kana'), fields.get('meaning'), fields.get('kanji'));
+      const example = fields.get('example').trim();
+      const exampleMeaning = fields.get('exampleMeaning').trim();
+      if (exampleMeaning && !example) throw new Error('Nhập câu tiếng Nhật trước khi thêm bản dịch.');
+      if (example && !/[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}]/u.test(example)) {
+        throw new Error('Câu ví dụ cần có chữ tiếng Nhật.');
+      }
+      word.example = example;
+      if (exampleMeaning) word.exampleMeaning = exampleMeaning;
       if (state.words.some((item) => item.id !== editingId && wordKey(item) === wordKey(word))) {
         throw new Error('Từ này đã có trong sổ tay.');
       }
