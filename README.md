@@ -21,7 +21,8 @@ Sổ tay, dấu đã nhớ và thiết lập học được ghi vào `backend/st
 ## Kho N5 và gợi ý kanji
 
 - **Thêm từ mới** · Gõ hiragana hoặc katakana để tra cách viết. Chọn kanji phù hợp trong các gợi ý hoặc tự nhập. Kana có thể trùng giữa nhiều từ.
-- **Kho N5** · Tìm 674 mục bằng kana, kanji hoặc nghĩa tiếng Anh. Thêm từng từ để sửa nghĩa sang tiếng Việt, hoặc thêm cả bộ và bỏ qua mục đã có cùng cách đọc và cách viết.
+- **Kho N5** · 674 mục được chia theo chủ đề của 25 bài *Minna no Nihongo Sơ cấp I, bản 2*. Chọn **Bài học** để tìm trong bài theo kana, kanji hoặc nghĩa tiếng Anh. Chọn **Thêm cả bài** để thêm toàn bộ từ của bài đã chọn, kể cả khi đang tìm kiếm. Kho từ bỏ qua mục có cùng cách đọc và cách viết trong sổ tay.
+- Chọn **Tất cả 25 bài** để tìm trong toàn bộ kho. Khi thêm từng từ, bạn có thể đổi nghĩa sang tiếng Việt. Các bài dùng dữ liệu OpenJLPT được phân nhóm theo chủ đề để ôn tập.
 - Dữ liệu tra cứu được đóng gói cùng app, dùng mục từ từ N5 đến N1. Phân cấp N5 là danh sách tham khảo. Xem [nguồn và giấy phép](frontend/data/SOURCES.md).
 
 ## Cách học

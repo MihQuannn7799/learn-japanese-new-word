@@ -17,6 +17,13 @@ function dataset(name) {
 }
 
 export const loadN5 = () => dataset('n5');
+export const loadN5Lessons = () => dataset('minna-n5-lessons');
+
+export function wordsInLesson(catalog, lesson) {
+  if (!lesson) return catalog;
+  const ids = new Set(lesson.wordIds);
+  return catalog.filter(({ id }) => ids.has(id));
+}
 
 export function kanjiCandidates(index, kana) {
   const key = normalizeKana(kana);
