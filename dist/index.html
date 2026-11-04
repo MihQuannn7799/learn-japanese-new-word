@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sổ tay học từ vựng tiếng Nhật bằng tiếng Việt với flashcard, nghe chép và chế độ đọc.">
+  <meta name="theme-color" content="#f8f7f1">
+  <title>Kotoba · Sổ tay từ vựng</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <svg class="symbol-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1 0-4h13M8 7h7m-7 4h5"/></symbol>
+    <symbol id="i-cards" viewBox="0 0 24 24"><rect x="5" y="6" width="15" height="14" rx="2"/><path d="M2 15V6a3 3 0 0 1 3-3h11m-7 8h7m-7 4h5"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 14v-2a9 9 0 0 1 18 0v2M3 14a2 2 0 0 1 2-2h1a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2Zm18 0a2 2 0 0 0-2-2h-1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h1a2 2 0 0 0 2-2Z"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path d="M3 10v4m4-8v12m5-15v18m5-15v12m4-8v4"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4m-5 5 5-5 5 5M4 16v4h16v-4"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4Zm4 4a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></symbol>
+    <symbol id="i-flip" viewBox="0 0 24 24"><path d="M4 7h15m-4-4 4 4-4 4m5 6H5m4-4-4 4 4 4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M3 7h3c4 0 5 10 9 10h5m-4-4 4 4-4 4M3 17h3c1 0 2-1 3-3m4-4c1-2 2-3 3-3h4m-4-4 4 4-4 4"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4 4"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="m14 5 5 5M4 20l5-1L20 8l-4-4L5 15Z"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3m3 0-1 13H7L6 7m4 4v5m4-5v5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 12 7-12 7Z"/></symbol>
+    <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="1"/></symbol>
+    <symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 10h.01m3.3 0h.01m3.3 0h.01m3.3 0h.01M8 14h8"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2c0 6-4 10-10 10 6 0 10 4 10 10 0-6 4-10 10-10-6 0-10-4-10-10Z"/></symbol>
+  </svg>
+  <header class="topbar">
+    <div class="shell top-inner">
+      <button class="brand" data-action="mode" data-mode="flash" aria-label="Kotoba, về Flashcard">
+        <span class="brand-mark" lang="ja">言</span><span class="brand-name">Kotoba<span>.</span><small>SỔ TAY TIẾNG NHẬT</small></span>
+      </button>
+      <div class="top-actions">
+        <button class="btn secondary" data-action="import"><svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg> <span>Nhập danh sách</span></button>
+        <button class="btn primary" data-action="add"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg> <span>Thêm từ mới</span></button>
+      </div>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> GÓC HỌC TIẾNG NHẬT</p>
+        <h1 id="hero-title">Từng từ một<span>.</span></h1>
+        <p>Gom từ mới vào sổ tay, rồi luyện nhớ mặt chữ và nghe cách phát âm theo nhịp của bạn.</p>
+        <button class="hero-link" data-action="mode" data-mode="words"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> <span id="hero-count">Sổ tay của bạn</span><svg class="icon small" aria-hidden="true"><use href="#i-right"/></svg></button>
+      </div>
+      <svg class="hero-art" viewBox="0 0 510 269" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <defs><pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#d1e1bf" opacity=".27"/></pattern></defs>
+        <circle cx="345" cy="139" r="126" fill="url(#dots)"/>
+        <ellipse cx="339" cy="134" rx="171" ry="76" transform="rotate(-18 339 134)" fill="none" stroke="#b0c7a4" opacity=".38"/>
+        <ellipse cx="339" cy="134" rx="190" ry="93" transform="rotate(-18 339 134)" fill="none" stroke="#b0c7a4" opacity=".22"/>
+        <path d="M140 102c0 13-6 19-19 19 13 0 19 6 19 19 0-13 6-19 19-19-13 0-19-6-19-19m311-49c0 9-4 13-13 13 9 0 13 4 13 13 0-9 4-13 13-13-9 0-13-4-13-13" fill="#eac688"/>
+        <circle cx="475" cy="149" r="3" fill="#edcb8d"/><circle cx="174" cy="195" r="4" fill="#9dbd90"/>
+        <g transform="translate(215 50) rotate(-13 73 83)">
+          <rect x="0" y="6" width="149" height="165" rx="17" fill="#173d2d" opacity=".35"/>
+          <rect width="149" height="165" rx="17" fill="#d9e6bd"/>
+          <rect x="9" y="9" width="131" height="147" rx="12" fill="none" stroke="#4d7250" opacity=".27"/>
+          <text x="21" y="30" fill="#466348" font-size="10" font-family="system-ui, sans-serif" letter-spacing="2">02 / KANA</text>
+          <text x="73" y="113" text-anchor="middle" fill="#446346" font-family="sans-serif" font-size="70" lang="ja">あ</text>
+        </g>
+        <g transform="translate(299 49) rotate(11 75 85)">
+          <rect x="1" y="7" width="153" height="171" rx="18" fill="#183b2a" opacity=".46"/>
+          <rect width="153" height="171" rx="18" fill="#f9eed4"/>
+          <rect x="9" y="9" width="135" height="153" rx="12" fill="none" stroke="#9a8151" opacity=".27"/>
+          <text x="21" y="31" fill="#775e38" font-size="10" font-family="system-ui, sans-serif" letter-spacing="2">01 / KANJI</text>
+          <text x="76" y="112" text-anchor="middle" fill="#2e513a" font-family="sans-serif" font-size="70" lang="ja">言</text>
+          <path d="M37 129h79" stroke="#c4ab77" opacity=".55"/>
+          <text x="76" y="148" text-anchor="middle" fill="#795f37" font-size="9" font-family="system-ui, sans-serif" letter-spacing="3">KOTOBA</text>
+        </g>
+        <path d="M432 201c0 8-4 12-12 12 8 0 12 4 12 12 0-8 4-12 12-12-8 0-12-4-12-12" fill="#eac688"/>
+      </svg>
+    </section>
+    <nav class="modes" aria-label="Chế độ học">
+      <button class="mode" data-action="mode" data-mode="flash"><svg class="icon" aria-hidden="true"><use href="#i-cards"/></svg> Flashcard</button>
+      <button class="mode" data-action="mode" data-mode="dictation"><svg class="icon" aria-hidden="true"><use href="#i-headphones"/></svg> Nghe chép</button>
+      <button class="mode" data-action="mode" data-mode="reading"><svg class="icon" aria-hidden="true"><use href="#i-wave"/></svg> Chế độ đọc</button>
+      <button class="mode" data-action="mode" data-mode="words"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> Từ vựng</button>
+    </nav>
+    <div id="workspace"><noscript>Bật JavaScript để dùng sổ tay từ vựng.</noscript></div>
+  </main>
+  <footer class="shell footer"><span><strong>Kotoba.</strong> Sổ tay từ vựng Nhật–Việt</span><span>Dữ liệu lưu trên trình duyệt này</span></footer>
+  <dialog id="entry-dialog" aria-labelledby="entry-title">
+    <form id="entry-form">
+      <div class="dialog-heading"><div><p class="section-kicker">SỔ TAY CỦA BẠN</p><h2 id="entry-title">Thêm từ mới</h2></div><button type="button" class="btn icon-only plain" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+      <label class="field">Từ tiếng Nhật (kana) <input name="kana" lang="ja" required maxlength="120" placeholder="Ví dụ: さくら" autofocus></label>
+      <label class="field">Nghĩa tiếng Việt <input name="meaning" required maxlength="240" placeholder="Ví dụ: hoa anh đào"></label>
+      <label class="field">Kanji <span class="muted">(không bắt buộc)</span><input name="kanji" lang="ja" maxlength="120" placeholder="Ví dụ: 桜"></label>
+      <p class="form-error" id="entry-error" role="alert"></p>
+      <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close">Hủy</button><button type="submit" class="btn primary">Lưu từ</button></div>
+    </form>
+  </dialog>
+  <dialog id="import-dialog" aria-labelledby="import-title">
+    <form id="import-form">
+      <div class="dialog-heading"><div><p class="section-kicker">SỔ TAY CỦA BẠN</p><h2 id="import-title">Nhập danh sách</h2></div><button type="button" class="btn icon-only plain" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+      <p class="muted import-help" id="import-help">Mỗi dòng theo thứ tự <strong>kana | nghĩa tiếng Việt | kanji</strong>. Cột kanji có thể bỏ trống. Bạn cũng có thể dán dữ liệu phân cách bằng dấu phẩy hoặc tab.</p>
+      <label class="field">Danh sách từ<textarea name="list" rows="6" maxlength="250000" placeholder="つき | mặt trăng | 月&#10;いぬ | con chó | 犬" aria-describedby="import-help" autofocus></textarea></label>
+      <label class="file-label"><svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg> Chọn tệp UTF-8 (.csv, .tsv, .txt)<input type="file" id="import-file" accept=".csv,.tsv,.txt,text/csv,text/tab-separated-values,text/plain"></label>
+      <p class="form-error" id="import-error" role="alert"></p>
+      <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close">Hủy</button><button type="submit" class="btn primary">Nhập từ</button></div>
+    </form>
+  </dialog>
+  <dialog id="delete-dialog" aria-labelledby="delete-title">
+    <form id="delete-form">
+      <div class="dialog-heading"><h2 id="delete-title">Xóa từ này?</h2><button type="button" class="btn icon-only plain" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+      <p id="delete-word" class="muted"></p>
+      <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close" autofocus>Hủy</button><button type="submit" class="btn danger">Xóa từ</button></div>
+    </form>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
