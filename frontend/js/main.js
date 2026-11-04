@@ -1,8 +1,10 @@
+import { initCatalog } from './catalog.js';
+import { connectNotebook } from './notebook-sync.js';
 import { createAudioPlayer } from './audio.js';
 import { initDialogs } from './dialogs.js';
 import { answerMatches } from './lib/kana.js';
 import { createState, currentWord, resetStudyPositions, wordById } from './state.js';
-import { loadNotebook, storeNotebook } from './storage.js';
+import { loadNotebook, notebookSnapshot, storeNotebook } from './storage.js';
 import { dictationFeedback, dictationView } from './views/dictation.js';
 import { flashView } from './views/flashcard.js';
 import { readingView, readingWord } from './views/reading.js';
@@ -12,9 +14,16 @@ import { rowsView, vocabularyView } from './views/vocabulary.js';
 const $ = (selector) => document.querySelector(selector);
 const workspace = $('#workspace');
 const notebook = loadNotebook();
-const state = createState(notebook.saved);
+let localAvailable = notebook.available;
+const sync = await connectNotebook({
+  saved: notebook.saved,
+  enabled: Boolean($('meta[name="kotoba-backend"]')),
+  onStatus: updateStorageNotice,
+});
+const state = createState(sync.saved);
 const audio = createAudioPlayer({ onChange: updateAudioUi, notify: toast });
 const dialogs = initDialogs({ state, notify: toast, onChange: refreshAfterEdit });
+const openCatalog = initCatalog({ state, openEntry: dialogs.openEntry, notify: toast, onChange: refreshAfterEdit });
 let toastTimer;
 let readExamples = false;
 
@@ -22,19 +31,44 @@ const sections = {
   flash: ['01 / GHI NHỚ', 'Flashcard', 'Nhìn từ tiếng Nhật, thử nhớ nghĩa rồi lật thẻ để kiểm tra.'],
   dictation: ['02 / LUYỆN TAI', 'Nghe chép chính tả', 'Gõ từ nghe được bằng hiragana, katakana hoặc kanji.'],
   reading: ['03 / PHÁT ÂM', 'Chế độ đọc', 'Nghe từng từ hoặc phát liên tiếp từ vị trí đang chọn.'],
-  words: ['04 / SỔ TAY', 'Danh sách từ vựng', 'Tra cứu và cập nhật từ tiếng Nhật, nghĩa tiếng Việt và kanji.'],
+  words: ['04 / SỔ TAY', 'Danh sách từ vựng', 'Tra cứu và cập nhật từ tiếng Nhật, nghĩa và kanji.'],
 };
 
 function persist() {
-  const available = storeNotebook(state);
-  if (!available) toast('Trình duyệt không lưu được dữ liệu. Thay đổi hiện chỉ có trong phiên này.');
-  updateStorageNotice(available);
+  localAvailable = storeNotebook(state);
+  sync.save(notebookSnapshot(state));
+  if (sync.status === 'local') updateStorageNotice('local');
 }
 
-function updateStorageNotice(available) {
-  $('.footer span:last-child').textContent = available
-    ? 'Dữ liệu lưu trên trình duyệt này'
-    : 'Lưu trên trình duyệt không khả dụng';
+function updateStorageNotice(status) {
+  const messages = {
+    server: 'Đã lưu trong SQLite',
+    ready: 'SQLite đã kết nối',
+    saving: 'Đang lưu vào SQLite…',
+    offline: 'SQLite chưa kết nối. Bản nháp được giữ trên trình duyệt nếu trình duyệt cho phép lưu.',
+    rejected: 'SQLite từ chối dữ liệu. Bạn có thể tải bản nháp để giữ lại.',
+    conflict: 'SQLite có bản mới hơn. Bản nháp này vẫn được giữ riêng.',
+    local: localAvailable ? 'Dữ liệu lưu trên trình duyệt này' : 'Lưu trên trình duyệt không khả dụng',
+  };
+  const notice = $('#storage-status');
+  const hasDraft = Boolean(sync.draft?.());
+  const needsRecovery = ['conflict', 'rejected', 'offline'].includes(status) && hasDraft;
+  if (needsRecovery && notice.textContent !== messages[status]) toast(messages[status]);
+  notice.textContent = messages[status];
+  $('#storage-recovery').hidden = !needsRecovery;
+  $('[data-action="use-server"]').hidden = status !== 'conflict';
+  $('[data-action="retry-save"]').hidden = status !== 'offline';
+}
+
+function downloadDraft() {
+  const draft = sync.draft?.();
+  if (!draft) return;
+  const url = URL.createObjectURL(new Blob([JSON.stringify(draft, null, 2)], { type: 'application/json' }));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'kotoba-ban-nhap.json';
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
 function toast(message) {
@@ -171,6 +205,14 @@ function refreshAfterEdit() {
 const actions = {
   mode: (button) => switchMode(button.dataset.mode, !button.classList.contains('mode')),
   add: () => dialogs.openEntry(),
+  n5: openCatalog,
+  'download-draft': downloadDraft,
+  'retry-save': sync.retry,
+  'use-server': () => {
+    downloadDraft();
+    sync.useServer();
+    setTimeout(() => location.reload(), 500);
+  },
   edit: (button) => dialogs.openEntry(wordById(state, button.dataset.id)),
   delete: (button) => dialogs.openDelete(wordById(state, button.dataset.id)),
   import: () => dialogs.openImport(),
@@ -305,5 +347,8 @@ workspace.addEventListener('submit', (event) => {
 });
 
 window.addEventListener('pagehide', audio.stop);
-updateStorageNotice(notebook.available);
+window.addEventListener('online', sync.retry);
+updateStorageNotice(sync.status);
 render();
+if (sync.needsMigration) persist();
+else void sync.retry();

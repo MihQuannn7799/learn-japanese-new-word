@@ -4,7 +4,7 @@ export function dictationFeedback(word, feedback) {
   if (feedback === 'incorrect') return 'Chưa khớp. Nghe lại rồi thử thêm một lần nhé.';
   if (!feedback) return '';
   const answer = `${escapeHtml(word.kana)}${word.kanji ? ` · ${escapeHtml(word.kanji)}` : ''}`;
-  return `${feedback === 'correct' ? 'Chính xác!' : 'Đáp án'} <strong lang="ja">${answer}</strong> · ${escapeHtml(word.meaning)}`;
+  return `${feedback === 'correct' ? 'Chính xác!' : 'Đáp án'} <strong lang="ja">${answer}</strong> · <span lang="${word.meaningLanguage === 'en' ? 'en' : 'vi'}">${escapeHtml(word.meaning)}</span>`;
 }
 
 function dictationRow(word, index, draft) {

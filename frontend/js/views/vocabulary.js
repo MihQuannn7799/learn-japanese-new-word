@@ -8,7 +8,7 @@ export function rowsView({ search, words, known }) {
   );
   return visible.map((word) => `<tr>
     <td lang="ja"><button class="word-pronunciation" type="button" data-action="speak" data-id="${escapeHtml(word.id)}" title="Nghe phát âm">${escapeHtml(word.kana)}</button></td>
-    <td>${escapeHtml(word.meaning)}</td>
+    <td lang="${word.meaningLanguage === 'en' ? 'en' : 'vi'}">${escapeHtml(word.meaning)} ${word.meaningLanguage === 'en' ? '<span class="badge">EN</span>' : ''}</td>
     <td lang="${word.kanji ? 'ja' : 'vi'}">${word.kanji ? `<button class="word-pronunciation" type="button" data-action="speak" data-id="${escapeHtml(word.id)}" title="Nghe phát âm">${escapeHtml(word.kanji)}</button>` : '<span aria-label="Không có kanji">—</span>'}</td>
     <td>${known.has(word.id) ? '<span class="badge known">Đã nhớ</span>' : '—'}</td>
     <td><div class="inline-actions">
@@ -26,7 +26,7 @@ export function vocabularyView(state) {
       <span class="muted">${words.length} từ trong sổ tay</span>
     </div>
     <div class="table-wrap" tabindex="0" role="region" aria-label="Bảng từ vựng">
-      <table class="word-table"><thead><tr><th scope="col">Từ tiếng Nhật</th><th scope="col">Nghĩa tiếng Việt</th><th scope="col">Kanji</th><th scope="col">Tiến độ</th><th scope="col">Thao tác</th></tr></thead>
+      <table class="word-table"><thead><tr><th scope="col">Từ tiếng Nhật</th><th scope="col">Nghĩa</th><th scope="col">Kanji</th><th scope="col">Tiến độ</th><th scope="col">Thao tác</th></tr></thead>
       <tbody id="word-rows">${rowsView(state)}</tbody></table>
     </div>
   </section>`;

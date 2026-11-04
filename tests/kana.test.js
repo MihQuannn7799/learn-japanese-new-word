@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { answerMatches, normalizeKana, normalizeSearch } from '../js/lib/kana.js';
+import { answerMatches, normalizeKana, normalizeSearch } from '../frontend/js/lib/kana.js';
 
 test('normalizeKana folds width, kana script and whitespace', () => {
   assert.equal(normalizeKana('  ｶﾞ ｸ セ イ '), 'がくせい');
