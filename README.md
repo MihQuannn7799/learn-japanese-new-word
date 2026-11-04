@@ -7,7 +7,7 @@ Trang học từ vựng tiếng Nhật bằng tiếng Việt. Trang có 8 từ m
 Tại thư mục gốc của repo, chạy:
 
 ```sh
-python -m http.server 8000 --directory dist
+python -m http.server 8000
 ```
 
 Mở [http://localhost:8000](http://localhost:8000). Nếu máy dùng lệnh `python3` hoặc `py`, thay `python` bằng lệnh tương ứng.

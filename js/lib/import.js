@@ -1,51 +1,7 @@
-export const starterWords = [
-  ['さくら', 'hoa anh đào', '桜'],
-  ['ねこ', 'con mèo', '猫'],
-  ['みず', 'nước', '水'],
-  ['ともだち', 'bạn bè', '友達'],
-  ['やま', 'núi', '山'],
-  ['コーヒー', 'cà phê', ''],
-  ['たべる', 'ăn', '食べる'],
-  ['あした', 'ngày mai', '明日'],
-].map(([kana, meaning, kanji], index) => ({ id: `sample-${index}`, kana, meaning, kanji }));
+import { normalizeSearch } from './kana.js';
+import { makeWord, wordKey } from './word.js';
 
 export const importLimit = 250_000;
-
-export function normalizeKana(text) {
-  return text.normalize('NFKC').trim().replace(/[ァ-ヶヽヾ]/g, (character) =>
-    String.fromCodePoint(character.codePointAt(0) - 0x60)
-  ).replace(/\s+/gu, '');
-}
-
-export function normalizeSearch(text) {
-  return normalizeKana(text).normalize('NFD').toLocaleLowerCase('vi')
-    .replace(/[\u0300-\u036f]/g, '').replaceAll('đ', 'd').normalize('NFC');
-}
-
-export function answerMatches(answer, word) {
-  const normalized = normalizeKana(answer);
-  return normalized !== '' && (normalized === normalizeKana(word.kana) ||
-    (word.kanji !== '' && normalized === normalizeKana(word.kanji)));
-}
-
-export function wordKey({ kana, meaning, kanji }) {
-  return JSON.stringify([
-    normalizeKana(kana), meaning.normalize('NFC').toLocaleLowerCase('vi'), normalizeKana(kanji),
-  ]);
-}
-
-export function makeWord(kana, meaning, kanji = '') {
-  const word = { kana: kana.trim().normalize('NFKC'), meaning: meaning.trim(), kanji: kanji.trim() };
-  const kanaLetters = /[\p{Script=Hiragana}\p{Script=Katakana}]/u;
-  if (!kanaLetters.test(word.kana) || !/^[\p{Script=Hiragana}\p{Script=Katakana}\sー・･゙゚]+$/u.test(word.kana)) {
-    throw new Error('Nhập cách đọc bằng hiragana hoặc katakana.');
-  }
-  if (!word.meaning) throw new Error('Nhập nghĩa tiếng Việt.');
-  if (word.kana.length > 120 || word.kanji.length > 120 || word.meaning.length > 240) {
-    throw new Error('Kana và kanji tối đa 120 ký tự, nghĩa tối đa 240 ký tự.');
-  }
-  return word;
-}
 
 function detectSeparator(text) {
   let quoted = false;
@@ -121,4 +77,15 @@ export function parseImport(rawText) {
   }
   if (!words.length) throw new Error('Danh sách chưa có từ nào.');
   return words;
+}
+
+// Deduplicate against the notebook and earlier rows while keeping the input order.
+export function uniqueImports(imported, existing) {
+  const keys = new Set(existing.map(wordKey));
+  return imported.filter((word) => {
+    const key = wordKey(word);
+    if (keys.has(key)) return false;
+    keys.add(key);
+    return true;
+  });
 }

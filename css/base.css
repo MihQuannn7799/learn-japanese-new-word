@@ -1,0 +1,25 @@
+:root {
+  color-scheme: light;
+  --paper: #f8f7f1;
+  --white: #fffefa;
+  --cream: #f7f2e4;
+  --ink: #20392b;
+  --muted: #576358;
+  --line: #e2e4d9;
+  --green: #315740;
+  --green-dark: #244532;
+  --sage: #eaf0e3;
+  --gold: #f3cc8b;
+  --radius: 19px;
+  --shadow: 0 2px 4px #2338240a;
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); }
+button, input, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { opacity: .52; cursor: default; }
+button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #6c945e; outline-offset: 3px; }
+h1, h2, h3, p { margin: 0; }
+[hidden] { display: none !important; }
+[lang=ja] { font-family: "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", "Noto Sans JP", Meiryo, sans-serif; }
