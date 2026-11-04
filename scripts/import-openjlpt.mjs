@@ -1,10 +1,10 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { makeWord } from '../frontend/js/lib/word.js';
-import { normalizeKana } from '../frontend/js/lib/kana.js';
+import { makeWord } from '../shared/word.ts';
+import { normalizeKana } from '../shared/kana.ts';
 
 const source = process.argv[2];
-if (!source) throw new Error('Dùng: node scripts/import-openjlpt.mjs <thư mục data/json/vocab của OpenJLPT>');
+if (!source) throw new Error('Dùng: node --experimental-strip-types scripts/import-openjlpt.mjs <thư mục data/json/vocab của OpenJLPT>');
 const levels = [5, 4, 3, 2, 1];
 const catalog = [];
 const lookup = new Map();
@@ -31,8 +31,8 @@ for (const level of levels) {
   }
 }
 
-writeFileSync(new URL('../frontend/data/n5.json', import.meta.url), `[\n${catalog.map((row) => JSON.stringify(row)).join(',\n')}\n]\n`);
+writeFileSync(new URL('../frontend/public/data/n5.json', import.meta.url), `[\n${catalog.map((row) => JSON.stringify(row)).join(',\n')}\n]\n`);
 const rows = [...lookup].sort(([first], [second]) => first.localeCompare(second, 'ja'));
-writeFileSync(new URL('../frontend/data/kanji.json', import.meta.url),
+writeFileSync(new URL('../frontend/public/data/kanji.json', import.meta.url),
   `{\n${rows.map(([key, values]) => `${JSON.stringify(key)}:${JSON.stringify([...values.values()])}`).join(',\n')}\n}\n`);
 console.log(`N5: ${catalog.length} từ · Tra cứu: ${rows.length} cách đọc`);

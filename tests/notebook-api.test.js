@@ -4,10 +4,10 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { createKotobaServer } from '../backend/server.js';
+import { createKotobaServer } from '../backend/server.ts';
 
 async function listen(databasePath) {
-  const server = createKotobaServer({ databasePath });
+  const server = createKotobaServer({ databasePath, frontendDirectory: new URL('./fixtures/site/', import.meta.url) });
   server.listen(0, '127.0.0.1');
   await once(server, 'listening');
   const base = `http://127.0.0.1:${server.address().port}`;

@@ -1,10 +1,10 @@
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { kanjiCandidates, newCatalogWords, wordsInLesson } from '../frontend/js/dictionary.js';
-import { makeWord } from '../frontend/js/lib/word.js';
+import { kanjiCandidates, newCatalogWords, wordsInLesson } from '../frontend/src/dictionary.ts';
+import { makeWord } from '../shared/word.ts';
 
-const readData = (name) => JSON.parse(readFileSync(new URL(`../frontend/data/${name}.json`, import.meta.url), 'utf8'));
+const readData = (name) => JSON.parse(readFileSync(new URL(`../frontend/public/data/${name}.json`, import.meta.url), 'utf8'));
 
 test('retains distinct homophones and normalizes katakana for lookup', () => {
   const index = readData('kanji');

@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 // Kiểm tra một danh sách từ vựng trước khi nhập vào app.
-// Chạy: node scripts/validate-vocab.mjs duong-dan/danh-sach.txt
+// Chạy: node --experimental-strip-types scripts/validate-vocab.mjs duong-dan/danh-sach.txt
 //
 // Dùng đúng parseImport của app, nên kết quả khớp với việc nhập thật.
 // Báo: lỗi định dạng, từ trùng trong file, từ trùng với starterWords.
 
 import { readFileSync } from 'node:fs';
-import { parseImport } from '../frontend/js/lib/import.js';
-import { starterWords } from '../frontend/js/data/starter-words.js';
-import { wordKey } from '../frontend/js/lib/word.js';
+import { parseImport } from '../frontend/src/lib/import.ts';
+import { starterWords } from '../frontend/src/data/starter-words.ts';
+import { wordKey } from '../shared/word.ts';
 
 const file = process.argv[2];
 if (!file) {
-  console.error('Cách dùng: node scripts/validate-vocab.mjs <tệp .txt/.csv/.tsv>');
+  console.error('Cách dùng: node --experimental-strip-types scripts/validate-vocab.mjs <tệp .txt/.csv/.tsv>');
   process.exit(2);
 }
 let words;

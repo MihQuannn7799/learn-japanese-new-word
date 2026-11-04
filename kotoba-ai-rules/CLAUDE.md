@@ -1,7 +1,7 @@
 # Kotoba · Sổ tay từ vựng tiếng Nhật
 
 Web học từ vựng Nhật–Việt: flashcard, nghe chép, chế độ đọc, quản lý từ vựng.
-Chạy bằng **HTML + CSS + JavaScript thuần (ES modules)**. Không framework hay thư viện ngoài.
+Chạy bằng **Vite + TypeScript strict + WanaKana**, giao diện DOM không dùng framework. Backend cũng dùng TypeScript.
 Backend Node.js lưu sổ tay trong SQLite và giao diện giữ bản lưu trong `localStorage`; giọng đọc dùng `speechSynthesis` của trình duyệt.
 
 ## Chế độ làm việc: vibe coding tự chủ
@@ -20,10 +20,12 @@ Mã giao diện nằm trong `frontend/`. `dist/` là bản tĩnh được tạo 
 
 ```
 frontend/
-├── index.html, css/          # giao diện tiếng Việt
-├── js/                      # chế độ học, tra kanji và đồng bộ sổ tay
-└── data/                    # dữ liệu từ điển có ghi nguồn
-backend/                     # HTTP, API sổ tay và SQLite
+├── index.html               # điểm vào Vite, giao diện tiếng Việt
+├── src/                     # TypeScript: chế độ học, tra kanji, đồng bộ, styles/
+└── public/                  # icon và data/ từ điển có ghi nguồn
+shared/                      # kiểu sổ tay, kana, kiểm tra từ, thiết lập dùng chung
+backend/                     # TypeScript: HTTP, API sổ tay và SQLite
+vite.config.ts               # Vite, build dist/, hỗ trợ đường dẫn con
 scripts/check.mjs            # kiểm tra tĩnh và test
 scripts/validate-vocab.mjs   # kiểm tra danh sách trước khi nhập
 ```
@@ -31,15 +33,18 @@ scripts/validate-vocab.mjs   # kiểm tra danh sách trước khi nhập
 ## Chạy thử
 
 ```sh
-npm start                 # mở http://localhost:8000
+npm ci
+npm run dev               # Vite + API SQLite tại http://localhost:8000
+npm start                 # build và phục vụ dist/ + API SQLite
 node scripts/check.mjs
 ```
 
 ## Quy ước code
 
-**JavaScript**
-- ES modules, `const`/`let`, không `var`. Không thêm thư viện ngoài hay CDN. Nếu thật sự cần, hỏi trước.
-- Logic thuần (chuẩn hóa, parse, so khớp đáp án) đặt trong `words.js` hoặc module riêng, **không đụng DOM**, để test được bằng Node.
+**TypeScript**
+- ES modules, `const`/`let`, không `var`. Dùng TypeScript strict, kiểu dùng chung trong `shared/notebook.ts`, trạng thái học trong `frontend/src/types.ts`. Không dùng `any` hay tắt kiểm tra kiểu để né lỗi.
+- Vite, TypeScript, WanaKana và kiểu Node.js đã được người dùng yêu cầu/chấp thuận. Không thêm thư viện khác hay CDN nếu chưa có yêu cầu.
+- Logic thuần dùng chung (kana, kiểm tra từ, so khớp đáp án) đặt trong `shared/`; bộ đọc file import ở `frontend/src/lib/import.ts`. Không đụng DOM, để test được bằng Node. Dùng WanaKana để chuẩn hóa kana; giữ dấu kéo dài và chữ Latin khi tìm nghĩa.
 - Mọi chuỗi từ người dùng hoặc dữ liệu đưa vào HTML phải đi qua `escapeHtml`. Không dùng `innerHTML` với dữ liệu chưa escape.
 - Dùng event delegation hiện có (`data-action`, `data-mode`) thay vì gắn listener rời rạc.
 - `render()` vẽ lại giao diện từ state. Đổi state rồi gọi `render`, không sửa DOM rải rác.

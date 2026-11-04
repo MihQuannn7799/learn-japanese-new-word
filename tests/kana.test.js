@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { answerMatches, normalizeKana, normalizeSearch } from '../frontend/js/lib/kana.js';
+import { answerMatches, normalizeKana, normalizeSearch } from '../shared/kana.ts';
 
 test('normalizeKana folds width, kana script and whitespace', () => {
   assert.equal(normalizeKana('  ｶﾞ ｸ セ イ '), 'がくせい');
@@ -21,4 +21,12 @@ test('answerMatches rejects empty input for words without kanji', () => {
 
 test('normalizeSearch supports Vietnamese text without diacritics', () => {
   assert.equal(normalizeSearch('ĐỒ ĂN'), 'doan');
+});
+
+test('WanaKana preserves long vowel marks and Latin search text', () => {
+  assert.equal(normalizeKana('ｺｰﾋｰ'), 'こーひー');
+  assert.equal(normalizeKana('sakura'), 'sakura');
+  assert.equal(normalizeSearch('Sinh viên'), 'sinhvien');
+  assert.equal(normalizeSearch('coffee'), 'coffee');
+  assert.equal(answerMatches('koohii', { kana: 'コーヒー', kanji: '' }), false);
 });
