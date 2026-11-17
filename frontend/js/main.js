@@ -2,8 +2,9 @@ import { initCatalog } from './catalog.js';
 import { connectNotebook } from './notebook-sync.js';
 import { createAudioPlayer } from './audio.js';
 import { initDialogs } from './dialogs.js';
+import { bindFlashGestures } from './flash-gestures.js';
 import { answerMatches } from './lib/kana.js';
-import { createState, currentWord, resetStudyPositions, wordById } from './state.js';
+import { createState, currentWord, resetStudyPositions, startFlashSession, wordById } from './state.js';
 import { loadNotebook, notebookSnapshot, storeNotebook } from './storage.js';
 import { dictationFeedback, dictationView } from './views/dictation.js';
 import { flashView } from './views/flashcard.js';
@@ -28,7 +29,7 @@ let toastTimer;
 let readExamples = false;
 
 const sections = {
-  flash: ['01 / GHI NHỚ', 'Flashcard', 'Nhìn từ tiếng Nhật, thử nhớ nghĩa rồi lật thẻ để kiểm tra.'],
+  flash: ['01 / GHI NHỚ', 'Flashcard', 'Vuốt trái nếu chưa nhớ, vuốt phải nếu đã nhớ.'],
   dictation: ['02 / LUYỆN TAI', 'Nghe chép chính tả', 'Gõ từ nghe được bằng hiragana, katakana hoặc kanji.'],
   reading: ['03 / PHÁT ÂM', 'Chế độ đọc', 'Nghe từng từ hoặc phát liên tiếp từ vị trí đang chọn.'],
   words: ['04 / SỔ TAY', 'Danh sách từ vựng', 'Tra cứu và cập nhật từ tiếng Nhật, nghĩa và kanji.'],
@@ -119,15 +120,14 @@ function render(focusSelector) {
   const playlistScroll = $('.playlist')?.scrollTop ?? 0;
   const word = currentWord(state);
   const [section, heading, description] = sections[mode];
-  const shuffleButton = mode === 'flash' && words.length > 1
-    ? `<button class="btn secondary" data-action="shuffle" id="shuffle-button">${icon('shuffle')} Xáo thẻ</button>` : '';
   const empty = `<div class="empty-state"><h3>Sổ tay chưa có từ</h3><p class="muted">Thêm từ mới hoặc nhập danh sách để bắt đầu.</p>
     <div class="inline-actions"><button class="btn primary" data-action="add">${icon('plus')} Thêm từ mới</button><button class="btn secondary" data-action="import">${icon('upload')} Nhập danh sách</button></div></div>`;
   const content = mode === 'words' ? vocabularyView(state)
     : words.length ? { flash: flashView, dictation: dictationView, reading: readingView }[mode](state, word) : empty;
   workspace.innerHTML = `<section aria-labelledby="study-title">
-    <div class="section-heading"><div><p class="section-kicker">${section}</p><h2 id="study-title" tabindex="-1">${heading}</h2><p>${description}</p></div>${shuffleButton}</div>
+    <div class="section-heading"><div><p class="section-kicker">${section}</p><h2 id="study-title" tabindex="-1">${heading}</h2><p>${description}</p></div></div>
     ${content}</section>`;
+  document.body.classList.toggle('flash-mode', mode === 'flash' && words.length > 0);
   $('#hero-count').textContent = `${words.length} từ trong sổ tay`;
   for (const button of document.querySelectorAll('.mode')) button.setAttribute('aria-current', String(button.dataset.mode === mode));
   updateAudioUi();
@@ -181,19 +181,29 @@ function switchMode(nextMode, focusHeading = false) {
   render(focusHeading ? '#study-title' : undefined);
 }
 
-function moveWord(delta, focusSelector) {
-  const { mode, words } = state;
-  const indexKey = { flash: 'flashIndex', reading: 'readingIndex' }[mode];
-  if (!indexKey) return;
-  const index = state[indexKey] + delta;
-  if (index < 0 || index >= words.length) return;
+function moveReadingWord(delta) {
+  const index = state.readingIndex + delta;
+  if (index < 0 || index >= state.words.length) return;
   audio.stop();
-  state[indexKey] = index;
-  if (mode === 'flash') state.flipped = false;
-  const atBoundary = (index === 0 && delta < 0) || (index === words.length - 1 && delta > 0);
-  const positionTarget = focusSelector && atBoundary
-    ? `[data-action="${delta > 0 ? 'previous' : 'next'}"]` : focusSelector;
-  render(positionTarget);
+  state.readingIndex = index;
+  const forward = delta > 0 ? index < state.words.length - 1 : index === 0;
+  render(forward ? '[data-action="next"]' : '[data-action="previous"]');
+}
+
+function rateFlashWord(remembered, focusSelector = '#flip-card') {
+  if (state.mode !== 'flash') return;
+  const word = currentWord(state);
+  if (!word) return;
+
+  audio.stop();
+  if (state.known.has(word.id) !== remembered) {
+    if (remembered) state.known.add(word.id);
+    else state.known.delete(word.id);
+    persist();
+  }
+  state.flashIndex++;
+  state.flipped = false;
+  render(state.flashIndex < state.flashOrder.length ? focusSelector : '#flash-session-end');
 }
 
 function refreshAfterEdit() {
@@ -221,28 +231,21 @@ const actions = {
     state.flipped = !state.flipped;
     render('#flip-card');
   },
-  known: () => {
-    const { id } = currentWord(state);
-    if (state.known.has(id)) state.known.delete(id);
-    else state.known.add(id);
-    persist();
-    render('#known-button');
-  },
-  shuffle: () => {
+  'flash-unknown': () => rateFlashWord(false, '[data-action="flash-unknown"]'),
+  'flash-known': () => rateFlashWord(true, '[data-action="flash-known"]'),
+  'flash-filter': (button) => {
     audio.stop();
-    const { flashOrder } = state;
-    const previousFirst = flashOrder[0];
-    for (let index = flashOrder.length - 1; index > 0; index--) {
-      const other = Math.floor(Math.random() * (index + 1));
-      [flashOrder[index], flashOrder[other]] = [flashOrder[other], flashOrder[index]];
-    }
-    if (flashOrder[0] === previousFirst) flashOrder.push(flashOrder.shift());
-    state.flashIndex = 0;
-    state.flipped = false;
-    render('#shuffle-button');
+    const { filter } = button.dataset;
+    startFlashSession(state, filter);
+    render(`[data-filter="${filter}"]`);
   },
-  previous: () => moveWord(-1, '[data-action="previous"]'),
-  next: () => moveWord(1, '[data-action="next"]'),
+  'flash-restart': () => {
+    audio.stop();
+    startFlashSession(state);
+    render(state.flashOrder.length ? '#flip-card' : '#flash-session-end');
+  },
+  previous: () => moveReadingWord(-1),
+  next: () => moveReadingWord(1),
   speak: (button) => {
     const word = button.dataset.id ? wordById(state, button.dataset.id) : currentWord(state);
     audio.play(word.kana);
@@ -319,17 +322,20 @@ document.addEventListener('change', (event) => {
 });
 
 document.addEventListener('keydown', (event) => {
-  if (state.mode !== 'flash' || !state.words.length || event.isComposing || event.altKey || event.ctrlKey || event.metaKey ||
-    $('dialog[open]') || event.target.closest('input, textarea, [contenteditable]')) return;
+  if (state.mode !== 'flash' || state.flashIndex >= state.flashOrder.length ||
+    event.isComposing || event.altKey || event.ctrlKey || event.metaKey ||
+    $('dialog[open]') || event.target.closest('input, textarea, select, [contenteditable]')) return;
   if (event.code === 'Space' && !event.target.closest('button')) {
     event.preventDefault();
-    actions.flip();
+    if (!event.repeat) actions.flip();
   }
   if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
     event.preventDefault();
-    moveWord(event.key === 'ArrowLeft' ? -1 : 1);
+    if (!event.repeat) rateFlashWord(event.key === 'ArrowRight');
   }
 });
+
+bindFlashGestures(workspace, rateFlashWord);
 
 workspace.addEventListener('submit', (event) => {
   const form = event.target;

@@ -1,30 +1,68 @@
-import { escapeHtml, icon, japanese, progressPanel, stepper } from './shared.js';
+import { flashProgress } from '../state.js';
+import { escapeHtml, icon, japanese } from './shared.js';
 
-export function flashView({ words, known, flipped, flashIndex, flashOrder }, word) {
-  const remembered = known.has(word.id);
-  return `<div class="study-grid">
-    <section class="study-card" aria-label="Thẻ từ vựng">
-      <div class="flash-face ${flipped ? 'flipped' : ''}">
-        <button class="card-toggle" data-action="flip" id="flip-card" aria-label="${flipped ? 'Lật về mặt tiếng Nhật' : 'Lật để xem nghĩa'}" aria-describedby="card-answer">
-          <span id="card-answer">
-            ${flipped ? `<span class="card-meaning" lang="${word.meaningLanguage === 'en' ? 'en' : 'vi'}">${escapeHtml(word.meaning)}</span><span class="kana" lang="ja">${escapeHtml(word.kana)}</span>` : japanese(word)}
-          </span>
-          <span class="flip-hint">${icon('flip')} ${flipped ? 'Chạm để xem mặt tiếng Nhật' : 'Chạm để xem nghĩa'}</span>
+const filters = [
+  ['random', 'Ngẫu nhiên'],
+  ['unknown', 'Chưa nhớ'],
+  ['known', 'Đã nhớ'],
+];
+
+function cardBack(word) {
+  return `<span class="card-meaning" lang="${word.meaningLanguage === 'en' ? 'en' : 'vi'}">${escapeHtml(word.meaning)}</span>
+    <span class="kana" lang="ja">${escapeHtml(word.kana)}</span>
+    ${word.example ? `<span class="flash-example">
+      <span lang="ja">${escapeHtml(word.example)}</span>
+      ${word.exampleMeaning ? `<span class="muted" lang="vi">${escapeHtml(word.exampleMeaning)}</span>` : ''}
+    </span>` : ''}`;
+}
+
+function swipeCard({ flipped, flashIndex }, word, total) {
+  return `<div class="flash-deck">
+    <div class="flash-stack">
+      <div class="flash-face${flipped ? ' flipped' : ''}">
+        <button type="button" class="card-toggle" data-action="flip" id="flip-card" aria-label="${flipped ? 'Lật về mặt tiếng Nhật' : 'Lật để xem nghĩa và ví dụ'}" aria-describedby="card-answer">
+          <span id="card-answer">${flipped ? cardBack(word) : japanese(word)}</span>
+          <span class="flip-hint">${icon('flip')} ${flipped ? 'Chạm để xem mặt trước' : 'Chạm để xem nghĩa và ví dụ'}</span>
         </button>
         <div class="face-top">
-          <span class="badge">${flipped ? 'MẶT NGHĨA' : 'MẶT TIẾNG NHẬT'}</span>
-          <button class="btn icon-only secondary" data-action="speak" aria-label="Nghe phát âm" title="Nghe phát âm">${icon('volume')}</button>
+          <span class="flash-position" aria-label="Thẻ ${flashIndex + 1} trên ${total}">${flashIndex + 1} / ${total}</span>
+          <button type="button" class="btn icon-only secondary" data-action="speak" aria-label="Nghe phát âm" title="Nghe phát âm">${icon('volume')}</button>
         </div>
+        <span class="swipe-label swipe-label-left" aria-hidden="true">${icon('left')} Chưa nhớ</span>
+        <span class="swipe-label swipe-label-right" aria-hidden="true">Đã nhớ ${icon('right')}</span>
       </div>
-      <div class="card-controls">
-        ${stepper(flashIndex, flashOrder.length)}
-        <button id="known-button" class="btn ${remembered ? 'subtle' : 'secondary'}" data-action="known" aria-pressed="${remembered}">${icon('check')} ${remembered ? 'Đã nhớ' : 'Đánh dấu đã nhớ'}</button>
-      </div>
-    </section>
-    <aside class="side-stack">
-      ${progressPanel({ words, known })}
-      <p class="panel voice-message" data-voice-message role="status" hidden></p>
-      <p class="shortcut-tip">${icon('keyboard')} <span><kbd>←</kbd> <kbd>→</kbd> đổi từ · <kbd>Space</kbd> lật thẻ</span></p>
-    </aside>
+    </div>
+  </div>
+  <div class="flash-actions">
+    <button type="button" class="btn flash-unknown" data-action="flash-unknown">${icon('left')} Chưa nhớ</button>
+    <button type="button" class="btn primary" data-action="flash-known">Đã nhớ ${icon('right')}</button>
+  </div>
+  <p class="shortcut-tip flash-shortcuts">${icon('keyboard')} <span><kbd>←</kbd> Chưa nhớ · <kbd>Space</kbd> Lật thẻ · <kbd>→</kbd> Đã nhớ</span></p>
+  <p class="voice-message" data-voice-message role="status" hidden></p>`;
+}
+
+function sessionEnd(filter, total) {
+  const title = total ? 'Đã hết thẻ trong lượt này'
+    : filter === 'known' ? 'Chưa có từ đã nhớ' : 'Không còn từ chưa nhớ';
+  return `<div class="flash-end">
+    <h3 id="flash-session-end" tabindex="-1">${title}</h3>
+    ${total ? '<button type="button" class="btn secondary" data-action="flash-restart">Học lại bộ này</button>'
+      : '<p class="muted">Chọn một bộ thẻ khác để tiếp tục.</p>'}
   </div>`;
+}
+
+export function flashView(state, word) {
+  const { remembered, total, percent } = flashProgress(state);
+  return `<section class="study-card flash-study" aria-label="Thẻ từ vựng">
+    <div class="flash-toolbar">
+      <div class="flash-filters" role="group" aria-label="Bộ thẻ">
+        ${filters.map(([id, label]) => `<button type="button" class="flash-filter" data-action="flash-filter" data-filter="${id}" aria-pressed="${id === state.flashFilter}">${label}</button>`).join('')}
+      </div>
+      <div class="flash-progress">
+        <p class="flash-progress-label" role="status"><span>${remembered}/${total} từ đã nhớ</span><strong>${percent}%</strong></p>
+        <progress max="${total || 1}" value="${remembered}" aria-label="Từ đã nhớ trong bộ thẻ"></progress>
+      </div>
+    </div>
+    ${word ? swipeCard(state, word, total) : sessionEnd(state.flashFilter, total)}
+  </section>`;
 }

@@ -16,13 +16,14 @@ export function createState(saved) {
   const repeats = Number.isInteger(saved.repeats) && saved.repeats >= 1 && saved.repeats <= 5
     ? saved.repeats : 1;
 
-  return {
+  const state = {
     words, known, speed, repeats,
     wordGap: wordGaps.includes(saved.wordGap) ? saved.wordGap : 500,
     showKana: saved.showKana !== false,
     showMeaning: saved.showMeaning !== false,
     mode: 'flash',
-    flashOrder: words.map((word) => word.id),
+    flashFilter: 'random',
+    flashOrder: [],
     flashIndex: 0,
     flipped: false,
     dictationIndex: 0,
@@ -31,6 +32,8 @@ export function createState(saved) {
     readingIndex: 0,
     search: '',
   };
+  startFlashSession(state);
+  return state;
 }
 
 export function wordById(state, id) {
@@ -43,10 +46,34 @@ export function currentWord(state) {
   return state.words[state.readingIndex];
 }
 
-export function resetStudyPositions(state) {
-  state.flashOrder = state.words.map((word) => word.id);
+export function startFlashSession(state, filter = state.flashFilter) {
+  const order = [];
+  for (const { id } of state.words) {
+    if (filter === 'random' || state.known.has(id) === (filter === 'known')) order.push(id);
+  }
+  if (filter === 'random') {
+    for (let index = order.length - 1; index > 0; index--) {
+      const other = Math.floor(Math.random() * (index + 1));
+      [order[index], order[other]] = [order[other], order[index]];
+    }
+  }
+  state.flashFilter = filter;
+  state.flashOrder = order;
   state.flashIndex = 0;
   state.flipped = false;
+}
+
+export function flashProgress({ flashOrder, known }) {
+  const total = flashOrder.length;
+  let remembered = 0;
+  for (const id of flashOrder) {
+    if (known.has(id)) remembered++;
+  }
+  return { remembered, total, percent: total ? Math.round(remembered * 100 / total) : 0 };
+}
+
+export function resetStudyPositions(state) {
+  startFlashSession(state);
   state.dictationIndex = 0;
   state.readingIndex = 0;
   state.search = '';
