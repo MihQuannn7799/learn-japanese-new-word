@@ -19,20 +19,18 @@ function cardBack(word: Word): string {
 
 function swipeCard({ flipped, flashIndex }: StudyState, word: Word, total: number): string {
   return `<div class="flash-deck">
-    <div class="flash-stack">
-      <div class="flash-face${flipped ? ' flipped' : ''}">
-        <button type="button" class="card-toggle" data-action="flip" id="flip-card" aria-label="${flipped ? 'Lật về mặt tiếng Nhật' : 'Lật để xem nghĩa và ví dụ'}" aria-describedby="card-answer">
-          <span id="card-answer">${flipped ? cardBack(word) : japanese(word)}</span>
-          <span class="flip-hint">${icon('flip')} ${flipped ? 'Chạm để xem mặt trước' : 'Chạm để xem nghĩa và ví dụ'}</span>
-        </button>
-        ${flipped && word.example ? `<button type="button" class="btn plain flash-example-audio" data-action="speak-example">${icon('volume')} Nghe câu ví dụ</button>` : ''}
-        <div class="face-top">
-          <span class="flash-position" aria-label="Thẻ ${flashIndex + 1} trên ${total}">${flashIndex + 1} / ${total}</span>
-          <button type="button" class="btn icon-only secondary" data-action="speak" aria-label="Nghe phát âm" title="Nghe phát âm">${icon('volume')}</button>
-        </div>
-        <span class="swipe-label swipe-label-left" aria-hidden="true">${icon('left')} Chưa nhớ</span>
-        <span class="swipe-label swipe-label-right" aria-hidden="true">Đã nhớ ${icon('right')}</span>
+    <div class="flash-face${flipped ? ' flipped' : ''}">
+      <button type="button" class="card-toggle" data-action="flip" id="flip-card" aria-label="${flipped ? 'Lật về mặt tiếng Nhật' : 'Lật để xem nghĩa và ví dụ'}" aria-describedby="card-answer">
+        <span id="card-answer">${flipped ? cardBack(word) : japanese(word)}</span>
+        <span class="flip-hint">${icon('flip')} ${flipped ? 'Chạm để xem mặt trước' : 'Chạm để xem nghĩa và ví dụ'}</span>
+      </button>
+      ${flipped && word.example ? `<button type="button" class="btn plain flash-example-audio" data-action="speak-example">${icon('volume')} Nghe câu ví dụ</button>` : ''}
+      <div class="face-top">
+        <span class="flash-position" aria-label="Thẻ ${flashIndex + 1} trên ${total}">${flashIndex + 1} / ${total}</span>
+        <button type="button" class="btn icon-only secondary" data-action="speak" aria-label="Nghe phát âm" title="Nghe phát âm">${icon('volume')}</button>
       </div>
+      <span class="swipe-label swipe-label-left" aria-hidden="true">${icon('left')} Chưa nhớ</span>
+      <span class="swipe-label swipe-label-right" aria-hidden="true">Đã nhớ ${icon('right')}</span>
     </div>
   </div>
   <div class="flash-actions">
@@ -46,16 +44,16 @@ function swipeCard({ flipped, flashIndex }: StudyState, word: Word, total: numbe
 function sessionEnd(filter: FlashFilter, total: number): string {
   const title = total ? 'Đã hết thẻ trong lượt này'
     : filter === 'known' ? 'Chưa có từ đã nhớ' : 'Không còn từ chưa nhớ';
-  return `<div class="flash-end">
+  return `<div class="flash-deck"><div class="flash-end">
     <h3 id="flash-session-end" tabindex="-1">${title}</h3>
     ${total ? '<button type="button" class="btn secondary" data-action="flash-restart">Học lại bộ này</button>'
       : '<p class="muted">Chọn một bộ thẻ khác để tiếp tục.</p>'}
-  </div>`;
+  </div></div>`;
 }
 
 export function flashView(state: StudyState, word: Word | undefined): string {
   const { remembered, total, percent } = flashProgress(state);
-  return `<section class="study-card flash-study" aria-label="Thẻ từ vựng">
+  return `<section class="flash-study" aria-label="Thẻ từ vựng">
     <div class="flash-toolbar">
       <div class="flash-filters" role="group" aria-label="Bộ thẻ">
         ${filters.map(([id, label]) => `<button type="button" class="flash-filter" data-action="flash-filter" data-filter="${id}" aria-pressed="${id === state.flashFilter}">${label}</button>`).join('')}
