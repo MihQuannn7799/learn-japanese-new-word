@@ -19,7 +19,6 @@
 .badge.known { background: var(--sage); color: var(--green-dark); }
 .jp-word, .card-meaning { display: block; line-height: 1.2; font-size: clamp(2.15rem,5.2vw,4.15rem); font-weight: 650; overflow-wrap: anywhere; }
 .kana { display: block; color: var(--muted); font-size: 1.17rem; overflow-wrap: anywhere; }
-.flash-study { padding: 16px; }
 .flash-toolbar { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 12px 24px; margin-bottom: 15px; }
 .flash-filters { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
 .flash-filter { flex: 1; min-height: 40px; padding: 5px 11px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); font-size: .82rem; font-weight: 650; white-space: nowrap; }
@@ -27,13 +26,11 @@
 .flash-filter[aria-pressed="true"] { background: var(--green); color: var(--white); }
 .flash-progress-label { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; }
 .flash-progress-label strong { color: var(--green-dark); font-size: 1.05rem; }
-.flash-deck { overflow: clip; padding-bottom: 12px; }
-.flash-stack { position: relative; isolation: isolate; }
-.flash-stack::before, .flash-stack::after { position: absolute; inset: 10px 9px -6px; border: 1px solid var(--line); border-radius: 15px; background: var(--sage); content: ""; }
-.flash-stack::before { inset: 15px 18px -11px; background: var(--paper); }
-.flash-face { position: relative; z-index: 1; display: grid; min-height: 290px; overflow: hidden; border: 1px solid var(--line); border-radius: 15px; background: var(--cream); transform: translateX(var(--swipe-x, 0px)) rotate(var(--swipe-tilt, 0deg)); transition: transform 180ms ease-out; }
+.flash-deck { position: relative; overflow: clip; }
+.flash-face { position: relative; display: grid; min-height: 290px; overflow: hidden; border-radius: 15px; background: var(--cream); transform: var(--swipe-transform, translate3d(0, 0, 0) rotate(0deg)); transition: transform 230ms cubic-bezier(.22,.7,.38,1); }
 .flash-face.flipped { background: var(--sage); }
-.flash-face.is-dragging { transition: none; }
+.flash-face.is-dragging { will-change: transform; transition: none; }
+.flash-face.is-leaving { position: absolute; z-index: 2; inset: 0 0 auto; pointer-events: none; transition: none; }
 .face-top { position: absolute; inset: 12px 12px auto; display: flex; justify-content: space-between; align-items: center; pointer-events: none; }
 .face-top button { pointer-events: auto; }
 .flash-position { padding: 4px 9px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); color: var(--muted); font-size: .8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -58,7 +55,7 @@
 .btn.flash-unknown:hover { background: var(--paper); }
 .flash-shortcuts { justify-content: center; margin-top: 8px; }
 .flash-study > .voice-message { margin-top: 8px; color: var(--muted); font-size: .8rem; overflow-wrap: anywhere; }
-.flash-end { display: grid; min-height: 225px; align-content: center; justify-items: center; gap: 10px; padding: 15px; border: 1px solid var(--line); border-radius: 13px; background: var(--cream); text-align: center; }
+.flash-end { display: grid; min-height: 225px; align-content: center; justify-items: center; gap: 10px; padding: 15px; border-radius: 15px; background: var(--cream); text-align: center; }
 
 .card-controls { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 9px; padding: 12px 2px 1px; }
 .position { min-width: 56px; text-align: center; color: var(--muted); font-variant-numeric: tabular-nums; font-size: .85rem; font-weight: 650; }
@@ -237,7 +234,6 @@ dialog .field { margin-bottom: 10px; }
   .dictation-intro { grid-template-columns: minmax(0,1fr); justify-items: start; }
   .flash-face { min-height: 238px; }
   .study-card { padding: 8px; }
-  .flash-study { padding: 10px; }
   .flash-toolbar { grid-template-columns: minmax(0, 1fr); gap: 8px; margin-bottom: 11px; }
   .section-heading { align-items: start; }
   .card-controls { gap: 7px; }
