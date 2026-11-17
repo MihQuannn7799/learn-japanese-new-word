@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { importLimit, parseImport, uniqueImports } from '../frontend/js/lib/import.js';
+import { importLimit, parseImport, uniqueImports } from '../frontend/src/lib/import.ts';
 
 test('imports pipe-separated rows with optional kanji', () => {
   assert.deepEqual(parseImport('つき | mặt trăng | 月\nパン | bánh mì'), [

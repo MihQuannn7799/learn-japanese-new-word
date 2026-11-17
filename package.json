@@ -2,12 +2,27 @@
   "name": "kotoba-notebook",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22.13.0" },
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "scripts": {
-    "start": "node backend/start.js",
-    "dev": "node backend/start.js",
-    "test": "node --test",
-    "build": "node scripts/stage.mjs",
+    "prestart": "npm run build",
+    "start": "node --experimental-strip-types backend/start.ts",
+    "dev": "node --experimental-strip-types backend/start.ts --dev",
+    "preview": "vite preview --host 127.0.0.1 --port 8000",
+    "test": "node --experimental-strip-types --test",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "validate:vocab": "node --experimental-strip-types scripts/validate-vocab.mjs",
+    "data:import": "node --experimental-strip-types scripts/import-minna.mjs",
     "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "wanakana": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
   }
 }

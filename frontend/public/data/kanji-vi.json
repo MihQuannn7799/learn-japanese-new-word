@@ -1,0 +1,9766 @@
+{
+  "あのひと": [
+    {
+      "kanji": "あの人",
+      "meaning": "người kia, người đó",
+      "level": "N5"
+    }
+  ],
+  "あのかた": [
+    {
+      "kanji": "あの方",
+      "meaning": "vị kia, ngài kia (kính ngữ của あの人)",
+      "level": "N5"
+    }
+  ],
+  "みなさん": [
+    {
+      "kanji": "皆さん",
+      "meaning": "mọi người, các bạn",
+      "level": "N5"
+    }
+  ],
+  "ふじだいがく": [
+    {
+      "kanji": "富士大学",
+      "meaning": "đại học fuji",
+      "level": "N5"
+    }
+  ],
+  "くん": [
+    {
+      "kanji": "君",
+      "meaning": "cậu, em (hậu tố gọi tên con trai)",
+      "level": "N5"
+    }
+  ],
+  "じん": [
+    {
+      "kanji": "人",
+      "meaning": "người (hậu tố chỉ quốc tịch)",
+      "level": "N5"
+    }
+  ],
+  "せんせい": [
+    {
+      "kanji": "先生",
+      "meaning": "thầy giáo, cô giáo, bác sĩ",
+      "level": "N5"
+    }
+  ],
+  "きょうし": [
+    {
+      "kanji": "教師",
+      "meaning": "giáo viên, giảng viên",
+      "level": "N5"
+    }
+  ],
+  "がくせい": [
+    {
+      "kanji": "学生",
+      "meaning": "học sinh, sinh viên",
+      "level": "N5"
+    }
+  ],
+  "かいしゃいん": [
+    {
+      "kanji": "会社員",
+      "meaning": "nhân viên công ty",
+      "level": "N5"
+    }
+  ],
+  "しゃいん": [
+    {
+      "kanji": "社員",
+      "meaning": "nhân viên công ty",
+      "level": "N5"
+    }
+  ],
+  "ぎんこういん": [
+    {
+      "kanji": "銀行員",
+      "meaning": "nhân viên ngân hàng",
+      "level": "N5"
+    }
+  ],
+  "いしゃ": [
+    {
+      "kanji": "医者",
+      "meaning": "bác sĩ",
+      "level": "N5"
+    }
+  ],
+  "けんきゅうしゃ": [
+    {
+      "kanji": "研究者",
+      "meaning": "nhà nghiên cứu",
+      "level": "N5"
+    }
+  ],
+  "だいがく": [
+    {
+      "kanji": "大学",
+      "meaning": "trường đại học",
+      "level": "N5"
+    }
+  ],
+  "びょういん": [
+    {
+      "kanji": "病院",
+      "meaning": "bệnh viện",
+      "level": "N5"
+    }
+  ],
+  "でんき": [
+    {
+      "kanji": "電気",
+      "meaning": "điện, đèn điện",
+      "level": "N5"
+    }
+  ],
+  "さい": [
+    {
+      "kanji": "歳",
+      "meaning": "～ tuổi",
+      "level": "N5"
+    }
+  ],
+  "なんさい": [
+    {
+      "kanji": "何歳",
+      "meaning": "mấy tuổi",
+      "level": "N5"
+    }
+  ],
+  "しつれいですが": [
+    {
+      "kanji": "失礼ですが",
+      "meaning": "xin lỗi, thất lễ nhưng...",
+      "level": "N5"
+    }
+  ],
+  "おなまえは": [
+    {
+      "kanji": "お名前は",
+      "meaning": "tên của bạn là gì? (cách hỏi tên lịch sự)",
+      "level": "N5"
+    }
+  ],
+  "はじめまして": [
+    {
+      "kanji": "初めまして",
+      "meaning": "rất vui được làm quen (chào hỏi khi lần đầu gặp mặt)",
+      "level": "N5"
+    }
+  ],
+  "どうぞよろしくおねがいします": [
+    {
+      "kanji": "どうぞよろしく",
+      "meaning": "rất vui được gặp bạn",
+      "level": "N5"
+    },
+    {
+      "kanji": "どうぞよろしくお願いします",
+      "meaning": "rất vui được gặp bạn",
+      "level": "N5"
+    }
+  ],
+  "かんこく": [
+    {
+      "kanji": "韓国",
+      "meaning": "Hàn Quốc",
+      "level": "N5"
+    }
+  ],
+  "ちゅうごく": [
+    {
+      "kanji": "中国",
+      "meaning": "Trung Quốc",
+      "level": "N5"
+    }
+  ],
+  "にほん": [
+    {
+      "kanji": "日本",
+      "meaning": "Nhật Bản",
+      "level": "N5"
+    }
+  ],
+  "さくらだいがく": [
+    {
+      "kanji": "さくら大学",
+      "meaning": "đại học sakura",
+      "level": "N5"
+    }
+  ],
+  "ほん": [
+    {
+      "kanji": "本",
+      "meaning": "cuốn sách",
+      "level": "N5"
+    },
+    {
+      "kanji": "本",
+      "meaning": "～ chai, lọ, cây, que (đơn vị đếm vật thon dài: ほん/ぽん/ぼん)",
+      "level": "N4"
+    }
+  ],
+  "じしょ": [
+    {
+      "kanji": "辞書",
+      "meaning": "cuốn từ điển",
+      "level": "N5"
+    }
+  ],
+  "ざっし": [
+    {
+      "kanji": "雑誌",
+      "meaning": "cuốn tạp chí",
+      "level": "N5"
+    }
+  ],
+  "しんぶん": [
+    {
+      "kanji": "新聞",
+      "meaning": "tờ báo, nhật báo",
+      "level": "N5"
+    }
+  ],
+  "てちょう": [
+    {
+      "kanji": "手帳",
+      "meaning": "sổ tay cá nhân, sổ lịch trình",
+      "level": "N5"
+    }
+  ],
+  "めいし": [
+    {
+      "kanji": "名刺",
+      "meaning": "danh thiếp (名刺)",
+      "level": "N5"
+    }
+  ],
+  "えんぴつ": [
+    {
+      "kanji": "鉛筆",
+      "meaning": "cây bút chì",
+      "level": "N5"
+    }
+  ],
+  "とけい": [
+    {
+      "kanji": "時計",
+      "meaning": "đồng hồ (đeo tay, treo tường)",
+      "level": "N5"
+    }
+  ],
+  "かさ": [
+    {
+      "kanji": "傘",
+      "meaning": "chiếc ô, cây dù",
+      "level": "N5"
+    }
+  ],
+  "じどうしゃ": [
+    {
+      "kanji": "自動車",
+      "meaning": "xe hơi, xe ô tô",
+      "level": "N5"
+    }
+  ],
+  "つくえ": [
+    {
+      "kanji": "机",
+      "meaning": "bàn học, bàn làm việc",
+      "level": "N5"
+    }
+  ],
+  "えいご": [
+    {
+      "kanji": "英語",
+      "meaning": "tiếng Anh",
+      "level": "N5"
+    }
+  ],
+  "にほんご": [
+    {
+      "kanji": "日本語",
+      "meaning": "tiếng Nhật",
+      "level": "N5"
+    }
+  ],
+  "ご": [
+    {
+      "kanji": "語",
+      "meaning": "tiếng ～, ngôn ngữ ～ (hậu tố ghép sau tên nước)",
+      "level": "N5"
+    }
+  ],
+  "なん": [
+    {
+      "kanji": "何",
+      "meaning": "cái gì",
+      "level": "N5"
+    }
+  ],
+  "ちがいます": [
+    {
+      "kanji": "違います",
+      "meaning": "không, không phải",
+      "level": "N5"
+    }
+  ],
+  "ほんのきもちです": [
+    {
+      "kanji": "ほんの気持ちです",
+      "meaning": "chút lòng thành của tôi (câu nói khiêm tốn khi tặng quà)",
+      "level": "N5"
+    }
+  ],
+  "これからおせわになります": [
+    {
+      "kanji": "これから お世話になります",
+      "meaning": "từ nay rất mong được sự giúp đỡ của quý vị (nói khi mới đến làm việc/sinh sống)",
+      "level": "N5"
+    }
+  ],
+  "きょうしつ": [
+    {
+      "kanji": "教室",
+      "meaning": "phòng học",
+      "level": "N5"
+    },
+    {
+      "kanji": "教室",
+      "meaning": "lớp học ~ (lớp dạy kỹ năng, văn hóa)",
+      "level": "N4"
+    }
+  ],
+  "しょくどう": [
+    {
+      "kanji": "食堂",
+      "meaning": "nhà ăn, căn tin",
+      "level": "N5"
+    }
+  ],
+  "じむしょ": [
+    {
+      "kanji": "事務所",
+      "meaning": "văn phòng làm việc",
+      "level": "N5"
+    }
+  ],
+  "かいぎしつ": [
+    {
+      "kanji": "会議室",
+      "meaning": "phòng họp",
+      "level": "N5"
+    }
+  ],
+  "うけつけ": [
+    {
+      "kanji": "受付",
+      "meaning": "quầy tiếp tân",
+      "level": "N5"
+    }
+  ],
+  "へや": [
+    {
+      "kanji": "部屋",
+      "meaning": "căn phòng",
+      "level": "N5"
+    }
+  ],
+  "かいだん": [
+    {
+      "kanji": "階段",
+      "meaning": "cầu thang",
+      "level": "N5"
+    }
+  ],
+  "くに": [
+    {
+      "kanji": "国",
+      "meaning": "quốc gia, đất nước; quê hương",
+      "level": "N5"
+    }
+  ],
+  "かいしゃ": [
+    {
+      "kanji": "会社",
+      "meaning": "công ty",
+      "level": "N5"
+    }
+  ],
+  "でんわ": [
+    {
+      "kanji": "電話",
+      "meaning": "điện thoại, cuộc gọi",
+      "level": "N5"
+    }
+  ],
+  "くつ": [
+    {
+      "kanji": "靴",
+      "meaning": "đôi giày",
+      "level": "N5"
+    }
+  ],
+  "うりば": [
+    {
+      "kanji": "売り場",
+      "meaning": "quầy bán hàng",
+      "level": "N5"
+    }
+  ],
+  "ひゃく": [
+    {
+      "kanji": "百",
+      "meaning": "trăm (100)",
+      "level": "N5"
+    }
+  ],
+  "せん": [
+    {
+      "kanji": "千",
+      "meaning": "nghìn (1.000)",
+      "level": "N5"
+    },
+    {
+      "kanji": "線",
+      "meaning": "đường kẻ, tuyến đường",
+      "level": "N4"
+    }
+  ],
+  "まん": [
+    {
+      "kanji": "万",
+      "meaning": "mười nghìn, vạn (10.000)",
+      "level": "N5"
+    }
+  ],
+  "おきます": [
+    {
+      "kanji": "起きます",
+      "meaning": "thức dậy, dậy (mỗi sáng)",
+      "level": "N5"
+    },
+    {
+      "kanji": "置きます",
+      "meaning": "đặt, để (đồ vật)",
+      "level": "N5"
+    }
+  ],
+  "ねます": [
+    {
+      "kanji": "寝ます",
+      "meaning": "đi ngủ",
+      "level": "N5"
+    }
+  ],
+  "はたらきます": [
+    {
+      "kanji": "働きます",
+      "meaning": "làm việc, lao động",
+      "level": "N5"
+    }
+  ],
+  "やすみます": [
+    {
+      "kanji": "休みます",
+      "meaning": "nghỉ ngơi, nghỉ phép",
+      "level": "N5"
+    }
+  ],
+  "べんきょうします": [
+    {
+      "kanji": "勉強します",
+      "meaning": "học tập, trau dồi kiến thức",
+      "level": "N5"
+    }
+  ],
+  "おわります": [
+    {
+      "kanji": "終わります",
+      "meaning": "kết thúc, xong xuôi (tự động từ: giờ học, cuộc họp)",
+      "level": "N5"
+    }
+  ],
+  "ぎんこう": [
+    {
+      "kanji": "銀行",
+      "meaning": "ngân hàng",
+      "level": "N5"
+    }
+  ],
+  "ゆうびんきょく": [
+    {
+      "kanji": "郵便局",
+      "meaning": "bưu điện",
+      "level": "N5"
+    }
+  ],
+  "としょかん": [
+    {
+      "kanji": "図書館",
+      "meaning": "thư viện",
+      "level": "N5"
+    }
+  ],
+  "びじゅつかん": [
+    {
+      "kanji": "美術館",
+      "meaning": "bảo tàng mỹ thuật",
+      "level": "N5"
+    }
+  ],
+  "でんわばんごう": [
+    {
+      "kanji": "電話番号",
+      "meaning": "điện thoại",
+      "level": "N5"
+    }
+  ],
+  "なんばん": [
+    {
+      "kanji": "何番",
+      "meaning": "số mấy, số nào",
+      "level": "N5"
+    }
+  ],
+  "いま": [
+    {
+      "kanji": "今",
+      "meaning": "bây giờ, hiện tại",
+      "level": "N5"
+    }
+  ],
+  "じ": [
+    {
+      "kanji": "時",
+      "meaning": "～ giờ",
+      "level": "N5"
+    },
+    {
+      "kanji": "字",
+      "meaning": "chữ, chữ viết, nét chữ",
+      "level": "N5"
+    }
+  ],
+  "ふん": [
+    {
+      "kanji": "分",
+      "meaning": "～ phút (đơn vị thời gian)",
+      "level": "N5"
+    }
+  ],
+  "ぷん": [
+    {
+      "kanji": "分",
+      "meaning": "～ phút (đơn vị thời gian)",
+      "level": "N5"
+    }
+  ],
+  "はん": [
+    {
+      "kanji": "半",
+      "meaning": "rưỡi, một nửa (thời gian)",
+      "level": "N5"
+    }
+  ],
+  "なんじ": [
+    {
+      "kanji": "何時",
+      "meaning": "mấy giờ",
+      "level": "N5"
+    }
+  ],
+  "なんぷん": [
+    {
+      "kanji": "何分",
+      "meaning": "mấy phút",
+      "level": "N5"
+    }
+  ],
+  "ごぜん": [
+    {
+      "kanji": "午前",
+      "meaning": "buổi sáng",
+      "level": "N5"
+    }
+  ],
+  "ごご": [
+    {
+      "kanji": "午後",
+      "meaning": "buổi chiều",
+      "level": "N5"
+    }
+  ],
+  "あさ": [
+    {
+      "kanji": "朝",
+      "meaning": "buổi sáng",
+      "level": "N5"
+    }
+  ],
+  "ひる": [
+    {
+      "kanji": "昼",
+      "meaning": "ban ngày, buổi trưa",
+      "level": "N5"
+    }
+  ],
+  "ばん": [
+    {
+      "kanji": "晩",
+      "meaning": "đêm, buổi tối",
+      "level": "N5"
+    }
+  ],
+  "よる": [
+    {
+      "kanji": "夜",
+      "meaning": "đêm, buổi tối",
+      "level": "N5"
+    }
+  ],
+  "こんばん": [
+    {
+      "kanji": "今晩",
+      "meaning": "tối nay, đêm nay",
+      "level": "N5"
+    }
+  ],
+  "やすみ": [
+    {
+      "kanji": "休み",
+      "meaning": "ngày nghỉ, sự nghỉ ngơi",
+      "level": "N5"
+    }
+  ],
+  "ひるやすみ": [
+    {
+      "kanji": "昼休み",
+      "meaning": "giờ nghỉ trưa",
+      "level": "N5"
+    }
+  ],
+  "まいあさ": [
+    {
+      "kanji": "毎朝",
+      "meaning": "mỗi buổi sáng",
+      "level": "N5"
+    }
+  ],
+  "まいばん": [
+    {
+      "kanji": "毎晩",
+      "meaning": "mỗi tối, hằng đêm",
+      "level": "N5"
+    }
+  ],
+  "まいにち": [
+    {
+      "kanji": "毎日",
+      "meaning": "mỗi ngày, hàng ngày",
+      "level": "N5"
+    }
+  ],
+  "たいへんですね": [
+    {
+      "kanji": "大変ですね",
+      "meaning": "vất vả quá nhỉ, gay go nhỉ",
+      "level": "N5"
+    }
+  ],
+  "おといあわせのばんご": [
+    {
+      "kanji": "お問い合わせの番号",
+      "meaning": "số điện thoại quý khách vừa tra hỏi",
+      "level": "N5"
+    }
+  ],
+  "げつようび": [
+    {
+      "kanji": "月曜日",
+      "meaning": "thứ hai (trong tuần)",
+      "level": "N5"
+    }
+  ],
+  "かようび": [
+    {
+      "kanji": "火曜日",
+      "meaning": "thứ Ba",
+      "level": "N5"
+    }
+  ],
+  "すいようび": [
+    {
+      "kanji": "水曜日",
+      "meaning": "thứ Tư",
+      "level": "N5"
+    }
+  ],
+  "もくようび": [
+    {
+      "kanji": "木曜日",
+      "meaning": "thứ Năm",
+      "level": "N5"
+    }
+  ],
+  "きんようび": [
+    {
+      "kanji": "金曜日",
+      "meaning": "thứ sáu",
+      "level": "N5"
+    }
+  ],
+  "どようび": [
+    {
+      "kanji": "土曜日",
+      "meaning": "thứ Bảy",
+      "level": "N5"
+    }
+  ],
+  "にちようび": [
+    {
+      "kanji": "日曜日",
+      "meaning": "Chủ Nhật",
+      "level": "N5"
+    }
+  ],
+  "なんようび": [
+    {
+      "kanji": "何曜日",
+      "meaning": "cái gì",
+      "level": "N5"
+    }
+  ],
+  "ばんせん": [
+    {
+      "kanji": "番線",
+      "meaning": "sân ga số ～, đường ray số ～",
+      "level": "N5"
+    }
+  ],
+  "いきます": [
+    {
+      "kanji": "行きます",
+      "meaning": "đi (di chuyển đến một địa điểm xa người nói)",
+      "level": "N5"
+    }
+  ],
+  "きます": [
+    {
+      "kanji": "来ます",
+      "meaning": "đến (di chuyển về phía người nói)",
+      "level": "N5"
+    },
+    {
+      "kanji": "着ます",
+      "meaning": "mặc (áo sơ mi, áo khoác, vest)",
+      "level": "N5"
+    }
+  ],
+  "かえります": [
+    {
+      "kanji": "帰ります",
+      "meaning": "về, trở về (về nhà, về quê hương)",
+      "level": "N5"
+    }
+  ],
+  "がっこう": [
+    {
+      "kanji": "学校",
+      "meaning": "trường học",
+      "level": "N5"
+    }
+  ],
+  "えき": [
+    {
+      "kanji": "駅",
+      "meaning": "nhà ga",
+      "level": "N5"
+    }
+  ],
+  "ひこうき": [
+    {
+      "kanji": "飛行機",
+      "meaning": "máy bay",
+      "level": "N5"
+    }
+  ],
+  "ふね": [
+    {
+      "kanji": "船",
+      "meaning": "thuyền và tàu",
+      "level": "N5"
+    }
+  ],
+  "でんしゃ": [
+    {
+      "kanji": "電車",
+      "meaning": "tàu điện ngầm",
+      "level": "N5"
+    }
+  ],
+  "ちかてつ": [
+    {
+      "kanji": "地下鉄",
+      "meaning": "tàu điện ngầm",
+      "level": "N5"
+    }
+  ],
+  "しんかんせん": [
+    {
+      "kanji": "新幹線",
+      "meaning": "tàu siêu tốc Shinkansen",
+      "level": "N5"
+    }
+  ],
+  "じてんしゃ": [
+    {
+      "kanji": "自転車",
+      "meaning": "xe đạp",
+      "level": "N5"
+    }
+  ],
+  "あるいて": [
+    {
+      "kanji": "歩いて",
+      "meaning": "đi bộ",
+      "level": "N5"
+    }
+  ],
+  "ひと": [
+    {
+      "kanji": "人",
+      "meaning": "con người, nhân vật",
+      "level": "N5"
+    }
+  ],
+  "ともだち": [
+    {
+      "kanji": "友達",
+      "meaning": "bạn, anh, chị",
+      "level": "N5"
+    }
+  ],
+  "かれ": [
+    {
+      "kanji": "彼",
+      "meaning": "anh ấy, bạn trai; người ấy",
+      "level": "N5"
+    }
+  ],
+  "かのじょ": [
+    {
+      "kanji": "彼女",
+      "meaning": "cô ấy, bạn gái",
+      "level": "N5"
+    }
+  ],
+  "かぞく": [
+    {
+      "kanji": "家族",
+      "meaning": "gia đình",
+      "level": "N5"
+    }
+  ],
+  "せんしゅう": [
+    {
+      "kanji": "先週",
+      "meaning": "tuần trước",
+      "level": "N5"
+    }
+  ],
+  "こんしゅう": [
+    {
+      "kanji": "今週",
+      "meaning": "tuần này",
+      "level": "N5"
+    }
+  ],
+  "らいしゅう": [
+    {
+      "kanji": "来週",
+      "meaning": "tuần sau",
+      "level": "N5"
+    }
+  ],
+  "せんげつ": [
+    {
+      "kanji": "先月",
+      "meaning": "tháng trước",
+      "level": "N5"
+    }
+  ],
+  "こんげつ": [
+    {
+      "kanji": "今月",
+      "meaning": "tháng này",
+      "level": "N5"
+    }
+  ],
+  "らいげつ": [
+    {
+      "kanji": "来月",
+      "meaning": "tháng sau",
+      "level": "N5"
+    }
+  ],
+  "きょねん": [
+    {
+      "kanji": "去年",
+      "meaning": "năm ngoái",
+      "level": "N5"
+    }
+  ],
+  "らいねん": [
+    {
+      "kanji": "来年",
+      "meaning": "năm sau, sang năm",
+      "level": "N5"
+    }
+  ],
+  "がつ": [
+    {
+      "kanji": "月",
+      "meaning": "tháng ～",
+      "level": "N5"
+    }
+  ],
+  "なんがつ": [
+    {
+      "kanji": "何月",
+      "meaning": "tháng mấy",
+      "level": "N5"
+    }
+  ],
+  "ついたち": [
+    {
+      "kanji": "1日",
+      "meaning": "ngày mùng 1 hàng tháng, hoặc 1 ngày",
+      "level": "N5"
+    }
+  ],
+  "ふつか": [
+    {
+      "kanji": "2日",
+      "meaning": "ngày mùng 2, 2 ngày",
+      "level": "N5"
+    }
+  ],
+  "みっか": [
+    {
+      "kanji": "3日",
+      "meaning": "ngày mùng 3, 3 ngày",
+      "level": "N5"
+    }
+  ],
+  "よっか": [
+    {
+      "kanji": "4日",
+      "meaning": "ngày mùng 4, 4 ngày",
+      "level": "N5"
+    }
+  ],
+  "いつか": [
+    {
+      "kanji": "5日",
+      "meaning": "ngày mùng 5, 5 ngày",
+      "level": "N5"
+    }
+  ],
+  "むいか": [
+    {
+      "kanji": "6日",
+      "meaning": "ngày mùng 6, 6 ngày",
+      "level": "N5"
+    }
+  ],
+  "なのか": [
+    {
+      "kanji": "7日",
+      "meaning": "ngày mùng 7, 7 ngày",
+      "level": "N5"
+    }
+  ],
+  "ようか": [
+    {
+      "kanji": "8日",
+      "meaning": "ngày mùng 8 hàng tháng, hoặc 8 ngày",
+      "level": "N5"
+    }
+  ],
+  "ここのか": [
+    {
+      "kanji": "9日",
+      "meaning": "ngày mùng 9, 9 ngày",
+      "level": "N5"
+    }
+  ],
+  "とおか": [
+    {
+      "kanji": "10日",
+      "meaning": "ngày mùng 10, 10 ngày",
+      "level": "N5"
+    }
+  ],
+  "じゅうよっか": [
+    {
+      "kanji": "14日",
+      "meaning": "ngày 14, 14 ngày",
+      "level": "N5"
+    }
+  ],
+  "はつか": [
+    {
+      "kanji": "20日",
+      "meaning": "ngày 20 hàng tháng, hoặc 20 ngày (đọc là はつか)",
+      "level": "N5"
+    }
+  ],
+  "にじゅうよっか": [
+    {
+      "kanji": "24日",
+      "meaning": "ngày 24, 24 ngày",
+      "level": "N5"
+    }
+  ],
+  "にち": [
+    {
+      "kanji": "日",
+      "meaning": "ngày ～, ～ ngày",
+      "level": "N5"
+    }
+  ],
+  "なんにち": [
+    {
+      "kanji": "何日",
+      "meaning": "ngày mấy, mấy ngày",
+      "level": "N5"
+    }
+  ],
+  "たんじょうび": [
+    {
+      "kanji": "誕生日",
+      "meaning": "sinh nhật, ngày sinh",
+      "level": "N5"
+    }
+  ],
+  "ふつう": [
+    {
+      "kanji": "普通",
+      "meaning": "thông thường, tàu chợ",
+      "level": "N5"
+    }
+  ],
+  "きゅうこう": [
+    {
+      "kanji": "急行",
+      "meaning": "tàu tốc hành",
+      "level": "N5"
+    }
+  ],
+  "とっきゅう": [
+    {
+      "kanji": "特急",
+      "meaning": "tàu siêu tốc, đặc cấp",
+      "level": "N5"
+    }
+  ],
+  "つぎの": [
+    {
+      "kanji": "次の",
+      "meaning": "tiếp theo, kế tiếp",
+      "level": "N5"
+    }
+  ],
+  "すいます": [
+    {
+      "kanji": "吸います",
+      "meaning": "hút (thuốc lá: たばこを吸う), hít vào",
+      "level": "N5"
+    }
+  ],
+  "のみます": [
+    {
+      "kanji": "飲みます",
+      "meaning": "uống (nước, sữa, thuốc)",
+      "level": "N5"
+    },
+    {
+      "kanji": "飲みます",
+      "meaning": "uống thuốc",
+      "level": "N5"
+    }
+  ],
+  "たべます": [
+    {
+      "kanji": "食べます",
+      "meaning": "ăn (cơm, bánh mì, hoa quả)",
+      "level": "N5"
+    }
+  ],
+  "みます": [
+    {
+      "kanji": "見ます",
+      "meaning": "xem, nhìn (phim, tivi, phong cảnh)",
+      "level": "N5"
+    }
+  ],
+  "ききます": [
+    {
+      "kanji": "聞きます",
+      "meaning": "nghe (nhạc, radio, lời giảng)",
+      "level": "N5"
+    }
+  ],
+  "よみます": [
+    {
+      "kanji": "読みます",
+      "meaning": "đọc (sách, báo, thư từ)",
+      "level": "N5"
+    }
+  ],
+  "かきます": [
+    {
+      "kanji": "書きます",
+      "meaning": "viết (thư, báo cáo, chữ Hán)",
+      "level": "N5"
+    }
+  ],
+  "かいます": [
+    {
+      "kanji": "買います",
+      "meaning": "mua sắm (đồ dùng, thực phẩm)",
+      "level": "N5"
+    },
+    {
+      "kanji": "飼います",
+      "meaning": "nuôi (thú cưng, động vật)",
+      "level": "N4"
+    }
+  ],
+  "とります": [
+    {
+      "kanji": "撮ります",
+      "meaning": "chụp (ảnh: 写真を撮る), quay phim",
+      "level": "N5"
+    },
+    {
+      "kanji": "取ります",
+      "meaning": "lấy giúp (muối, tài liệu: 塩を取る)",
+      "level": "N5"
+    }
+  ],
+  "しゃしんをとります": [
+    {
+      "kanji": "写真を撮りす",
+      "meaning": "chụp ảnh",
+      "level": "N5"
+    }
+  ],
+  "あいます": [
+    {
+      "kanji": "会います",
+      "meaning": "gặp gỡ (người thân, bạn bè: 友達に会う)",
+      "level": "N5"
+    },
+    {
+      "kanji": "合います",
+      "meaning": "vừa vặn, hợp [kích cỡ, khẩu vị: サイズ/味が合う]",
+      "level": "N4"
+    }
+  ],
+  "ともだちにあいます": [
+    {
+      "kanji": "友達に会いす",
+      "meaning": "gặp gỡ bạn bè",
+      "level": "N5"
+    }
+  ],
+  "ごはん": [
+    {
+      "kanji": "ご飯",
+      "meaning": "cơm, bữa ăn",
+      "level": "N5"
+    }
+  ],
+  "あさごはん": [
+    {
+      "kanji": "朝ご飯",
+      "meaning": "bữa sáng",
+      "level": "N5"
+    }
+  ],
+  "ひるごはん": [
+    {
+      "kanji": "昼ご飯",
+      "meaning": "bữa trưa",
+      "level": "N5"
+    }
+  ],
+  "ばんごはん": [
+    {
+      "kanji": "晩ご飯",
+      "meaning": "bữa tối",
+      "level": "N5"
+    }
+  ],
+  "たまご": [
+    {
+      "kanji": "卵",
+      "meaning": "quả trứng gà",
+      "level": "N5"
+    }
+  ],
+  "にく": [
+    {
+      "kanji": "肉",
+      "meaning": "thịt (bò, heo, gà)",
+      "level": "N5"
+    }
+  ],
+  "さかな": [
+    {
+      "kanji": "魚",
+      "meaning": "con cá",
+      "level": "N5"
+    }
+  ],
+  "やさい": [
+    {
+      "kanji": "野菜",
+      "meaning": "rau xanh, rau củ",
+      "level": "N5"
+    }
+  ],
+  "くだもの": [
+    {
+      "kanji": "果物",
+      "meaning": "trái cây, hoa quả",
+      "level": "N5"
+    }
+  ],
+  "みず": [
+    {
+      "kanji": "水",
+      "meaning": "nước uống",
+      "level": "N5"
+    }
+  ],
+  "おちゃ": [
+    {
+      "kanji": "お茶",
+      "meaning": "trà xanh Nhật Bản (Ocha)",
+      "level": "N5"
+    }
+  ],
+  "こうちゃ": [
+    {
+      "kanji": "紅茶",
+      "meaning": "trà đen, hồng trà",
+      "level": "N5"
+    }
+  ],
+  "ぎゅうにゅう": [
+    {
+      "kanji": "牛乳",
+      "meaning": "sữa tươi, sữa bò",
+      "level": "N5"
+    }
+  ],
+  "おさけ": [
+    {
+      "kanji": "お酒",
+      "meaning": "rượu sake truyền thống Nhật Bản",
+      "level": "N5"
+    }
+  ],
+  "みせ": [
+    {
+      "kanji": "店",
+      "meaning": "cửa hàng, tiệm",
+      "level": "N5"
+    }
+  ],
+  "てがみ": [
+    {
+      "kanji": "手紙",
+      "meaning": "bức thư",
+      "level": "N5"
+    }
+  ],
+  "えいが": [
+    {
+      "kanji": "映画",
+      "meaning": "bộ phim, phim ảnh",
+      "level": "N5"
+    }
+  ],
+  "しゃしん": [
+    {
+      "kanji": "写真",
+      "meaning": "bức ảnh",
+      "level": "N5"
+    }
+  ],
+  "にわ": [
+    {
+      "kanji": "庭",
+      "meaning": "khu vườn",
+      "level": "N5"
+    }
+  ],
+  "しゅくだい": [
+    {
+      "kanji": "宿題",
+      "meaning": "bài tập về nhà",
+      "level": "N5"
+    }
+  ],
+  "しゅくだいをします": [
+    {
+      "kanji": "宿題",
+      "meaning": "bài tập về nhà",
+      "level": "N5"
+    }
+  ],
+  "こうえん": [
+    {
+      "kanji": "公園",
+      "meaning": "công viên",
+      "level": "N5"
+    }
+  ],
+  "なんですか": [
+    {
+      "kanji": "何ですか",
+      "meaning": "có chuyện gì thế?, vâng?",
+      "level": "N5"
+    }
+  ],
+  "はなみ": [
+    {
+      "kanji": "お花見",
+      "meaning": "ngắm hoa anh đào",
+      "level": "N5"
+    }
+  ],
+  "はなみをす": [
+    {
+      "kanji": "お花見",
+      "meaning": "ngắm hoa anh đào",
+      "level": "N5"
+    }
+  ],
+  "おはなみ": [
+    {
+      "kanji": "お花見",
+      "meaning": "ngắm hoa anh đào",
+      "level": "N5"
+    }
+  ],
+  "おはなみをす": [
+    {
+      "kanji": "お花見",
+      "meaning": "ngắm hoa anh đào",
+      "level": "N5"
+    }
+  ],
+  "おおさかじょうこうえん": [
+    {
+      "kanji": "大阪城公園",
+      "meaning": "công viên thành Osaka (địa điểm ngắm hoa anh đào nổi tiếng)",
+      "level": "N5"
+    }
+  ],
+  "わかりました": [
+    {
+      "kanji": "分かりました",
+      "meaning": "tôi hiểu rồi, tôi rõ rồi",
+      "level": "N5"
+    }
+  ],
+  "きる": [
+    {
+      "kanji": "切る",
+      "meaning": "cắt, gọt (hoa quả, giấy)",
+      "level": "N5"
+    }
+  ],
+  "おくる": [
+    {
+      "kanji": "送る",
+      "meaning": "gửi hàng, gửi thư",
+      "level": "N5"
+    }
+  ],
+  "かす": [
+    {
+      "kanji": "貸す",
+      "meaning": "cho mượn, cho vay",
+      "level": "N5"
+    }
+  ],
+  "かりる": [
+    {
+      "kanji": "借りる",
+      "meaning": "mượn, vay (từ ai đó, từ thư viện)",
+      "level": "N5"
+    }
+  ],
+  "て": [
+    {
+      "kanji": "手",
+      "meaning": "bàn tay",
+      "level": "N5"
+    }
+  ],
+  "はな": [
+    {
+      "kanji": "花",
+      "meaning": "bông hoa",
+      "level": "N5"
+    }
+  ],
+  "にもつ": [
+    {
+      "kanji": "荷物",
+      "meaning": "hành lý, kiện hàng",
+      "level": "N5"
+    }
+  ],
+  "おかね": [
+    {
+      "kanji": "お金",
+      "meaning": "tiền bạc",
+      "level": "N5"
+    }
+  ],
+  "ちち": [
+    {
+      "kanji": "父",
+      "meaning": "bố, cha",
+      "level": "N5"
+    }
+  ],
+  "はは": [
+    {
+      "kanji": "母",
+      "meaning": "mẹ tôi",
+      "level": "N5"
+    }
+  ],
+  "おとうさん": [
+    {
+      "kanji": "お父さん",
+      "meaning": "bố, cha",
+      "level": "N5"
+    }
+  ],
+  "おかあさん": [
+    {
+      "kanji": "お母さん",
+      "meaning": "mẹ",
+      "level": "N5"
+    }
+  ],
+  "りょこう": [
+    {
+      "kanji": "旅行",
+      "meaning": "du lịch, chuyến đi",
+      "level": "N5"
+    }
+  ],
+  "おみやげ": [
+    {
+      "kanji": "お土産",
+      "meaning": "quà lưu niệm",
+      "level": "N5"
+    }
+  ],
+  "しずか": [
+    {
+      "kanji": "静か",
+      "meaning": "yên tĩnh, thanh tịnh",
+      "level": "N5"
+    }
+  ],
+  "しずかな": [
+    {
+      "kanji": "静かな",
+      "meaning": "yên tĩnh, thanh tịnh",
+      "level": "N5"
+    }
+  ],
+  "ゆうめい": [
+    {
+      "kanji": "有名",
+      "meaning": "nổi tiếng, trứ danh",
+      "level": "N5"
+    }
+  ],
+  "ゆうめいな": [
+    {
+      "kanji": "有名な",
+      "meaning": "nổi tiếng, trứ danh",
+      "level": "N5"
+    }
+  ],
+  "しんせつ": [
+    {
+      "kanji": "親切",
+      "meaning": "tốt bụng, ân cần, niềm nở",
+      "level": "N5"
+    }
+  ],
+  "しんせつな": [
+    {
+      "kanji": "親切な",
+      "meaning": "tốt bụng, ân cần, niềm nở",
+      "level": "N5"
+    }
+  ],
+  "げんき": [
+    {
+      "kanji": "元気",
+      "meaning": "khỏe mạnh, tràn đầy năng lượng",
+      "level": "N5"
+    }
+  ],
+  "げんきな": [
+    {
+      "kanji": "元気な",
+      "meaning": "khỏe mạnh, tràn đầy năng lượng",
+      "level": "N5"
+    }
+  ],
+  "ひま": [
+    {
+      "kanji": "暇",
+      "meaning": "rảnh rỗi, có thời gian",
+      "level": "N5"
+    }
+  ],
+  "ひまな": [
+    {
+      "kanji": "暇な",
+      "meaning": "rảnh rỗi, có thời gian",
+      "level": "N5"
+    }
+  ],
+  "いそがしい": [
+    {
+      "kanji": "忙しい",
+      "meaning": "bận rộn",
+      "level": "N5"
+    }
+  ],
+  "べんり": [
+    {
+      "kanji": "便利",
+      "meaning": "tiện lợi, thuận tiện",
+      "level": "N5"
+    }
+  ],
+  "べんりな": [
+    {
+      "kanji": "便利な",
+      "meaning": "tiện lợi, thuận tiện",
+      "level": "N5"
+    }
+  ],
+  "おおきい": [
+    {
+      "kanji": "大きい",
+      "meaning": "to lớn, khổng lồ",
+      "level": "N5"
+    }
+  ],
+  "ちいさい": [
+    {
+      "kanji": "小さい",
+      "meaning": "nhỏ bé, bé xíu",
+      "level": "N5"
+    }
+  ],
+  "あたらしい": [
+    {
+      "kanji": "新しい",
+      "meaning": "mới mẻ, tân tiến",
+      "level": "N5"
+    }
+  ],
+  "ふるい": [
+    {
+      "kanji": "古い",
+      "meaning": "cũ kỹ, cổ kính (đối nghĩa với 新しい)",
+      "level": "N5"
+    }
+  ],
+  "わるい": [
+    {
+      "kanji": "悪い",
+      "meaning": "xấu, tồi tệ",
+      "level": "N5"
+    }
+  ],
+  "あつい": [
+    {
+      "kanji": "暑い",
+      "meaning": "nóng (thời tiết hoặc khi chạm vào đồ vật)",
+      "level": "N5"
+    },
+    {
+      "kanji": "熱い",
+      "meaning": "nóng (thời tiết hoặc khi chạm vào đồ vật)",
+      "level": "N5"
+    }
+  ],
+  "つめたい": [
+    {
+      "kanji": "冷たい",
+      "meaning": "lạnh buốt (cảm giác tiếp xúc: nước đá, đồ uống)",
+      "level": "N5"
+    }
+  ],
+  "さむい": [
+    {
+      "kanji": "寒い",
+      "meaning": "lạnh giá (thời tiết mùa đông)",
+      "level": "N5"
+    }
+  ],
+  "むずかしい": [
+    {
+      "kanji": "難しい",
+      "meaning": "khó khăn, hóc búa",
+      "level": "N5"
+    }
+  ],
+  "やさしい": [
+    {
+      "kanji": "優しい",
+      "meaning": "hiền từ, dịu dàng, tốt bụng",
+      "level": "N5"
+    }
+  ],
+  "きびしい": [
+    {
+      "kanji": "厳しい",
+      "meaning": "nghiêm khắc",
+      "level": "N5"
+    }
+  ],
+  "やすい": [
+    {
+      "kanji": "安い",
+      "meaning": "rẻ (giá cả phải chăng)",
+      "level": "N5"
+    }
+  ],
+  "たかい": [
+    {
+      "kanji": "高い",
+      "meaning": "cao (chiều cao, vị trí); đắt (giá cả tiền bạc)",
+      "level": "N5"
+    }
+  ],
+  "ひくい": [
+    {
+      "kanji": "低い",
+      "meaning": "thấp",
+      "level": "N5"
+    }
+  ],
+  "たのしい": [
+    {
+      "kanji": "楽しい",
+      "meaning": "vui vẻ, vui tươi, thú vị",
+      "level": "N5"
+    }
+  ],
+  "しろい": [
+    {
+      "kanji": "白い",
+      "meaning": "trắng",
+      "level": "N5"
+    }
+  ],
+  "くろい": [
+    {
+      "kanji": "黒い",
+      "meaning": "màu đen",
+      "level": "N5"
+    }
+  ],
+  "あかい": [
+    {
+      "kanji": "赤い",
+      "meaning": "màu đỏ",
+      "level": "N5"
+    }
+  ],
+  "あおい": [
+    {
+      "kanji": "青い",
+      "meaning": "màu xanh",
+      "level": "N5"
+    }
+  ],
+  "さくら": [
+    {
+      "kanji": "桜",
+      "meaning": "hoa anh đào (Sakura)",
+      "level": "N5"
+    }
+  ],
+  "やま": [
+    {
+      "kanji": "山",
+      "meaning": "núi, ngọn núi",
+      "level": "N5"
+    }
+  ],
+  "まち": [
+    {
+      "kanji": "町",
+      "meaning": "thị trấn, thành phố",
+      "level": "N5"
+    }
+  ],
+  "たべもの": [
+    {
+      "kanji": "食べ物",
+      "meaning": "đồ ăn, thức ăn, thực phẩm",
+      "level": "N5"
+    }
+  ],
+  "くるま": [
+    {
+      "kanji": "車",
+      "meaning": "xe hơi, ô tô",
+      "level": "N5"
+    }
+  ],
+  "ところ": [
+    {
+      "kanji": "所",
+      "meaning": "nơi chốn, địa điểm, chỗ",
+      "level": "N5"
+    }
+  ],
+  "りょう": [
+    {
+      "kanji": "寮",
+      "meaning": "ký túc xá",
+      "level": "N5"
+    },
+    {
+      "kanji": "量",
+      "meaning": "lượng, số lượng, khối lượng",
+      "level": "N4"
+    }
+  ],
+  "べんきょう": [
+    {
+      "kanji": "勉強",
+      "meaning": "học tập, rèn luyện",
+      "level": "N5"
+    }
+  ],
+  "せいかつ": [
+    {
+      "kanji": "生活",
+      "meaning": "cuộc sống, sinh hoạt hằng ngày",
+      "level": "N5"
+    }
+  ],
+  "しごと": [
+    {
+      "kanji": "仕事",
+      "meaning": "công việc, nghề nghiệp",
+      "level": "N5"
+    }
+  ],
+  "しごとをします": [
+    {
+      "kanji": "お 仕事",
+      "meaning": "công việc, nghề nghiệp",
+      "level": "N5"
+    }
+  ],
+  "おげんきですか": [
+    {
+      "kanji": "お元気ですか",
+      "meaning": "bạn có khỏe không?",
+      "level": "N5"
+    }
+  ],
+  "にほんのせいかつになれましたか": [
+    {
+      "kanji": "日本の生活に慣れましたか",
+      "meaning": "bạn đã quen với cuộc sống ở Nhật Bản chưa?",
+      "level": "N5"
+    }
+  ],
+  "わかります": [
+    {
+      "kanji": "分かります",
+      "meaning": "hiểu rõ, nắm bắt được",
+      "level": "N5"
+    }
+  ],
+  "きらいな": [
+    {
+      "kanji": "嫌いな",
+      "meaning": "ghét, không thích",
+      "level": "N5"
+    }
+  ],
+  "すきな": [
+    {
+      "kanji": "好きな",
+      "meaning": "yêu thích, ưa chuộng",
+      "level": "N5"
+    }
+  ],
+  "じょうずな": [
+    {
+      "kanji": "上手な",
+      "meaning": "giỏi giang, khéo léo",
+      "level": "N5"
+    }
+  ],
+  "へたな": [
+    {
+      "kanji": "下手な",
+      "meaning": "kém cỏi, vụng về, dở",
+      "level": "N5"
+    }
+  ],
+  "りょうり": [
+    {
+      "kanji": "料理",
+      "meaning": "món ăn, việc nấu nướng",
+      "level": "N5"
+    }
+  ],
+  "のみもの": [
+    {
+      "kanji": "飲み物",
+      "meaning": "đồ uống, thức uống",
+      "level": "N5"
+    }
+  ],
+  "やきゅう": [
+    {
+      "kanji": "野球",
+      "meaning": "môn bóng chày",
+      "level": "N5"
+    }
+  ],
+  "おんがく": [
+    {
+      "kanji": "音楽",
+      "meaning": "âm nhạc",
+      "level": "N5"
+    }
+  ],
+  "うた": [
+    {
+      "kanji": "歌",
+      "meaning": "bài hát",
+      "level": "N5"
+    }
+  ],
+  "かぶき": [
+    {
+      "kanji": "歌舞伎",
+      "meaning": "kịch Kabuki truyền thống Nhật Bản",
+      "level": "N5"
+    }
+  ],
+  "え": [
+    {
+      "kanji": "絵",
+      "meaning": "bức tranh, bức vẽ",
+      "level": "N5"
+    }
+  ],
+  "かんじ": [
+    {
+      "kanji": "漢字",
+      "meaning": "chữ Hán, Hán tự",
+      "level": "N5"
+    }
+  ],
+  "ろーまじ": [
+    {
+      "kanji": "ローマ字",
+      "meaning": "bảng chữ cái la mã",
+      "level": "N5"
+    }
+  ],
+  "こまかいおかね": [
+    {
+      "kanji": "細かいお金",
+      "meaning": "tiền lẻ",
+      "level": "N5"
+    }
+  ],
+  "じかん": [
+    {
+      "kanji": "時間",
+      "meaning": "thời gian",
+      "level": "N5"
+    },
+    {
+      "kanji": "時間",
+      "meaning": "～ tiếng đồng hồ (khoảng thời gian)",
+      "level": "N5"
+    }
+  ],
+  "ようじ": [
+    {
+      "kanji": "用事",
+      "meaning": "việc bận, công chuyện",
+      "level": "N5"
+    }
+  ],
+  "やくそく": [
+    {
+      "kanji": "約束",
+      "meaning": "lời hẹn, cuộc hẹn",
+      "level": "N5"
+    }
+  ],
+  "ごしゅじん": [
+    {
+      "kanji": "ご主人",
+      "meaning": "chồng (của người khác)",
+      "level": "N5"
+    }
+  ],
+  "おっと": [
+    {
+      "kanji": "夫",
+      "meaning": "chồng",
+      "level": "N5"
+    }
+  ],
+  "しゅじん": [
+    {
+      "kanji": "主人",
+      "meaning": "chồng",
+      "level": "N5"
+    }
+  ],
+  "おくさん": [
+    {
+      "kanji": "奥さん",
+      "meaning": "vợ",
+      "level": "N5"
+    }
+  ],
+  "つま": [
+    {
+      "kanji": "妻",
+      "meaning": "vợ",
+      "level": "N5"
+    }
+  ],
+  "かない": [
+    {
+      "kanji": "家内",
+      "meaning": "vợ",
+      "level": "N5"
+    }
+  ],
+  "こども": [
+    {
+      "kanji": "子供",
+      "meaning": "trẻ con, con cái",
+      "level": "N5"
+    }
+  ],
+  "すこし": [
+    {
+      "kanji": "少し",
+      "meaning": "một chút, một vài",
+      "level": "N5"
+    }
+  ],
+  "ぜんぜんない": [
+    {
+      "kanji": "全然ない",
+      "meaning": "hoàn toàn không, không hề chút nào (luôn đi cùng thể phủ định)",
+      "level": "N5"
+    }
+  ],
+  "はやく": [
+    {
+      "kanji": "早く",
+      "meaning": "sớm (早く: thời gian), nhanh (速く: tốc độ)",
+      "level": "N5"
+    },
+    {
+      "kanji": "速く",
+      "meaning": "sớm (早く: thời gian), nhanh (速く: tốc độ)",
+      "level": "N5"
+    }
+  ],
+  "ざんねんですね": [
+    {
+      "kanji": "残念ですね",
+      "meaning": "tiếc thật nhỉ, đáng tiếc nhỉ",
+      "level": "N5"
+    }
+  ],
+  "いっしょにいかがですか": [
+    {
+      "kanji": "一緒にいかがですか",
+      "meaning": "bạn cùng làm ～ với tôi có được không? (lời rủ rê, mời mọc lịch sự)",
+      "level": "N5"
+    }
+  ],
+  "またこんどおねがいします": [
+    {
+      "kanji": "また今度お願いします",
+      "meaning": "hẹn lần sau nhé, để lần khác nhé (từ chối khéo)",
+      "level": "N5"
+    }
+  ],
+  "おとこのひと": [
+    {
+      "kanji": "男の人",
+      "meaning": "người đàn ông",
+      "level": "N5"
+    }
+  ],
+  "おんなのひと": [
+    {
+      "kanji": "女の人",
+      "meaning": "người phụ nữ",
+      "level": "N5"
+    }
+  ],
+  "おとこのこ": [
+    {
+      "kanji": "男の子",
+      "meaning": "cậu bé",
+      "level": "N5"
+    }
+  ],
+  "おんなのこ": [
+    {
+      "kanji": "女の子",
+      "meaning": "cô gái",
+      "level": "N5"
+    }
+  ],
+  "いぬ": [
+    {
+      "kanji": "犬",
+      "meaning": "con chó",
+      "level": "N5"
+    }
+  ],
+  "ねこ": [
+    {
+      "kanji": "猫",
+      "meaning": "con mèo",
+      "level": "N5"
+    }
+  ],
+  "き": [
+    {
+      "kanji": "木",
+      "meaning": "cái cây",
+      "level": "N5"
+    },
+    {
+      "kanji": "機",
+      "meaning": "～ máy, chiếc máy (hậu tố: コピー機, 洗濯機)",
+      "level": "N4"
+    }
+  ],
+  "もの": [
+    {
+      "kanji": "物",
+      "meaning": "đồ vật, vật dụng",
+      "level": "N5"
+    },
+    {
+      "kanji": "者",
+      "meaning": "mọi người",
+      "level": "N4"
+    }
+  ],
+  "でんち": [
+    {
+      "kanji": "電池",
+      "meaning": "cục pin (đồng hồ, điều khiển)",
+      "level": "N5"
+    }
+  ],
+  "はこ": [
+    {
+      "kanji": "箱",
+      "meaning": "cái hộp, thùng các-tông",
+      "level": "N5"
+    }
+  ],
+  "れいぞうこ": [
+    {
+      "kanji": "冷蔵庫",
+      "meaning": "chiếc tủ lạnh",
+      "level": "N5"
+    }
+  ],
+  "たな": [
+    {
+      "kanji": "棚",
+      "meaning": "kệ",
+      "level": "N5"
+    }
+  ],
+  "まど": [
+    {
+      "kanji": "窓",
+      "meaning": "cửa sổ",
+      "level": "N5"
+    }
+  ],
+  "きっさてん": [
+    {
+      "kanji": "喫茶店",
+      "meaning": "quán cà phê, quán giải khát",
+      "level": "N5"
+    }
+  ],
+  "ほんや": [
+    {
+      "kanji": "本屋",
+      "meaning": "cuốn sách",
+      "level": "N5"
+    }
+  ],
+  "や": [
+    {
+      "kanji": "屋",
+      "meaning": "cửa hàng ～, tiệm bán ～",
+      "level": "N5"
+    },
+    {
+      "kanji": "屋",
+      "meaning": "cửa hàng ～, tiệm ～ (hậu tố ghép sau mặt hàng)",
+      "level": "N5"
+    }
+  ],
+  "のりば": [
+    {
+      "kanji": "乗り場",
+      "meaning": "xe taxi",
+      "level": "N5"
+    }
+  ],
+  "けん": [
+    {
+      "kanji": "県",
+      "meaning": "tỉnh",
+      "level": "N5"
+    }
+  ],
+  "うえ": [
+    {
+      "kanji": "上",
+      "meaning": "bên trên, phía trên",
+      "level": "N5"
+    }
+  ],
+  "した": [
+    {
+      "kanji": "下",
+      "meaning": "dưới, dưới, bên dưới",
+      "level": "N5"
+    }
+  ],
+  "まえ": [
+    {
+      "kanji": "前",
+      "meaning": "phía trước, trước",
+      "level": "N5"
+    }
+  ],
+  "みぎ": [
+    {
+      "kanji": "右",
+      "meaning": "bên phải, phía bên phải",
+      "level": "N5"
+    }
+  ],
+  "ひだり": [
+    {
+      "kanji": "左",
+      "meaning": "bên trái, phía bên trái",
+      "level": "N5"
+    }
+  ],
+  "なか": [
+    {
+      "kanji": "中",
+      "meaning": "trong, bên trong",
+      "level": "N5"
+    }
+  ],
+  "そと": [
+    {
+      "kanji": "外",
+      "meaning": "bên ngoài",
+      "level": "N5"
+    }
+  ],
+  "となり": [
+    {
+      "kanji": "隣",
+      "meaning": "bên cạnh, sát vách (cùng chủng loại hoặc ngay liền kề)",
+      "level": "N5"
+    }
+  ],
+  "ちかく": [
+    {
+      "kanji": "近く",
+      "meaning": "gần, lân cận",
+      "level": "N5"
+    }
+  ],
+  "あいだ": [
+    {
+      "kanji": "間",
+      "meaning": "giữa, trong số",
+      "level": "N5"
+    }
+  ],
+  "だんめ": [
+    {
+      "kanji": "段目",
+      "meaning": "ngăn thứ ～, tầng thứ ～ (kệ, tủ)",
+      "level": "N5"
+    }
+  ],
+  "おく": [
+    {
+      "kanji": "奥",
+      "meaning": "phía trong cùng, tận sâu bên trong",
+      "level": "N5"
+    },
+    {
+      "kanji": "億",
+      "meaning": "trăm triệu (đơn vị số 100.000.000)",
+      "level": "N5"
+    }
+  ],
+  "とうきょうでぃずにーらんど": [
+    {
+      "kanji": "東京ディズニーランド",
+      "meaning": "công viên Tokyo Disneyland",
+      "level": "N5"
+    }
+  ],
+  "にほんにいます": [
+    {
+      "kanji": "日本にいます",
+      "meaning": "ở Nhật Bản, lưu trú tại Nhật",
+      "level": "N5"
+    }
+  ],
+  "ひとつ": [
+    {
+      "kanji": "一つ",
+      "meaning": "1 cái, 1 chiếc (đếm đồ vật chung)",
+      "level": "N5"
+    }
+  ],
+  "ふたつ": [
+    {
+      "kanji": "二つ",
+      "meaning": "hai cái, hai chiếc (vật chung)",
+      "level": "N5"
+    }
+  ],
+  "みっつ": [
+    {
+      "kanji": "三つ",
+      "meaning": "ba cái, ba chiếc (vật chung)",
+      "level": "N5"
+    }
+  ],
+  "よっつ": [
+    {
+      "kanji": "四つ",
+      "meaning": "4 cái, 4 chiếc (đồ vật chung)",
+      "level": "N5"
+    }
+  ],
+  "いつつ": [
+    {
+      "kanji": "五つ",
+      "meaning": "năm cái, năm chiếc (vật chung)",
+      "level": "N5"
+    }
+  ],
+  "むっつ": [
+    {
+      "kanji": "六つ",
+      "meaning": "6 cái, 6 chiếc (đồ vật chung)",
+      "level": "N5"
+    }
+  ],
+  "ななつ": [
+    {
+      "kanji": "七つ",
+      "meaning": "bảy cái, bảy chiếc (vật chung)",
+      "level": "N5"
+    }
+  ],
+  "やっつ": [
+    {
+      "kanji": "八つ",
+      "meaning": "tám",
+      "level": "N5"
+    }
+  ],
+  "ここのつ": [
+    {
+      "kanji": "九つ",
+      "meaning": "chín cái, chín chiếc (vật chung)",
+      "level": "N5"
+    }
+  ],
+  "ひとり": [
+    {
+      "kanji": "一人",
+      "meaning": "1 người, một mình",
+      "level": "N5"
+    }
+  ],
+  "ふたり": [
+    {
+      "kanji": "二人",
+      "meaning": "2 người",
+      "level": "N5"
+    }
+  ],
+  "まい": [
+    {
+      "kanji": "枚",
+      "meaning": "tờ, chiếc, lá (đơn vị đếm vật mỏng)",
+      "level": "N5"
+    }
+  ],
+  "きって": [
+    {
+      "kanji": "切手",
+      "meaning": "tem thư",
+      "level": "N5"
+    }
+  ],
+  "はがき": [
+    {
+      "kanji": "葉書",
+      "meaning": "bưu thiếp, bưu ảnh",
+      "level": "N5"
+    }
+  ],
+  "ふうとう": [
+    {
+      "kanji": "封筒",
+      "meaning": "chiếc phong bì",
+      "level": "N5"
+    }
+  ],
+  "そくたつ": [
+    {
+      "kanji": "速達",
+      "meaning": "thư hỏa tốc, chuyển phát nhanh",
+      "level": "N5"
+    }
+  ],
+  "かきとめ": [
+    {
+      "kanji": "書留",
+      "meaning": "thư đã đăng ký",
+      "level": "N5"
+    }
+  ],
+  "ふなびん": [
+    {
+      "kanji": "船便",
+      "meaning": "thư đường biển",
+      "level": "N5"
+    }
+  ],
+  "りょうしん": [
+    {
+      "kanji": "両親",
+      "meaning": "cha mẹ",
+      "level": "N5"
+    }
+  ],
+  "きょうだい": [
+    {
+      "kanji": "兄弟",
+      "meaning": "anh chị em",
+      "level": "N5"
+    }
+  ],
+  "あに": [
+    {
+      "kanji": "兄",
+      "meaning": "anh trai (của mình)",
+      "level": "N5"
+    }
+  ],
+  "おにいさん": [
+    {
+      "kanji": "お兄さん",
+      "meaning": "anh trai (của người khác)",
+      "level": "N5"
+    }
+  ],
+  "あね": [
+    {
+      "kanji": "姉",
+      "meaning": "chị gái",
+      "level": "N5"
+    }
+  ],
+  "おねえさん": [
+    {
+      "kanji": "お姉さん",
+      "meaning": "chị gái (của người khác)",
+      "level": "N5"
+    }
+  ],
+  "おとうと": [
+    {
+      "kanji": "弟",
+      "meaning": "em trai",
+      "level": "N5"
+    }
+  ],
+  "おとうとさん": [
+    {
+      "kanji": "弟さん",
+      "meaning": "em trai (của người khác)",
+      "level": "N5"
+    }
+  ],
+  "いもうと": [
+    {
+      "kanji": "妹",
+      "meaning": "em gái",
+      "level": "N5"
+    }
+  ],
+  "いもうとさん": [
+    {
+      "kanji": "妹さん",
+      "meaning": "em gái (của người khác)",
+      "level": "N5"
+    }
+  ],
+  "がいこく": [
+    {
+      "kanji": "外国",
+      "meaning": "nước ngoài",
+      "level": "N5"
+    }
+  ],
+  "しゅうかん": [
+    {
+      "kanji": "週間",
+      "meaning": "～ tuần lễ",
+      "level": "N5"
+    },
+    {
+      "kanji": "習慣",
+      "meaning": "thói quen, tập quán",
+      "level": "N4"
+    }
+  ],
+  "かげつ": [
+    {
+      "kanji": "か月",
+      "meaning": "～ tháng (khoảng thời gian)",
+      "level": "N5"
+    }
+  ],
+  "ねん": [
+    {
+      "kanji": "年",
+      "meaning": "～ năm (khoảng thời gian, năm thứ)",
+      "level": "N5"
+    }
+  ],
+  "ぜんぶで": [
+    {
+      "kanji": "全部で",
+      "meaning": "tổng cộng, tất cả gồm có",
+      "level": "N5"
+    }
+  ],
+  "いいおてんきですね": [
+    {
+      "kanji": "いいお天気ですね",
+      "meaning": "thời tiết đẹp nhỉ (lời chào xã giao)",
+      "level": "N5"
+    }
+  ],
+  "おでかけですか": [
+    {
+      "kanji": "お出かけですか",
+      "meaning": "bạn đang đi ra ngoài đấy à? (lời chào hỏi thân tình khi gặp hàng xóm)",
+      "level": "N5"
+    }
+  ],
+  "かんたん": [
+    {
+      "kanji": "簡単",
+      "meaning": "đơn giản, dễ làm",
+      "level": "N5"
+    }
+  ],
+  "かんたんな": [
+    {
+      "kanji": "簡単な",
+      "meaning": "đơn giản, dễ làm",
+      "level": "N5"
+    }
+  ],
+  "ちかい": [
+    {
+      "kanji": "近い",
+      "meaning": "gần (khoảng cách, cự ly)",
+      "level": "N5"
+    }
+  ],
+  "とおい": [
+    {
+      "kanji": "遠い",
+      "meaning": "xa xôi, cách xa (khoảng cách không gian hoặc thời gian)",
+      "level": "N5"
+    }
+  ],
+  "はやい": [
+    {
+      "kanji": "速い",
+      "meaning": "nhanh nhẹn (tốc độ), sớm (thời gian)",
+      "level": "N5"
+    },
+    {
+      "kanji": "早い",
+      "meaning": "nhanh nhẹn (tốc độ), sớm (thời gian)",
+      "level": "N5"
+    }
+  ],
+  "おそい": [
+    {
+      "kanji": "遅い",
+      "meaning": "chậm chạp (tốc độ), muộn (thời gian)",
+      "level": "N5"
+    }
+  ],
+  "おおい": [
+    {
+      "kanji": "多い",
+      "meaning": "nhiều, đông đúc (người: 人が～)",
+      "level": "N5"
+    }
+  ],
+  "すくない": [
+    {
+      "kanji": "少ない",
+      "meaning": "ít, hiếm (người: 人が～)",
+      "level": "N5"
+    }
+  ],
+  "あたたかい": [
+    {
+      "kanji": "温かい",
+      "meaning": "ấm áp",
+      "level": "N5"
+    },
+    {
+      "kanji": "暖かい",
+      "meaning": "ấm áp",
+      "level": "N5"
+    }
+  ],
+  "すずしい": [
+    {
+      "kanji": "涼しい",
+      "meaning": "mát mẻ, mát rượi (nhiệt độ dễ chịu vào mùa hè/thu)",
+      "level": "N5"
+    }
+  ],
+  "あまい": [
+    {
+      "kanji": "甘い",
+      "meaning": "ngọt ngào (vị)",
+      "level": "N5"
+    }
+  ],
+  "からい": [
+    {
+      "kanji": "辛い",
+      "meaning": "cay xè (vị cay)",
+      "level": "N5"
+    }
+  ],
+  "おもい": [
+    {
+      "kanji": "重い",
+      "meaning": "nặng nề (trọng lượng)",
+      "level": "N5"
+    }
+  ],
+  "かるい": [
+    {
+      "kanji": "軽い",
+      "meaning": "nhẹ nhàng (trọng lượng)",
+      "level": "N5"
+    }
+  ],
+  "きせつ": [
+    {
+      "kanji": "季節",
+      "meaning": "mùa",
+      "level": "N5"
+    }
+  ],
+  "はる": [
+    {
+      "kanji": "春",
+      "meaning": "mùa xuân",
+      "level": "N5"
+    }
+  ],
+  "なつ": [
+    {
+      "kanji": "夏",
+      "meaning": "mùa hè",
+      "level": "N5"
+    }
+  ],
+  "あき": [
+    {
+      "kanji": "秋",
+      "meaning": "mùa thu",
+      "level": "N5"
+    }
+  ],
+  "ふゆ": [
+    {
+      "kanji": "冬",
+      "meaning": "mùa đông",
+      "level": "N5"
+    }
+  ],
+  "てんき": [
+    {
+      "kanji": "天気",
+      "meaning": "thời tiết, tiết trời",
+      "level": "N5"
+    }
+  ],
+  "あめ": [
+    {
+      "kanji": "雤",
+      "meaning": "mưa",
+      "level": "N5"
+    }
+  ],
+  "ゆき": [
+    {
+      "kanji": "雪",
+      "meaning": "tuyết",
+      "level": "N5"
+    }
+  ],
+  "くもり": [
+    {
+      "kanji": "曇り",
+      "meaning": "trời nhiều mây, âm u",
+      "level": "N5"
+    }
+  ],
+  "くうこう": [
+    {
+      "kanji": "空港",
+      "meaning": "sân bay, phi trường",
+      "level": "N5"
+    }
+  ],
+  "うみ": [
+    {
+      "kanji": "海",
+      "meaning": "biển, đại dương",
+      "level": "N5"
+    }
+  ],
+  "せかい": [
+    {
+      "kanji": "世界",
+      "meaning": "thế giới",
+      "level": "N5"
+    }
+  ],
+  "まつり": [
+    {
+      "kanji": "祭り",
+      "meaning": "lễ hội truyền thống của Nhật Bản",
+      "level": "N5"
+    }
+  ],
+  "おまつり": [
+    {
+      "kanji": "お 祭り",
+      "meaning": "lễ hội truyền thống của Nhật Bản",
+      "level": "N5"
+    }
+  ],
+  "しけん": [
+    {
+      "kanji": "試験",
+      "meaning": "kỳ thi, kỳ thi",
+      "level": "N5"
+    }
+  ],
+  "すきやき": [
+    {
+      "kanji": "き焼き",
+      "meaning": "rau củ",
+      "level": "N5"
+    }
+  ],
+  "さしみ": [
+    {
+      "kanji": "刺身",
+      "meaning": "cá",
+      "level": "N5"
+    }
+  ],
+  "いけばな": [
+    {
+      "kanji": "生け花",
+      "meaning": "nghệ thuật cắm hoa Ikebana truyền thống Nhật Bản",
+      "level": "N5"
+    }
+  ],
+  "もみじ": [
+    {
+      "kanji": "紅葉",
+      "meaning": "lá đỏ",
+      "level": "N5"
+    }
+  ],
+  "はじめて": [
+    {
+      "kanji": "初めて",
+      "meaning": "lần đầu tiên",
+      "level": "N5"
+    }
+  ],
+  "おかえりなさい": [
+    {
+      "kanji": "お帰りなさい",
+      "meaning": "anh/chị đã về đấy à (chào người mới về)",
+      "level": "N5"
+    }
+  ],
+  "つかれました": [
+    {
+      "kanji": "つか疲れました",
+      "meaning": "tôi mệt rồi",
+      "level": "N5"
+    }
+  ],
+  "あそびます": [
+    {
+      "kanji": "遊びます",
+      "meaning": "chơi đùa, vui chơi",
+      "level": "N5"
+    }
+  ],
+  "およぎます": [
+    {
+      "kanji": "泳ぎます",
+      "meaning": "bơi lội (ở hồ bơi, biển)",
+      "level": "N5"
+    }
+  ],
+  "むかえます": [
+    {
+      "kanji": "迎えます",
+      "meaning": "đón (ai đó tại ga, sân bay)",
+      "level": "N5"
+    }
+  ],
+  "つかれます": [
+    {
+      "kanji": "疲れます",
+      "meaning": "mệt mỏi, kiệt sức",
+      "level": "N5"
+    }
+  ],
+  "だします": [
+    {
+      "kanji": "出します",
+      "meaning": "gửi (thư: 手紙を～)",
+      "level": "N5"
+    },
+    {
+      "kanji": "出します",
+      "meaning": "rút ra, nộp (báo cáo, tiền: お金を出す)",
+      "level": "N5"
+    },
+    {
+      "kanji": "出します",
+      "meaning": "phát sốt, bị sốt (sốt: 熱を～)",
+      "level": "N4"
+    }
+  ],
+  "はいります": [
+    {
+      "kanji": "入ります",
+      "meaning": "vào (quán giải khát: 喫茶店に～)",
+      "level": "N5"
+    },
+    {
+      "kanji": "入ります",
+      "meaning": "nhập học, vào học (đại học: 大学に～)",
+      "level": "N5"
+    },
+    {
+      "kanji": "入ります",
+      "meaning": "tắm bồn (ngâm mình trong bồn nước ấm)",
+      "level": "N5"
+    }
+  ],
+  "でます": [
+    {
+      "kanji": "出ます",
+      "meaning": "ra khỏi (quán giải khát: 喫茶店を～)",
+      "level": "N5"
+    },
+    {
+      "kanji": "出ます",
+      "meaning": "tốt nghiệp, ra trường (đại học: 大学を～)",
+      "level": "N5"
+    },
+    {
+      "kanji": "出ます",
+      "meaning": "nhả ra, chảy ra [tiền thừa, nước: お釣り/水が出る]",
+      "level": "N5"
+    },
+    {
+      "kanji": "出ます",
+      "meaning": "xe buýt khởi hành, rời bến",
+      "level": "N4"
+    },
+    {
+      "kanji": "出ます",
+      "meaning": "xuất bản, phát hành (sách: 本が出ます)",
+      "level": "N4"
+    }
+  ],
+  "けっこんします": [
+    {
+      "kanji": "結婚します",
+      "meaning": "kết hôn, cưới hỏi",
+      "level": "N5"
+    }
+  ],
+  "かいものします": [
+    {
+      "kanji": "買い物します",
+      "meaning": "mua sắm đồ đạc",
+      "level": "N5"
+    }
+  ],
+  "しょくじします": [
+    {
+      "kanji": "食事します",
+      "meaning": "dùng bữa, ăn uống",
+      "level": "N5"
+    }
+  ],
+  "さんぽします": [
+    {
+      "kanji": "散歩します",
+      "meaning": "đi dạo, tản bộ (công viên: 公園を～)",
+      "level": "N5"
+    }
+  ],
+  "たいへん": [
+    {
+      "kanji": "大変",
+      "meaning": "vất vả, khó khăn, gian nan",
+      "level": "N5"
+    }
+  ],
+  "たいへんな": [
+    {
+      "kanji": "大変な",
+      "meaning": "vất vả, khó khăn, gian nan",
+      "level": "N5"
+    }
+  ],
+  "ほしい": [
+    {
+      "kanji": "欲しい",
+      "meaning": "muốn có (đồ vật, bạn bè)",
+      "level": "N5"
+    }
+  ],
+  "さびしい": [
+    {
+      "kanji": "寂しい",
+      "meaning": "cô đơn, buồn bã (thiếu vắng)",
+      "level": "N5"
+    }
+  ],
+  "ひろい": [
+    {
+      "kanji": "広い",
+      "meaning": "rộng",
+      "level": "N5"
+    }
+  ],
+  "せまい": [
+    {
+      "kanji": "狭い",
+      "meaning": "hẹp, chật hẹp",
+      "level": "N5"
+    }
+  ],
+  "しやくしょ": [
+    {
+      "kanji": "市役所",
+      "meaning": "tòa thị chính, ủy ban thành phố",
+      "level": "N5"
+    }
+  ],
+  "かわ": [
+    {
+      "kanji": "川",
+      "meaning": "con sông, dòng sông",
+      "level": "N5"
+    }
+  ],
+  "けいざい": [
+    {
+      "kanji": "経済",
+      "meaning": "kinh tế, tình hình kinh tế học",
+      "level": "N5"
+    }
+  ],
+  "びじゅつ": [
+    {
+      "kanji": "美術",
+      "meaning": "mỹ thuật, nghệ thuật tạo hình",
+      "level": "N5"
+    }
+  ],
+  "つり": [
+    {
+      "kanji": "釣り",
+      "meaning": "việc câu cá, thú vui đi câu",
+      "level": "N5"
+    }
+  ],
+  "かいぎ": [
+    {
+      "kanji": "会議",
+      "meaning": "cuộc họp, hội nghị bàn công việc",
+      "level": "N5"
+    }
+  ],
+  "とうろく": [
+    {
+      "kanji": "登録",
+      "meaning": "đăng ký",
+      "level": "N5"
+    }
+  ],
+  "しゅうまつ": [
+    {
+      "kanji": "週末",
+      "meaning": "cuối tuần",
+      "level": "N5"
+    },
+    {
+      "kanji": "週末",
+      "meaning": "ngày thường / cuối tuần",
+      "level": "N4"
+    }
+  ],
+  "なにか": [
+    {
+      "kanji": "何か",
+      "meaning": "cái gì đó",
+      "level": "N5"
+    }
+  ],
+  "ごちゅうもんは": [
+    {
+      "kanji": "ご注文は",
+      "meaning": "quý khách muốn gọi món gì ạ? (lời phục vụ hỏi khách)",
+      "level": "N5"
+    }
+  ],
+  "ぎゅうどん": [
+    {
+      "kanji": "牛どん",
+      "meaning": "món cơm bò",
+      "level": "N5"
+    }
+  ],
+  "しょうしょうおまちください": [
+    {
+      "kanji": "少々お待ちください",
+      "meaning": "xin vui lòng đợi một lát",
+      "level": "N5"
+    }
+  ],
+  "べつべつに": [
+    {
+      "kanji": "別々に",
+      "meaning": "riêng biệt, riêng rẽ (tính tiền riêng)",
+      "level": "N5"
+    }
+  ],
+  "けします": [
+    {
+      "kanji": "消します",
+      "meaning": "tắt (điện, tivi, máy móc)",
+      "level": "N5"
+    }
+  ],
+  "あけます": [
+    {
+      "kanji": "開けます",
+      "meaning": "mở (cửa sổ, cửa ra vào, sách)",
+      "level": "N5"
+    }
+  ],
+  "しめます": [
+    {
+      "kanji": "閉めます",
+      "meaning": "đóng (cửa sổ, cửa ra vào)",
+      "level": "N5"
+    }
+  ],
+  "いそぎます": [
+    {
+      "kanji": "急ぎます",
+      "meaning": "khẩn trương, vội vã",
+      "level": "N5"
+    }
+  ],
+  "まちます": [
+    {
+      "kanji": "待ちます",
+      "meaning": "chờ đợi (ai đó, xe buýt)",
+      "level": "N5"
+    }
+  ],
+  "とめます": [
+    {
+      "kanji": "止めます",
+      "meaning": "dừng đỗ (xe ô tô, xe máy)",
+      "level": "N5"
+    }
+  ],
+  "まがります": [
+    {
+      "kanji": "曲がります",
+      "meaning": "rẽ, quẹo (sang phải: 右へ～)",
+      "level": "N5"
+    }
+  ],
+  "もちます": [
+    {
+      "kanji": "持ちます",
+      "meaning": "cầm, nắm, xách (hành lý)",
+      "level": "N5"
+    }
+  ],
+  "てつだいます": [
+    {
+      "kanji": "手伝います",
+      "meaning": "giúp đỡ, phụ giúp (công việc, dọn dẹp)",
+      "level": "N5"
+    }
+  ],
+  "よびます": [
+    {
+      "kanji": "呼びます",
+      "meaning": "gọi (taxi: タクシーを呼ぶ / gọi tên)",
+      "level": "N5"
+    }
+  ],
+  "はなします": [
+    {
+      "kanji": "話します",
+      "meaning": "nói chuyện, trò chuyện",
+      "level": "N5"
+    }
+  ],
+  "みせます": [
+    {
+      "kanji": "見せます",
+      "meaning": "cho xem, xuất trình (vé, ảnh, hộ chiếu)",
+      "level": "N5"
+    }
+  ],
+  "おしえます": [
+    {
+      "kanji": "教えます",
+      "meaning": "chỉ dẫn, dạy (đường đi: 道を教える / số điện thoại)",
+      "level": "N5"
+    }
+  ],
+  "はじめます": [
+    {
+      "kanji": "始めます",
+      "meaning": "bắt đầu (buổi học, công việc: 授業を始める)",
+      "level": "N5"
+    }
+  ],
+  "ふります": [
+    {
+      "kanji": "降ります",
+      "meaning": "rơi [mưa, tuyết: 雨/雪が降る]",
+      "level": "N5"
+    }
+  ],
+  "なまえ": [
+    {
+      "kanji": "名前",
+      "meaning": "tên, họ tên",
+      "level": "N5"
+    }
+  ],
+  "じゅうしょ": [
+    {
+      "kanji": "住所",
+      "meaning": "địa chỉ nhà, nơi cư trú",
+      "level": "N5"
+    }
+  ],
+  "ちず": [
+    {
+      "kanji": "地図",
+      "meaning": "bản đồ địa lý",
+      "level": "N5"
+    }
+  ],
+  "しお": [
+    {
+      "kanji": "塩",
+      "meaning": "muối ăn (gia vị)",
+      "level": "N5"
+    }
+  ],
+  "さとう": [
+    {
+      "kanji": "砂糖",
+      "meaning": "đường ăn (gia vị ngọt)",
+      "level": "N5"
+    }
+  ],
+  "よみかた": [
+    {
+      "kanji": "読み方",
+      "meaning": "cách đọc (chữ Kanji, từ ngữ)",
+      "level": "N5"
+    }
+  ],
+  "かた": [
+    {
+      "kanji": "方",
+      "meaning": "cách làm ～ (hậu tố ghép sau động từ thể ます)",
+      "level": "N5"
+    }
+  ],
+  "もうすこし": [
+    {
+      "kanji": "もう 少し",
+      "meaning": "thêm một chút nữa (về số lượng hoặc mức độ)",
+      "level": "N5"
+    }
+  ],
+  "おつり": [
+    {
+      "kanji": "お釣り",
+      "meaning": "tiền thừa, tiền thối lại",
+      "level": "N5"
+    }
+  ],
+  "これでおねがいします": [
+    {
+      "kanji": "これでお願いします",
+      "meaning": "xin gửi khoản này / nhờ bạn thanh toán giúp cái này",
+      "level": "N5"
+    }
+  ],
+  "たちます": [
+    {
+      "kanji": "立ちます",
+      "meaning": "đứng dậy, đứng (tự động từ)",
+      "level": "N5"
+    }
+  ],
+  "すわります": [
+    {
+      "kanji": "座ります",
+      "meaning": "ngồi xuống (ghế: いすに座る)",
+      "level": "N5"
+    }
+  ],
+  "つかいます": [
+    {
+      "kanji": "使います",
+      "meaning": "sử dụng, dùng (máy tính, bút, dụng cụ)",
+      "level": "N5"
+    }
+  ],
+  "つくります": [
+    {
+      "kanji": "作ります",
+      "meaning": "chế tạo, nấu nướng, làm ra",
+      "level": "N5"
+    },
+    {
+      "kanji": "造ります",
+      "meaning": "chế tạo, nấu nướng, làm ra",
+      "level": "N5"
+    }
+  ],
+  "うります": [
+    {
+      "kanji": "売ります",
+      "meaning": "bán (hàng hóa, vé)",
+      "level": "N5"
+    }
+  ],
+  "しります": [
+    {
+      "kanji": "知ります",
+      "meaning": "biết, nhận biết (thông tin)",
+      "level": "N5"
+    }
+  ],
+  "すみます": [
+    {
+      "kanji": "住みます",
+      "meaning": "sinh sống, định cư (ở đâu: 大阪に住む)",
+      "level": "N5"
+    }
+  ],
+  "けんきゅうします": [
+    {
+      "kanji": "研究します",
+      "meaning": "nghiên cứu (chuyên ngành khoa học)",
+      "level": "N5"
+    }
+  ],
+  "しっています": [
+    {
+      "kanji": "知って います",
+      "meaning": "đang biết, nắm rõ",
+      "level": "N5"
+    }
+  ],
+  "すんでいます": [
+    {
+      "kanji": "住んでいます",
+      "meaning": "sống, cư trú (ở Osaka: 大阪に～)",
+      "level": "N5"
+    }
+  ],
+  "しりょう": [
+    {
+      "kanji": "資料",
+      "meaning": "tài liệu, tư liệu phục vụ cuộc họp/học tập",
+      "level": "N5"
+    }
+  ],
+  "じこくひょう": [
+    {
+      "kanji": "時刻表",
+      "meaning": "lịch trình tàu xe, thời gian biểu",
+      "level": "N5"
+    }
+  ],
+  "ふく": [
+    {
+      "kanji": "服",
+      "meaning": "quần áo",
+      "level": "N5"
+    }
+  ],
+  "せいひん": [
+    {
+      "kanji": "製品",
+      "meaning": "sản phẩm",
+      "level": "N5"
+    }
+  ],
+  "せんもん": [
+    {
+      "kanji": "専門",
+      "meaning": "chuyên môn, ngành nghề chuyên sâu",
+      "level": "N5"
+    }
+  ],
+  "はいしゃ": [
+    {
+      "kanji": "歯医者",
+      "meaning": "nha sĩ",
+      "level": "N5"
+    }
+  ],
+  "とこや": [
+    {
+      "kanji": "床屋",
+      "meaning": "tiệm làm tóc",
+      "level": "N5"
+    }
+  ],
+  "どくしん": [
+    {
+      "kanji": "独身",
+      "meaning": "độc thân (chưa kết hôn)",
+      "level": "N5"
+    }
+  ],
+  "とくに": [
+    {
+      "kanji": "特に",
+      "meaning": "đặc biệt là (nhấn mạnh sự nổi trội)",
+      "level": "N5"
+    }
+  ],
+  "おもいだします": [
+    {
+      "kanji": "思い出します",
+      "meaning": "nhớ lại, hồi tưởng lại",
+      "level": "N5"
+    }
+  ],
+  "ごかぞく": [
+    {
+      "kanji": "ご家族",
+      "meaning": "gia đình của bạn (kính ngữ khi nhắc đến người thân của đối phương)",
+      "level": "N5"
+    }
+  ],
+  "こうこう": [
+    {
+      "kanji": "高校",
+      "meaning": "trường trung học phổ thông, trường cấp ba",
+      "level": "N5"
+    }
+  ],
+  "のります": [
+    {
+      "kanji": "乗ります",
+      "meaning": "lên xe, đi tàu (tàu điện: 電車に～)",
+      "level": "N5"
+    }
+  ],
+  "おります": [
+    {
+      "kanji": "降ります",
+      "meaning": "xuống (xe, tàu: 電車に～)",
+      "level": "N5"
+    },
+    {
+      "kanji": "折ります",
+      "meaning": "gấp (giấy origami), bẻ gập",
+      "level": "N4"
+    }
+  ],
+  "のりかえます": [
+    {
+      "kanji": "乗り換えます",
+      "meaning": "chuyển tuyến, đổi tàu xe",
+      "level": "N5"
+    }
+  ],
+  "あびます": [
+    {
+      "kanji": "浴びます",
+      "meaning": "tắm (vòi sen: シャワーを浴びる)",
+      "level": "N5"
+    }
+  ],
+  "いれます": [
+    {
+      "kanji": "入れます",
+      "meaning": "cho vào, bỏ vào (tiền, đồ vật: 財布に入れる)",
+      "level": "N5"
+    }
+  ],
+  "やめます": [
+    {
+      "kanji": "やめます",
+      "meaning": "nghỉ việc, từ bỏ (công việc: 会社をやめる)",
+      "level": "N5"
+    },
+    {
+      "kanji": "やめます 会社を",
+      "meaning": "nghỉ việc, từ bỏ (công việc: 会社をやめる)",
+      "level": "N5"
+    }
+  ],
+  "おします": [
+    {
+      "kanji": "押します",
+      "meaning": "nhấn, ấn (nút bấm: ボタンを押す)",
+      "level": "N5"
+    }
+  ],
+  "わかい": [
+    {
+      "kanji": "若い",
+      "meaning": "trẻ",
+      "level": "N5"
+    }
+  ],
+  "ながい": [
+    {
+      "kanji": "長い",
+      "meaning": "dài",
+      "level": "N5"
+    }
+  ],
+  "みじかい": [
+    {
+      "kanji": "短い",
+      "meaning": "ngắn",
+      "level": "N5"
+    }
+  ],
+  "あかるい": [
+    {
+      "kanji": "明るい",
+      "meaning": "tỏa sáng",
+      "level": "N5"
+    }
+  ],
+  "くらい": [
+    {
+      "kanji": "暗い",
+      "meaning": "tối tăm, u ám",
+      "level": "N5"
+    }
+  ],
+  "せがたかい": [
+    {
+      "kanji": "背が 高い",
+      "meaning": "dáng người cao ráo",
+      "level": "N5"
+    }
+  ],
+  "あたまがいい": [
+    {
+      "kanji": "頭が いい",
+      "meaning": "thông minh, sáng dạ (nhanh nhẹn tiếp thu)",
+      "level": "N5"
+    }
+  ],
+  "からだ": [
+    {
+      "kanji": "体",
+      "meaning": "cơ thể, thể chất, sức khỏe",
+      "level": "N5"
+    }
+  ],
+  "あたま": [
+    {
+      "kanji": "頭",
+      "meaning": "cái đầu",
+      "level": "N5"
+    }
+  ],
+  "かお": [
+    {
+      "kanji": "顔",
+      "meaning": "khuôn mặt, gương mặt",
+      "level": "N5"
+    }
+  ],
+  "め": [
+    {
+      "kanji": "目",
+      "meaning": "đôi mắt, con mắt",
+      "level": "N5"
+    },
+    {
+      "kanji": "目",
+      "meaning": "thứ ～ (hậu tố chỉ số thứ tự)",
+      "level": "N5"
+    }
+  ],
+  "みみ": [
+    {
+      "kanji": "耳",
+      "meaning": "đôi tai",
+      "level": "N5"
+    }
+  ],
+  "は": [
+    {
+      "kanji": "歯",
+      "meaning": "răng",
+      "level": "N5"
+    },
+    {
+      "kanji": "葉",
+      "meaning": "lá cây",
+      "level": "N4"
+    }
+  ],
+  "あし": [
+    {
+      "kanji": "足",
+      "meaning": "chân, bàn chân",
+      "level": "N5"
+    }
+  ],
+  "みどり": [
+    {
+      "kanji": "緑",
+      "meaning": "màu xanh lá cây, cây cối xanh tươi",
+      "level": "N5"
+    }
+  ],
+  "おてら": [
+    {
+      "kanji": "お寺",
+      "meaning": "chùa, ngôi chùa",
+      "level": "N5"
+    }
+  ],
+  "じんじゃ": [
+    {
+      "kanji": "神社",
+      "meaning": "đền thờ thần đạo",
+      "level": "N5"
+    }
+  ],
+  "いちばん": [
+    {
+      "kanji": "一番",
+      "meaning": "nhất, số một",
+      "level": "N5"
+    }
+  ],
+  "あんしょうばんごう": [
+    {
+      "kanji": "暗証番号",
+      "meaning": "mã PIN, mã số bí mật của thẻ ngân hàng",
+      "level": "N5"
+    }
+  ],
+  "つぎに": [
+    {
+      "kanji": "次に",
+      "meaning": "tiếp theo",
+      "level": "N5"
+    }
+  ],
+  "かくにん": [
+    {
+      "kanji": "確認",
+      "meaning": "xác nhận, kiểm tra lại (để đảm bảo tính chắc chắn, chính xác)",
+      "level": "N5"
+    }
+  ],
+  "きんがく": [
+    {
+      "kanji": "金額",
+      "meaning": "tiền bạc",
+      "level": "N5"
+    }
+  ],
+  "おぼえます": [
+    {
+      "kanji": "覚えます",
+      "meaning": "ghi nhớ, học thuộc",
+      "level": "N5"
+    }
+  ],
+  "わすれます": [
+    {
+      "kanji": "忘れます",
+      "meaning": "quên (đồ vật, ký ức)",
+      "level": "N5"
+    }
+  ],
+  "はらいます": [
+    {
+      "kanji": "払います",
+      "meaning": "trả tiền, thanh toán (tiền mặt, hóa đơn)",
+      "level": "N5"
+    }
+  ],
+  "かえします": [
+    {
+      "kanji": "返します",
+      "meaning": "trả lại (đồ đã mượn, tiền vay)",
+      "level": "N5"
+    }
+  ],
+  "でかけます": [
+    {
+      "kanji": "出かけます",
+      "meaning": "ra ngoài, đi ra ngoài có việc",
+      "level": "N5"
+    }
+  ],
+  "ぬぎます": [
+    {
+      "kanji": "脱ぎます",
+      "meaning": "cởi (quần áo, giày dép: 靴を脱ぐ)",
+      "level": "N5"
+    }
+  ],
+  "もっていきます": [
+    {
+      "kanji": "持って行きます",
+      "meaning": "mang theo đi (từ đây đến nơi khác)",
+      "level": "N5"
+    }
+  ],
+  "もってきます": [
+    {
+      "kanji": "持って来ます",
+      "meaning": "mang lại đây (từ nơi khác đến)",
+      "level": "N5"
+    }
+  ],
+  "しんぱいします": [
+    {
+      "kanji": "心配します",
+      "meaning": "lo lắng, bồn chồn",
+      "level": "N5"
+    }
+  ],
+  "ざんぎょうします": [
+    {
+      "kanji": "残業します",
+      "meaning": "làm thêm giờ, tăng ca ngoài giờ",
+      "level": "N5"
+    }
+  ],
+  "しゅっちょうします": [
+    {
+      "kanji": "出張します",
+      "meaning": "đi công tác xa nhà",
+      "level": "N5"
+    }
+  ],
+  "くすりをのみます": [
+    {
+      "kanji": "薬を飲みます",
+      "meaning": "uống thuốc",
+      "level": "N5"
+    }
+  ],
+  "おふろにはいります": [
+    {
+      "kanji": "あふろに入ります",
+      "meaning": "tắm bồn (ngâm mình trong bồn nước ấm)",
+      "level": "N5"
+    }
+  ],
+  "たいせつ": [
+    {
+      "kanji": "大切",
+      "meaning": "quan trọng, quý giá",
+      "level": "N5"
+    },
+    {
+      "kanji": "大切 な",
+      "meaning": "quan trọng, quý giá",
+      "level": "N5"
+    }
+  ],
+  "だいじょうぶ": [
+    {
+      "kanji": "大丈夫",
+      "meaning": "không sao, ổn thỏa, an toàn",
+      "level": "N5"
+    },
+    {
+      "kanji": "大丈夫 な",
+      "meaning": "không sao, ổn thỏa, an toàn",
+      "level": "N5"
+    }
+  ],
+  "あぶない": [
+    {
+      "kanji": "危ない",
+      "meaning": "nguy hiểm",
+      "level": "N5"
+    }
+  ],
+  "もんだい": [
+    {
+      "kanji": "問題",
+      "meaning": "câu hỏi bài tập, vấn đề cần giải quyết",
+      "level": "N5"
+    }
+  ],
+  "こたえ": [
+    {
+      "kanji": "答え",
+      "meaning": "câu trả lời, đáp án",
+      "level": "N5"
+    }
+  ],
+  "きんえん": [
+    {
+      "kanji": "禁煙",
+      "meaning": "cấm hút thuốc lá (khu vực không khói thuốc)",
+      "level": "N5"
+    }
+  ],
+  "ほけんしょう": [
+    {
+      "kanji": "健康保険証",
+      "meaning": "thẻ, quân bài",
+      "level": "N5"
+    }
+  ],
+  "けんこうほけんしょう": [
+    {
+      "kanji": "健康保険証",
+      "meaning": "thẻ, quân bài",
+      "level": "N5"
+    }
+  ],
+  "かぜ": [
+    {
+      "kanji": "風",
+      "meaning": "cơn gió",
+      "level": "N5"
+    }
+  ],
+  "ねつ": [
+    {
+      "kanji": "熱",
+      "meaning": "sốt cao, cơn sốt",
+      "level": "N5"
+    }
+  ],
+  "びょうき": [
+    {
+      "kanji": "病気",
+      "meaning": "bệnh tật, ốm đau",
+      "level": "N5"
+    }
+  ],
+  "くすり": [
+    {
+      "kanji": "薬",
+      "meaning": "thuốc chữa bệnh, dược phẩm",
+      "level": "N5"
+    }
+  ],
+  "うわぎ": [
+    {
+      "kanji": "上着",
+      "meaning": "áo khoác ngoài, áo ngoài",
+      "level": "N5"
+    }
+  ],
+  "したぎ": [
+    {
+      "kanji": "下着",
+      "meaning": "đồ lót, áo lót mặc sát cơ thể",
+      "level": "N5"
+    }
+  ],
+  "にさんにち": [
+    {
+      "kanji": "23日",
+      "meaning": "vài ngày",
+      "level": "N5"
+    }
+  ],
+  "あらいます": [
+    {
+      "kanji": "洗います",
+      "meaning": "rửa, giặt giũ (tay, bát đĩa, xe hơi)",
+      "level": "N5"
+    }
+  ],
+  "ひきます": [
+    {
+      "kanji": "弾きます",
+      "meaning": "chơi, gảy (nhạc cụ có dây, phím: ピアノを弾く)",
+      "level": "N5"
+    },
+    {
+      "kanji": "引きます",
+      "meaning": "kéo (cửa kéo, dây: ドアを引く)",
+      "level": "N5"
+    }
+  ],
+  "うたいます": [
+    {
+      "kanji": "歌います",
+      "meaning": "hát (bài hát: 歌を歌う)",
+      "level": "N5"
+    }
+  ],
+  "あつめます": [
+    {
+      "kanji": "集めます",
+      "meaning": "thu thập, sưu tầm (tem, đồng xu)",
+      "level": "N5"
+    }
+  ],
+  "すてます": [
+    {
+      "kanji": "捨てます",
+      "meaning": "vứt bỏ, ném đi (rác: ごみを捨てる)",
+      "level": "N5"
+    }
+  ],
+  "うんてんします": [
+    {
+      "kanji": "運転します",
+      "meaning": "lái xe (ô tô: 車を運転する)",
+      "level": "N5"
+    }
+  ],
+  "よやくします": [
+    {
+      "kanji": "予約します",
+      "meaning": "đặt trước (chỗ ngồi, vé máy bay, phòng khách sạn)",
+      "level": "N5"
+    }
+  ],
+  "けんがくします": [
+    {
+      "kanji": "見学します",
+      "meaning": "tham quan học hỏi, kiến tập",
+      "level": "N5"
+    }
+  ],
+  "こくさい": [
+    {
+      "kanji": "国際",
+      "meaning": "quốc tế, tính chất quốc tế (mang tầm thế giới)",
+      "level": "N5"
+    }
+  ],
+  "げんきん": [
+    {
+      "kanji": "現金",
+      "meaning": "tiền mặt",
+      "level": "N5"
+    }
+  ],
+  "しゅみ": [
+    {
+      "kanji": "趣味",
+      "meaning": "sở thích, niềm đam mê cá nhân",
+      "level": "N5"
+    }
+  ],
+  "にっき": [
+    {
+      "kanji": "日記",
+      "meaning": "nhật ký",
+      "level": "N5"
+    }
+  ],
+  "いのり": [
+    {
+      "kanji": "祈り",
+      "meaning": "lời cầu nguyện, sự cầu chúc bình an",
+      "level": "N5"
+    }
+  ],
+  "かちょう": [
+    {
+      "kanji": "課長",
+      "meaning": "trưởng phòng, trưởng ban (chức vụ trong công ty)",
+      "level": "N5"
+    }
+  ],
+  "ぶちょう": [
+    {
+      "kanji": "部長",
+      "meaning": "người quản lý",
+      "level": "N5"
+    }
+  ],
+  "しゃちょう": [
+    {
+      "kanji": "社長",
+      "meaning": "giám đốc, tổng giám đốc công ty",
+      "level": "N5"
+    }
+  ],
+  "どうぶつ": [
+    {
+      "kanji": "動物",
+      "meaning": "động vật, muông thú",
+      "level": "N5"
+    }
+  ],
+  "うま": [
+    {
+      "kanji": "馬",
+      "meaning": "con ngựa",
+      "level": "N5"
+    }
+  ],
+  "ぼくじょう": [
+    {
+      "kanji": "牧場",
+      "meaning": "trang trại",
+      "level": "N5"
+    }
+  ],
+  "ほんとうですか": [
+    {
+      "kanji": "本当ですか",
+      "meaning": "thật thế sao? (hỏi lại để xác nhận tính xác thực)",
+      "level": "N5"
+    }
+  ],
+  "のぼります": [
+    {
+      "kanji": "登ります",
+      "meaning": "leo lên, trèo (núi: 山に登る)",
+      "level": "N5"
+    }
+  ],
+  "れんしゅうします": [
+    {
+      "kanji": "練習します",
+      "meaning": "luyện tập, rèn luyện kỹ năng",
+      "level": "N5"
+    }
+  ],
+  "そうじします": [
+    {
+      "kanji": "掃除します",
+      "meaning": "dọn dẹp vệ sinh (quét dọn phòng ốc)",
+      "level": "N5"
+    }
+  ],
+  "せんたくします": [
+    {
+      "kanji": "洗濯します",
+      "meaning": "giặt giũ quần áo",
+      "level": "N5"
+    }
+  ],
+  "とまります": [
+    {
+      "kanji": "泊まります",
+      "meaning": "trọ lại, nghỉ qua đêm (ở khách sạn, nhà bạn)",
+      "level": "N5"
+    },
+    {
+      "kanji": "止まります",
+      "meaning": "dừng lại (tự động từ: xe cộ, thang máy, đồng hồ)",
+      "level": "N4"
+    }
+  ],
+  "ねむい": [
+    {
+      "kanji": "眠い",
+      "meaning": "buồn ngủ, ngái ngủ",
+      "level": "N5"
+    }
+  ],
+  "つよい": [
+    {
+      "kanji": "強い",
+      "meaning": "mạnh mẽ, khỏe mạnh, cường tráng",
+      "level": "N5"
+    }
+  ],
+  "よわい": [
+    {
+      "kanji": "弱い",
+      "meaning": "yếu ớt, yếu đuối, kém cỏi",
+      "level": "N5"
+    }
+  ],
+  "ちょうし": [
+    {
+      "kanji": "調子",
+      "meaning": "tình trạng, trạng thái (sức khỏe, máy móc)",
+      "level": "N5"
+    }
+  ],
+  "ちょうしがわるい": [
+    {
+      "kanji": "調子が悪い",
+      "meaning": "tình trạng xấu, người mệt mỏi, máy móc trục trặc",
+      "level": "N5"
+    }
+  ],
+  "ちょうしがいい": [
+    {
+      "kanji": "調子がいい",
+      "meaning": "tình trạng tốt, cơ thể sung sức hoặc máy móc chạy êm",
+      "level": "N5"
+    }
+  ],
+  "すもう": [
+    {
+      "kanji": "相撲",
+      "meaning": "đấu vật sumo",
+      "level": "N5"
+    }
+  ],
+  "ひ": [
+    {
+      "kanji": "日",
+      "meaning": "ngày (mặt trời hoặc ngày tháng)",
+      "level": "N5"
+    },
+    {
+      "kanji": "火",
+      "meaning": "ngọn lửa",
+      "level": "N4"
+    }
+  ],
+  "いちど": [
+    {
+      "kanji": "一度",
+      "meaning": "một lần (tần suất hoặc trải nghiệm)",
+      "level": "N5"
+    }
+  ],
+  "いちども": [
+    {
+      "kanji": "一度も",
+      "meaning": "chưa từng một lần nào (luôn đi cùng thể phủ định)",
+      "level": "N5"
+    }
+  ],
+  "かんぱい": [
+    {
+      "kanji": "乾杯",
+      "meaning": "cạn ly! mừng nâng ly! (nói khi chạm cốc trong bữa tiệc)",
+      "level": "N5"
+    }
+  ],
+  "じつは": [
+    {
+      "kanji": "実は",
+      "meaning": "thực ra là, kỳ thực là (dùng khi bắt đầu bộc bạch sự thật)",
+      "level": "N5"
+    }
+  ],
+  "なんかいも": [
+    {
+      "kanji": "何回も",
+      "meaning": "nhiều lần",
+      "level": "N5"
+    }
+  ],
+  "むり": [
+    {
+      "kanji": "無理",
+      "meaning": "quá sức, vô lý, không thể làm nổi",
+      "level": "N5"
+    }
+  ],
+  "むりな": [
+    {
+      "kanji": "無理な",
+      "meaning": "quá sức, vô lý, không thể làm nổi",
+      "level": "N5"
+    }
+  ],
+  "からだにいい": [
+    {
+      "kanji": "体にいい",
+      "meaning": "tốt cho sức khỏe cơ thể",
+      "level": "N5"
+    }
+  ],
+  "いります": [
+    {
+      "kanji": "要ります",
+      "meaning": "cần thiết, cần có",
+      "level": "N5"
+    }
+  ],
+  "しらべます": [
+    {
+      "kanji": "調べます",
+      "meaning": "tra cứu, điều tra (từ điển, internet)",
+      "level": "N5"
+    }
+  ],
+  "なおします": [
+    {
+      "kanji": "直します",
+      "meaning": "sửa chữa (lỗi sai, viết lại cho đúng)",
+      "level": "N5"
+    }
+  ],
+  "しゅうりします": [
+    {
+      "kanji": "修理します",
+      "meaning": "sửa chữa (máy móc, xe cộ, đồ gia dụng)",
+      "level": "N5"
+    }
+  ],
+  "でんわします": [
+    {
+      "kanji": "電話します",
+      "meaning": "gọi điện thoại (liên lạc bằng điện thoại)",
+      "level": "N5"
+    }
+  ],
+  "ぼく": [
+    {
+      "kanji": "僕",
+      "meaning": "tôi, mình, tớ (đại từ xưng hô thân mật của nam giới)",
+      "level": "N5"
+    }
+  ],
+  "きみ": [
+    {
+      "kanji": "君",
+      "meaning": "cậu, em, bạn (cách gọi thân mật với người ngang hàng hoặc nhỏ tuổi)",
+      "level": "N5"
+    }
+  ],
+  "ことば": [
+    {
+      "kanji": "言葉",
+      "meaning": "từ ngữ, ngôn ngữ",
+      "level": "N5"
+    }
+  ],
+  "ぶっか": [
+    {
+      "kanji": "物価",
+      "meaning": "giá cả sinh hoạt, mức giá thị trường",
+      "level": "N5"
+    }
+  ],
+  "きもの": [
+    {
+      "kanji": "着物",
+      "meaning": "áo Kimono (trang phục truyền thống Nhật Bản)",
+      "level": "N5"
+    }
+  ],
+  "はじめ": [
+    {
+      "kanji": "始め",
+      "meaning": "lúc ban đầu, sự khởi đầu",
+      "level": "N5"
+    }
+  ],
+  "おわり": [
+    {
+      "kanji": "終わり",
+      "meaning": "sự kết thúc, phần cuối",
+      "level": "N5"
+    }
+  ],
+  "このあいだ": [
+    {
+      "kanji": "この間",
+      "meaning": "hôm nọ, dạo gần đây",
+      "level": "N5"
+    }
+  ],
+  "くにへかえるの": [
+    {
+      "kanji": "国へ帰るの",
+      "meaning": "bạn về nước à?",
+      "level": "N5"
+    }
+  ],
+  "よかったら": [
+    {
+      "kanji": "良かったら",
+      "meaning": "nếu được, nếu bạn không phiền (lời mời lịch sự nhẹ nhàng)",
+      "level": "N5"
+    }
+  ],
+  "いろいろ": [
+    {
+      "kanji": "色々",
+      "meaning": "nhiều điều, đa dạng thứ",
+      "level": "N5"
+    }
+  ],
+  "おもいます": [
+    {
+      "kanji": "思います",
+      "meaning": "nghĩ rằng, cho rằng (bày tỏ quan điểm cá nhân)",
+      "level": "N5"
+    }
+  ],
+  "いいます": [
+    {
+      "kanji": "言います",
+      "meaning": "nói rằng (phát biểu lời nói)",
+      "level": "N5"
+    }
+  ],
+  "たります": [
+    {
+      "kanji": "足ります",
+      "meaning": "đủ, đầy đủ (tiền nong, thời gian: 時間が足りる)",
+      "level": "N5"
+    }
+  ],
+  "かちます": [
+    {
+      "kanji": "勝ちます",
+      "meaning": "chiến thắng (trận đấu, đối thủ: 試合に勝つ)",
+      "level": "N5"
+    }
+  ],
+  "まけます": [
+    {
+      "kanji": "負けます",
+      "meaning": "thua cuộc, thất bại (試合に負ける)",
+      "level": "N5"
+    }
+  ],
+  "やくにたちます": [
+    {
+      "kanji": "役に立ちます",
+      "meaning": "có ích, giúp ích (hữu dụng trong đời sống)",
+      "level": "N5"
+    }
+  ],
+  "ふべん": [
+    {
+      "kanji": "不便",
+      "meaning": "bất tiện, không thuận tiện",
+      "level": "N5"
+    }
+  ],
+  "おなじ": [
+    {
+      "kanji": "同じ",
+      "meaning": "giống nhau, tương đồng, cùng",
+      "level": "N5"
+    }
+  ],
+  "しゅしょう": [
+    {
+      "kanji": "首相",
+      "meaning": "thủ tướng chính phủ",
+      "level": "N5"
+    }
+  ],
+  "だいとうりょう": [
+    {
+      "kanji": "大統領",
+      "meaning": "tổng thống",
+      "level": "N5"
+    }
+  ],
+  "せいじ": [
+    {
+      "kanji": "政治",
+      "meaning": "chính trị, nền chính trị quốc gia",
+      "level": "N5"
+    }
+  ],
+  "しあい": [
+    {
+      "kanji": "試合",
+      "meaning": "trận đấu",
+      "level": "N5"
+    }
+  ],
+  "いけん": [
+    {
+      "kanji": "意見",
+      "meaning": "ý kiến, quan điểm",
+      "level": "N5"
+    }
+  ],
+  "はなし": [
+    {
+      "kanji": "話",
+      "meaning": "câu chuyện, cuộc trò chuyện",
+      "level": "N5"
+    }
+  ],
+  "こうつう": [
+    {
+      "kanji": "交通",
+      "meaning": "giao thông",
+      "level": "N5"
+    }
+  ],
+  "さいきん": [
+    {
+      "kanji": "最近",
+      "meaning": "dạo gần đây, thời gian gần đây",
+      "level": "N5"
+    }
+  ],
+  "ほんとうに": [
+    {
+      "kanji": "本当に",
+      "meaning": "thực sự, quả thật là (nhấn mạnh sự thật)",
+      "level": "N5"
+    }
+  ],
+  "でものみませんか": [
+    {
+      "kanji": "でも飲みませんか",
+      "meaning": "uống chút ～ nhé? (lời rủ rê dùng đồ uống nhẹ nhàng)",
+      "level": "N5"
+    }
+  ],
+  "みないと": [
+    {
+      "kanji": "見ないと",
+      "meaning": "phải xem mới được...",
+      "level": "N5"
+    }
+  ],
+  "うまれます": [
+    {
+      "kanji": "生まれます",
+      "meaning": "sinh ra, chào đời (ở đâu: ハノイで生まれる)",
+      "level": "N5"
+    }
+  ],
+  "ぼうし": [
+    {
+      "kanji": "帽子",
+      "meaning": "mũ, nón",
+      "level": "N5"
+    }
+  ],
+  "めがね": [
+    {
+      "kanji": "眼鏡",
+      "meaning": "kính",
+      "level": "N5"
+    }
+  ],
+  "やちん": [
+    {
+      "kanji": "家賃",
+      "meaning": "tiền thuê nhà hàng tháng",
+      "level": "N5"
+    }
+  ],
+  "わしつ": [
+    {
+      "kanji": "和室",
+      "meaning": "phòng kiểu Nhật (phòng trải chiếu tatami truyền thống)",
+      "level": "N5"
+    }
+  ],
+  "おしいれ": [
+    {
+      "kanji": "押入れ",
+      "meaning": "tủ âm tường kiểu Nhật (ngăn chứa chăn đệm futon)",
+      "level": "N5"
+    }
+  ],
+  "ふとん": [
+    {
+      "kanji": "布団",
+      "meaning": "đệm và chăn nằm kiểu Nhật (futon)",
+      "level": "N5"
+    }
+  ],
+  "ばんりのちょうじょう": [
+    {
+      "kanji": "万里の長城",
+      "meaning": "Vạn Lý Trường Thành (công trình lịch sử nổi tiếng của Trung Quốc)",
+      "level": "N5"
+    }
+  ],
+  "よかかいはつせんたー": [
+    {
+      "kanji": "余暇開発センター",
+      "meaning": "Trung tâm Phát triển Hoạt động Giải trí (cơ quan nghiên cứu về đời sống thư giãn tại Nhật)",
+      "level": "N5"
+    }
+  ],
+  "れじゃーはくしょ": [
+    {
+      "kanji": "レジャー白書",
+      "meaning": "Sách Trắng về Giải trí (báo cáo thường niên của Nhật về xu hướng du lịch/nghỉ ngơi)",
+      "level": "N5"
+    }
+  ],
+  "みち": [
+    {
+      "kanji": "道",
+      "meaning": "con đường, tuyến đường đi",
+      "level": "N5"
+    }
+  ],
+  "こうさてん": [
+    {
+      "kanji": "交差点",
+      "meaning": "ngã tư đường, giao lộ",
+      "level": "N5"
+    }
+  ],
+  "しんごう": [
+    {
+      "kanji": "信号",
+      "meaning": "đèn tín hiệu giao thông",
+      "level": "N5"
+    }
+  ],
+  "ひっこしします": [
+    {
+      "kanji": "引越しします",
+      "meaning": "chuyển nhà sang nơi ở mới",
+      "level": "N5"
+    }
+  ],
+  "まわします": [
+    {
+      "kanji": "回します",
+      "meaning": "vặn, xoay (núm xoay, chìa khóa)",
+      "level": "N5"
+    }
+  ],
+  "かえます": [
+    {
+      "kanji": "変えます",
+      "meaning": "thay đổi (kế hoạch, mật khẩu)",
+      "level": "N5"
+    }
+  ],
+  "さわります": [
+    {
+      "kanji": "触ります",
+      "meaning": "chạm vào, sờ vào (đồ vật: ボタンに触る)",
+      "level": "N5"
+    }
+  ],
+  "うごきます": [
+    {
+      "kanji": "動きます",
+      "meaning": "hoạt động, chuyển động (máy móc: 機械が動く)",
+      "level": "N5"
+    }
+  ],
+  "あるきます": [
+    {
+      "kanji": "歩きます",
+      "meaning": "đi bộ, tản bộ",
+      "level": "N5"
+    }
+  ],
+  "わたります": [
+    {
+      "kanji": "渡ります",
+      "meaning": "băng qua (cầu, đường: 橋/道を渡る)",
+      "level": "N5"
+    }
+  ],
+  "きをつけます": [
+    {
+      "kanji": "気を付けます",
+      "meaning": "chú ý, cẩn thận",
+      "level": "N5"
+    }
+  ],
+  "でんきや": [
+    {
+      "kanji": "電気屋",
+      "meaning": "cửa hàng điện máy, đồ gia dụng",
+      "level": "N5"
+    }
+  ],
+  "こしょう": [
+    {
+      "kanji": "故障",
+      "meaning": "sự cố hỏng hóc (máy móc, thiết bị)",
+      "level": "N5"
+    }
+  ],
+  "おと": [
+    {
+      "kanji": "音",
+      "meaning": "âm thanh, tiếng động phát ra",
+      "level": "N5"
+    }
+  ],
+  "きかい": [
+    {
+      "kanji": "機械",
+      "meaning": "máy móc, thiết bị cơ khí",
+      "level": "N5"
+    },
+    {
+      "kanji": "機会",
+      "meaning": "cơ hội, dịp thuận lợi",
+      "level": "N4"
+    }
+  ],
+  "かど": [
+    {
+      "kanji": "角",
+      "meaning": "góc phố, khúc quanh ngã rẽ",
+      "level": "N5"
+    }
+  ],
+  "はし": [
+    {
+      "kanji": "橋",
+      "meaning": "cây cầu bắc qua sông",
+      "level": "N5"
+    }
+  ],
+  "ちゅうしゃじょう": [
+    {
+      "kanji": "駐車場",
+      "meaning": "bãi đỗ xe, bãi gửi xe ô tô",
+      "level": "N5"
+    }
+  ],
+  "おしょうがつ": [
+    {
+      "kanji": "お正月",
+      "meaning": "ngày Tết Dương lịch (kỳ nghỉ năm mới quan trọng nhất của Nhật)",
+      "level": "N5"
+    }
+  ],
+  "たてもの": [
+    {
+      "kanji": "建物",
+      "meaning": "tòa nhà",
+      "level": "N5"
+    }
+  ],
+  "がいこくじんとうろくしょう": [
+    {
+      "kanji": "外国人登録証",
+      "meaning": "thẻ, quân bài",
+      "level": "N5"
+    }
+  ],
+  "つれていきます": [
+    {
+      "kanji": "連れて行きます",
+      "meaning": "dẫn đi (dẫn ai đi đâu)",
+      "level": "N5"
+    }
+  ],
+  "つれてきます": [
+    {
+      "kanji": "連れて来ます",
+      "meaning": "dẫn đến (dẫn ai đến đây)",
+      "level": "N5"
+    }
+  ],
+  "おくります": [
+    {
+      "kanji": "送ります",
+      "meaning": "tiễn đưa ai đó (ra ga, về nhà: 人を送る)",
+      "level": "N5"
+    }
+  ],
+  "しょうかいします": [
+    {
+      "kanji": "紹介します",
+      "meaning": "giới thiệu (bạn bè, đối tác)",
+      "level": "N5"
+    }
+  ],
+  "あんないします": [
+    {
+      "kanji": "案内します",
+      "meaning": "hướng dẫn, dẫn đường (thăm quan thành phố)",
+      "level": "N5"
+    }
+  ],
+  "せつめいします": [
+    {
+      "kanji": "説明します",
+      "meaning": "giải thích, thuyết minh (cách dùng, nội quy)",
+      "level": "N5"
+    }
+  ],
+  "じゅんび": [
+    {
+      "kanji": "準備",
+      "meaning": "chuẩn bị",
+      "level": "N5"
+    }
+  ],
+  "いみ": [
+    {
+      "kanji": "意味",
+      "meaning": "ý nghĩa của từ ngữ, thông điệp",
+      "level": "N5"
+    }
+  ],
+  "おかし": [
+    {
+      "kanji": "お菓子",
+      "meaning": "bánh kẹo",
+      "level": "N5"
+    }
+  ],
+  "ぜんぶ": [
+    {
+      "kanji": "全部",
+      "meaning": "toàn bộ, tất cả mọi thứ",
+      "level": "N5"
+    }
+  ],
+  "じぶんで": [
+    {
+      "kanji": "自分で",
+      "meaning": "tự bản thân mình làm (không nhờ vả)",
+      "level": "N5"
+    }
+  ],
+  "ほかに": [
+    {
+      "kanji": "他に",
+      "meaning": "ngoài ra, bên cạnh đó (chỉ sự vật khác)",
+      "level": "N5"
+    }
+  ],
+  "おべんとう": [
+    {
+      "kanji": "お弁当",
+      "meaning": "cơm hộp bento (bữa ăn mang theo)",
+      "level": "N5"
+    }
+  ],
+  "ははのひ": [
+    {
+      "kanji": "母の日",
+      "meaning": "mẹ",
+      "level": "N5"
+    }
+  ],
+  "かんがえます": [
+    {
+      "kanji": "考えます",
+      "meaning": "suy nghĩ, đắn đo (phương hướng, giải pháp)",
+      "level": "N5"
+    }
+  ],
+  "つきます": [
+    {
+      "kanji": "着きます",
+      "meaning": "đến nơi, cập bến (ga: 駅に着く)",
+      "level": "N5"
+    },
+    {
+      "kanji": "付きます",
+      "meaning": "dính, có kèm, có gắn (tự động từ)",
+      "level": "N4"
+    }
+  ],
+  "りゅうがくします": [
+    {
+      "kanji": "留学します",
+      "meaning": "du học (ở nước ngoài: 日本へ留学する)",
+      "level": "N5"
+    }
+  ],
+  "いなか": [
+    {
+      "kanji": "田舎",
+      "meaning": "vùng quê, nông thôn; quê nhà",
+      "level": "N5"
+    }
+  ],
+  "たいしかん": [
+    {
+      "kanji": "大使館",
+      "meaning": "đại sứ quán",
+      "level": "N5"
+    }
+  ],
+  "てんきん": [
+    {
+      "kanji": "転勤",
+      "meaning": "chuyển công tác (chuyển sang chi nhánh khác)",
+      "level": "N5"
+    }
+  ],
+  "いっぱいのみます": [
+    {
+      "kanji": "一杯飲みます",
+      "meaning": "uống một ly, đi uống giải khuây",
+      "level": "N5"
+    }
+  ],
+  "どうぞおげんきで": [
+    {
+      "kanji": "どうぞ元気で",
+      "meaning": "chúc bạn lên đường mạnh khỏe nhé (lời chúc người sắp đi xa)",
+      "level": "N5"
+    }
+  ],
+  "おせわになりました": [
+    {
+      "kanji": "お世話になりました",
+      "meaning": "xin cảm ơn quý vị đã giúp đỡ tôi rất nhiều trong thời gian qua",
+      "level": "N5"
+    }
+  ],
+  "いろいろおせわになりました": [
+    {
+      "kanji": "いろいろお世話になりました",
+      "meaning": "xin cảm ơn quý vị đã giúp đỡ tôi rất nhiều trong thời gian qua",
+      "level": "N5"
+    }
+  ],
+  "がんばります": [
+    {
+      "kanji": "頑張ります",
+      "meaning": "cố gắng, nỗ lực hết mình",
+      "level": "N5"
+    }
+  ],
+  "みる": [
+    {
+      "kanji": "診る",
+      "meaning": "khám bệnh, chẩn đoán (bác sĩ khám)",
+      "level": "N4"
+    }
+  ],
+  "さがす": [
+    {
+      "kanji": "捜す",
+      "meaning": "tìm kiếm (đồ vật bị mất, người mất tích)",
+      "level": "N4"
+    },
+    {
+      "kanji": "探す",
+      "meaning": "tìm kiếm (việc làm, nhà ở, cơ hội mong muốn)",
+      "level": "N4"
+    }
+  ],
+  "じかんにおくれる": [
+    {
+      "kanji": "時間に遅れる",
+      "meaning": "muộn giờ, trễ hẹn",
+      "level": "N4"
+    }
+  ],
+  "かいぎにまにあう": [
+    {
+      "kanji": "会議に間に合う",
+      "meaning": "kịp giờ họp",
+      "level": "N4"
+    }
+  ],
+  "しゅくだいをやる": [
+    {
+      "kanji": "宿題をやる",
+      "meaning": "làm bài tập về nhà",
+      "level": "N4"
+    }
+  ],
+  "ごみをひろう": [
+    {
+      "kanji": "ごみを拾う",
+      "meaning": "nhặt rác",
+      "level": "N4"
+    }
+  ],
+  "がっこうにれんらくする": [
+    {
+      "kanji": "学校に連絡する",
+      "meaning": "liên lạc, báo cho nhà trường",
+      "level": "N4"
+    }
+  ],
+  "きぶんがいい": [
+    {
+      "kanji": "気分がいい",
+      "meaning": "tâm trạng sảng khoái, thể trạng tốt",
+      "level": "N4"
+    }
+  ],
+  "きぶんがわるい": [
+    {
+      "kanji": "気分が悪い",
+      "meaning": "khó chịu, người không khỏe, tâm trạng xấu",
+      "level": "N4"
+    }
+  ],
+  "うんどうかい": [
+    {
+      "kanji": "運動会",
+      "meaning": "ngày hội thể thao",
+      "level": "N4"
+    }
+  ],
+  "ぼんおどり": [
+    {
+      "kanji": "盆踊り",
+      "meaning": "điệu múa Bon (múa lễ hội truyền thống mùa hè)",
+      "level": "N4"
+    }
+  ],
+  "ばしょ": [
+    {
+      "kanji": "場所",
+      "meaning": "địa điểm, nơi chốn",
+      "level": "N4"
+    }
+  ],
+  "こっかいぎじどう": [
+    {
+      "kanji": "国会議事堂",
+      "meaning": "tòa nhà Quốc hội",
+      "level": "N4"
+    }
+  ],
+  "へいじつ": [
+    {
+      "kanji": "平日",
+      "meaning": "ngày thường / cuối tuần",
+      "level": "N4"
+    }
+  ],
+  "おおさかべん": [
+    {
+      "kanji": "大阪弁",
+      "meaning": "tiếng Osaka, giọng Osaka (phương ngôn: 方言)",
+      "level": "N4"
+    }
+  ],
+  "こんど": [
+    {
+      "kanji": "今度",
+      "meaning": "lần tới, dịp tới (sắp tới)",
+      "level": "N4"
+    }
+  ],
+  "ちょくせつ": [
+    {
+      "kanji": "直接",
+      "meaning": "trực tiếp (không qua trung gian)",
+      "level": "N4"
+    }
+  ],
+  "かたづく": [
+    {
+      "kanji": "片付く",
+      "meaning": "được dọn dẹp ngăn nắp (tự động từ)",
+      "level": "N4"
+    }
+  ],
+  "もえるごみ": [
+    {
+      "kanji": "燃えるごみ",
+      "meaning": "rác cháy được",
+      "level": "N4"
+    }
+  ],
+  "おきば": [
+    {
+      "kanji": "置き場",
+      "meaning": "nơi để, chỗ quy định để đồ/rác",
+      "level": "N4"
+    }
+  ],
+  "びん": [
+    {
+      "kanji": "瓶",
+      "meaning": "chai, lọ thủy tinh",
+      "level": "N4"
+    },
+    {
+      "kanji": "便",
+      "meaning": "chuyến bay số ～ (hàng không: JL123便)",
+      "level": "N4"
+    }
+  ],
+  "かん": [
+    {
+      "kanji": "缶",
+      "meaning": "lon, hộp kim loại",
+      "level": "N4"
+    },
+    {
+      "kanji": "間",
+      "meaning": "trong khoảng thời gian ～ (ba ngày: 三日間, hai tuần: 二週間)",
+      "level": "N4"
+    }
+  ],
+  "がすがいしゃ": [
+    {
+      "kanji": "ガス会社",
+      "meaning": "công ty cung cấp gas",
+      "level": "N4"
+    }
+  ],
+  "うちゅう": [
+    {
+      "kanji": "宇宙",
+      "meaning": "vũ trụ",
+      "level": "N4"
+    }
+  ],
+  "たなかさま": [
+    {
+      "kanji": "田中様",
+      "meaning": "Ngài Tanaka, Quý khách hàng (cách gọi kính trọng)",
+      "level": "N4"
+    }
+  ],
+  "おきゃくさま": [
+    {
+      "kanji": "お客様",
+      "meaning": "Ngài Tanaka, Quý khách hàng (cách gọi kính trọng)",
+      "level": "N4"
+    },
+    {
+      "kanji": "お客様",
+      "meaning": "quý khách hàng (kính cẩn)",
+      "level": "N4"
+    }
+  ],
+  "うちゅうせん": [
+    {
+      "kanji": "宇宙船",
+      "meaning": "tàu vũ trụ",
+      "level": "N4"
+    }
+  ],
+  "こわい": [
+    {
+      "kanji": "怖い",
+      "meaning": "đáng sợ, sợ hãi",
+      "level": "N4"
+    }
+  ],
+  "うちゅうひこうし": [
+    {
+      "kanji": "宇宙飛行士",
+      "meaning": "phi hành gia",
+      "level": "N4"
+    }
+  ],
+  "たてます": [
+    {
+      "kanji": "建てます",
+      "meaning": "xây dựng (nhà cửa, công trình)",
+      "level": "N4"
+    }
+  ],
+  "はしります": [
+    {
+      "kanji": "走ります",
+      "meaning": "chạy (người, xe chạy trên đường)",
+      "level": "N4"
+    }
+  ],
+  "みえます": [
+    {
+      "kanji": "見えます",
+      "meaning": "nhìn thấy (tự lọt vào tầm mắt)",
+      "level": "N4"
+    }
+  ],
+  "きこえます": [
+    {
+      "kanji": "聞こえます",
+      "meaning": "nghe thấy (âm thanh tự lọt vào tai)",
+      "level": "N4"
+    }
+  ],
+  "ひらきます": [
+    {
+      "kanji": "開きます",
+      "meaning": "mở (lớp học, hội thảo / cửa tự mở)",
+      "level": "N4"
+    },
+    {
+      "kanji": "開きます",
+      "meaning": "mở (lớp học), tổ chức, khai mạc",
+      "level": "N4"
+    }
+  ],
+  "なみ": [
+    {
+      "kanji": "波",
+      "meaning": "sóng biển",
+      "level": "N4"
+    }
+  ],
+  "はなび": [
+    {
+      "kanji": "花火",
+      "meaning": "pháo hoa",
+      "level": "N4"
+    }
+  ],
+  "けしき": [
+    {
+      "kanji": "景色",
+      "meaning": "phong cảnh, cảnh sắc",
+      "level": "N4"
+    }
+  ],
+  "ひるま": [
+    {
+      "kanji": "昼間",
+      "meaning": "ban ngày",
+      "level": "N4"
+    }
+  ],
+  "むかし": [
+    {
+      "kanji": "昔",
+      "meaning": "ngày xưa, thời xưa",
+      "level": "N4"
+    }
+  ],
+  "どうぐ": [
+    {
+      "kanji": "道具",
+      "meaning": "dụng cụ, công cụ",
+      "level": "N4"
+    }
+  ],
+  "じどうはんばいき": [
+    {
+      "kanji": "自動販売機",
+      "meaning": "máy bán hàng tự động",
+      "level": "N4"
+    }
+  ],
+  "つうしんはんばい": [
+    {
+      "kanji": "通信販売",
+      "meaning": "mua sắm qua mạng, đặt hàng từ xa",
+      "level": "N4"
+    }
+  ],
+  "かんさいくうこう": [
+    {
+      "kanji": "関西空港",
+      "meaning": "sân bay quốc tế Kansai",
+      "level": "N4"
+    }
+  ],
+  "あきはばら": [
+    {
+      "kanji": "秋葉原",
+      "meaning": "khu phố điện tử Akihabara",
+      "level": "N4"
+    }
+  ],
+  "いず": [
+    {
+      "kanji": "伊豆",
+      "meaning": "bán đảo Izu (nổi tiếng về suối nước nóng)",
+      "level": "N4"
+    }
+  ],
+  "にちようだいく": [
+    {
+      "kanji": "日曜日大工",
+      "meaning": "việc tự sửa chữa đồ gỗ vào ngày nghỉ (DIY)",
+      "level": "N4"
+    }
+  ],
+  "ゆめ": [
+    {
+      "kanji": "夢",
+      "meaning": "ước mơ, giấc mơ",
+      "level": "N4"
+    }
+  ],
+  "こどもたち": [
+    {
+      "kanji": "子どもたち",
+      "meaning": "những đứa trẻ, các em nhỏ",
+      "level": "N4"
+    },
+    {
+      "kanji": "子供たち",
+      "meaning": "các em nhỏ, lũ trẻ",
+      "level": "N4"
+    }
+  ],
+  "まんが": [
+    {
+      "kanji": "漫画",
+      "meaning": "truyện tranh Manga",
+      "level": "N4"
+    }
+  ],
+  "しゅじんこう": [
+    {
+      "kanji": "主人公",
+      "meaning": "nhân vật chính",
+      "level": "N4"
+    }
+  ],
+  "かたち": [
+    {
+      "kanji": "形",
+      "meaning": "hình dáng, hình thù",
+      "level": "N4"
+    }
+  ],
+  "ふしぎな": [
+    {
+      "kanji": "不思議な",
+      "meaning": "kỳ lạ, huyền bí, kỳ diệu",
+      "level": "N4"
+    },
+    {
+      "kanji": "不思議な",
+      "meaning": "kỳ lạ, huyền bí, khó tin",
+      "level": "N4"
+    }
+  ],
+  "たとえば": [
+    {
+      "kanji": "例えば",
+      "meaning": "ví dụ như...",
+      "level": "N4"
+    }
+  ],
+  "つけます": [
+    {
+      "kanji": "付けます",
+      "meaning": "gắn, cài, lắp đặt",
+      "level": "N4"
+    }
+  ],
+  "じゆうに": [
+    {
+      "kanji": "自由に",
+      "meaning": "tự do, một cách thoải mái",
+      "level": "N4"
+    }
+  ],
+  "とびます": [
+    {
+      "kanji": "飛びます",
+      "meaning": "bay (chim chóc, máy bay)",
+      "level": "N4"
+    }
+  ],
+  "しょうらい": [
+    {
+      "kanji": "将来",
+      "meaning": "tương lai",
+      "level": "N4"
+    }
+  ],
+  "うれます": [
+    {
+      "kanji": "売れます",
+      "meaning": "bán chạy (tự động từ: hàng hóa đắt hàng)",
+      "level": "N4"
+    }
+  ],
+  "おどります": [
+    {
+      "kanji": "踊ります",
+      "meaning": "nhảy múa, khiêu vũ",
+      "level": "N4"
+    }
+  ],
+  "えらびます": [
+    {
+      "kanji": "選びます",
+      "meaning": "lựa chọn, tuyển chọn",
+      "level": "N4"
+    }
+  ],
+  "かよいます": [
+    {
+      "kanji": "通います",
+      "meaning": "đi lại thường xuyên (đi học, đi làm)",
+      "level": "N4"
+    }
+  ],
+  "まじめ": [
+    {
+      "kanji": "真面目",
+      "meaning": "chăm chỉ, nghiêm túc, đứng đắn",
+      "level": "N4"
+    }
+  ],
+  "まじめな": [
+    {
+      "kanji": "真面目",
+      "meaning": "chăm chỉ, nghiêm túc, đứng đắn",
+      "level": "N4"
+    }
+  ],
+  "ねっしん": [
+    {
+      "kanji": "熱心",
+      "meaning": "nhiệt tình, hăng hái, say mê",
+      "level": "N4"
+    }
+  ],
+  "ねっしんな": [
+    {
+      "kanji": "熱心",
+      "meaning": "nhiệt tình, hăng hái, say mê",
+      "level": "N4"
+    }
+  ],
+  "えらい": [
+    {
+      "kanji": "偉い",
+      "meaning": "vĩ đại, xuất sắc, tài giỏi; đáng khâm phục",
+      "level": "N4"
+    }
+  ],
+  "ちょうどいい": [
+    {
+      "kanji": "丁度いい",
+      "meaning": "vừa vặn, vừa vặn khít khao (kích cỡ, thời gian)",
+      "level": "N4"
+    }
+  ],
+  "けいけん": [
+    {
+      "kanji": "経験",
+      "meaning": "kinh nghiệm, trải nghiệm thực tế",
+      "level": "N4"
+    }
+  ],
+  "ちから": [
+    {
+      "kanji": "力",
+      "meaning": "sức lực, năng lực, sức mạnh",
+      "level": "N4"
+    }
+  ],
+  "にんき": [
+    {
+      "kanji": "人気",
+      "meaning": "ưa chuộng, được yêu thích; nổi tiếng",
+      "level": "N4"
+    }
+  ],
+  "あじ": [
+    {
+      "kanji": "味",
+      "meaning": "hương vị, vị giác",
+      "level": "N4"
+    }
+  ],
+  "しなもの": [
+    {
+      "kanji": "品物",
+      "meaning": "hàng hóa, mặt hàng",
+      "level": "N4"
+    }
+  ],
+  "ねだん": [
+    {
+      "kanji": "値段",
+      "meaning": "giá cả, giá tiền",
+      "level": "N4"
+    }
+  ],
+  "きゅうりょう": [
+    {
+      "kanji": "給料",
+      "meaning": "tiền lương",
+      "level": "N4"
+    }
+  ],
+  "ばんぐみ": [
+    {
+      "kanji": "番組",
+      "meaning": "chương trình (truyền hình, phát thanh)",
+      "level": "N4"
+    }
+  ],
+  "しょうせつ": [
+    {
+      "kanji": "小説",
+      "meaning": "cuốn tiểu thuyết",
+      "level": "N4"
+    }
+  ],
+  "しょうせつか": [
+    {
+      "kanji": "小説家",
+      "meaning": "nhà văn, tiểu thuyết gia",
+      "level": "N4"
+    }
+  ],
+  "かしゅ": [
+    {
+      "kanji": "歌手",
+      "meaning": "ca sĩ",
+      "level": "N4"
+    }
+  ],
+  "かんりにん": [
+    {
+      "kanji": "管理人",
+      "meaning": "người quản lý, bác bảo vệ chung cư",
+      "level": "N4"
+    }
+  ],
+  "むすこ": [
+    {
+      "kanji": "息子",
+      "meaning": "con trai (của mình)",
+      "level": "N4"
+    }
+  ],
+  "むすこさん": [
+    {
+      "kanji": "息子さん",
+      "meaning": "con trai (của người khác - cách gọi lịch sự)",
+      "level": "N4"
+    }
+  ],
+  "むすめ": [
+    {
+      "kanji": "娘",
+      "meaning": "con gái (của mình)",
+      "level": "N4"
+    }
+  ],
+  "むすめさん": [
+    {
+      "kanji": "娘さん",
+      "meaning": "con gái (của người khác - cách gọi lịch sự)",
+      "level": "N4"
+    }
+  ],
+  "ちょっとおねがいがあるんですが": [
+    {
+      "kanji": "お願いがあるんですが",
+      "meaning": "tôi có một thỉnh cầu nhỏ...",
+      "level": "N4"
+    },
+    {
+      "kanji": "ちょっとお願いがあるんですが",
+      "meaning": "tôi có một thỉnh cầu nhỏ...",
+      "level": "N4"
+    }
+  ],
+  "かいわ": [
+    {
+      "kanji": "会話",
+      "meaning": "cuộc hội thoại, giao tiếp",
+      "level": "N4"
+    }
+  ],
+  "おしらせ": [
+    {
+      "kanji": "お知らせ",
+      "meaning": "thông báo, bản tin",
+      "level": "N4"
+    }
+  ],
+  "ひにち": [
+    {
+      "kanji": "日にち",
+      "meaning": "ngày diễn ra, ngày tháng cụ thể",
+      "level": "N4"
+    }
+  ],
+  "つち": [
+    {
+      "kanji": "土",
+      "meaning": "đất đai, thổ nhưỡng",
+      "level": "N4"
+    }
+  ],
+  "たいいくかん": [
+    {
+      "kanji": "体育館",
+      "meaning": "nhà thi đấu thể dục thể thao",
+      "level": "N4"
+    }
+  ],
+  "むりょう": [
+    {
+      "kanji": "無料",
+      "meaning": "miễn phí (không tốn tiền)",
+      "level": "N4"
+    }
+  ],
+  "しまります": [
+    {
+      "kanji": "閉まります",
+      "meaning": "đóng (tự động từ: cửa tự đóng)",
+      "level": "N4"
+    }
+  ],
+  "きえます": [
+    {
+      "kanji": "消えます",
+      "meaning": "tắt, biến mất (tự động từ: đèn/lửa tự tắt)",
+      "level": "N4"
+    }
+  ],
+  "こみます": [
+    {
+      "kanji": "込みます",
+      "meaning": "đông đúc, chen chúc (tự động từ: đường sá, xe cộ)",
+      "level": "N4"
+    }
+  ],
+  "こわれます": [
+    {
+      "kanji": "壊れます",
+      "meaning": "bị hỏng (tự động từ: máy móc, đồ đạc)",
+      "level": "N4"
+    }
+  ],
+  "われます": [
+    {
+      "kanji": "割れます",
+      "meaning": "bị vỡ (tự động từ: bát đĩa, cốc chén, gương kính)",
+      "level": "N4"
+    }
+  ],
+  "おれます": [
+    {
+      "kanji": "折れます",
+      "meaning": "bị gãy (tự động từ: cành cây, xương, que, gậy)",
+      "level": "N4"
+    }
+  ],
+  "よごれます": [
+    {
+      "kanji": "汚れます",
+      "meaning": "bị bẩn, lấm lem (tự động từ: quần áo, phòng ốc)",
+      "level": "N4"
+    }
+  ],
+  "はずれます": [
+    {
+      "kanji": "外れます",
+      "meaning": "bị bung, bị tuột (tự động từ: cúc áo, ốc vít)",
+      "level": "N4"
+    }
+  ],
+  "おとします": [
+    {
+      "kanji": "落とします",
+      "meaning": "đánh rơi, làm rớt (tha động từ)",
+      "level": "N4"
+    }
+  ],
+  "かかります": [
+    {
+      "kanji": "掛かります",
+      "meaning": "khóa lại (tự động từ: chìa khóa đang khóa)",
+      "level": "N4"
+    }
+  ],
+  "かたづけます": [
+    {
+      "kanji": "片付けます",
+      "meaning": "dọn dẹp, thu dọn",
+      "level": "N4"
+    },
+    {
+      "kanji": "方づけます",
+      "meaning": "dọn dẹp ngăn nắp",
+      "level": "N4"
+    }
+  ],
+  "さら": [
+    {
+      "kanji": "皿",
+      "meaning": "cái đĩa ăn",
+      "level": "N4"
+    }
+  ],
+  "ちゃわん": [
+    {
+      "kanji": "茶碗",
+      "meaning": "cái bát ăn cơm, chén trà",
+      "level": "N4"
+    }
+  ],
+  "ふくろ": [
+    {
+      "kanji": "袋",
+      "meaning": "túi, bao bì",
+      "level": "N4"
+    }
+  ],
+  "しょるい": [
+    {
+      "kanji": "書類",
+      "meaning": "tài liệu, giấy tờ công việc",
+      "level": "N4"
+    }
+  ],
+  "えだ": [
+    {
+      "kanji": "枝",
+      "meaning": "cành cây",
+      "level": "N4"
+    }
+  ],
+  "えきいん": [
+    {
+      "kanji": "駅員",
+      "meaning": "nhân viên nhà ga",
+      "level": "N4"
+    }
+  ],
+  "へんじ": [
+    {
+      "kanji": "返事",
+      "meaning": "câu trả lời, sự đáp lại",
+      "level": "N4"
+    }
+  ],
+  "おさきにどうぞ": [
+    {
+      "kanji": "お先にどうぞ",
+      "meaning": "xin mời đi trước, xin mời làm trước",
+      "level": "N4"
+    }
+  ],
+  "げんじものがたり": [
+    {
+      "kanji": "源氏物語",
+      "meaning": "Truyện Genji (tiểu thuyết cổ điển Nhật Bản)",
+      "level": "N4"
+    }
+  ],
+  "いまのでんしゃ": [
+    {
+      "kanji": "今の電車",
+      "meaning": "chuyến tàu điện vừa rồi",
+      "level": "N4"
+    }
+  ],
+  "わすれもの": [
+    {
+      "kanji": "忘れ物",
+      "meaning": "đồ bỏ quên",
+      "level": "N4"
+    }
+  ],
+  "がわ": [
+    {
+      "kanji": "側",
+      "meaning": "phía, bên (hướng)",
+      "level": "N4"
+    }
+  ],
+  "おぼえていません": [
+    {
+      "kanji": "覚えていません",
+      "meaning": "tôi không nhớ",
+      "level": "N4"
+    }
+  ],
+  "あみだな": [
+    {
+      "kanji": "網棚",
+      "meaning": "giá để hành lý trên tàu xe",
+      "level": "N4"
+    }
+  ],
+  "たしか": [
+    {
+      "kanji": "確か",
+      "meaning": "chắc là, hình như (nhớ mang máng nhưng khá tự tin)",
+      "level": "N4"
+    }
+  ],
+  "じしん": [
+    {
+      "kanji": "地震",
+      "meaning": "trận động đất",
+      "level": "N4"
+    }
+  ],
+  "かべ": [
+    {
+      "kanji": "壁",
+      "meaning": "bức tường",
+      "level": "N4"
+    }
+  ],
+  "はり": [
+    {
+      "kanji": "針",
+      "meaning": "kim đồng hồ, cây kim may",
+      "level": "N4"
+    }
+  ],
+  "えきまえ": [
+    {
+      "kanji": "駅前",
+      "meaning": "khu vực trước nhà ga",
+      "level": "N4"
+    }
+  ],
+  "たおれます": [
+    {
+      "kanji": "倒れます",
+      "meaning": "bị đổ, ngã quỵ (tự động từ: cây cối, cột điện)",
+      "level": "N4"
+    }
+  ],
+  "にしのほう": [
+    {
+      "kanji": "西の方",
+      "meaning": "phía tây, hướng tây",
+      "level": "N4"
+    }
+  ],
+  "もえます": [
+    {
+      "kanji": "燃えます",
+      "meaning": "cháy được, bốc cháy (tự động từ)",
+      "level": "N4"
+    }
+  ],
+  "かけます": [
+    {
+      "kanji": "掛けます",
+      "meaning": "treo (áo khoác, tranh ảnh, đồng hồ)",
+      "level": "N4"
+    }
+  ],
+  "かざります": [
+    {
+      "kanji": "飾ります",
+      "meaning": "trang trí, bài trí",
+      "level": "N4"
+    }
+  ],
+  "ならべます": [
+    {
+      "kanji": "並べます",
+      "meaning": "xếp thành hàng, bày biện",
+      "level": "N4"
+    }
+  ],
+  "うえます": [
+    {
+      "kanji": "植えます",
+      "meaning": "trồng (cây cối, hoa quả)",
+      "level": "N4"
+    }
+  ],
+  "もどします": [
+    {
+      "kanji": "戻します",
+      "meaning": "đưa trở lại vị trí cũ",
+      "level": "N4"
+    }
+  ],
+  "きめます": [
+    {
+      "kanji": "決めます",
+      "meaning": "quyết định (kế hoạch, mục tiêu)",
+      "level": "N4"
+    }
+  ],
+  "しらせます": [
+    {
+      "kanji": "知らせます",
+      "meaning": "thông báo cho biết",
+      "level": "N4"
+    }
+  ],
+  "そうだんします": [
+    {
+      "kanji": "祖横断します",
+      "meaning": "bàn bạc, thảo luận (相談します)",
+      "level": "N4"
+    }
+  ],
+  "よしゅうします": [
+    {
+      "kanji": "予習します",
+      "meaning": "chuẩn bị bài trước",
+      "level": "N4"
+    }
+  ],
+  "ふくしゅうします": [
+    {
+      "kanji": "復習します",
+      "meaning": "ôn tập lại bài cũ",
+      "level": "N4"
+    }
+  ],
+  "おこさん": [
+    {
+      "kanji": "お子さん",
+      "meaning": "con của quý vị, các cháu (tôn kính)",
+      "level": "N4"
+    }
+  ],
+  "こうぎ": [
+    {
+      "kanji": "講義",
+      "meaning": "bài giảng đại học",
+      "level": "N4"
+    }
+  ],
+  "よてい": [
+    {
+      "kanji": "予定",
+      "meaning": "kế hoạch, dự định, lịch trình",
+      "level": "N4"
+    }
+  ],
+  "あんないしょ": [
+    {
+      "kanji": "案内書",
+      "meaning": "sách hướng dẫn, tập tài liệu chỉ dẫn",
+      "level": "N4"
+    }
+  ],
+  "ごみばこ": [
+    {
+      "kanji": "ごみ箱",
+      "meaning": "thùng rác",
+      "level": "N4"
+    }
+  ],
+  "にんぎょう": [
+    {
+      "kanji": "人形",
+      "meaning": "búp bê, con rối",
+      "level": "N4"
+    }
+  ],
+  "かがみ": [
+    {
+      "kanji": "鏡",
+      "meaning": "tấm gương soi",
+      "level": "N4"
+    }
+  ],
+  "ひきだし": [
+    {
+      "kanji": "引き出し",
+      "meaning": "ngăn kéo bàn tủ",
+      "level": "N4"
+    }
+  ],
+  "もとのところ": [
+    {
+      "kanji": "元の 所",
+      "meaning": "chỗ cũ, vị trí ban đầu",
+      "level": "N4"
+    }
+  ],
+  "まわり": [
+    {
+      "kanji": "周り",
+      "meaning": "xung quanh, vùng lân cận",
+      "level": "N4"
+    }
+  ],
+  "まんなか": [
+    {
+      "kanji": "真ん中",
+      "meaning": "chính giữa, trung tâm",
+      "level": "N4"
+    }
+  ],
+  "よていひょう": [
+    {
+      "kanji": "予定表",
+      "meaning": "bảng kế hoạch, thời gian biểu",
+      "level": "N4"
+    }
+  ],
+  "きぼう": [
+    {
+      "kanji": "希望",
+      "meaning": "nguyện vọng, niềm hy vọng",
+      "level": "N4"
+    }
+  ],
+  "なにかごきぼうがありますか": [
+    {
+      "kanji": "何かご希望がありますか",
+      "meaning": "quý khách có yêu cầu/nguyện vọng gì không ạ?",
+      "level": "N4"
+    }
+  ],
+  "つき": [
+    {
+      "kanji": "月",
+      "meaning": "mặt trăng",
+      "level": "N4"
+    }
+  ],
+  "ちきゅう": [
+    {
+      "kanji": "地球",
+      "meaning": "Trái Đất",
+      "level": "N4"
+    }
+  ],
+  "めがさめます": [
+    {
+      "kanji": "目が覚めます",
+      "meaning": "tỉnh giấc, thức giấc (tự động từ)",
+      "level": "N4"
+    }
+  ],
+  "はじまります": [
+    {
+      "kanji": "始まります",
+      "meaning": "bắt đầu (tự động từ: sự kiện, trận đấu)",
+      "level": "N4"
+    }
+  ],
+  "つづける": [
+    {
+      "kanji": "続ける",
+      "meaning": "tiếp tục, duy trì (tha động từ)",
+      "level": "N4"
+    }
+  ],
+  "みつめます": [
+    {
+      "kanji": "見つめます",
+      "meaning": "nhìn chăm chú, dõi theo",
+      "level": "N4"
+    }
+  ],
+  "うけます": [
+    {
+      "kanji": "受けます",
+      "meaning": "tham dự (kỳ thi: 試験を受ける)",
+      "level": "N4"
+    }
+  ],
+  "にゅうがくします": [
+    {
+      "kanji": "入学します",
+      "meaning": "nhập học (vào trường học)",
+      "level": "N4"
+    }
+  ],
+  "そつぎょうします": [
+    {
+      "kanji": "卒業します",
+      "meaning": "tốt nghiệp (ra trường)",
+      "level": "N4"
+    }
+  ],
+  "きゅうけいします": [
+    {
+      "kanji": "休憩します",
+      "meaning": "nghỉ giải lao, giải lao giữa giờ",
+      "level": "N4"
+    }
+  ],
+  "れんきゅう": [
+    {
+      "kanji": "連休",
+      "meaning": "kỳ nghỉ dài ngày liên tiếp",
+      "level": "N4"
+    }
+  ],
+  "てんらんかい": [
+    {
+      "kanji": "展覧会",
+      "meaning": "triển lãm (tranh ảnh, nghệ thuật)",
+      "level": "N4"
+    }
+  ],
+  "けっこんしき": [
+    {
+      "kanji": "結婚式",
+      "meaning": "lễ thành hôn, đám cưới",
+      "level": "N4"
+    }
+  ],
+  "おそうしき": [
+    {
+      "kanji": "葬式",
+      "meaning": "lễ tang, đám tang",
+      "level": "N4"
+    },
+    {
+      "kanji": "お葬式",
+      "meaning": "lễ tang, đám tang",
+      "level": "N4"
+    }
+  ],
+  "しき": [
+    {
+      "kanji": "式",
+      "meaning": "buổi lễ, nghi lễ",
+      "level": "N4"
+    }
+  ],
+  "ほんしゃ": [
+    {
+      "kanji": "本社",
+      "meaning": "trụ sở chính (công ty)",
+      "level": "N4"
+    }
+  ],
+  "してん": [
+    {
+      "kanji": "支店",
+      "meaning": "chi nhánh (ngân hàng, công ty)",
+      "level": "N4"
+    }
+  ],
+  "きょうかい": [
+    {
+      "kanji": "教会",
+      "meaning": "nhà thờ",
+      "level": "N4"
+    }
+  ],
+  "だいがくいん": [
+    {
+      "kanji": "大学院",
+      "meaning": "cao học, viện đào tạo sau đại học",
+      "level": "N4"
+    }
+  ],
+  "どうぶつえん": [
+    {
+      "kanji": "動物園",
+      "meaning": "vườn bách thú, sở thú",
+      "level": "N4"
+    }
+  ],
+  "おんせん": [
+    {
+      "kanji": "温泉",
+      "meaning": "suối nước nóng thiên nhiên",
+      "level": "N4"
+    }
+  ],
+  "おきゃくさん": [
+    {
+      "kanji": "お客",
+      "meaning": "khách hàng, khách quý",
+      "level": "N4"
+    },
+    {
+      "kanji": "お客さん",
+      "meaning": "khách hàng, khách quý",
+      "level": "N4"
+    }
+  ],
+  "のほう": [
+    {
+      "kanji": "の方",
+      "meaning": "hướng về phía ～, về phía ～",
+      "level": "N4"
+    }
+  ],
+  "のこります": [
+    {
+      "kanji": "残ります",
+      "meaning": "còn lại, sót lại (tự động từ)",
+      "level": "N4"
+    }
+  ],
+  "つきに": [
+    {
+      "kanji": "月に",
+      "meaning": "trong một tháng",
+      "level": "N4"
+    }
+  ],
+  "ふつうの": [
+    {
+      "kanji": "普通の",
+      "meaning": "bình thường, thông thường",
+      "level": "N4"
+    }
+  ],
+  "とじます": [
+    {
+      "kanji": "閉じます",
+      "meaning": "đóng lại (sách vở, mắt, miệng)",
+      "level": "N4"
+    }
+  ],
+  "とかい": [
+    {
+      "kanji": "都会",
+      "meaning": "thành phố lớn, đô thị sầm uất",
+      "level": "N4"
+    }
+  ],
+  "せかいじゅう": [
+    {
+      "kanji": "世界中",
+      "meaning": "trên toàn thế giới",
+      "level": "N4"
+    }
+  ],
+  "あつまります": [
+    {
+      "kanji": "集まります",
+      "meaning": "tụ họp, tập hợp lại (tự động từ: 人が集まる)",
+      "level": "N4"
+    },
+    {
+      "kanji": "集まります",
+      "meaning": "tụ họp, tập hợp lại (người tụ tập)",
+      "level": "N4"
+    },
+    {
+      "kanji": "集まります人が",
+      "meaning": "tụ họp, tập hợp lại (người tụ tập)",
+      "level": "N4"
+    }
+  ],
+  "うつくしい": [
+    {
+      "kanji": "美しい",
+      "meaning": "xinh đẹp, tuyệt mỹ, trong sáng",
+      "level": "N4"
+    }
+  ],
+  "しぜん": [
+    {
+      "kanji": "自然",
+      "meaning": "tự nhiên, giới tự nhiên",
+      "level": "N4"
+    }
+  ],
+  "きがつきます": [
+    {
+      "kanji": "気が付きます",
+      "meaning": "nhận ra, nhận biết được",
+      "level": "N4"
+    }
+  ],
+  "うんどうします": [
+    {
+      "kanji": "運動します",
+      "meaning": "vận động, tập thể dục thể thao",
+      "level": "N4"
+    }
+  ],
+  "せいこうします": [
+    {
+      "kanji": "成功します",
+      "meaning": "thành công",
+      "level": "N4"
+    }
+  ],
+  "しっぱいします": [
+    {
+      "kanji": "失敗します",
+      "meaning": "thất bại, thi trượt (kỳ thi: 試験に～)",
+      "level": "N4"
+    }
+  ],
+  "ごうかくします": [
+    {
+      "kanji": "合格します",
+      "meaning": "thi đỗ, thi đạt (kỳ thi: 試験に～)",
+      "level": "N4"
+    }
+  ],
+  "もどります": [
+    {
+      "kanji": "戻ります",
+      "meaning": "quay lại, trở lại",
+      "level": "N4"
+    }
+  ],
+  "やみます": [
+    {
+      "kanji": "やみます",
+      "meaning": "tạnh (mưa)",
+      "level": "N4"
+    }
+  ],
+  "やみますあめが": [
+    {
+      "kanji": "やみます雨が",
+      "meaning": "tạnh (mưa)",
+      "level": "N4"
+    }
+  ],
+  "はれます": [
+    {
+      "kanji": "晴れます",
+      "meaning": "nắng ráo, trời quang đãng",
+      "level": "N4"
+    }
+  ],
+  "くもります": [
+    {
+      "kanji": "曇ります",
+      "meaning": "trời có mây, âm u",
+      "level": "N4"
+    }
+  ],
+  "ふきます": [
+    {
+      "kanji": "吹きます",
+      "meaning": "thổi (gió: 風が～)",
+      "level": "N4"
+    }
+  ],
+  "なおります": [
+    {
+      "kanji": "治ります",
+      "meaning": "khỏi bệnh / được sửa xong",
+      "level": "N4"
+    },
+    {
+      "kanji": "直ります",
+      "meaning": "khỏi bệnh / được sửa xong",
+      "level": "N4"
+    }
+  ],
+  "ひやします": [
+    {
+      "kanji": "冷やします",
+      "meaning": "làm lạnh, chườm lạnh",
+      "level": "N4"
+    }
+  ],
+  "しんぱい": [
+    {
+      "kanji": "心配",
+      "meaning": "lo lắng",
+      "level": "N4"
+    }
+  ],
+  "しんぱいな": [
+    {
+      "kanji": "心配な",
+      "meaning": "lo lắng",
+      "level": "N4"
+    }
+  ],
+  "じゅうぶん": [
+    {
+      "kanji": "十分",
+      "meaning": "đầy đủ, trọn vẹn (không thiếu thốn)",
+      "level": "N4"
+    }
+  ],
+  "じゅうぶんな": [
+    {
+      "kanji": "十分な",
+      "meaning": "đầy đủ, trọn vẹn (không thiếu thốn)",
+      "level": "N4"
+    }
+  ],
+  "たいよう": [
+    {
+      "kanji": "太陽",
+      "meaning": "mặt trời",
+      "level": "N4"
+    }
+  ],
+  "ほし": [
+    {
+      "kanji": "星",
+      "meaning": "ngôi sao",
+      "level": "N4"
+    }
+  ],
+  "こんや": [
+    {
+      "kanji": "今夜",
+      "meaning": "tối nay, đêm nay",
+      "level": "N4"
+    }
+  ],
+  "おそく": [
+    {
+      "kanji": "遅く",
+      "meaning": "muộn, trễ",
+      "level": "N4"
+    }
+  ],
+  "い": [
+    {
+      "kanji": "胃",
+      "meaning": "dạ dày, bao tử",
+      "level": "N4"
+    }
+  ],
+  "はたらきすぎ": [
+    {
+      "kanji": "働きすぎ",
+      "meaning": "làm việc quá sức",
+      "level": "N4"
+    }
+  ],
+  "むりをします": [
+    {
+      "kanji": "無理をします",
+      "meaning": "làm việc quá sức, gượng ép bản thân",
+      "level": "N4"
+    }
+  ],
+  "ほしうらない": [
+    {
+      "kanji": "星占い",
+      "meaning": "thuật chiêm tinh, bói toán theo các chòm sao",
+      "level": "N4"
+    }
+  ],
+  "おうしざ": [
+    {
+      "kanji": "牡牛座",
+      "meaning": "kim ngưu",
+      "level": "N4"
+    }
+  ],
+  "こまります": [
+    {
+      "kanji": "困ります",
+      "meaning": "gặp khó khăn, bối rối, rắc rối",
+      "level": "N4"
+    }
+  ],
+  "たからくじ": [
+    {
+      "kanji": "宝くじ",
+      "meaning": "xổ số",
+      "level": "N4"
+    }
+  ],
+  "あたります": [
+    {
+      "kanji": "当たります",
+      "meaning": "trúng (xổ số, vé số: 宝くじが～)",
+      "level": "N4"
+    }
+  ],
+  "けんこう": [
+    {
+      "kanji": "健康",
+      "meaning": "sức khỏe, sự lành mạnh về thể chất",
+      "level": "N4"
+    }
+  ],
+  "れんあい": [
+    {
+      "kanji": "恋愛",
+      "meaning": "tình yêu, sự lãng mạn lứa đôi",
+      "level": "N4"
+    }
+  ],
+  "こいびと": [
+    {
+      "kanji": "恋人",
+      "meaning": "người yêu, bạn trai/bạn gái",
+      "level": "N4"
+    }
+  ],
+  "かねもち": [
+    {
+      "kanji": "お金持ち",
+      "meaning": "người giàu có, đại gia",
+      "level": "N4"
+    }
+  ],
+  "おかねもち": [
+    {
+      "kanji": "お金持ち",
+      "meaning": "người giàu có, đại gia",
+      "level": "N4"
+    }
+  ],
+  "にげます": [
+    {
+      "kanji": "逃げます",
+      "meaning": "chạy trốn, tẩu thoát",
+      "level": "N4"
+    },
+    {
+      "kanji": "逃げます",
+      "meaning": "chạy trốn, bỏ trốn",
+      "level": "N4"
+    }
+  ],
+  "さわぎます": [
+    {
+      "kanji": "騒ぎます",
+      "meaning": "làm ồn ào, hò hét gây mất trật tự",
+      "level": "N4"
+    }
+  ],
+  "なげます": [
+    {
+      "kanji": "投げま",
+      "meaning": "ném (bóng, đồ vật)",
+      "level": "N4"
+    }
+  ],
+  "まもります": [
+    {
+      "kanji": "守ります",
+      "meaning": "bảo vệ, tuân thủ (lời hứa, luật lệ)",
+      "level": "N4"
+    }
+  ],
+  "あげます": [
+    {
+      "kanji": "上げます",
+      "meaning": "nâng lên, giơ lên (tay, cờ, giá)",
+      "level": "N4"
+    }
+  ],
+  "さげます": [
+    {
+      "kanji": "下げます",
+      "meaning": "hạ xuống, cúi xuống (đầu, giá)",
+      "level": "N4"
+    }
+  ],
+  "つたえます": [
+    {
+      "kanji": "伝えます",
+      "meaning": "truyền đạt, nhắn lại (thông tin, lời nhắn)",
+      "level": "N4"
+    }
+  ],
+  "ちゅういします": [
+    {
+      "kanji": "注意します",
+      "meaning": "nhắc nhở, chú ý cẩn thận",
+      "level": "N4"
+    },
+    {
+      "kanji": "注意します",
+      "meaning": "nhắc nhở, cảnh báo",
+      "level": "N4"
+    }
+  ],
+  "はずします": [
+    {
+      "kanji": "外します",
+      "meaning": "rời khỏi (chỗ ngồi: 席を外す)",
+      "level": "N4"
+    }
+  ],
+  "せき": [
+    {
+      "kanji": "席",
+      "meaning": "chỗ ngồi, ghế ngồi",
+      "level": "N4"
+    }
+  ],
+  "せんたくき": [
+    {
+      "kanji": "洗濯機",
+      "meaning": "máy giặt",
+      "level": "N4"
+    }
+  ],
+  "きそく": [
+    {
+      "kanji": "規則",
+      "meaning": "quy tắc, quy định, luật lệ",
+      "level": "N4"
+    }
+  ],
+  "しようきんし": [
+    {
+      "kanji": "使用禁止",
+      "meaning": "cấm sử dụng (biển báo)",
+      "level": "N4"
+    }
+  ],
+  "たちいりきんし": [
+    {
+      "kanji": "立ち入り禁止",
+      "meaning": "cấm vào, không phận sự miễn vào",
+      "level": "N4"
+    }
+  ],
+  "ひじょうぐち": [
+    {
+      "kanji": "非常口",
+      "meaning": "cửa thoát hiểm, lối thoát khẩn cấp",
+      "level": "N4"
+    }
+  ],
+  "ほんじつきゅうぎょう": [
+    {
+      "kanji": "本日休業",
+      "meaning": "hôm nay đóng cửa, tạm nghỉ",
+      "level": "N4"
+    }
+  ],
+  "えいぎょうちゅう": [
+    {
+      "kanji": "営業中",
+      "meaning": "đang mở cửa kinh doanh",
+      "level": "N4"
+    }
+  ],
+  "しようちゅう": [
+    {
+      "kanji": "使用中",
+      "meaning": "đang sử dụng",
+      "level": "N4"
+    }
+  ],
+  "ちゅう": [
+    {
+      "kanji": "中",
+      "meaning": "đang trong quá trình ～ (授業中, 会議中, 営業中)",
+      "level": "N4"
+    }
+  ],
+  "ちゅうしゃいはん": [
+    {
+      "kanji": "駐車違反",
+      "meaning": "vi phạm đỗ xe trái phép",
+      "level": "N4"
+    }
+  ],
+  "いない": [
+    {
+      "kanji": "以内",
+      "meaning": "trong vòng ～, trong phạm vi ～ (thời gian, khoảng cách)",
+      "level": "N4"
+    }
+  ],
+  "けいさつ": [
+    {
+      "kanji": "警察",
+      "meaning": "cảnh sát, cơ quan công an",
+      "level": "N4"
+    }
+  ],
+  "ばっきん": [
+    {
+      "kanji": "罰金",
+      "meaning": "tiền phạt",
+      "level": "N4"
+    }
+  ],
+  "でんぽう": [
+    {
+      "kanji": "電報",
+      "meaning": "bức điện tín, điện báo",
+      "level": "N4"
+    }
+  ],
+  "ひとびと": [
+    {
+      "kanji": "人々",
+      "meaning": "mọi người, người dân",
+      "level": "N4"
+    }
+  ],
+  "きゅうよう": [
+    {
+      "kanji": "急用",
+      "meaning": "việc gấp, việc khẩn cấp",
+      "level": "N4"
+    }
+  ],
+  "うちます": [
+    {
+      "kanji": "打ちます",
+      "meaning": "đánh, gửi (điện báo: 電報を～)",
+      "level": "N4"
+    },
+    {
+      "kanji": "打ちます",
+      "meaning": "đánh máy, gõ (chữ, phím)",
+      "level": "N4"
+    }
+  ],
+  "でんぽうだい": [
+    {
+      "kanji": "電報代",
+      "meaning": "cước phí gửi điện báo",
+      "level": "N4"
+    }
+  ],
+  "みじかく": [
+    {
+      "kanji": "短く",
+      "meaning": "ngắn gọn, súc tích",
+      "level": "N4"
+    }
+  ],
+  "きとく": [
+    {
+      "kanji": "危篤",
+      "meaning": "nguy kịch (tình trạng bệnh nặng sắp mất)",
+      "level": "N4"
+    }
+  ],
+  "おもいびょうき": [
+    {
+      "kanji": "重い病気",
+      "meaning": "căn bệnh hiểm nghèo, bệnh nặng",
+      "level": "N4"
+    }
+  ],
+  "るす": [
+    {
+      "kanji": "留守",
+      "meaning": "sự vắng nhà, đi vắng",
+      "level": "N4"
+    }
+  ],
+  "るすばん": [
+    {
+      "kanji": "留守番",
+      "meaning": "việc trông coi nhà khi người lớn vắng mặt",
+      "level": "N4"
+    }
+  ],
+  "おいわい": [
+    {
+      "kanji": "お祝い",
+      "meaning": "lời chúc mừng; quà chúc mừng, lễ kỷ niệm",
+      "level": "N4"
+    },
+    {
+      "kanji": "お祝い",
+      "meaning": "món quà mừng, lời chúc mừng",
+      "level": "N4"
+    }
+  ],
+  "かなしい": [
+    {
+      "kanji": "悲しい",
+      "meaning": "buồn bã, đau lòng",
+      "level": "N4"
+    }
+  ],
+  "りようします": [
+    {
+      "kanji": "利用します",
+      "meaning": "tận dụng, sử dụng (tiện ích, dịch vụ)",
+      "level": "N4"
+    }
+  ],
+  "みがきます": [
+    {
+      "kanji": "磨きます",
+      "meaning": "đánh (răng: 歯を磨く), đánh bóng",
+      "level": "N4"
+    }
+  ],
+  "くみたてます": [
+    {
+      "kanji": "組み立てます",
+      "meaning": "lắp ráp, ghép lại (nội thất, máy móc)",
+      "level": "N4"
+    }
+  ],
+  "みつかります": [
+    {
+      "kanji": "見つかります",
+      "meaning": "được tìm thấy (tự động từ: đồ thất lạc)",
+      "level": "N4"
+    }
+  ],
+  "しつもんします": [
+    {
+      "kanji": "質問します",
+      "meaning": "đặt câu hỏi, thắc mắc",
+      "level": "N4"
+    }
+  ],
+  "かぐ": [
+    {
+      "kanji": "家具",
+      "meaning": "đồ nội thất gia đình",
+      "level": "N4"
+    }
+  ],
+  "せつめいしょ": [
+    {
+      "kanji": "説明書",
+      "meaning": "bản hướng dẫn sử dụng",
+      "level": "N4"
+    }
+  ],
+  "ず": [
+    {
+      "kanji": "図",
+      "meaning": "hình vẽ, sơ đồ",
+      "level": "N4"
+    }
+  ],
+  "やじるし": [
+    {
+      "kanji": "矢印",
+      "meaning": "mũi tên chỉ hướng",
+      "level": "N4"
+    }
+  ],
+  "こん": [
+    {
+      "kanji": "紺",
+      "meaning": "màu xanh tím than, xanh lam sẫm",
+      "level": "N4"
+    }
+  ],
+  "さどう": [
+    {
+      "kanji": "茶道",
+      "meaning": "trà đạo Nhật Bản",
+      "level": "N4"
+    }
+  ],
+  "おちゃをたてます": [
+    {
+      "kanji": "お茶をたてます",
+      "meaning": "pha trà, đánh trà matcha",
+      "level": "N4"
+    }
+  ],
+  "さきに": [
+    {
+      "kanji": "先に",
+      "meaning": "trước, đi trước (hành động)",
+      "level": "N4"
+    }
+  ],
+  "のせます": [
+    {
+      "kanji": "載せます",
+      "meaning": "đặt lên, chở lên (xe, giá)",
+      "level": "N4"
+    }
+  ],
+  "にがい": [
+    {
+      "kanji": "苦い",
+      "meaning": "đắng (vị đắng)",
+      "level": "N4"
+    }
+  ],
+  "おやこどんぶり": [
+    {
+      "kanji": "親子どんぶり",
+      "meaning": "cơm gà xào trứng Oyakodon",
+      "level": "N4"
+    }
+  ],
+  "ざいりょう": [
+    {
+      "kanji": "材料",
+      "meaning": "nguyên liệu nấu ăn, vật liệu",
+      "level": "N4"
+    }
+  ],
+  "ぶん": [
+    {
+      "kanji": "分",
+      "meaning": "phần, khẩu phần (đơn vị lượng)",
+      "level": "N4"
+    }
+  ],
+  "よんぶんのいち": [
+    {
+      "kanji": "四分の1",
+      "meaning": "một phần tư (1/4)",
+      "level": "N4"
+    }
+  ],
+  "ちょうみりょう": [
+    {
+      "kanji": "調味料",
+      "meaning": "gia vị nêm nếm",
+      "level": "N4"
+    }
+  ],
+  "ひにかけます": [
+    {
+      "kanji": "火にかけます",
+      "meaning": "bắc lên bếp đun",
+      "level": "N4"
+    }
+  ],
+  "にます": [
+    {
+      "kanji": "煮ます",
+      "meaning": "nấu, kho, hầm (thực phẩm)",
+      "level": "N4"
+    }
+  ],
+  "にえます": [
+    {
+      "kanji": "煮えます",
+      "meaning": "chín nhừ, sôi chín (tự động từ)",
+      "level": "N4"
+    }
+  ],
+  "さきます": [
+    {
+      "kanji": "咲きます",
+      "meaning": "nở hoa (tự động từ: hoa nở)",
+      "level": "N4"
+    }
+  ],
+  "かわります": [
+    {
+      "kanji": "変わります",
+      "meaning": "thay đổi, biến đổi (tự động từ)",
+      "level": "N4"
+    }
+  ],
+  "ひろいます": [
+    {
+      "kanji": "拾います",
+      "meaning": "nhặt lên, lượm lặt",
+      "level": "N4"
+    }
+  ],
+  "らく": [
+    {
+      "kanji": "楽",
+      "meaning": "nhàn nhã, thoải mái, dễ chịu",
+      "level": "N4"
+    }
+  ],
+  "らくな": [
+    {
+      "kanji": "楽な",
+      "meaning": "nhàn nhã, thoải mái, dễ chịu",
+      "level": "N4"
+    }
+  ],
+  "ただしい": [
+    {
+      "kanji": "正しい",
+      "meaning": "chính xác, đúng đắn",
+      "level": "N4"
+    }
+  ],
+  "めずらしい": [
+    {
+      "kanji": "珍しい",
+      "meaning": "hiếm có, quý hiếm, độc đáo",
+      "level": "N4"
+    }
+  ],
+  "しま": [
+    {
+      "kanji": "島",
+      "meaning": "hòn đảo",
+      "level": "N4"
+    }
+  ],
+  "みなと": [
+    {
+      "kanji": "港",
+      "meaning": "bến cảng, hải cảng",
+      "level": "N4"
+    }
+  ],
+  "きんじょ": [
+    {
+      "kanji": "近所",
+      "meaning": "hàng xóm, khu vực lân cận",
+      "level": "N4"
+    }
+  ],
+  "おくじょう": [
+    {
+      "kanji": "屋上",
+      "meaning": "sân thượng (tòa nhà)",
+      "level": "N4"
+    }
+  ],
+  "かいがい": [
+    {
+      "kanji": "海外",
+      "meaning": "nước ngoài, hải ngoại",
+      "level": "N4"
+    }
+  ],
+  "やまのぼり": [
+    {
+      "kanji": "山登り",
+      "meaning": "việc leo núi, môn leo núi",
+      "level": "N4"
+    }
+  ],
+  "きょか": [
+    {
+      "kanji": "許可",
+      "meaning": "sự cho phép, cấp phép",
+      "level": "N4"
+    }
+  ],
+  "まる": [
+    {
+      "kanji": "丸",
+      "meaning": "vòng tròn, hình tròn",
+      "level": "N4"
+    }
+  ],
+  "そうさ": [
+    {
+      "kanji": "操作",
+      "meaning": "thao tác, điều khiển máy móc",
+      "level": "N4"
+    }
+  ],
+  "ほうほう": [
+    {
+      "kanji": "方法",
+      "meaning": "phương pháp, cách thức",
+      "level": "N4"
+    }
+  ],
+  "せつび": [
+    {
+      "kanji": "設備",
+      "meaning": "trang thiết bị, cơ sở vật chất",
+      "level": "N4"
+    }
+  ],
+  "きょく": [
+    {
+      "kanji": "曲",
+      "meaning": "bản nhạc, khúc ca",
+      "level": "N4"
+    }
+  ],
+  "たのしみ": [
+    {
+      "kanji": "楽しみ",
+      "meaning": "niềm vui, sự trông đợi",
+      "level": "N4"
+    }
+  ],
+  "はじめに": [
+    {
+      "kanji": "初めに",
+      "meaning": "trước tiên, lúc đầu",
+      "level": "N4"
+    }
+  ],
+  "これでおわります": [
+    {
+      "kanji": "これで終わります",
+      "meaning": "đến đây là kết thúc",
+      "level": "N4"
+    }
+  ],
+  "やこうばす": [
+    {
+      "kanji": "夜行バス",
+      "meaning": "xe buýt chạy đêm",
+      "level": "N4"
+    }
+  ],
+  "りょこうしゃ": [
+    {
+      "kanji": "旅行社",
+      "meaning": "công ty du lịch, hãng lữ hành",
+      "level": "N4"
+    }
+  ],
+  "くわしい": [
+    {
+      "kanji": "詳しい",
+      "meaning": "tường tận, chi tiết, hiểu biết sâu",
+      "level": "N4"
+    }
+  ],
+  "すきーじょう": [
+    {
+      "kanji": "スキー場",
+      "meaning": "khu trượt tuyết",
+      "level": "N4"
+    }
+  ],
+  "しゅいろ": [
+    {
+      "kanji": "朱色",
+      "meaning": "màu đỏ son (màu truyền thống trên cổng đền Torii)",
+      "level": "N4"
+    }
+  ],
+  "まじわります": [
+    {
+      "kanji": "交わります",
+      "meaning": "giao nhau, cắt nhau (con đường, dòng sông: 道/川が交わる)",
+      "level": "N4"
+    }
+  ],
+  "なかよくします": [
+    {
+      "kanji": "仲よくします",
+      "meaning": "chơi thân thiết, hòa thuận với nhau",
+      "level": "N4"
+    }
+  ],
+  "ひつよう": [
+    {
+      "kanji": "必要",
+      "meaning": "cần thiết, thiết yếu",
+      "level": "N4"
+    }
+  ],
+  "ひつような": [
+    {
+      "kanji": "必要な",
+      "meaning": "cần thiết, thiết yếu",
+      "level": "N4"
+    }
+  ],
+  "とどきます": [
+    {
+      "kanji": "届きます",
+      "meaning": "được giao đến (tự động từ: thư từ, hàng hóa)",
+      "level": "N4"
+    }
+  ],
+  "ちょきんします": [
+    {
+      "kanji": "貯金します",
+      "meaning": "tiết kiệm tiền, gửi tiền tiết kiệm",
+      "level": "N4"
+    }
+  ],
+  "ふとります": [
+    {
+      "kanji": "太ります",
+      "meaning": "béo lên, tăng cân",
+      "level": "N4"
+    }
+  ],
+  "すぎます": [
+    {
+      "kanji": "過ぎます",
+      "meaning": "quá giờ, trôi qua (thời gian)",
+      "level": "N4"
+    }
+  ],
+  "かたい": [
+    {
+      "kanji": "固い",
+      "meaning": "cứng cáp, rắn chắc",
+      "level": "N4"
+    }
+  ],
+  "やわらかい": [
+    {
+      "kanji": "軟らかい",
+      "meaning": "mềm mại, êm ái",
+      "level": "N4"
+    }
+  ],
+  "でんしー": [
+    {
+      "kanji": "電子ー",
+      "meaning": "điện tử (tiền tố)",
+      "level": "N4"
+    }
+  ],
+  "けいたいでんわ": [
+    {
+      "kanji": "携帯電話",
+      "meaning": "điện thoại di động",
+      "level": "N4"
+    }
+  ],
+  "こうじょう": [
+    {
+      "kanji": "工場",
+      "meaning": "nhà máy, xưởng sản xuất",
+      "level": "N4"
+    }
+  ],
+  "けんどう": [
+    {
+      "kanji": "剣道",
+      "meaning": "kiếm đạo Nhật Bản (Kendo)",
+      "level": "N4"
+    }
+  ],
+  "かならず": [
+    {
+      "kanji": "必ず",
+      "meaning": "nhất định, chắc chắn (quy tắc tất yếu, quyết tâm)",
+      "level": "N4"
+    }
+  ],
+  "ぜったいに": [
+    {
+      "kanji": "絶対に",
+      "meaning": "tuyệt đối (thường đi với phủ định: tuyệt đối không...)",
+      "level": "N4"
+    }
+  ],
+  "じょうずに": [
+    {
+      "kanji": "上手に",
+      "meaning": "giỏi, khéo léo, điêu luyện",
+      "level": "N4"
+    }
+  ],
+  "とくべつ": [
+    {
+      "kanji": "特別",
+      "meaning": "đặc biệt, riêng biệt khác thường",
+      "level": "N4"
+    }
+  ],
+  "とくべつな": [
+    {
+      "kanji": "特別な",
+      "meaning": "đặc biệt, riêng biệt khác thường",
+      "level": "N4"
+    }
+  ],
+  "すいえい": [
+    {
+      "kanji": "水泳",
+      "meaning": "môn bơi lội",
+      "level": "N4"
+    }
+  ],
+  "きもち": [
+    {
+      "kanji": "気持ち",
+      "meaning": "tâm trạng, cảm xúc, tấm lòng",
+      "level": "N4"
+    }
+  ],
+  "のりもの": [
+    {
+      "kanji": "乗り物",
+      "meaning": "phương tiện giao thông, phương tiện đi lại",
+      "level": "N4"
+    }
+  ],
+  "れきし": [
+    {
+      "kanji": "歴史",
+      "meaning": "lịch sử, bề dày lịch sử",
+      "level": "N4"
+    },
+    {
+      "kanji": "歴史",
+      "meaning": "lịch sử",
+      "level": "N4"
+    }
+  ],
+  "ーせいき": [
+    {
+      "kanji": "世紀",
+      "meaning": "thế kỷ thứ ～ (đơn vị 100 năm)",
+      "level": "N4"
+    }
+  ],
+  "とおく": [
+    {
+      "kanji": "遠く",
+      "meaning": "phía xa, nơi xa xôi",
+      "level": "N4"
+    }
+  ],
+  "きしゃ": [
+    {
+      "kanji": "汽車",
+      "meaning": "tàu hỏa chạy bằng hơi nước",
+      "level": "N4"
+    }
+  ],
+  "きせん": [
+    {
+      "kanji": "汽船",
+      "meaning": "tàu thủy chạy bằng hơi nước",
+      "level": "N4"
+    }
+  ],
+  "おおぜいの": [
+    {
+      "kanji": "大勢の",
+      "meaning": "đông người, nhiều người",
+      "level": "N4"
+    }
+  ],
+  "はこびます": [
+    {
+      "kanji": "運びます",
+      "meaning": "vận chuyển, khiêng vác",
+      "level": "N4"
+    }
+  ],
+  "ほめます": [
+    {
+      "kanji": "褒めます",
+      "meaning": "khen ngợi, tán dương",
+      "level": "N4"
+    }
+  ],
+  "さそいます": [
+    {
+      "kanji": "誘いますね",
+      "meaning": "mời, rủ rê (đi chơi, xem phim)",
+      "level": "N4"
+    }
+  ],
+  "おこします": [
+    {
+      "kanji": "起こします",
+      "meaning": "đánh thức (ai đó dậy)",
+      "level": "N4"
+    }
+  ],
+  "しょうたいします": [
+    {
+      "kanji": "招待します",
+      "meaning": "mời, chiêu đãi (dự tiệc, đến nhà)",
+      "level": "N4"
+    }
+  ],
+  "たのみます": [
+    {
+      "kanji": "頼みます",
+      "meaning": "nhờ vả, yêu cầu, gọi món",
+      "level": "N4"
+    }
+  ],
+  "ふみます": [
+    {
+      "kanji": "踏みます",
+      "meaning": "dẫm lên, giẫm phải (chân, đuôi)",
+      "level": "N4"
+    }
+  ],
+  "こわします": [
+    {
+      "kanji": "壊します",
+      "meaning": "làm hỏng, phá vỡ (đồ đạc)",
+      "level": "N4"
+    }
+  ],
+  "よごします": [
+    {
+      "kanji": "汚します",
+      "meaning": "làm bẩn, làm dơ",
+      "level": "N4"
+    }
+  ],
+  "おこないます": [
+    {
+      "kanji": "行います",
+      "meaning": "tiến hành, tổ chức (buổi lễ, hội nghị)",
+      "level": "N4"
+    }
+  ],
+  "ゆしゅつします": [
+    {
+      "kanji": "輸出します",
+      "meaning": "xuất khẩu (hàng hóa sang nước ngoài)",
+      "level": "N4"
+    }
+  ],
+  "ゆにゅうします": [
+    {
+      "kanji": "輸入します",
+      "meaning": "nhập khẩu (nguyên liệu, thực phẩm)",
+      "level": "N4"
+    }
+  ],
+  "ほんやくします": [
+    {
+      "kanji": "翻訳します",
+      "meaning": "dịch thuật (văn bản viết)",
+      "level": "N4"
+    }
+  ],
+  "はつめいします": [
+    {
+      "kanji": "発明します",
+      "meaning": "phát minh (tạo ra sản phẩm mới chưa từng có)",
+      "level": "N4"
+    }
+  ],
+  "はっけんします": [
+    {
+      "kanji": "発見します",
+      "meaning": "phát hiện (tìm ra điều vốn có sẵn)",
+      "level": "N4"
+    }
+  ],
+  "せっけいします": [
+    {
+      "kanji": "設計します",
+      "meaning": "thiết kế (công trình, bản vẽ)",
+      "level": "N4"
+    }
+  ],
+  "こめ": [
+    {
+      "kanji": "米",
+      "meaning": "gạo, hạt thóc",
+      "level": "N4"
+    }
+  ],
+  "むぎ": [
+    {
+      "kanji": "麦",
+      "meaning": "lúa mạch, lúa mì",
+      "level": "N4"
+    }
+  ],
+  "せきゆ": [
+    {
+      "kanji": "石油",
+      "meaning": "dầu mỏ, dầu thô",
+      "level": "N4"
+    }
+  ],
+  "げんりょう": [
+    {
+      "kanji": "原料",
+      "meaning": "nguyên liệu thô (chế tạo công nghiệp)",
+      "level": "N4"
+    }
+  ],
+  "どろぼう": [
+    {
+      "kanji": "泥棒",
+      "meaning": "kẻ trộm, tên đạo chích",
+      "level": "N4"
+    }
+  ],
+  "けんちくか": [
+    {
+      "kanji": "建築家",
+      "meaning": "kiến trúc sư",
+      "level": "N4"
+    }
+  ],
+  "かがくしゃ": [
+    {
+      "kanji": "科学者",
+      "meaning": "nhà khoa học",
+      "level": "N4"
+    }
+  ],
+  "うめたてます": [
+    {
+      "kanji": "埋め立てます",
+      "meaning": "san lấp, lấn biển",
+      "level": "N4"
+    }
+  ],
+  "ぎじゅつ": [
+    {
+      "kanji": "技術",
+      "meaning": "kỹ thuật, công nghệ",
+      "level": "N4"
+    }
+  ],
+  "とち": [
+    {
+      "kanji": "土地",
+      "meaning": "mảnh đất, đất đai",
+      "level": "N4"
+    }
+  ],
+  "そうおん": [
+    {
+      "kanji": "騒音",
+      "meaning": "tiếng ồn khó chịu",
+      "level": "N4"
+    }
+  ],
+  "ごうか": [
+    {
+      "kanji": "豪華",
+      "meaning": "sang trọng, lộng lẫy, xa hoa",
+      "level": "N4"
+    }
+  ],
+  "ごうかな": [
+    {
+      "kanji": "豪華な",
+      "meaning": "sang trọng, lộng lẫy, xa hoa",
+      "level": "N4"
+    }
+  ],
+  "ちょうこく": [
+    {
+      "kanji": "彫刻",
+      "meaning": "tác phẩm điêu khắc",
+      "level": "N4"
+    }
+  ],
+  "ねむります": [
+    {
+      "kanji": "眠ります",
+      "meaning": "chìm vào giấc ngủ, ngủ say",
+      "level": "N4"
+    }
+  ],
+  "ほります": [
+    {
+      "kanji": "彫ります",
+      "meaning": "chạm khắc, đục đẽo",
+      "level": "N4"
+    }
+  ],
+  "なかま": [
+    {
+      "kanji": "仲間",
+      "meaning": "bạn bè thân thiết, đồng đội",
+      "level": "N4"
+    }
+  ],
+  "いっしょうけんめい": [
+    {
+      "kanji": "一生懸命",
+      "meaning": "dốc hết sức mình, chăm chỉ hết lòng",
+      "level": "N4"
+    },
+    {
+      "kanji": "一生懸命",
+      "meaning": "chăm chỉ, hết mình, nỗ lực hết sức",
+      "level": "N4"
+    }
+  ],
+  "いっぴきもいません": [
+    {
+      "kanji": "一匹もいません",
+      "meaning": "không có lấy một con nào cả (đếm động vật nhỏ)",
+      "level": "N4"
+    }
+  ],
+  "そだてます": [
+    {
+      "kanji": "育てます",
+      "meaning": "nuôi nấng (con cái), chăm sóc (cây cối)",
+      "level": "N4"
+    }
+  ],
+  "なくなります": [
+    {
+      "kanji": "亡くなります",
+      "meaning": "mất đi, qua đời (người thân qua đời)",
+      "level": "N4"
+    }
+  ],
+  "にゅういんします": [
+    {
+      "kanji": "入院します",
+      "meaning": "nhập viện (điều trị bệnh)",
+      "level": "N4"
+    },
+    {
+      "kanji": "入院します",
+      "meaning": "nhập viện điều trị (đã tách rời nhầm lẫn với nướng)",
+      "level": "N4"
+    }
+  ],
+  "たいいんします": [
+    {
+      "kanji": "退院します",
+      "meaning": "xuất viện (khỏi bệnh về nhà)",
+      "level": "N4"
+    }
+  ],
+  "きります": [
+    {
+      "kanji": "切ります",
+      "meaning": "tắt (công tắc điện: 電源を切る)",
+      "level": "N4"
+    }
+  ],
+  "きもちがいい": [
+    {
+      "kanji": "気持ちがいい",
+      "meaning": "dễ chịu, thoải mái, sảng khoái",
+      "level": "N4"
+    }
+  ],
+  "きもちがわるい": [
+    {
+      "kanji": "気持ちが悪い",
+      "meaning": "khó chịu, kinh tởm, buồn nôn",
+      "level": "N4"
+    }
+  ],
+  "おおきな": [
+    {
+      "kanji": "大きなー",
+      "meaning": "to lớn, khổng lồ (bổ nghĩa danh từ)",
+      "level": "N4"
+    }
+  ],
+  "ちいさな": [
+    {
+      "kanji": "小さなー",
+      "meaning": "nhỏ nhắn, xinh xắn (bổ nghĩa danh từ)",
+      "level": "N4"
+    }
+  ],
+  "あかちゃん": [
+    {
+      "kanji": "赤ちゃん",
+      "meaning": "em bé sơ sinh",
+      "level": "N4"
+    }
+  ],
+  "しょうがっこう": [
+    {
+      "kanji": "小学校",
+      "meaning": "trường tiểu học",
+      "level": "N4"
+    }
+  ],
+  "ちゅうがっこう": [
+    {
+      "kanji": "中学校",
+      "meaning": "trường trung học cơ sở (cấp 2)",
+      "level": "N4"
+    }
+  ],
+  "かいがん": [
+    {
+      "kanji": "海岸",
+      "meaning": "bờ biển, dải bờ biển",
+      "level": "N4"
+    }
+  ],
+  "でんげん": [
+    {
+      "kanji": "電源",
+      "meaning": "nguồn điện (công tắc nguồn)",
+      "level": "N4"
+    }
+  ],
+  "せい": [
+    {
+      "kanji": "製",
+      "meaning": "sản xuất tại ～, chế tạo bằng chất liệu ～ (日本製, ドイツ製)",
+      "level": "N4"
+    }
+  ],
+  "おさきに": [
+    {
+      "kanji": "お先に",
+      "meaning": "tôi xin phép về trước (お先に失礼します)",
+      "level": "N4"
+    }
+  ],
+  "かいらん": [
+    {
+      "kanji": "回覧",
+      "meaning": "tờ thông báo luân chuyển (khu dân cư)",
+      "level": "N4"
+    }
+  ],
+  "けんきゅうしつ": [
+    {
+      "kanji": "研究者室",
+      "meaning": "phòng nghiên cứu",
+      "level": "N4"
+    }
+  ],
+  "せいりします": [
+    {
+      "kanji": "整理します",
+      "meaning": "sắp xếp, chỉnh đốn (tài liệu, đồ đạc)",
+      "level": "N4"
+    }
+  ],
+  "ふたご": [
+    {
+      "kanji": "双子",
+      "meaning": "cặp song sinh, anh/chị em sinh đôi",
+      "level": "N4"
+    }
+  ],
+  "しまい": [
+    {
+      "kanji": "姉妹",
+      "meaning": "chị em gái",
+      "level": "N4"
+    }
+  ],
+  "ごねんせい": [
+    {
+      "kanji": "5年生",
+      "meaning": "học sinh lớp 5, sinh viên năm thứ 5",
+      "level": "N4"
+    }
+  ],
+  "にています": [
+    {
+      "kanji": "似ています",
+      "meaning": "giống nhau (tương đồng về ngoại hình, tính cách)",
+      "level": "N4"
+    }
+  ],
+  "せいかく": [
+    {
+      "kanji": "性格",
+      "meaning": "tính cách, phẩm chất",
+      "level": "N4"
+    }
+  ],
+  "せわをします": [
+    {
+      "kanji": "世話をします",
+      "meaning": "chăm nom, chăm sóc",
+      "level": "N4"
+    }
+  ],
+  "じかんがたちます": [
+    {
+      "kanji": "時間がたちます",
+      "meaning": "thời gian trôi qua",
+      "level": "N4"
+    }
+  ],
+  "ふしぎ": [
+    {
+      "kanji": "不思議",
+      "meaning": "kỳ lạ, huyền bí, khó tin",
+      "level": "N4"
+    }
+  ],
+  "こたえます": [
+    {
+      "kanji": "答えます",
+      "meaning": "trả lời, hồi đáp (câu hỏi, thắc mắc)",
+      "level": "N4"
+    }
+  ],
+  "やけます": [
+    {
+      "kanji": "焼けます",
+      "meaning": "cháy, bị thiêu rụi (nhà: 家が焼ける), nướng chín",
+      "level": "N4"
+    }
+  ],
+  "とおります": [
+    {
+      "kanji": "通ります",
+      "meaning": "đi qua, chạy ngang qua (đường sá, xe cộ)",
+      "level": "N4"
+    }
+  ],
+  "しにます": [
+    {
+      "kanji": "死にます",
+      "meaning": "chết, qua đời",
+      "level": "N4"
+    }
+  ],
+  "あんしんします": [
+    {
+      "kanji": "安心します",
+      "meaning": "an tâm, nhẹ nhõm trong lòng",
+      "level": "N4"
+    }
+  ],
+  "ちこくします": [
+    {
+      "kanji": "遅刻します",
+      "meaning": "đến muộn, trễ giờ (học, làm: 会社/学校に遅刻する)",
+      "level": "N4"
+    }
+  ],
+  "そうたいします": [
+    {
+      "kanji": "早退します",
+      "meaning": "về sớm trước giờ quy định (do ốm hoặc có việc bận)",
+      "level": "N4"
+    }
+  ],
+  "りこんします": [
+    {
+      "kanji": "離婚します",
+      "meaning": "ly hôn, ly dị (chấm dứt hôn nhân)",
+      "level": "N4"
+    }
+  ],
+  "ふくざつ": [
+    {
+      "kanji": "複雑",
+      "meaning": "phức tạp, rắc rối (cấu trúc, thủ tục, tâm lý)",
+      "level": "N4"
+    }
+  ],
+  "ふくざつな": [
+    {
+      "kanji": "複雑な",
+      "meaning": "phức tạp, rắc rối (cấu trúc, thủ tục, tâm lý)",
+      "level": "N4"
+    }
+  ],
+  "じゃま": [
+    {
+      "kanji": "邪魔",
+      "meaning": "vướng víu, cản trở, ngáng đường",
+      "level": "N4"
+    }
+  ],
+  "じゃまな": [
+    {
+      "kanji": "邪魔な",
+      "meaning": "vướng víu, cản trở, ngáng đường",
+      "level": "N4"
+    }
+  ],
+  "はずかしい": [
+    {
+      "kanji": "恥ずかしい",
+      "meaning": "ngượng ngùng, xấu hổ",
+      "level": "N4"
+    }
+  ],
+  "たいふう": [
+    {
+      "kanji": "台風",
+      "meaning": "cơn bão biển, lốc xoáy nhiệt đới",
+      "level": "N4"
+    }
+  ],
+  "かじ": [
+    {
+      "kanji": "火事",
+      "meaning": "hỏa hoạn, vụ cháy",
+      "level": "N4"
+    }
+  ],
+  "じこ": [
+    {
+      "kanji": "事故",
+      "meaning": "tai nạn, sự cố (giao thông)",
+      "level": "N4"
+    }
+  ],
+  "みあい": [
+    {
+      "kanji": "見合い",
+      "meaning": "buổi xem mắt (nam nữ gặp nhau làm quen qua mối mai)",
+      "level": "N4"
+    }
+  ],
+  "でんわだい": [
+    {
+      "kanji": "電話代",
+      "meaning": "tiền cước điện thoại hằng tháng",
+      "level": "N4"
+    }
+  ],
+  "ーだい": [
+    {
+      "kanji": "代",
+      "meaning": "tiền cước phí, chi phí cho khoản ～ (hậu tố: 部屋代, 食事代)",
+      "level": "N4"
+    }
+  ],
+  "ごうしつ": [
+    {
+      "kanji": "ー号室",
+      "meaning": "phòng số ～",
+      "level": "N4"
+    }
+  ],
+  "あせ": [
+    {
+      "kanji": "汗",
+      "meaning": "mồ hôi cơ thể",
+      "level": "N4"
+    }
+  ],
+  "おつかれさまでした": [
+    {
+      "kanji": "お疲れさまでした",
+      "meaning": "anh/chị đã vất vả rồi! (lời chào trân trọng sau khi hoàn thành công việc)",
+      "level": "N4"
+    },
+    {
+      "kanji": "お疲れさまでした",
+      "meaning": "anh/chị đã vất vả rồi; cảm ơn sau một ngày làm việc",
+      "level": "N4"
+    }
+  ],
+  "うかがいます": [
+    {
+      "kanji": "伺います",
+      "meaning": "đến thăm, hỏi thăm (khiêm nhường ngữ của 行く, 来る, 聞く)",
+      "level": "N4"
+    }
+  ],
+  "とちゅうで": [
+    {
+      "kanji": "途中で",
+      "meaning": "giữa chừng, trên đường đi",
+      "level": "N4"
+    }
+  ],
+  "ならびます": [
+    {
+      "kanji": "並びます",
+      "meaning": "xếp hàng, đứng thành hàng",
+      "level": "N4"
+    }
+  ],
+  "せいようかします": [
+    {
+      "kanji": "西洋化します",
+      "meaning": "Tây âu hóa, theo phong cách phương Tây",
+      "level": "N4"
+    }
+  ],
+  "いまでは": [
+    {
+      "kanji": "今では",
+      "meaning": "hiện nay, ngày nay",
+      "level": "N4"
+    }
+  ],
+  "せいじんしき": [
+    {
+      "kanji": "成人式",
+      "meaning": "buổi lễ",
+      "level": "N4"
+    }
+  ],
+  "かぞえます": [
+    {
+      "kanji": "数えます",
+      "meaning": "đếm (số lượng, tiền)",
+      "level": "N4"
+    }
+  ],
+  "はかります": [
+    {
+      "kanji": "測ります",
+      "meaning": "đo đạc (chiều dài, cân nặng, thể tích)",
+      "level": "N4"
+    },
+    {
+      "kanji": "量ります",
+      "meaning": "đo đạc (chiều dài, cân nặng, thể tích)",
+      "level": "N4"
+    }
+  ],
+  "たしかめます": [
+    {
+      "kanji": "確かめます",
+      "meaning": "kiểm tra, xác nhận (kiểm tra lại cho chắc chắn, tránh sai sót)",
+      "level": "N4"
+    }
+  ],
+  "しゅっぱつします": [
+    {
+      "kanji": "出発します",
+      "meaning": "khởi hành, xuất phát",
+      "level": "N4"
+    }
+  ],
+  "とうちゃくします": [
+    {
+      "kanji": "到着します",
+      "meaning": "đến, đến",
+      "level": "N4"
+    }
+  ],
+  "よいます": [
+    {
+      "kanji": "酔います",
+      "meaning": "say (rượu: 酒に酔う), say xe (車に酔う)",
+      "level": "N4"
+    }
+  ],
+  "きけん": [
+    {
+      "kanji": "危険",
+      "meaning": "nguy hiểm, mất an toàn",
+      "level": "N4"
+    }
+  ],
+  "きけんな": [
+    {
+      "kanji": "危険な",
+      "meaning": "nguy hiểm, mất an toàn",
+      "level": "N4"
+    }
+  ],
+  "ぼうねんかい": [
+    {
+      "kanji": "忘年会",
+      "meaning": "tiệc tất niên cuối năm",
+      "level": "N4"
+    }
+  ],
+  "しんねんかい": [
+    {
+      "kanji": "新年会",
+      "meaning": "tiệc tân niên đầu năm mới",
+      "level": "N4"
+    }
+  ],
+  "にじかい": [
+    {
+      "kanji": "二次会",
+      "meaning": "tăng hai, buổi liên hoan chầu hai",
+      "level": "N4"
+    }
+  ],
+  "たいかい": [
+    {
+      "kanji": "大会",
+      "meaning": "đại hội thể thao, cuộc thi quy mô lớn",
+      "level": "N4"
+    }
+  ],
+  "おもて": [
+    {
+      "kanji": "表",
+      "meaning": "mặt trước, bề nổi, bảng biểu",
+      "level": "N4"
+    }
+  ],
+  "うら": [
+    {
+      "kanji": "裏",
+      "meaning": "mặt sau, mặt trái",
+      "level": "N4"
+    }
+  ],
+  "もうしこみ": [
+    {
+      "kanji": "申し込み",
+      "meaning": "sự đăng ký, đơn đăng ký",
+      "level": "N4"
+    }
+  ],
+  "ほんとう": [
+    {
+      "kanji": "本当",
+      "meaning": "sự thật, tính chân thực",
+      "level": "N4"
+    }
+  ],
+  "きず": [
+    {
+      "kanji": "傷",
+      "meaning": "vết trầy xước, vết thương",
+      "level": "N4"
+    }
+  ],
+  "ながさ": [
+    {
+      "kanji": "長さ",
+      "meaning": "chiều dài",
+      "level": "N4"
+    }
+  ],
+  "おもさ": [
+    {
+      "kanji": "重さ",
+      "meaning": "trọng lượng, cân nặng",
+      "level": "N4"
+    }
+  ],
+  "たかさ": [
+    {
+      "kanji": "高さ",
+      "meaning": "chiều cao, độ cao",
+      "level": "N4"
+    }
+  ],
+  "ごう": [
+    {
+      "kanji": "号",
+      "meaning": "chuyến tàu số ～, số phòng ～, cơn bão số ～",
+      "level": "N4"
+    }
+  ],
+  "こ": [
+    {
+      "kanji": "個",
+      "meaning": "cái, chiếc, quả (đơn vị đếm vật nhỏ)",
+      "level": "N4"
+    }
+  ],
+  "はい": [
+    {
+      "kanji": "杯",
+      "meaning": "～ chén, tách, bát, ly (đơn vị đếm đồ uống trong cốc/bát: はい/ぱい/ばい)",
+      "level": "N4"
+    }
+  ],
+  "いじょう": [
+    {
+      "kanji": "以上",
+      "meaning": "từ ～ trở lên (bao gồm cả mốc tính)",
+      "level": "N4"
+    }
+  ],
+  "いか": [
+    {
+      "kanji": "以下",
+      "meaning": "từ ～ trở xuống, dưới mốc ～",
+      "level": "N4"
+    }
+  ],
+  "せいせき": [
+    {
+      "kanji": "成績",
+      "meaning": "kết quả học tập, thành tích thi đua",
+      "level": "N4"
+    }
+  ],
+  "ようす": [
+    {
+      "kanji": "様子",
+      "meaning": "tình hình, trạng thái, dáng vẻ",
+      "level": "N4"
+    }
+  ],
+  "じけん": [
+    {
+      "kanji": "事件",
+      "meaning": "vụ án, biến cố, sự việc bất thường",
+      "level": "N4"
+    }
+  ],
+  "ばくだん": [
+    {
+      "kanji": "爆弾",
+      "meaning": "quả bom",
+      "level": "N4"
+    }
+  ],
+  "つみます": [
+    {
+      "kanji": "積みます",
+      "meaning": "chất lên xe, xếp hàng hóa (荷物を積む)",
+      "level": "N4"
+    }
+  ],
+  "うんてんしゅ": [
+    {
+      "kanji": "運転手",
+      "meaning": "người lái xe, tài xế",
+      "level": "N4"
+    }
+  ],
+  "はなれた": [
+    {
+      "kanji": "離れた",
+      "meaning": "cách xa, cách biệt (về khoảng cách)",
+      "level": "N4"
+    }
+  ],
+  "きゅうに": [
+    {
+      "kanji": "急に",
+      "meaning": "đột ngột, bất thình lình",
+      "level": "N4"
+    },
+    {
+      "kanji": "急に",
+      "meaning": "đột nhiên, bất ngờ (thay đổi trạng thái đột ngột)",
+      "level": "N4"
+    }
+  ],
+  "うごかします": [
+    {
+      "kanji": "動かします",
+      "meaning": "vận hành, làm cho máy móc chuyển động (máy móc: 機械を動かす)",
+      "level": "N4"
+    }
+  ],
+  "いっしょけんめい": [
+    {
+      "kanji": "一所懸命",
+      "meaning": "rất chăm chỉ",
+      "level": "N4"
+    }
+  ],
+  "はんにん": [
+    {
+      "kanji": "犯人",
+      "meaning": "thủ phạm",
+      "level": "N4"
+    }
+  ],
+  "てにいれます": [
+    {
+      "kanji": "手に入れます",
+      "meaning": "sở hữu được, có trong tay",
+      "level": "N4"
+    }
+  ],
+  "いまでも": [
+    {
+      "kanji": "今でも",
+      "meaning": "ngay cả bây giờ, cho đến tận hôm nay",
+      "level": "N4"
+    }
+  ],
+  "とりかえます": [
+    {
+      "kanji": "取り替えます",
+      "meaning": "đổi lại, thay thế (pin, bóng đèn, phụ tùng)",
+      "level": "N4"
+    }
+  ],
+  "しんせつにします": [
+    {
+      "kanji": "親切に します",
+      "meaning": "đối xử tốt bụng, ân cần, tử tế",
+      "level": "N4"
+    }
+  ],
+  "おとしだま": [
+    {
+      "kanji": "お年玉",
+      "meaning": "tiền mừng tuổi, lì xì đầu năm",
+      "level": "N4"
+    }
+  ],
+  "みまい": [
+    {
+      "kanji": "見舞い",
+      "meaning": "thăm người ốm, quà thăm bệnh",
+      "level": "N4"
+    }
+  ],
+  "おみまい": [
+    {
+      "kanji": "お見舞い",
+      "meaning": "thăm người ốm, quà thăm bệnh",
+      "level": "N4"
+    }
+  ],
+  "きょうみ": [
+    {
+      "kanji": "興味",
+      "meaning": "hứng thú, sự quan tâm",
+      "level": "N4"
+    }
+  ],
+  "じょうほう": [
+    {
+      "kanji": "情報",
+      "meaning": "thông tin, tin tức dữ liệu",
+      "level": "N4"
+    }
+  ],
+  "ぶんぽう": [
+    {
+      "kanji": "文法",
+      "meaning": "ngữ pháp (ngôn ngữ)",
+      "level": "N4"
+    }
+  ],
+  "はつおん": [
+    {
+      "kanji": "発音",
+      "meaning": "phát âm, cách đọc",
+      "level": "N4"
+    }
+  ],
+  "さる": [
+    {
+      "kanji": "猿",
+      "meaning": "con khỉ",
+      "level": "N4"
+    }
+  ],
+  "えほん": [
+    {
+      "kanji": "絵本",
+      "meaning": "sách tranh, truyện tranh thiếu nhi",
+      "level": "N4"
+    }
+  ],
+  "えはがき": [
+    {
+      "kanji": "絵はがき",
+      "meaning": "bưu thiếp có hình ảnh",
+      "level": "N4"
+    }
+  ],
+  "てぶくろ": [
+    {
+      "kanji": "手袋",
+      "meaning": "đôi găng tay",
+      "level": "N4"
+    }
+  ],
+  "ゆびわ": [
+    {
+      "kanji": "指輪",
+      "meaning": "nhẫn",
+      "level": "N4"
+    }
+  ],
+  "そふ": [
+    {
+      "kanji": "祖父",
+      "meaning": "ông, ông nội, ông ngoại (của mình)",
+      "level": "N4"
+    }
+  ],
+  "そぼ": [
+    {
+      "kanji": "祖母",
+      "meaning": "bà, bà nội, bà ngoại (của mình)",
+      "level": "N4"
+    }
+  ],
+  "まご": [
+    {
+      "kanji": "孫",
+      "meaning": "cháu (con của con mình)",
+      "level": "N4"
+    }
+  ],
+  "もうしわけありません": [
+    {
+      "kanji": "申し訳 ありません",
+      "meaning": "xin lỗi",
+      "level": "N4"
+    }
+  ],
+  "あずかります": [
+    {
+      "kanji": "預かります",
+      "meaning": "trông nom hộ, giữ hộ đồ đạc [荷物を預かる]",
+      "level": "N4"
+    }
+  ],
+  "せんじつ": [
+    {
+      "kanji": "先日",
+      "meaning": "hôm trước, mấy hôm trước",
+      "level": "N4"
+    }
+  ],
+  "たすかります": [
+    {
+      "kanji": "助かります",
+      "meaning": "được cứu giúp, đỡ quá (nhờ ai giúp đỡ)",
+      "level": "N4"
+    }
+  ],
+  "むかしばなし": [
+    {
+      "kanji": "昔話",
+      "meaning": "chuyện cổ tích ngày xưa, truyện ngụ ngôn",
+      "level": "N4"
+    }
+  ],
+  "かめ": [
+    {
+      "kanji": "亀",
+      "meaning": "con rùa",
+      "level": "N4"
+    }
+  ],
+  "たすけます": [
+    {
+      "kanji": "助けます",
+      "meaning": "cứu giúp, giải thoát khỏi hoạn nạn",
+      "level": "N4"
+    }
+  ],
+  "おしろ": [
+    {
+      "kanji": "お城",
+      "meaning": "lâu đài, thành trì; tường thành",
+      "level": "N4"
+    }
+  ],
+  "おひめさま": [
+    {
+      "kanji": "お姫様",
+      "meaning": "nàng công chúa xinh đẹp",
+      "level": "N4"
+    }
+  ],
+  "たのしく": [
+    {
+      "kanji": "楽しく",
+      "meaning": "một cách vui vẻ, hào hứng (phó từ)",
+      "level": "N4"
+    }
+  ],
+  "くらします": [
+    {
+      "kanji": "暮らします",
+      "meaning": "sinh sống, an cư lạc nghiệp",
+      "level": "N4"
+    }
+  ],
+  "りく": [
+    {
+      "kanji": "陸",
+      "meaning": "đất liền, lục địa",
+      "level": "N4"
+    }
+  ],
+  "けむり": [
+    {
+      "kanji": "煙",
+      "meaning": "khói",
+      "level": "N4"
+    }
+  ],
+  "まっしろ": [
+    {
+      "kanji": "真っ白",
+      "meaning": "màu trắng",
+      "level": "N4"
+    }
+  ],
+  "まっしろな": [
+    {
+      "kanji": "真っ白な",
+      "meaning": "màu trắng",
+      "level": "N4"
+    }
+  ],
+  "なかみ": [
+    {
+      "kanji": "中身",
+      "meaning": "ruột bên trong, nội dung bên trong",
+      "level": "N4"
+    }
+  ],
+  "つつみます": [
+    {
+      "kanji": "包みます",
+      "meaning": "bọc, gói ghém (quà tặng, bánh kẹo)",
+      "level": "N4"
+    }
+  ],
+  "わかします": [
+    {
+      "kanji": "沸かします",
+      "meaning": "đun sôi (nước: お湯を沸かす)",
+      "level": "N4"
+    }
+  ],
+  "まぜます": [
+    {
+      "kanji": "混ぜます",
+      "meaning": "khuấy đều, trộn lẫn",
+      "level": "N4"
+    }
+  ],
+  "けいさんします": [
+    {
+      "kanji": "計算します",
+      "meaning": "tính toán (chi phí, sổ sách)",
+      "level": "N4"
+    }
+  ],
+  "べんごし": [
+    {
+      "kanji": "弁護士",
+      "meaning": "luật sư",
+      "level": "N4"
+    }
+  ],
+  "おんがくか": [
+    {
+      "kanji": "音楽家",
+      "meaning": "nhạc sĩ, nhà soạn nhạc",
+      "level": "N4"
+    }
+  ],
+  "きょういく": [
+    {
+      "kanji": "教育",
+      "meaning": "giáo dục",
+      "level": "N4"
+    }
+  ],
+  "ぶんか": [
+    {
+      "kanji": "文化",
+      "meaning": "văn hóa",
+      "level": "N4"
+    }
+  ],
+  "しゃかい": [
+    {
+      "kanji": "社会",
+      "meaning": "xã hội",
+      "level": "N4"
+    }
+  ],
+  "ほうりつ": [
+    {
+      "kanji": "法律",
+      "meaning": "luật pháp, pháp luật",
+      "level": "N4"
+    }
+  ],
+  "せんそう": [
+    {
+      "kanji": "戦争",
+      "meaning": "chiến tranh",
+      "level": "N4"
+    }
+  ],
+  "へいわ": [
+    {
+      "kanji": "平和",
+      "meaning": "hòa bình",
+      "level": "N4"
+    }
+  ],
+  "もくてき": [
+    {
+      "kanji": "目的",
+      "meaning": "mục đích, mục tiêu",
+      "level": "N4"
+    }
+  ],
+  "あんぜん": [
+    {
+      "kanji": "安全",
+      "meaning": "an toàn, bình an vô sự",
+      "level": "N4"
+    },
+    {
+      "kanji": "安全",
+      "meaning": "an toàn",
+      "level": "N4"
+    }
+  ],
+  "ろんぶん": [
+    {
+      "kanji": "論文",
+      "meaning": "luận văn, bài báo khoa học",
+      "level": "N4"
+    }
+  ],
+  "かんけい": [
+    {
+      "kanji": "関係",
+      "meaning": "mối quan hệ, mối liên hệ qua lại",
+      "level": "N4"
+    }
+  ],
+  "せんぬき": [
+    {
+      "kanji": "栓抜き",
+      "meaning": "cái mở nắp chai bia, bật nắp",
+      "level": "N4"
+    }
+  ],
+  "かんきり": [
+    {
+      "kanji": "缶切り",
+      "meaning": "cái khui đồ hộp",
+      "level": "N4"
+    }
+  ],
+  "かんづめ": [
+    {
+      "kanji": "缶詰",
+      "meaning": "đồ hộp, thực phẩm đóng hộp",
+      "level": "N4"
+    }
+  ],
+  "たいおんけい": [
+    {
+      "kanji": "体温計",
+      "meaning": "nhiệt kế đo thân nhiệt",
+      "level": "N4"
+    }
+  ],
+  "いし": [
+    {
+      "kanji": "石",
+      "meaning": "hòn đá, tảng đá",
+      "level": "N4"
+    }
+  ],
+  "こくれん": [
+    {
+      "kanji": "国連",
+      "meaning": "liên hiệp quốc",
+      "level": "N4"
+    }
+  ],
+  "こくさいれんごう": [
+    {
+      "kanji": "国際連合",
+      "meaning": "liên hiệp quốc",
+      "level": "N4"
+    }
+  ],
+  "しょくひん": [
+    {
+      "kanji": "食品",
+      "meaning": "thực phẩm, đồ ăn",
+      "level": "N4"
+    }
+  ],
+  "ちょうさ": [
+    {
+      "kanji": "調査",
+      "meaning": "khảo sát, điều tra số liệu",
+      "level": "N4"
+    }
+  ],
+  "のかわりに": [
+    {
+      "kanji": "の代わりに",
+      "meaning": "thay cho ～, thay vì ～",
+      "level": "N4"
+    }
+  ],
+  "ふえます": [
+    {
+      "kanji": "増えます",
+      "meaning": "tăng lên (tự động từ: số lượng, cân nặng, xuất khẩu)",
+      "level": "N4"
+    }
+  ],
+  "へります": [
+    {
+      "kanji": "減ります",
+      "meaning": "giảm đi (tự động từ: dân số, chi phí, rác thải)",
+      "level": "N4"
+    }
+  ],
+  "あがります": [
+    {
+      "kanji": "上がります",
+      "meaning": "tăng giá, đi lên (tự động từ: giá cả: 物価が上がる)",
+      "level": "N4"
+    }
+  ],
+  "さがります": [
+    {
+      "kanji": "下がります",
+      "meaning": "hạ giá, tụt xuống (tự động từ: nhiệt độ, giá cả)",
+      "level": "N4"
+    }
+  ],
+  "きれます": [
+    {
+      "kanji": "切れます",
+      "meaning": "bị đứt (dây), hết (pin: 電池が切れる)",
+      "level": "N4"
+    }
+  ],
+  "おちます": [
+    {
+      "kanji": "落ちます",
+      "meaning": "rơi, rớt xuống [đồ đạc, quả: 荷物/果物が落ちる]",
+      "level": "N4"
+    }
+  ],
+  "じょうぶ": [
+    {
+      "kanji": "丈夫",
+      "meaning": "chắc chắn, bền; khỏe mạnh",
+      "level": "N4"
+    },
+    {
+      "kanji": "丈夫 な",
+      "meaning": "chắc chắn, bền; khỏe mạnh",
+      "level": "N4"
+    }
+  ],
+  "へん": [
+    {
+      "kanji": "変",
+      "meaning": "kỳ lạ, kỳ quặc, bất thường",
+      "level": "N4"
+    }
+  ],
+  "へんな": [
+    {
+      "kanji": "変な",
+      "meaning": "kỳ lạ, kỳ quặc, bất thường",
+      "level": "N4"
+    }
+  ],
+  "しあわせ": [
+    {
+      "kanji": "幸せ",
+      "meaning": "hạnh phúc, niềm vui sướng an lành",
+      "level": "N4"
+    }
+  ],
+  "だんぼう": [
+    {
+      "kanji": "暖房",
+      "meaning": "lò sưởi, chế độ sưởi ấm mùa đông",
+      "level": "N4"
+    }
+  ],
+  "れいぼう": [
+    {
+      "kanji": "冷房",
+      "meaning": "máy lạnh, chế độ làm mát mùa hè",
+      "level": "N4"
+    }
+  ],
+  "いまにも": [
+    {
+      "kanji": "今にも",
+      "meaning": "sắp sửa... đến nơi rồi (chuẩn bị xảy ra ngay)",
+      "level": "N4"
+    }
+  ],
+  "かいいん": [
+    {
+      "kanji": "会員",
+      "meaning": "thành viên",
+      "level": "N4"
+    }
+  ],
+  "てきとう": [
+    {
+      "kanji": "適当",
+      "meaning": "thích hợp, vừa phải, phù hợp",
+      "level": "N4"
+    }
+  ],
+  "てきとうな": [
+    {
+      "kanji": "適当な",
+      "meaning": "thích hợp, vừa phải, phù hợp",
+      "level": "N4"
+    }
+  ],
+  "ねんれい": [
+    {
+      "kanji": "年齢",
+      "meaning": "một tuổi",
+      "level": "N4"
+    }
+  ],
+  "しゅうにゅう": [
+    {
+      "kanji": "収入",
+      "meaning": "thu nhập, tiền kiếm được hằng tháng",
+      "level": "N4"
+    }
+  ],
+  "といいます": [
+    {
+      "kanji": "と言います",
+      "meaning": "được gọi là ～, có tên gọi là ～",
+      "level": "N4"
+    }
+  ],
+  "なきます": [
+    {
+      "kanji": "泣きます",
+      "meaning": "khóc (nước mắt tuôn rơi)",
+      "level": "N4"
+    }
+  ],
+  "わらいます": [
+    {
+      "kanji": "笑います",
+      "meaning": "cười, mỉm cười",
+      "level": "N4"
+    }
+  ],
+  "かわきます": [
+    {
+      "kanji": "乾きます",
+      "meaning": "khô ráo (tự động từ: quần áo khô: 洗濯物が乾く)",
+      "level": "N4"
+    }
+  ],
+  "すべります": [
+    {
+      "kanji": "滑ります",
+      "meaning": "trơn trượt (tuyết, sàn ướt)",
+      "level": "N4"
+    }
+  ],
+  "ちょうせつします": [
+    {
+      "kanji": "調節します",
+      "meaning": "điều chỉnh (nhiệt độ, âm lượng, dây đeo: 温度/音量を調節する)",
+      "level": "N4"
+    }
+  ],
+  "あんぜんな": [
+    {
+      "kanji": "安全な",
+      "meaning": "an toàn",
+      "level": "N4"
+    }
+  ],
+  "ていねい": [
+    {
+      "kanji": "丁寧",
+      "meaning": "lịch sự",
+      "level": "N4"
+    }
+  ],
+  "ていねいな": [
+    {
+      "kanji": "丁寧な",
+      "meaning": "lịch sự",
+      "level": "N4"
+    }
+  ],
+  "こまかい": [
+    {
+      "kanji": "細かい",
+      "meaning": "nhỏ li ti, tiền lẻ (細かいお金)",
+      "level": "N4"
+    }
+  ],
+  "こい": [
+    {
+      "kanji": "濃い",
+      "meaning": "đậm đặc (trà, cà phê, màu sắc)",
+      "level": "N4"
+    }
+  ],
+  "くうき": [
+    {
+      "kanji": "空気",
+      "meaning": "không khí, bầu không khí",
+      "level": "N4"
+    }
+  ],
+  "なみだ": [
+    {
+      "kanji": "涙",
+      "meaning": "giọt nước mắt",
+      "level": "N4"
+    }
+  ],
+  "わしょく": [
+    {
+      "kanji": "和食",
+      "meaning": "ẩm thực truyền thống Nhật Bản (Washoku)",
+      "level": "N4"
+    }
+  ],
+  "ようしょく": [
+    {
+      "kanji": "洋食",
+      "meaning": "món ăn kiểu Tây phương",
+      "level": "N4"
+    }
+  ],
+  "ばい": [
+    {
+      "kanji": "倍",
+      "meaning": "gấp ～ lần (bội số: hai lần, ba lần)",
+      "level": "N4"
+    }
+  ],
+  "せんたくもの": [
+    {
+      "kanji": "洗濯物",
+      "meaning": "quần áo giặt, đồ cần giặt/phơi",
+      "level": "N4"
+    }
+  ],
+  "りゆう": [
+    {
+      "kanji": "理由",
+      "meaning": "lý do, nguyên cớ",
+      "level": "N4"
+    }
+  ],
+  "どうもおつかれさまでした": [
+    {
+      "kanji": "どうもお疲れさまでした",
+      "meaning": "anh/chị đã vất vả rồi; cảm ơn sau một ngày làm việc",
+      "level": "N4"
+    }
+  ],
+  "いやがります": [
+    {
+      "kanji": "嫌がります",
+      "meaning": "tỏ ra ghét bỏ, khó chịu, không muốn làm (ngôi thứ ba)",
+      "level": "N4"
+    }
+  ],
+  "じゅんじょ": [
+    {
+      "kanji": "順序",
+      "meaning": "thứ tự, tuần tự các bước",
+      "level": "N4"
+    }
+  ],
+  "ひょうげん": [
+    {
+      "kanji": "表現",
+      "meaning": "cách nói, diễn đạt, biểu hiện",
+      "level": "N4"
+    }
+  ],
+  "わかれます": [
+    {
+      "kanji": "別れます",
+      "meaning": "chia tay, tạm biệt nhau [人/道が分かれる]",
+      "level": "N4"
+    },
+    {
+      "kanji": "別れます",
+      "meaning": "chia tay, chia ly (người chia tay)",
+      "level": "N4"
+    },
+    {
+      "kanji": "別れます人が",
+      "meaning": "chia tay, chia ly (người chia tay)",
+      "level": "N4"
+    }
+  ],
+  "えんぎがわるい": [
+    {
+      "kanji": "縁起が 悪い",
+      "meaning": "điềm gở, không may mắn, xui xẻo",
+      "level": "N4"
+    }
+  ],
+  "あやまります": [
+    {
+      "kanji": "謝ります",
+      "meaning": "xin lỗi, tạ lỗi",
+      "level": "N4"
+    }
+  ],
+  "しんじます": [
+    {
+      "kanji": "信じます",
+      "meaning": "tin tưởng, đặt niềm tin",
+      "level": "N4"
+    }
+  ],
+  "よういします": [
+    {
+      "kanji": "用意します",
+      "meaning": "chuẩn bị sẵn sàng (đồ đạc, dụng cụ)",
+      "level": "N4"
+    }
+  ],
+  "ほしょうしょ": [
+    {
+      "kanji": "保証書",
+      "meaning": "phiếu bảo hành sản phẩm",
+      "level": "N4"
+    }
+  ],
+  "りょうしゅうしょ": [
+    {
+      "kanji": "領収書",
+      "meaning": "hóa đơn thanh toán, biên lai",
+      "level": "N4"
+    }
+  ],
+  "おくりもの": [
+    {
+      "kanji": "贈り物",
+      "meaning": "món quà tặng, quà biếu tri ân",
+      "level": "N4"
+    }
+  ],
+  "おくりものをします": [
+    {
+      "kanji": "贈り物",
+      "meaning": "món quà tặng, quà biếu tri ân",
+      "level": "N4"
+    }
+  ],
+  "まちがいでんわ": [
+    {
+      "kanji": "間違い電話",
+      "meaning": "cuộc gọi nhầm số (điện thoại gọi nhầm)",
+      "level": "N4"
+    }
+  ],
+  "かかり": [
+    {
+      "kanji": "係",
+      "meaning": "nhân viên phụ trách, người phụ trách",
+      "level": "N4"
+    }
+  ],
+  "ちゅうし": [
+    {
+      "kanji": "中止",
+      "meaning": "sự hoãn lại, hủy bỏ",
+      "level": "N4"
+    }
+  ],
+  "てん": [
+    {
+      "kanji": "点",
+      "meaning": "điểm số; điểm (vấn đề)",
+      "level": "N4"
+    }
+  ],
+  "えんさつ": [
+    {
+      "kanji": "円札",
+      "meaning": "tờ tiền giấy mệnh giá ～ yên (千円札, 一万円札)",
+      "level": "N4"
+    }
+  ],
+  "たのしみにしています": [
+    {
+      "kanji": "楽しみにしています",
+      "meaning": "rất háo hức trông chờ",
+      "level": "N4"
+    }
+  ],
+  "いじょうです": [
+    {
+      "kanji": "以上です",
+      "meaning": "xin hết ạ, đến đây là hết (câu kết thúc bài thuyết trình, báo cáo)",
+      "level": "N4"
+    }
+  ],
+  "かかりいん": [
+    {
+      "kanji": "係員",
+      "meaning": "nhân viên phụ trách, người trực ban",
+      "level": "N4"
+    }
+  ],
+  "ゆうしょうします": [
+    {
+      "kanji": "優勝します",
+      "meaning": "đoạt chức vô địch, giành giải quán quân",
+      "level": "N4"
+    }
+  ],
+  "なやみ": [
+    {
+      "kanji": "悩み",
+      "meaning": "những điều lo lắng, trăn trở, phiền muộn",
+      "level": "N4"
+    }
+  ],
+  "めざまし": [
+    {
+      "kanji": "目覚まし",
+      "meaning": "đồng hồ báo thức",
+      "level": "N4"
+    }
+  ],
+  "めざましとけい": [
+    {
+      "kanji": "目覚まし時計",
+      "meaning": "đồng hồ báo thức",
+      "level": "N4"
+    }
+  ],
+  "だいがくせい": [
+    {
+      "kanji": "大学生",
+      "meaning": "sinh viên đại học",
+      "level": "N4"
+    }
+  ],
+  "かいとう": [
+    {
+      "kanji": "回答",
+      "meaning": "câu trả lời, lời giải đáp thắc mắc",
+      "level": "N4"
+    }
+  ],
+  "やきます": [
+    {
+      "kanji": "焼きます",
+      "meaning": "nướng (thịt, cá, bánh: 魚を焼く)",
+      "level": "N4"
+    }
+  ],
+  "わたします": [
+    {
+      "kanji": "渡します",
+      "meaning": "trao tận tay, đưa cho (giấy tờ, quà)",
+      "level": "N4"
+    }
+  ],
+  "かえってきます": [
+    {
+      "kanji": "帰ってきます",
+      "meaning": "trở về (về nhà, về nước)",
+      "level": "N4"
+    }
+  ],
+  "でますばすがー": [
+    {
+      "kanji": "出ますバスが",
+      "meaning": "xe buýt khởi hành, rời bến",
+      "level": "N4"
+    }
+  ],
+  "たくはいびん": [
+    {
+      "kanji": "宅配便",
+      "meaning": "dịch vụ chuyển phát nhanh tận nhà",
+      "level": "N4"
+    }
+  ],
+  "げんいん": [
+    {
+      "kanji": "原因",
+      "meaning": "nguyên nhân, căn nguyên",
+      "level": "N4"
+    }
+  ],
+  "ちゅうしゃ": [
+    {
+      "kanji": "注射",
+      "meaning": "mũi tiêm phòng, tiêm thuốc",
+      "level": "N4"
+    }
+  ],
+  "しょくよく": [
+    {
+      "kanji": "食欲",
+      "meaning": "sự thèm ăn, cảm giác ngon miệng",
+      "level": "N4"
+    }
+  ],
+  "のところ": [
+    {
+      "kanji": "の所",
+      "meaning": "ở chỗ ～, nơi ～",
+      "level": "N4"
+    }
+  ],
+  "たったいま": [
+    {
+      "kanji": "たった今",
+      "meaning": "vừa mới tức thì (vừa xong tích tắc)",
+      "level": "N4"
+    }
+  ],
+  "いまいいでしょうか": [
+    {
+      "kanji": "今いいでしょうか",
+      "meaning": "bây giờ có tiện không ạ?",
+      "level": "N4"
+    }
+  ],
+  "ぐあい": [
+    {
+      "kanji": "具合",
+      "meaning": "thể trạng sức khỏe, tình trạng máy móc",
+      "level": "N4"
+    }
+  ],
+  "どちらさまでしょうか": [
+    {
+      "kanji": "どちら様でしょうか",
+      "meaning": "xin hỏi ai đấy ạ? (hỏi tên lịch sự qua điện thoại)",
+      "level": "N4"
+    }
+  ],
+  "むかいます": [
+    {
+      "kanji": "向かいます",
+      "meaning": "hướng về, đi về phía (đích đến)",
+      "level": "N4"
+    }
+  ],
+  "おまたせしました": [
+    {
+      "kanji": "お待たせしました",
+      "meaning": "xin lỗi đã để quý khách phải chờ lâu (lời phục vụ khi mang đồ ra)",
+      "level": "N4"
+    }
+  ],
+  "ちしき": [
+    {
+      "kanji": "知識",
+      "meaning": "kiến thức, tri thức",
+      "level": "N4"
+    }
+  ],
+  "ほうこ": [
+    {
+      "kanji": "宝庫",
+      "meaning": "nhà kho",
+      "level": "N4"
+    }
+  ],
+  "てにはいります": [
+    {
+      "kanji": "手に入ります",
+      "meaning": "có được, thu thập được (thông tin: 情報が～)",
+      "level": "N4"
+    }
+  ],
+  "いちぶぶん": [
+    {
+      "kanji": "一部分",
+      "meaning": "một phần, một bộ phận",
+      "level": "N4"
+    }
+  ],
+  "にゅうりょくします": [
+    {
+      "kanji": "入力します",
+      "meaning": "nhập dữ liệu, gõ văn bản vào máy tính",
+      "level": "N4"
+    }
+  ],
+  "びょう": [
+    {
+      "kanji": "秒",
+      "meaning": "giây (đơn vị đo thời gian)",
+      "level": "N4"
+    }
+  ],
+  "でますほんが": [
+    {
+      "kanji": "出ます本が",
+      "meaning": "xuất bản, phát hành (sách: 本が出ます)",
+      "level": "N4"
+    }
+  ],
+  "ながいきします": [
+    {
+      "kanji": "長生きます",
+      "meaning": "sống lâu, thọ (長生きする)",
+      "level": "N4"
+    }
+  ],
+  "おとがします": [
+    {
+      "kanji": "音がします",
+      "meaning": "nghe thấy âm thanh, phát ra tiếng động [音/声がする]",
+      "level": "N4"
+    }
+  ],
+  "こえがします": [
+    {
+      "kanji": "声がします",
+      "meaning": "nghe thấy âm thanh, phát ra tiếng động [音/声がする]",
+      "level": "N4"
+    }
+  ],
+  "します": [
+    {
+      "kanji": "します",
+      "meaning": "có vị, nếm thấy mùi vị [味がする]",
+      "level": "N4"
+    }
+  ],
+  "あじがします": [
+    {
+      "kanji": "味がします",
+      "meaning": "có vị, nếm thấy mùi vị [味がする]",
+      "level": "N4"
+    }
+  ],
+  "さします": [
+    {
+      "kanji": "さします",
+      "meaning": "che ô, giương dù [傘をさす]",
+      "level": "N4"
+    }
+  ],
+  "かさをさします": [
+    {
+      "kanji": "傘をさします",
+      "meaning": "che ô, giương dù [傘をさす]",
+      "level": "N4"
+    }
+  ],
+  "てんきよほう": [
+    {
+      "kanji": "天気予報",
+      "meaning": "bản tin dự báo thời tiết",
+      "level": "N4"
+    }
+  ],
+  "はっぴょう": [
+    {
+      "kanji": "発表",
+      "meaning": "công bố, trình bày",
+      "level": "N4"
+    }
+  ],
+  "じっけん": [
+    {
+      "kanji": "実験",
+      "meaning": "thí nghiệm khoa học, thử nghiệm",
+      "level": "N4"
+    }
+  ],
+  "じんこう": [
+    {
+      "kanji": "人口",
+      "meaning": "dân số",
+      "level": "N4"
+    }
+  ],
+  "かがく": [
+    {
+      "kanji": "科学",
+      "meaning": "khoa học, công nghệ tự nhiên",
+      "level": "N4"
+    }
+  ],
+  "いがく": [
+    {
+      "kanji": "医学",
+      "meaning": "y học, y khoa",
+      "level": "N4"
+    }
+  ],
+  "ぶんがく": [
+    {
+      "kanji": "文学",
+      "meaning": "văn học",
+      "level": "N4"
+    }
+  ],
+  "きゅうきゅうしゃ": [
+    {
+      "kanji": "救急車",
+      "meaning": "xe cứu thương",
+      "level": "N4"
+    }
+  ],
+  "さんせい": [
+    {
+      "kanji": "賛成",
+      "meaning": "tán thành, đồng ý",
+      "level": "N4"
+    }
+  ],
+  "はんたい": [
+    {
+      "kanji": "反対",
+      "meaning": "phản đối, không đồng tình",
+      "level": "N4"
+    }
+  ],
+  "だんせい": [
+    {
+      "kanji": "男性",
+      "meaning": "nam giới, phái nam",
+      "level": "N4"
+    }
+  ],
+  "じょせい": [
+    {
+      "kanji": "女性",
+      "meaning": "nữ giới, phái nữ",
+      "level": "N4"
+    }
+  ],
+  "こんやくします": [
+    {
+      "kanji": "婚約します",
+      "meaning": "đính hôn, hứa hôn",
+      "level": "N4"
+    }
+  ],
+  "あいて": [
+    {
+      "kanji": "相手",
+      "meaning": "đối phương, đối tác, bạn đời",
+      "level": "N4"
+    }
+  ],
+  "しりあいます": [
+    {
+      "kanji": "知り合います",
+      "meaning": "quen biết nhau (lần đầu gặp gỡ)",
+      "level": "N4"
+    }
+  ],
+  "へいきんじゅみょう": [
+    {
+      "kanji": "平均寿命",
+      "meaning": "tuổi thọ trung bình",
+      "level": "N4"
+    }
+  ],
+  "くらべます": [
+    {
+      "kanji": "比べます",
+      "meaning": "so sánh với nam giới",
+      "level": "N4"
+    }
+  ],
+  "くらべますだんせい": [
+    {
+      "kanji": "比べます男性",
+      "meaning": "so sánh với nam giới",
+      "level": "N4"
+    }
+  ],
+  "はかせ": [
+    {
+      "kanji": "博士",
+      "meaning": "tiến sĩ (học vị cao nhất)",
+      "level": "N4"
+    }
+  ],
+  "のう": [
+    {
+      "kanji": "脳",
+      "meaning": "não",
+      "level": "N4"
+    }
+  ],
+  "けしょうひん": [
+    {
+      "kanji": "化粧品",
+      "meaning": "mỹ phẩm làm đẹp",
+      "level": "N4"
+    }
+  ],
+  "しらべ": [
+    {
+      "kanji": "調べ",
+      "meaning": "kết quả điều tra, cuộc khảo sát",
+      "level": "N4"
+    }
+  ],
+  "けしょう": [
+    {
+      "kanji": "化粧",
+      "meaning": "trang điểm",
+      "level": "N4"
+    }
+  ],
+  "けしょうをします": [
+    {
+      "kanji": "化粧をします",
+      "meaning": "trang điểm",
+      "level": "N4"
+    }
+  ],
+  "おろします": [
+    {
+      "kanji": "降ろします",
+      "meaning": "hạ xuống, dỡ xuống (hành lý từ trên cao)",
+      "level": "N4"
+    },
+    {
+      "kanji": "下ろします",
+      "meaning": "hạ xuống, dỡ xuống (hành lý từ trên cao)",
+      "level": "N4"
+    }
+  ],
+  "とどけます": [
+    {
+      "kanji": "届けます",
+      "meaning": "giao tới, chuyển đến (tận nhà)",
+      "level": "N4"
+    }
+  ],
+  "じゅく": [
+    {
+      "kanji": "塾",
+      "meaning": "lớp học thêm, lò luyện thi (Juku)",
+      "level": "N4"
+    }
+  ],
+  "にゅうかん": [
+    {
+      "kanji": "入管",
+      "meaning": "Cục Quản lý Xuất nhập cảnh (viết tắt của 入国管理局)",
+      "level": "N4"
+    }
+  ],
+  "さいにゅうこくびざ": [
+    {
+      "kanji": "再入国ビザ",
+      "meaning": "thị thực tái nhập cảnh",
+      "level": "N4"
+    }
+  ],
+  "おいそがしいですか": [
+    {
+      "kanji": "お忙しいですか",
+      "meaning": "dạo này anh/chị có bận rộn không? (lời hỏi thăm công việc)",
+      "level": "N4"
+    }
+  ],
+  "ひさしぶり": [
+    {
+      "kanji": "久しぶり",
+      "meaning": "sau một khoảng thời gian dài lâu ngày",
+      "level": "N4"
+    }
+  ],
+  "えいぎょう": [
+    {
+      "kanji": "営業",
+      "meaning": "kinh doanh, mở cửa phục vụ",
+      "level": "N4"
+    }
+  ],
+  "たのしみます": [
+    {
+      "kanji": "楽しみます",
+      "meaning": "tận hưởng, thưởng thức niềm vui",
+      "level": "N4"
+    }
+  ],
+  "かわりをします": [
+    {
+      "kanji": "代わりをします",
+      "meaning": "làm thay, đảm nhiệm thay vai trò của người khác",
+      "level": "N4"
+    }
+  ],
+  "きょうそうします": [
+    {
+      "kanji": "競走します",
+      "meaning": "chạy đua, thi đua tốc độ",
+      "level": "N4"
+    }
+  ],
+  "げい": [
+    {
+      "kanji": "芸",
+      "meaning": "tiết mục, tài nghệ, diễn xuất",
+      "level": "N4"
+    }
+  ],
+  "すがた": [
+    {
+      "kanji": "姿",
+      "meaning": "bóng dáng, vóc dáng, diện mạo",
+      "level": "N4"
+    }
+  ],
+  "こころ": [
+    {
+      "kanji": "心",
+      "meaning": "trái tim, tấm lòng, tâm hồn",
+      "level": "N4"
+    }
+  ],
+  "つとめます": [
+    {
+      "kanji": "勤め増す",
+      "meaning": "công tác, làm việc tại (勤める)",
+      "level": "N4"
+    },
+    {
+      "kanji": "勤め増す会社に",
+      "meaning": "công tác, làm việc tại (勤める)",
+      "level": "N4"
+    }
+  ],
+  "すごします": [
+    {
+      "kanji": "過ごします",
+      "meaning": "trải qua, sinh hoạt (thời gian)",
+      "level": "N4"
+    }
+  ],
+  "よります": [
+    {
+      "kanji": "寄ります",
+      "meaning": "ghé qua, tạt vào (ngân hàng, cửa hàng tiện lợi)",
+      "level": "N4"
+    },
+    {
+      "kanji": "寄ります銀行に",
+      "meaning": "ghé qua, tạt vào (ngân hàng, cửa hàng tiện lợi)",
+      "level": "N4"
+    }
+  ],
+  "めしあがります": [
+    {
+      "kanji": "召し上がります",
+      "meaning": "dùng bữa, ăn, uống (tôn kính ngữ của 食べる, 飲む)",
+      "level": "N4"
+    }
+  ],
+  "ごらんになります": [
+    {
+      "kanji": "ご覧になります",
+      "meaning": "nhìn, xem (tôn kính ngữ của 見る)",
+      "level": "N4"
+    }
+  ],
+  "りょかん": [
+    {
+      "kanji": "旅館",
+      "meaning": "nhà trọ truyền thống kiểu Nhật (ryokan)",
+      "level": "N4"
+    }
+  ],
+  "かいじょう": [
+    {
+      "kanji": "会場",
+      "meaning": "hội trường, địa điểm tổ chức",
+      "level": "N4"
+    }
+  ],
+  "ぼうえき": [
+    {
+      "kanji": "貿易",
+      "meaning": "thương mại quốc tế, xuất nhập khẩu",
+      "level": "N4"
+    }
+  ],
+  "さま": [
+    {
+      "kanji": "様",
+      "meaning": "ngài, ông, bà (hậu tố tôn kính sau tên)",
+      "level": "N4"
+    }
+  ],
+  "かえりに": [
+    {
+      "kanji": "帰りに",
+      "meaning": "trên đường đi về (nhà, công ty: 帰りがけに)",
+      "level": "N4"
+    }
+  ],
+  "えんりょなく": [
+    {
+      "kanji": "遠慮なく",
+      "meaning": "không khách sáo, cứ tự nhiên (thoải mái làm gì đó không cần giữ kẽ lịch sự)",
+      "level": "N4"
+    }
+  ],
+  "ねんくみ": [
+    {
+      "kanji": "年組",
+      "meaning": "năm thứ... lớp...",
+      "level": "N4"
+    }
+  ],
+  "よろしくおつたえください": [
+    {
+      "kanji": "よろしくお伝えください",
+      "meaning": "xin vui lòng chuyển lời hỏi thăm sức khỏe của tôi tới ～",
+      "level": "N4"
+    }
+  ],
+  "しつれいいたします": [
+    {
+      "kanji": "失礼いたします",
+      "meaning": "tôi xin phép làm phiền / xin phép ra về (khiêm nhường ngữ lịch sự)",
+      "level": "N4"
+    }
+  ],
+  "こうし": [
+    {
+      "kanji": "講師",
+      "meaning": "giảng viên, báo cáo viên",
+      "level": "N4"
+    }
+  ],
+  "おおくの": [
+    {
+      "kanji": "多くの",
+      "meaning": "nhiều ～, phần lớn ～",
+      "level": "N4"
+    }
+  ],
+  "さくひん": [
+    {
+      "kanji": "作品",
+      "meaning": "tác phẩm nghệ thuật, văn học, hội họa",
+      "level": "N4"
+    }
+  ],
+  "じゅしょうします": [
+    {
+      "kanji": "受賞します",
+      "meaning": "đoạt giải thưởng, nhận giải",
+      "level": "N4"
+    }
+  ],
+  "せかいてきに": [
+    {
+      "kanji": "世界的に",
+      "meaning": "mang tính toàn cầu, trên toàn thế giới",
+      "level": "N4"
+    }
+  ],
+  "さっか": [
+    {
+      "kanji": "作家",
+      "meaning": "nhà văn, tác giả",
+      "level": "N4"
+    }
+  ],
+  "ちょうなん": [
+    {
+      "kanji": "長男",
+      "meaning": "con trai cả",
+      "level": "N4"
+    }
+  ],
+  "しょうがい": [
+    {
+      "kanji": "障害",
+      "meaning": "khuyết tật, trở ngại, khiếm khuyết",
+      "level": "N4"
+    }
+  ],
+  "おもちです": [
+    {
+      "kanji": "お持ちです",
+      "meaning": "có mang theo, đang sở hữu (kính ngữ của 持っている)",
+      "level": "N4"
+    }
+  ],
+  "さっきょく": [
+    {
+      "kanji": "作曲",
+      "meaning": "sáng tác ca khúc, phổ nhạc",
+      "level": "N4"
+    }
+  ],
+  "かつどう": [
+    {
+      "kanji": "活動",
+      "meaning": "làm việc",
+      "level": "N4"
+    }
+  ],
+  "とうきょうだいがく": [
+    {
+      "kanji": "東京大学",
+      "meaning": "đại học tokyo",
+      "level": "N4"
+    }
+  ],
+  "のーべるぶんがくしょう": [
+    {
+      "kanji": "ノーベル文学賞",
+      "meaning": "giải nobel về văn học",
+      "level": "N4"
+    }
+  ],
+  "まいります": [
+    {
+      "kanji": "参ります",
+      "meaning": "đi đến (khiêm nhường ngữ của 行く, 来る)",
+      "level": "N4"
+    }
+  ],
+  "もうします": [
+    {
+      "kanji": "申します",
+      "meaning": "tên là, nói là (khiêm nhường ngữ của 言う)",
+      "level": "N4"
+    }
+  ],
+  "はいけんします": [
+    {
+      "kanji": "拝見します",
+      "meaning": "xem, nhìn (khiêm nhường ngữ của 見る)",
+      "level": "N4"
+    }
+  ],
+  "ぞんじます": [
+    {
+      "kanji": "存じます",
+      "meaning": "nghĩ là, biết là (khiêm nhường ngữ của 思う, 知る)",
+      "level": "N4"
+    }
+  ],
+  "おめにかかります": [
+    {
+      "kanji": "お目にかかります",
+      "meaning": "gặp mặt (khiêm nhường ngữ của 会う)",
+      "level": "N4"
+    }
+  ],
+  "おたく": [
+    {
+      "kanji": "お宅",
+      "meaning": "nhà của quý vị, tư gia (kính ngữ của 家)",
+      "level": "N4"
+    }
+  ],
+  "こうがい": [
+    {
+      "kanji": "郊外",
+      "meaning": "ngoại ô, vùng ven đô thị",
+      "level": "N4"
+    }
+  ],
+  "さらいしゅう": [
+    {
+      "kanji": "再来週",
+      "meaning": "tuần tới",
+      "level": "N4"
+    }
+  ],
+  "さらいげつ": [
+    {
+      "kanji": "再来月",
+      "meaning": "tháng tới",
+      "level": "N4"
+    }
+  ],
+  "はんとし": [
+    {
+      "kanji": "半年",
+      "meaning": "nửa năm, sáu tháng",
+      "level": "N4"
+    }
+  ],
+  "さいごに": [
+    {
+      "kanji": "最後に",
+      "meaning": "cuối cùng",
+      "level": "N4"
+    }
+  ],
+  "ただいま": [
+    {
+      "kanji": "ただ今",
+      "meaning": "bây giờ, ngay bây giờ; tôi đã về rồi đây",
+      "level": "N4"
+    }
+  ],
+  "きんちょうします": [
+    {
+      "kanji": "緊張します",
+      "meaning": "hồi hộp, căng thẳng (tâm lý)",
+      "level": "N4"
+    }
+  ],
+  "ほうそうします": [
+    {
+      "kanji": "放送します",
+      "meaning": "phát sóng đài phát thanh/truyền hình",
+      "level": "N4"
+    }
+  ],
+  "しょうきん": [
+    {
+      "kanji": "賞金",
+      "meaning": "tiền thưởng",
+      "level": "N4"
+    }
+  ],
+  "ぞう": [
+    {
+      "kanji": "像",
+      "meaning": "bức tượng điêu khắc (銅像: tượng đồng, 仏像: tượng phật)",
+      "level": "N4"
+    }
+  ],
+  "きょうりょくします": [
+    {
+      "kanji": "協力します",
+      "meaning": "chung sức hiệp lực, hợp tác cùng làm",
+      "level": "N4"
+    }
+  ],
+  "こころから": [
+    {
+      "kanji": "心から",
+      "meaning": "từ tận đáy lòng, thành tâm sâu sắc",
+      "level": "N4"
+    }
+  ],
+  "かんしゃします": [
+    {
+      "kanji": "感謝します",
+      "meaning": "biết ơn, cảm tạ",
+      "level": "N4"
+    }
+  ],
+  "はいけい": [
+    {
+      "kanji": "拝啓",
+      "meaning": "kính gửi (từ mở đầu trang trọng trong thư từ Nhật Bản)",
+      "level": "N4"
+    }
+  ],
+  "めいわくをかけます": [
+    {
+      "kanji": "迷惑をかけます",
+      "meaning": "gây phiền hà, làm phiền người khác",
+      "level": "N4"
+    }
+  ],
+  "いかします": [
+    {
+      "kanji": "生かします",
+      "meaning": "phát huy tối đa [năng lực, kinh nghiệm: 能力/経験を生かす]",
+      "level": "N4"
+    }
+  ],
+  "けいぐ": [
+    {
+      "kanji": "敬具",
+      "meaning": "trân trọng, kính thư (từ kết thúc trang trọng đi liền với 拝啓)",
+      "level": "N4"
+    }
+  ]
+}

@@ -7,10 +7,7 @@
   <meta name="theme-color" content="#f8f7f1">
   <title>Kotoba · Sổ tay từ vựng</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/layout.css">
-  <link rel="stylesheet" href="./css/components.css">
-  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./src/main.ts"></script>
 </head>
 <body>
   <header class="topbar">
@@ -20,7 +17,7 @@
       </button>
       <div class="top-actions">
         <button class="btn secondary" data-action="import"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-upload"/></svg> <span>Nhập danh sách</span></button>
-        <button class="btn secondary" data-action="n5"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-book"/></svg> Kho N5</button>
+        <button class="btn secondary" data-action="n5"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-book"/></svg> Kho Minna</button>
         <button class="btn primary" data-action="add"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-plus"/></svg> <span>Thêm từ mới</span></button>
       </div>
     </div>
@@ -87,17 +84,18 @@
     </form>
   </dialog>
   <dialog id="n5-dialog" class="catalog-dialog" aria-labelledby="n5-title">
-    <div class="dialog-heading"><div><p class="section-kicker">TỪ VỰNG THAM KHẢO</p><h2 id="n5-title">Kho từ JLPT N5</h2></div><button class="btn icon-only plain" type="button" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-close"/></svg></button></div>
-    <p class="muted">Nghĩa tiếng Anh từ OpenJLPT. Bạn có thể đổi sang tiếng Việt khi thêm từng từ.</p>
-    <label class="field catalog-lesson">Bài học theo chủ đề Minna no Nihongo
-      <select id="n5-lesson" disabled><option value="">Tất cả 25 bài</option></select>
+    <div class="dialog-heading"><div><p class="section-kicker">MINNA NO NIHONGO · N5–N4</p><h2 id="n5-title">Kho từ Nhật–Việt</h2></div><button class="btn icon-only plain" type="button" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-close"/></svg></button></div>
+    <p class="muted catalog-intro">50 bài, gồm từ vựng và cách nói giao tiếp. Xem cách đọc, âm Hán Việt, nghĩa tiếng Việt và câu ví dụ; thêm từng mục hoặc cả bài vào sổ tay.</p>
+    <nav id="n5-lesson-grid" class="lesson-grid" aria-label="Chọn một trong 50 bài Minna"></nav>
+    <label class="field catalog-lesson">Chọn bài Minna no Nihongo
+      <select id="n5-lesson" disabled><option value="">Tất cả 50 bài</option></select>
     </label>
-    <label class="field">Tìm trong kho N5<input type="search" placeholder="Kana, kanji hoặc nghĩa tiếng Anh" autofocus></label>
+    <div class="catalog-tools"><label class="field">Tìm từ trong bài<input type="search" placeholder="Kana, kanji, âm Hán Việt hoặc nghĩa tiếng Việt" autofocus></label><label class="catalog-reading"><input id="n5-show-kana" type="checkbox" checked> Hiện cách đọc</label><div data-catalog-layout></div></div>
     <p class="catalog-status muted" role="status"></p>
-    <ul class="catalog-rows"></ul>
+    <div class="catalog-rows"></div>
     <div class="catalog-actions">
       <div class="inline-actions"><button class="btn secondary" type="button" data-action="n5-prev" disabled>Trang trước</button><button class="btn secondary" type="button" data-action="n5-next" disabled>Trang sau</button></div>
-      <button class="btn primary" type="button" data-action="n5-bulk" disabled>Thêm cả bộ N5</button>
+      <button class="btn primary" type="button" data-action="n5-bulk" disabled>Thêm cả 50 bài</button>
     </div>
     <p class="catalog-source"><a href="./data/SOURCES.md" target="_blank" rel="noopener">Nguồn và giấy phép dữ liệu</a></p>
   </dialog>
@@ -116,6 +114,13 @@
       <div class="dialog-heading"><h2 id="delete-title">Xóa từ này?</h2><button type="button" class="btn icon-only plain" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-close"/></svg></button></div>
       <p id="delete-word" class="muted"></p>
       <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close" autofocus>Hủy</button><button type="submit" class="btn danger">Xóa từ</button></div>
+    </form>
+  </dialog>
+  <dialog id="delete-all-dialog" aria-labelledby="delete-all-title" aria-describedby="delete-all-description">
+    <form id="delete-all-form">
+      <div class="dialog-heading"><h2 id="delete-all-title">Xóa toàn bộ thẻ?</h2><button type="button" class="btn icon-only plain" data-action="close" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="./icons.svg#i-close"/></svg></button></div>
+      <p id="delete-all-description" class="muted"></p>
+      <div class="dialog-actions"><button type="button" class="btn secondary" data-action="close" autofocus>Hủy</button><button type="submit" class="btn danger">Xóa toàn bộ thẻ</button></div>
     </form>
   </dialog>
   <div id="toast" role="status" aria-live="polite"></div>

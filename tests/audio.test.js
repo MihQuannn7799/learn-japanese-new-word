@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { createAudioPlayer } from '../frontend/js/audio.js';
+import { createAudioPlayer } from '../frontend/src/audio.ts';
 
 function setup(t) {
   const spoken = [];

@@ -1,0 +1,6068 @@
+[
+  {
+    "original": {
+      "id": "n5-ada066edfd",
+      "kana": "あう",
+      "kanji": "会う",
+      "meaning": "to meet"
+    },
+    "meaning": "gặp"
+  },
+  {
+    "original": {
+      "id": "n5-ebec658463",
+      "kana": "あお",
+      "kanji": "青",
+      "meaning": "blue"
+    },
+    "meaning": "màu xanh lam"
+  },
+  {
+    "original": {
+      "id": "n5-51a671ec17",
+      "kana": "あおい",
+      "kanji": "青い",
+      "meaning": "blue"
+    },
+    "meaning": "màu xanh"
+  },
+  {
+    "original": {
+      "id": "n5-2dacb910b2",
+      "kana": "あか",
+      "kanji": "赤",
+      "meaning": "red"
+    },
+    "meaning": "màu đỏ"
+  },
+  {
+    "original": {
+      "id": "n5-44ba38cf8b",
+      "kana": "あかい",
+      "kanji": "赤い",
+      "meaning": "red"
+    },
+    "meaning": "màu đỏ"
+  },
+  {
+    "original": {
+      "id": "n5-91987ae840",
+      "kana": "あかるい",
+      "kanji": "明るい",
+      "meaning": "bright"
+    },
+    "meaning": "tỏa sáng"
+  },
+  {
+    "original": {
+      "id": "n5-8dc7006bda",
+      "kana": "あき",
+      "kanji": "秋",
+      "meaning": "autumn"
+    },
+    "meaning": "mùa thu"
+  },
+  {
+    "original": {
+      "id": "n5-fc3bc1e6f1",
+      "kana": "あく",
+      "kanji": "開く",
+      "meaning": "to open; to become open"
+    },
+    "meaning": "mở, được mở"
+  },
+  {
+    "original": {
+      "id": "n5-321963ed35",
+      "kana": "あける",
+      "kanji": "開ける",
+      "meaning": "to open"
+    },
+    "meaning": "mở"
+  },
+  {
+    "original": {
+      "id": "n5-9661cbac61",
+      "kana": "あげる",
+      "kanji": "上げる",
+      "meaning": "to give"
+    },
+    "meaning": "cho, tặng; nâng lên"
+  },
+  {
+    "original": {
+      "id": "n5-d46ae79a26",
+      "kana": "あさ",
+      "kanji": "朝",
+      "meaning": "morning"
+    },
+    "meaning": "buổi sáng"
+  },
+  {
+    "original": {
+      "id": "n5-98bc6f72ae",
+      "kana": "あさごはん",
+      "kanji": "朝ごはん",
+      "meaning": "breakfast"
+    },
+    "meaning": "bữa sáng"
+  },
+  {
+    "original": {
+      "id": "n5-b3b4041c52",
+      "kana": "あさって",
+      "kanji": "",
+      "meaning": "day after tomorrow"
+    },
+    "meaning": "ngày mai"
+  },
+  {
+    "original": {
+      "id": "n5-27df3d5802",
+      "kana": "あし",
+      "kanji": "足",
+      "meaning": "foot; leg"
+    },
+    "meaning": "chân, bàn chân"
+  },
+  {
+    "original": {
+      "id": "n5-115ec83476",
+      "kana": "あした",
+      "kanji": "明日",
+      "meaning": "tomorrow"
+    },
+    "meaning": "ngày mai"
+  },
+  {
+    "original": {
+      "id": "n5-bee501faf0",
+      "kana": "あそこ",
+      "kanji": "",
+      "meaning": "over there"
+    },
+    "meaning": "ở đằng kia (nơi xa cả người nói lẫn người nghe)"
+  },
+  {
+    "original": {
+      "id": "n5-2d55571300",
+      "kana": "あそぶ",
+      "kanji": "遊ぶ",
+      "meaning": "to play; to make a visit"
+    },
+    "meaning": "chơi, đi chơi"
+  },
+  {
+    "original": {
+      "id": "n5-f665c2128a",
+      "kana": "あたたかい",
+      "kanji": "暖かい",
+      "meaning": "warm"
+    },
+    "meaning": "ấm áp"
+  },
+  {
+    "original": {
+      "id": "n5-b62cb9ce4c",
+      "kana": "あたま",
+      "kanji": "頭",
+      "meaning": "head"
+    },
+    "meaning": "cái đầu"
+  },
+  {
+    "original": {
+      "id": "n5-8ae27e3b51",
+      "kana": "あたらしい",
+      "kanji": "新しい",
+      "meaning": "new"
+    },
+    "meaning": "mới mẻ, tân tiến"
+  },
+  {
+    "original": {
+      "id": "n5-34e6f7d220",
+      "kana": "あちら",
+      "kanji": "",
+      "meaning": "there"
+    },
+    "meaning": "phía kia, nơi kia"
+  },
+  {
+    "original": {
+      "id": "n5-9949d87445",
+      "kana": "あつい",
+      "kanji": "厚い",
+      "meaning": "kind; deep; thick"
+    },
+    "meaning": "dày"
+  },
+  {
+    "original": {
+      "id": "n5-7b4aecdf7b",
+      "kana": "あつい",
+      "kanji": "暑い",
+      "meaning": "hot"
+    },
+    "meaning": "nóng (thời tiết)"
+  },
+  {
+    "original": {
+      "id": "n5-a379d413fd",
+      "kana": "あつい",
+      "kanji": "熱い",
+      "meaning": "hot to the touch"
+    },
+    "meaning": "nóng (đồ vật, chất lỏng)"
+  },
+  {
+    "original": {
+      "id": "n5-60dd63379e",
+      "kana": "あっち",
+      "kanji": "",
+      "meaning": "over there"
+    },
+    "meaning": "phía kia, đằng kia"
+  },
+  {
+    "original": {
+      "id": "n5-4f134c9b38",
+      "kana": "あと",
+      "kanji": "後",
+      "meaning": "afterwards"
+    },
+    "meaning": "sau, sau đó"
+  },
+  {
+    "original": {
+      "id": "n5-afdf384f68",
+      "kana": "あなた",
+      "kanji": "",
+      "meaning": "you"
+    },
+    "meaning": "bạn, anh, chị"
+  },
+  {
+    "original": {
+      "id": "n5-4aab699864",
+      "kana": "あに",
+      "kanji": "兄",
+      "meaning": "(humble) older brother"
+    },
+    "meaning": "anh trai (của mình)"
+  },
+  {
+    "original": {
+      "id": "n5-8bfeb208b4",
+      "kana": "あね",
+      "kanji": "姉",
+      "meaning": "(humble) older sister"
+    },
+    "meaning": "chị gái"
+  },
+  {
+    "original": {
+      "id": "n5-ac4706068b",
+      "kana": "あの",
+      "kanji": "",
+      "meaning": "that over there"
+    },
+    "meaning": "kia (đứng trước danh từ, xa cả hai người)"
+  },
+  {
+    "original": {
+      "id": "n5-0cf05b3a0d",
+      "kana": "アパート",
+      "kanji": "",
+      "meaning": "apartment"
+    },
+    "meaning": "căn hộ cho thuê (nhà tập thể/chung cư mini)"
+  },
+  {
+    "original": {
+      "id": "n5-a5aceb6426",
+      "kana": "あびる",
+      "kanji": "",
+      "meaning": "to bathe; to shower"
+    },
+    "meaning": "tắm vòi sen; hứng, nhận"
+  },
+  {
+    "original": {
+      "id": "n5-0509cb3b27",
+      "kana": "あぶない",
+      "kanji": "危ない",
+      "meaning": "dangerous"
+    },
+    "meaning": "nguy hiểm"
+  },
+  {
+    "original": {
+      "id": "n5-4afffe5811",
+      "kana": "あまい",
+      "kanji": "甘い",
+      "meaning": "sweet"
+    },
+    "meaning": "ngọt ngào (vị)"
+  },
+  {
+    "original": {
+      "id": "n5-eac90e8e98",
+      "kana": "あまり",
+      "kanji": "",
+      "meaning": "not very"
+    },
+    "meaning": "không ... lắm (đi với phủ định)"
+  },
+  {
+    "original": {
+      "id": "n5-5d72771a3c",
+      "kana": "あめ",
+      "kanji": "飴",
+      "meaning": "candy"
+    },
+    "meaning": "kẹo"
+  },
+  {
+    "original": {
+      "id": "n5-277a58c9df",
+      "kana": "あめ",
+      "kanji": "雨",
+      "meaning": "rain"
+    },
+    "meaning": "mưa"
+  },
+  {
+    "original": {
+      "id": "n5-f8fa96946f",
+      "kana": "あらう",
+      "kanji": "洗う",
+      "meaning": "to wash"
+    },
+    "meaning": "rửa, giặt"
+  },
+  {
+    "original": {
+      "id": "n5-93461820fe",
+      "kana": "ありがとう",
+      "kanji": "",
+      "meaning": "Thank you"
+    },
+    "meaning": "cảm ơn"
+  },
+  {
+    "original": {
+      "id": "n5-ac08788418",
+      "kana": "ある",
+      "kanji": "",
+      "meaning": "to be; to have (used for inanimate objects)"
+    },
+    "meaning": "có một ～ nọ (mở đầu truyện: ある日, ある所)"
+  },
+  {
+    "original": {
+      "id": "n5-55f3080ce4",
+      "kana": "あるく",
+      "kanji": "歩く",
+      "meaning": "to walk"
+    },
+    "meaning": "đi bộ"
+  },
+  {
+    "original": {
+      "id": "n5-d727a76b22",
+      "kana": "あれ",
+      "kanji": "",
+      "meaning": "that"
+    },
+    "meaning": "cái kia (ở xa cả hai người)"
+  },
+  {
+    "original": {
+      "id": "n5-e37a087c0f",
+      "kana": "いい",
+      "kanji": "",
+      "meaning": "good"
+    },
+    "meaning": "tốt, đẹp, hay; được"
+  },
+  {
+    "original": {
+      "id": "n5-6d4596ae46",
+      "kana": "いいえ",
+      "kanji": "",
+      "meaning": "no"
+    },
+    "meaning": "không, không phải"
+  },
+  {
+    "original": {
+      "id": "n5-ae0cc00f94",
+      "kana": "いう",
+      "kanji": "言う",
+      "meaning": "to say"
+    },
+    "meaning": "nói"
+  },
+  {
+    "original": {
+      "id": "n5-9f074820b1",
+      "kana": "いえ",
+      "kanji": "家",
+      "meaning": "house"
+    },
+    "meaning": "nhà"
+  },
+  {
+    "original": {
+      "id": "n5-a3f296ad9a",
+      "kana": "いかが",
+      "kanji": "",
+      "meaning": "how"
+    },
+    "meaning": "thế nào (cách nói lịch sự)"
+  },
+  {
+    "original": {
+      "id": "n5-66e4692df7",
+      "kana": "いく",
+      "kanji": "行く",
+      "meaning": "to go"
+    },
+    "meaning": "đi"
+  },
+  {
+    "original": {
+      "id": "n5-026ae57b50",
+      "kana": "いくつ",
+      "kanji": "",
+      "meaning": "how many?; how old?"
+    },
+    "meaning": "bao nhiêu cái, mấy cái; mấy tuổi"
+  },
+  {
+    "original": {
+      "id": "n5-4fc98c6938",
+      "kana": "いくら",
+      "kanji": "",
+      "meaning": "how much?"
+    },
+    "meaning": "bao nhiêu tiền"
+  },
+  {
+    "original": {
+      "id": "n5-43c874a6c8",
+      "kana": "いけ",
+      "kanji": "池",
+      "meaning": "pond"
+    },
+    "meaning": "ao"
+  },
+  {
+    "original": {
+      "id": "n5-ca76162587",
+      "kana": "いしゃ",
+      "kanji": "医者",
+      "meaning": "medical doctor"
+    },
+    "meaning": "bác sĩ"
+  },
+  {
+    "original": {
+      "id": "n5-d305fa14a8",
+      "kana": "いす",
+      "kanji": "",
+      "meaning": "chair"
+    },
+    "meaning": "chiếc ghế"
+  },
+  {
+    "original": {
+      "id": "n5-cd1bcc2b1b",
+      "kana": "いそがしい",
+      "kanji": "忙しい",
+      "meaning": "busy; irritated"
+    },
+    "meaning": "bận rộn"
+  },
+  {
+    "original": {
+      "id": "n5-4dae367794",
+      "kana": "いたい",
+      "kanji": "痛い",
+      "meaning": "painful"
+    },
+    "meaning": "đau"
+  },
+  {
+    "original": {
+      "id": "n5-eac7a22620",
+      "kana": "いただきます",
+      "kanji": "",
+      "meaning": "expression of gratitude before meals"
+    },
+    "meaning": "lời cảm ơn trước khi ăn"
+  },
+  {
+    "original": {
+      "id": "n5-9d8f862791",
+      "kana": "いち",
+      "kanji": "一",
+      "meaning": "one"
+    },
+    "meaning": "một"
+  },
+  {
+    "original": {
+      "id": "n5-1cfccd0cdd",
+      "kana": "いちにち",
+      "kanji": "一日",
+      "meaning": "one day; first of month"
+    },
+    "meaning": "một ngày"
+  },
+  {
+    "original": {
+      "id": "n5-cb96f363df",
+      "kana": "いちばん",
+      "kanji": "",
+      "meaning": "best; first"
+    },
+    "meaning": "nhất ～, số một (so sánh cao nhất)"
+  },
+  {
+    "original": {
+      "id": "n5-fac6fc0838",
+      "kana": "いつ",
+      "kanji": "",
+      "meaning": "when"
+    },
+    "meaning": "khi nào, bao giờ"
+  },
+  {
+    "original": {
+      "id": "n5-2a7c4baf86",
+      "kana": "いつか",
+      "kanji": "五日",
+      "meaning": "five days; fifth day"
+    },
+    "meaning": "năm ngày; ngày mùng năm"
+  },
+  {
+    "original": {
+      "id": "n5-2dc7289c82",
+      "kana": "いっしょ",
+      "kanji": "一緒",
+      "meaning": "together"
+    },
+    "meaning": "cùng nhau"
+  },
+  {
+    "original": {
+      "id": "n5-9ac35c3990",
+      "kana": "いつつ",
+      "kanji": "五つ",
+      "meaning": "five"
+    },
+    "meaning": "năm cái, năm chiếc (vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-dea2a1df8b",
+      "kana": "いつも",
+      "kanji": "",
+      "meaning": "always"
+    },
+    "meaning": "luôn luôn, lúc nào cũng"
+  },
+  {
+    "original": {
+      "id": "n5-0df89f5010",
+      "kana": "いぬ",
+      "kanji": "犬",
+      "meaning": "dog"
+    },
+    "meaning": "con chó"
+  },
+  {
+    "original": {
+      "id": "n5-ce75c75644",
+      "kana": "いま",
+      "kanji": "今",
+      "meaning": "now"
+    },
+    "meaning": "bây giờ, hiện tại"
+  },
+  {
+    "original": {
+      "id": "n5-cb29ccdd2a",
+      "kana": "いみ",
+      "kanji": "意味",
+      "meaning": "meaning"
+    },
+    "meaning": "ý nghĩa của từ ngữ, thông điệp"
+  },
+  {
+    "original": {
+      "id": "n5-12047d019b",
+      "kana": "いもうと",
+      "kanji": "妹",
+      "meaning": "(humble) younger sister"
+    },
+    "meaning": "em gái"
+  },
+  {
+    "original": {
+      "id": "n5-eda751e069",
+      "kana": "いや",
+      "kanji": "嫌",
+      "meaning": "unpleasant"
+    },
+    "meaning": "không thích, khó chịu"
+  },
+  {
+    "original": {
+      "id": "n5-1ff0529d03",
+      "kana": "いりぐち",
+      "kanji": "入口",
+      "meaning": "entrance"
+    },
+    "meaning": "lối vào"
+  },
+  {
+    "original": {
+      "id": "n5-9438889173",
+      "kana": "いる",
+      "kanji": "",
+      "meaning": "to be; to have (used for people and animals)"
+    },
+    "meaning": "có, ở (người và động vật)"
+  },
+  {
+    "original": {
+      "id": "n5-7a84208708",
+      "kana": "いる",
+      "kanji": "要る",
+      "meaning": "to need"
+    },
+    "meaning": "cần"
+  },
+  {
+    "original": {
+      "id": "n5-6d824d5110",
+      "kana": "いれる",
+      "kanji": "入れる",
+      "meaning": "to put in"
+    },
+    "meaning": "cho vào, bỏ vào"
+  },
+  {
+    "original": {
+      "id": "n5-523266ea6f",
+      "kana": "いろ",
+      "kanji": "色",
+      "meaning": "colour"
+    },
+    "meaning": "màu sắc"
+  },
+  {
+    "original": {
+      "id": "n5-f74dd1ee9a",
+      "kana": "いろいろ",
+      "kanji": "",
+      "meaning": "various"
+    },
+    "meaning": "nhiều loại, đa dạng"
+  },
+  {
+    "original": {
+      "id": "n5-08a3ed212d",
+      "kana": "うえ",
+      "kanji": "上",
+      "meaning": "on top of"
+    },
+    "meaning": "bên trên, phía trên"
+  },
+  {
+    "original": {
+      "id": "n5-93bdc81dd9",
+      "kana": "うしろ",
+      "kanji": "後ろ",
+      "meaning": "behind"
+    },
+    "meaning": "phía sau"
+  },
+  {
+    "original": {
+      "id": "n5-d2b2316e45",
+      "kana": "うすい",
+      "kanji": "薄い",
+      "meaning": "thin; weak"
+    },
+    "meaning": "mỏng; nhạt, loãng"
+  },
+  {
+    "original": {
+      "id": "n5-036f4180a2",
+      "kana": "うた",
+      "kanji": "歌",
+      "meaning": "song"
+    },
+    "meaning": "bài hát"
+  },
+  {
+    "original": {
+      "id": "n5-3464318c23",
+      "kana": "うたう",
+      "kanji": "歌う",
+      "meaning": "to sing"
+    },
+    "meaning": "hát"
+  },
+  {
+    "original": {
+      "id": "n5-63bc7722fa",
+      "kana": "うまれる",
+      "kanji": "生まれる",
+      "meaning": "to be born"
+    },
+    "meaning": "được sinh ra"
+  },
+  {
+    "original": {
+      "id": "n5-06ac21dc7d",
+      "kana": "うみ",
+      "kanji": "海",
+      "meaning": "sea"
+    },
+    "meaning": "biển, đại dương"
+  },
+  {
+    "original": {
+      "id": "n5-f7e1da43df",
+      "kana": "うる",
+      "kanji": "売る",
+      "meaning": "to sell"
+    },
+    "meaning": "bán"
+  },
+  {
+    "original": {
+      "id": "n5-7ecfe0d248",
+      "kana": "うるさい",
+      "kanji": "煩い",
+      "meaning": "noisy; annoying"
+    },
+    "meaning": "ồn ào, phiền phức"
+  },
+  {
+    "original": {
+      "id": "n5-1ef8a05bf3",
+      "kana": "うわぎ",
+      "kanji": "上着",
+      "meaning": "jacket"
+    },
+    "meaning": "áo khoác ngoài, áo ngoài"
+  },
+  {
+    "original": {
+      "id": "n5-5bb390da0b",
+      "kana": "え",
+      "kanji": "絵",
+      "meaning": "picture"
+    },
+    "meaning": "bức tranh, bức vẽ"
+  },
+  {
+    "original": {
+      "id": "n5-92b1621231",
+      "kana": "えいが",
+      "kanji": "映画",
+      "meaning": "movie"
+    },
+    "meaning": "bộ phim, phim ảnh"
+  },
+  {
+    "original": {
+      "id": "n5-8a88cfbcb8",
+      "kana": "えいがかん",
+      "kanji": "映画館",
+      "meaning": "cinema"
+    },
+    "meaning": "rạp chiếu phim"
+  },
+  {
+    "original": {
+      "id": "n5-16adc7bd03",
+      "kana": "えいご",
+      "kanji": "英語",
+      "meaning": "English language"
+    },
+    "meaning": "tiếng Anh"
+  },
+  {
+    "original": {
+      "id": "n5-8ac60a4060",
+      "kana": "ええ",
+      "kanji": "",
+      "meaning": "yes"
+    },
+    "meaning": "vâng, đúng vậy"
+  },
+  {
+    "original": {
+      "id": "n5-d5f359c20b",
+      "kana": "えき",
+      "kanji": "駅",
+      "meaning": "station"
+    },
+    "meaning": "nhà ga"
+  },
+  {
+    "original": {
+      "id": "n5-eb1695baf6",
+      "kana": "エレベーター",
+      "kanji": "",
+      "meaning": "elevator"
+    },
+    "meaning": "thang máy"
+  },
+  {
+    "original": {
+      "id": "n5-381da4d060",
+      "kana": "えんぴつ",
+      "kanji": "鉛筆",
+      "meaning": "pencil"
+    },
+    "meaning": "cây bút chì"
+  },
+  {
+    "original": {
+      "id": "n5-7f02ae8fa1",
+      "kana": "おいしい",
+      "kanji": "",
+      "meaning": "delicious"
+    },
+    "meaning": "ngon, ngon miệng"
+  },
+  {
+    "original": {
+      "id": "n5-60813fffd1",
+      "kana": "おおい",
+      "kanji": "多い",
+      "meaning": "many"
+    },
+    "meaning": "nhiều, đông đúc (người: 人が～)"
+  },
+  {
+    "original": {
+      "id": "n5-8fa5a63fc7",
+      "kana": "おおきい",
+      "kanji": "大きい",
+      "meaning": "big"
+    },
+    "meaning": "to lớn, khổng lồ"
+  },
+  {
+    "original": {
+      "id": "n5-3a2de0afca",
+      "kana": "おおきな",
+      "kanji": "大きな",
+      "meaning": "big"
+    },
+    "meaning": "to, lớn (đứng trước danh từ)"
+  },
+  {
+    "original": {
+      "id": "n5-57ed89b240",
+      "kana": "おおぜい",
+      "kanji": "大勢",
+      "meaning": "great number of people"
+    },
+    "meaning": "đông người"
+  },
+  {
+    "original": {
+      "id": "n5-2007947770",
+      "kana": "おかあさん",
+      "kanji": "お母さん",
+      "meaning": "(honorable) mother"
+    },
+    "meaning": "mẹ"
+  },
+  {
+    "original": {
+      "id": "n5-669019c625",
+      "kana": "おかし",
+      "kanji": "お菓子",
+      "meaning": "sweets; candy"
+    },
+    "meaning": "bánh kẹo"
+  },
+  {
+    "original": {
+      "id": "n5-3e015d0a8b",
+      "kana": "おかね",
+      "kanji": "お金",
+      "meaning": "money"
+    },
+    "meaning": "tiền bạc"
+  },
+  {
+    "original": {
+      "id": "n5-248a353e09",
+      "kana": "おきる",
+      "kanji": "起きる",
+      "meaning": "to get up"
+    },
+    "meaning": "thức dậy"
+  },
+  {
+    "original": {
+      "id": "n5-96845304fd",
+      "kana": "おく",
+      "kanji": "置く",
+      "meaning": "to put"
+    },
+    "meaning": "đặt, để"
+  },
+  {
+    "original": {
+      "id": "n5-6c4661d672",
+      "kana": "おくさん",
+      "kanji": "奥さん",
+      "meaning": "(honorable) wife"
+    },
+    "meaning": "vợ"
+  },
+  {
+    "original": {
+      "id": "n5-f843b00173",
+      "kana": "おさけ",
+      "kanji": "お酒",
+      "meaning": "alcohol; rice wine"
+    },
+    "meaning": "rượu sake truyền thống Nhật Bản"
+  },
+  {
+    "original": {
+      "id": "n5-101d46a061",
+      "kana": "おさら",
+      "kanji": "お皿",
+      "meaning": "plate; dish"
+    },
+    "meaning": "đĩa"
+  },
+  {
+    "original": {
+      "id": "n5-1b89f0f993",
+      "kana": "おじいさん",
+      "kanji": "お祖父さん",
+      "meaning": "grandfather; male senior citizen"
+    },
+    "meaning": "ông; ông cụ"
+  },
+  {
+    "original": {
+      "id": "n5-f2fa049fdd",
+      "kana": "おしえる",
+      "kanji": "教える",
+      "meaning": "to teach; to tell"
+    },
+    "meaning": "dạy; chỉ bảo, cho biết"
+  },
+  {
+    "original": {
+      "id": "n5-ce8facdf69",
+      "kana": "おす",
+      "kanji": "押す",
+      "meaning": "to push; to stamp something"
+    },
+    "meaning": "ấn, đẩy; đóng dấu"
+  },
+  {
+    "original": {
+      "id": "n5-a082687f7a",
+      "kana": "おそい",
+      "kanji": "遅い",
+      "meaning": "late; slow"
+    },
+    "meaning": "chậm chạp (tốc độ), muộn (thời gian)"
+  },
+  {
+    "original": {
+      "id": "n5-edca336b1f",
+      "kana": "おちゃ",
+      "kanji": "お茶",
+      "meaning": "green tea"
+    },
+    "meaning": "trà xanh Nhật Bản (Ocha)"
+  },
+  {
+    "original": {
+      "id": "n5-75a36b034c",
+      "kana": "おてあらい",
+      "kanji": "お手洗い",
+      "meaning": "bathroom"
+    },
+    "meaning": "nhà vệ sinh"
+  },
+  {
+    "original": {
+      "id": "n5-89807c7c22",
+      "kana": "おとうさん",
+      "kanji": "お父さん",
+      "meaning": "(honorable) father"
+    },
+    "meaning": "bố, cha"
+  },
+  {
+    "original": {
+      "id": "n5-db32745bbc",
+      "kana": "おとうと",
+      "kanji": "弟",
+      "meaning": "younger brother"
+    },
+    "meaning": "em trai"
+  },
+  {
+    "original": {
+      "id": "n5-2fd7d45c8d",
+      "kana": "おとこ",
+      "kanji": "男",
+      "meaning": "man"
+    },
+    "meaning": "đàn ông, nam giới"
+  },
+  {
+    "original": {
+      "id": "n5-6f664d3ded",
+      "kana": "おとこのこ",
+      "kanji": "男の子",
+      "meaning": "boy"
+    },
+    "meaning": "cậu bé"
+  },
+  {
+    "original": {
+      "id": "n5-f0f3826045",
+      "kana": "おととい",
+      "kanji": "一昨日",
+      "meaning": "day before yesterday"
+    },
+    "meaning": "hôm kia"
+  },
+  {
+    "original": {
+      "id": "n5-b75778f0ce",
+      "kana": "おととし",
+      "kanji": "一昨年",
+      "meaning": "year before last"
+    },
+    "meaning": "năm kia"
+  },
+  {
+    "original": {
+      "id": "n5-6f5049e2d4",
+      "kana": "おとな",
+      "kanji": "大人",
+      "meaning": "adult"
+    },
+    "meaning": "người lớn"
+  },
+  {
+    "original": {
+      "id": "n5-3707072a6b",
+      "kana": "おなか",
+      "kanji": "",
+      "meaning": "stomach"
+    },
+    "meaning": "bụng, dạ dày"
+  },
+  {
+    "original": {
+      "id": "n5-7c134ec812",
+      "kana": "おなじ",
+      "kanji": "同じ",
+      "meaning": "same"
+    },
+    "meaning": "giống nhau, tương đồng, cùng"
+  },
+  {
+    "original": {
+      "id": "n5-c6f43a8cc3",
+      "kana": "おにいさん",
+      "kanji": "お兄さん",
+      "meaning": "(honorable) older brother"
+    },
+    "meaning": "anh trai (của người khác)"
+  },
+  {
+    "original": {
+      "id": "n5-af378a4c86",
+      "kana": "おねえさん",
+      "kanji": "お姉さん",
+      "meaning": "(honorable) older sister"
+    },
+    "meaning": "chị gái (của người khác)"
+  },
+  {
+    "original": {
+      "id": "n5-4df6eda2a2",
+      "kana": "おねがいします",
+      "kanji": "お願いします",
+      "meaning": "please"
+    },
+    "meaning": "xin vui lòng; nhờ anh/chị"
+  },
+  {
+    "original": {
+      "id": "n5-12d9487797",
+      "kana": "おばあさん",
+      "kanji": "",
+      "meaning": "grandmother; female senior-citizen"
+    },
+    "meaning": "người bà, cụ bà"
+  },
+  {
+    "original": {
+      "id": "n5-03d7b15720",
+      "kana": "おばさん",
+      "kanji": "伯母さん",
+      "meaning": "aunt"
+    },
+    "meaning": "cô, dì, bác gái"
+  },
+  {
+    "original": {
+      "id": "n5-36bff8d879",
+      "kana": "おはよう",
+      "kanji": "",
+      "meaning": "(abbreviation) Good morning"
+    },
+    "meaning": "chào buổi sáng"
+  },
+  {
+    "original": {
+      "id": "n5-f347485004",
+      "kana": "おふろ",
+      "kanji": "お風呂",
+      "meaning": "bath"
+    },
+    "meaning": "bồn tắm; việc tắm"
+  },
+  {
+    "original": {
+      "id": "n5-7a073616e5",
+      "kana": "おべんとう",
+      "kanji": "お弁当",
+      "meaning": "boxed lunch"
+    },
+    "meaning": "cơm hộp bento (bữa ăn mang theo)"
+  },
+  {
+    "original": {
+      "id": "n5-dad2d16220",
+      "kana": "おぼえる",
+      "kanji": "覚える",
+      "meaning": "to remember"
+    },
+    "meaning": "nhớ, ghi nhớ"
+  },
+  {
+    "original": {
+      "id": "n5-ae5d1778d1",
+      "kana": "おまわりさん",
+      "kanji": "",
+      "meaning": "friendly term for policeman"
+    },
+    "meaning": "chú cảnh sát"
+  },
+  {
+    "original": {
+      "id": "n5-cdfb776826",
+      "kana": "おもい",
+      "kanji": "重い",
+      "meaning": "heavy"
+    },
+    "meaning": "nặng nề (trọng lượng)"
+  },
+  {
+    "original": {
+      "id": "n5-2568873ebd",
+      "kana": "おもしろい",
+      "kanji": "",
+      "meaning": "interesting"
+    },
+    "meaning": "thú vị"
+  },
+  {
+    "original": {
+      "id": "n5-3c5bb8f223",
+      "kana": "およぐ",
+      "kanji": "泳ぐ",
+      "meaning": "to swim"
+    },
+    "meaning": "bơi"
+  },
+  {
+    "original": {
+      "id": "n5-ae00442122",
+      "kana": "おりる",
+      "kanji": "降りる",
+      "meaning": "to get off; to descend"
+    },
+    "meaning": "xuống (xe, cầu thang)"
+  },
+  {
+    "original": {
+      "id": "n5-d7960dc78d",
+      "kana": "おわる",
+      "kanji": "終る",
+      "meaning": "to finish"
+    },
+    "meaning": "kết thúc, xong"
+  },
+  {
+    "original": {
+      "id": "n5-cdea017272",
+      "kana": "おんがく",
+      "kanji": "音楽",
+      "meaning": "music"
+    },
+    "meaning": "âm nhạc"
+  },
+  {
+    "original": {
+      "id": "n5-980a922ad3",
+      "kana": "おんな",
+      "kanji": "女",
+      "meaning": "woman"
+    },
+    "meaning": "phụ nữ, nữ giới"
+  },
+  {
+    "original": {
+      "id": "n5-e6afab391a",
+      "kana": "おんなのこ",
+      "kanji": "女の子",
+      "meaning": "girl"
+    },
+    "meaning": "cô gái"
+  },
+  {
+    "original": {
+      "id": "n5-31a803c7f5",
+      "kana": "がいこく",
+      "kanji": "外国",
+      "meaning": "foreign country"
+    },
+    "meaning": "nước ngoài"
+  },
+  {
+    "original": {
+      "id": "n5-70f1678111",
+      "kana": "がいこくじん",
+      "kanji": "外国人",
+      "meaning": "foreigner"
+    },
+    "meaning": "người nước ngoài"
+  },
+  {
+    "original": {
+      "id": "n5-2120ff505c",
+      "kana": "かいしゃ",
+      "kanji": "会社",
+      "meaning": "company"
+    },
+    "meaning": "công ty"
+  },
+  {
+    "original": {
+      "id": "n5-7cb27c411e",
+      "kana": "かいだん",
+      "kanji": "階段",
+      "meaning": "stairs"
+    },
+    "meaning": "cầu thang"
+  },
+  {
+    "original": {
+      "id": "n5-a771d4f949",
+      "kana": "かいもの",
+      "kanji": "買い物",
+      "meaning": "shopping"
+    },
+    "meaning": "mua sắm"
+  },
+  {
+    "original": {
+      "id": "n5-bdb125e5c6",
+      "kana": "かう",
+      "kanji": "買う",
+      "meaning": "to buy"
+    },
+    "meaning": "mua"
+  },
+  {
+    "original": {
+      "id": "n5-8ea4b03d7f",
+      "kana": "かえす",
+      "kanji": "返す",
+      "meaning": "to return something"
+    },
+    "meaning": "trả lại"
+  },
+  {
+    "original": {
+      "id": "n5-1d22f1d023",
+      "kana": "かえる",
+      "kanji": "帰る",
+      "meaning": "to go back"
+    },
+    "meaning": "về, trở về"
+  },
+  {
+    "original": {
+      "id": "n5-687082e55c",
+      "kana": "かかる",
+      "kanji": "",
+      "meaning": "to take time or money"
+    },
+    "meaning": "mất, tốn (thời gian, tiền)"
+  },
+  {
+    "original": {
+      "id": "n5-e2d6576c76",
+      "kana": "かぎ",
+      "kanji": "",
+      "meaning": "key"
+    },
+    "meaning": "chìa khóa"
+  },
+  {
+    "original": {
+      "id": "n5-f7c7f35d9e",
+      "kana": "かく",
+      "kanji": "書く",
+      "meaning": "to write"
+    },
+    "meaning": "viết"
+  },
+  {
+    "original": {
+      "id": "n5-452102ad0a",
+      "kana": "がくせい",
+      "kanji": "学生",
+      "meaning": "student"
+    },
+    "meaning": "học sinh, sinh viên"
+  },
+  {
+    "original": {
+      "id": "n5-0ce2b98d3b",
+      "kana": "かける",
+      "kanji": "",
+      "meaning": "to call by phone"
+    },
+    "meaning": "gọi điện (電話をかける)"
+  },
+  {
+    "original": {
+      "id": "n5-6f54881e59",
+      "kana": "かさ",
+      "kanji": "傘",
+      "meaning": "umbrella"
+    },
+    "meaning": "chiếc ô, cây dù"
+  },
+  {
+    "original": {
+      "id": "n5-1122cac409",
+      "kana": "かす",
+      "kanji": "貸す",
+      "meaning": "to lend"
+    },
+    "meaning": "cho mượn, cho vay"
+  },
+  {
+    "original": {
+      "id": "n5-c1a28465a2",
+      "kana": "かぜ",
+      "kanji": "風",
+      "meaning": "wind"
+    },
+    "meaning": "cơn gió"
+  },
+  {
+    "original": {
+      "id": "n5-c9b5da4d10",
+      "kana": "かぜ",
+      "kanji": "風邪",
+      "meaning": "a cold"
+    },
+    "meaning": "cảm, cảm lạnh"
+  },
+  {
+    "original": {
+      "id": "n5-1c9db63bdc",
+      "kana": "かぞく",
+      "kanji": "家族",
+      "meaning": "family"
+    },
+    "meaning": "gia đình"
+  },
+  {
+    "original": {
+      "id": "n5-e34295f3e1",
+      "kana": "かた",
+      "kanji": "方",
+      "meaning": "person; way of doing"
+    },
+    "meaning": "vị, người (lịch sự); cách làm"
+  },
+  {
+    "original": {
+      "id": "n5-dd8ac16bd2",
+      "kana": "がっこう",
+      "kanji": "学校",
+      "meaning": "school"
+    },
+    "meaning": "trường học"
+  },
+  {
+    "original": {
+      "id": "n5-613c41bd1d",
+      "kana": "カップ",
+      "kanji": "",
+      "meaning": "cup"
+    },
+    "meaning": "cốc, tách"
+  },
+  {
+    "original": {
+      "id": "n5-66eeeb818b",
+      "kana": "かてい",
+      "kanji": "家庭",
+      "meaning": "household"
+    },
+    "meaning": "gia đình, gia đình riêng"
+  },
+  {
+    "original": {
+      "id": "n5-4092bfd9bb",
+      "kana": "かど",
+      "kanji": "角",
+      "meaning": "a corner"
+    },
+    "meaning": "góc phố, khúc quanh ngã rẽ"
+  },
+  {
+    "original": {
+      "id": "n5-6e6a06687d",
+      "kana": "かばん",
+      "kanji": "",
+      "meaning": "bag; basket"
+    },
+    "meaning": "túi xách, cặp sách, ba lô"
+  },
+  {
+    "original": {
+      "id": "n5-749f78c9d1",
+      "kana": "かびん",
+      "kanji": "花瓶",
+      "meaning": "a vase"
+    },
+    "meaning": "lọ hoa, bình hoa"
+  },
+  {
+    "original": {
+      "id": "n5-cd08f9cdc2",
+      "kana": "かみ",
+      "kanji": "紙",
+      "meaning": "paper"
+    },
+    "meaning": "giấy"
+  },
+  {
+    "original": {
+      "id": "n5-9d648d38ad",
+      "kana": "カメラ",
+      "kanji": "",
+      "meaning": "camera"
+    },
+    "meaning": "máy ảnh"
+  },
+  {
+    "original": {
+      "id": "n5-0dbf9ef8ca",
+      "kana": "かようび",
+      "kanji": "火曜日",
+      "meaning": "Tuesday"
+    },
+    "meaning": "thứ Ba"
+  },
+  {
+    "original": {
+      "id": "n5-d2546ac97b",
+      "kana": "からい",
+      "kanji": "辛い",
+      "meaning": "spicy"
+    },
+    "meaning": "cay xè (vị cay)"
+  },
+  {
+    "original": {
+      "id": "n5-a556e5edce",
+      "kana": "からだ",
+      "kanji": "体",
+      "meaning": "body"
+    },
+    "meaning": "cơ thể, thể chất, sức khỏe"
+  },
+  {
+    "original": {
+      "id": "n5-8cd440a181",
+      "kana": "かりる",
+      "kanji": "借りる",
+      "meaning": "to borrow"
+    },
+    "meaning": "mượn, vay (từ ai đó, từ thư viện)"
+  },
+  {
+    "original": {
+      "id": "n5-a8b9eb425d",
+      "kana": "かるい",
+      "kanji": "軽い",
+      "meaning": "light"
+    },
+    "meaning": "nhẹ nhàng (trọng lượng)"
+  },
+  {
+    "original": {
+      "id": "n5-9decc44f4e",
+      "kana": "カレー",
+      "kanji": "",
+      "meaning": "curry"
+    },
+    "meaning": "cà ri"
+  },
+  {
+    "original": {
+      "id": "n5-6382448bd3",
+      "kana": "カレンダー",
+      "kanji": "",
+      "meaning": "calendar"
+    },
+    "meaning": "lịch"
+  },
+  {
+    "original": {
+      "id": "n5-bcf12e002d",
+      "kana": "かわ",
+      "kanji": "川",
+      "meaning": "river"
+    },
+    "meaning": "con sông, dòng sông"
+  },
+  {
+    "original": {
+      "id": "n5-bad3423a93",
+      "kana": "かわいい",
+      "kanji": "",
+      "meaning": "cute"
+    },
+    "meaning": "dễ thương, đáng yêu"
+  },
+  {
+    "original": {
+      "id": "n5-fdc787af58",
+      "kana": "かんじ",
+      "kanji": "漢字",
+      "meaning": "Chinese character"
+    },
+    "meaning": "chữ Hán, Hán tự"
+  },
+  {
+    "original": {
+      "id": "n5-22836046e2",
+      "kana": "き",
+      "kanji": "木",
+      "meaning": "tree; wood"
+    },
+    "meaning": "cái cây"
+  },
+  {
+    "original": {
+      "id": "n5-5d679a1af2",
+      "kana": "きいろ",
+      "kanji": "黄色",
+      "meaning": "yellow"
+    },
+    "meaning": "màu vàng"
+  },
+  {
+    "original": {
+      "id": "n5-0b36c8d6c6",
+      "kana": "きいろい",
+      "kanji": "黄色い",
+      "meaning": "yellow"
+    },
+    "meaning": "vàng (màu sắc)"
+  },
+  {
+    "original": {
+      "id": "n5-6030b50276",
+      "kana": "きえる",
+      "kanji": "消える",
+      "meaning": "to disappear"
+    },
+    "meaning": "tắt; biến mất"
+  },
+  {
+    "original": {
+      "id": "n5-dc19a213cd",
+      "kana": "きく",
+      "kanji": "聞く",
+      "meaning": "to hear; to listen to; to ask"
+    },
+    "meaning": "nghe; hỏi"
+  },
+  {
+    "original": {
+      "id": "n5-fa320a51ea",
+      "kana": "きた",
+      "kanji": "北",
+      "meaning": "north"
+    },
+    "meaning": "phía bắc"
+  },
+  {
+    "original": {
+      "id": "n5-4fb1c0d758",
+      "kana": "ギター",
+      "kanji": "",
+      "meaning": "guitar"
+    },
+    "meaning": "đàn ghi ta"
+  },
+  {
+    "original": {
+      "id": "n5-7d1cf1538b",
+      "kana": "きたない",
+      "kanji": "汚い",
+      "meaning": "dirty"
+    },
+    "meaning": "bẩn"
+  },
+  {
+    "original": {
+      "id": "n5-5620a00afc",
+      "kana": "きっさてん",
+      "kanji": "喫茶店",
+      "meaning": "coffee lounge"
+    },
+    "meaning": "quán cà phê, quán giải khát"
+  },
+  {
+    "original": {
+      "id": "n5-e101e41f54",
+      "kana": "きって",
+      "kanji": "切手",
+      "meaning": "postage stamp"
+    },
+    "meaning": "tem thư"
+  },
+  {
+    "original": {
+      "id": "n5-4fee5be397",
+      "kana": "きっぷ",
+      "kanji": "切符",
+      "meaning": "ticket"
+    },
+    "meaning": "vé"
+  },
+  {
+    "original": {
+      "id": "n5-a94a4be08f",
+      "kana": "きのう",
+      "kanji": "昨日",
+      "meaning": "yesterday"
+    },
+    "meaning": "hôm qua"
+  },
+  {
+    "original": {
+      "id": "n5-8f81565ad7",
+      "kana": "きゅう",
+      "kanji": "九",
+      "meaning": "nine"
+    },
+    "meaning": "chín"
+  },
+  {
+    "original": {
+      "id": "n5-b4faf372f3",
+      "kana": "ぎゅうにく",
+      "kanji": "牛肉",
+      "meaning": "beef"
+    },
+    "meaning": "thịt bò"
+  },
+  {
+    "original": {
+      "id": "n5-797ae8d562",
+      "kana": "ぎゅうにゅう",
+      "kanji": "牛乳",
+      "meaning": "milk"
+    },
+    "meaning": "sữa tươi, sữa bò"
+  },
+  {
+    "original": {
+      "id": "n5-0400a204bd",
+      "kana": "きょう",
+      "kanji": "今日",
+      "meaning": "today"
+    },
+    "meaning": "hôm nay"
+  },
+  {
+    "original": {
+      "id": "n5-85eb994887",
+      "kana": "きょうしつ",
+      "kanji": "教室",
+      "meaning": "classroom"
+    },
+    "meaning": "phòng học"
+  },
+  {
+    "original": {
+      "id": "n5-976c4f7174",
+      "kana": "きょうだい",
+      "kanji": "兄弟",
+      "meaning": "(humble) siblings"
+    },
+    "meaning": "anh chị em"
+  },
+  {
+    "original": {
+      "id": "n5-ec4e1dfc87",
+      "kana": "きょねん",
+      "kanji": "去年",
+      "meaning": "last year"
+    },
+    "meaning": "năm ngoái"
+  },
+  {
+    "original": {
+      "id": "n5-d106dac023",
+      "kana": "きらい",
+      "kanji": "嫌い",
+      "meaning": "hate"
+    },
+    "meaning": "ghét, không thích"
+  },
+  {
+    "original": {
+      "id": "n5-cf23f5fba1",
+      "kana": "きる",
+      "kanji": "切る",
+      "meaning": "to cut"
+    },
+    "meaning": "cắt, gọt (hoa quả, giấy)"
+  },
+  {
+    "original": {
+      "id": "n5-45fbcb8670",
+      "kana": "きる",
+      "kanji": "着る",
+      "meaning": "to put on from the shoulders down"
+    },
+    "meaning": "mặc (áo, váy)"
+  },
+  {
+    "original": {
+      "id": "n5-43cd9825f0",
+      "kana": "きれい",
+      "kanji": "",
+      "meaning": "pretty; clean"
+    },
+    "meaning": "đẹp; sạch sẽ"
+  },
+  {
+    "original": {
+      "id": "n5-36016e0c51",
+      "kana": "キロ",
+      "kanji": "",
+      "meaning": "kilometre; kilogram"
+    },
+    "meaning": "ki-lô-gam (kg); ki-lô-mét (km)"
+  },
+  {
+    "original": {
+      "id": "n5-a59efa3057",
+      "kana": "ぎんこう",
+      "kanji": "銀行",
+      "meaning": "bank"
+    },
+    "meaning": "ngân hàng"
+  },
+  {
+    "original": {
+      "id": "n5-b00c4af0a2",
+      "kana": "きんようび",
+      "kanji": "金曜日",
+      "meaning": "Friday"
+    },
+    "meaning": "thứ sáu"
+  },
+  {
+    "original": {
+      "id": "n5-95ccaa32f5",
+      "kana": "くすり",
+      "kanji": "薬",
+      "meaning": "medicine"
+    },
+    "meaning": "thuốc chữa bệnh, dược phẩm"
+  },
+  {
+    "original": {
+      "id": "n5-a36841ba49",
+      "kana": "ください",
+      "kanji": "",
+      "meaning": "please"
+    },
+    "meaning": "xin hãy; xin cho tôi"
+  },
+  {
+    "original": {
+      "id": "n5-6b454b895e",
+      "kana": "くだもの",
+      "kanji": "果物",
+      "meaning": "fruit"
+    },
+    "meaning": "trái cây, hoa quả"
+  },
+  {
+    "original": {
+      "id": "n5-a123a147d7",
+      "kana": "くち",
+      "kanji": "口",
+      "meaning": "mouth; opening"
+    },
+    "meaning": "miệng; cửa, lối mở"
+  },
+  {
+    "original": {
+      "id": "n5-9dd0572f05",
+      "kana": "くつ",
+      "kanji": "靴",
+      "meaning": "shoes"
+    },
+    "meaning": "đôi giày"
+  },
+  {
+    "original": {
+      "id": "n5-20a1278928",
+      "kana": "くつした",
+      "kanji": "靴下",
+      "meaning": "socks"
+    },
+    "meaning": "tất, vớ"
+  },
+  {
+    "original": {
+      "id": "n5-b55dd305d1",
+      "kana": "くに",
+      "kanji": "国",
+      "meaning": "country"
+    },
+    "meaning": "quốc gia, đất nước; quê hương"
+  },
+  {
+    "original": {
+      "id": "n5-eec0f93991",
+      "kana": "くもり",
+      "kanji": "曇り",
+      "meaning": "cloudy weather"
+    },
+    "meaning": "trời nhiều mây, âm u"
+  },
+  {
+    "original": {
+      "id": "n5-c34fdb6092",
+      "kana": "くもる",
+      "kanji": "曇る",
+      "meaning": "to become cloudy; to become dim"
+    },
+    "meaning": "trở nên nhiều mây; mờ đi"
+  },
+  {
+    "original": {
+      "id": "n5-01a0587b49",
+      "kana": "くらい",
+      "kanji": "暗い",
+      "meaning": "gloomy"
+    },
+    "meaning": "tối tăm, u ám"
+  },
+  {
+    "original": {
+      "id": "n5-72c04ce067",
+      "kana": "クラス",
+      "kanji": "",
+      "meaning": "class"
+    },
+    "meaning": "lớp học"
+  },
+  {
+    "original": {
+      "id": "n5-5538df2bce",
+      "kana": "グラム",
+      "kanji": "",
+      "meaning": "gram"
+    },
+    "meaning": "～ gam (đơn vị đo khối lượng)"
+  },
+  {
+    "original": {
+      "id": "n5-2e2abd26ca",
+      "kana": "くる",
+      "kanji": "来る",
+      "meaning": "to come"
+    },
+    "meaning": "đến"
+  },
+  {
+    "original": {
+      "id": "n5-d6b85573f3",
+      "kana": "くるま",
+      "kanji": "車",
+      "meaning": "car; vehicle"
+    },
+    "meaning": "xe hơi, ô tô"
+  },
+  {
+    "original": {
+      "id": "n5-3c32cfb08a",
+      "kana": "くろ",
+      "kanji": "黒",
+      "meaning": "black"
+    },
+    "meaning": "màu đen"
+  },
+  {
+    "original": {
+      "id": "n5-5e5300cf62",
+      "kana": "くろい",
+      "kanji": "黒い",
+      "meaning": "black"
+    },
+    "meaning": "màu đen"
+  },
+  {
+    "original": {
+      "id": "n5-e1634cb3e9",
+      "kana": "けいかん",
+      "kanji": "警官",
+      "meaning": "policeman"
+    },
+    "meaning": "cảnh sát"
+  },
+  {
+    "original": {
+      "id": "n5-9c1d724a61",
+      "kana": "けさ",
+      "kanji": "今朝",
+      "meaning": "this morning"
+    },
+    "meaning": "sáng nay"
+  },
+  {
+    "original": {
+      "id": "n5-19f270c68f",
+      "kana": "けす",
+      "kanji": "消す",
+      "meaning": "to erase; to turn off power"
+    },
+    "meaning": "tắt; xóa"
+  },
+  {
+    "original": {
+      "id": "n5-dd34250740",
+      "kana": "けっこう",
+      "kanji": "結構",
+      "meaning": "splendid; enough"
+    },
+    "meaning": "đủ rồi; tốt, được"
+  },
+  {
+    "original": {
+      "id": "n5-2eb252da72",
+      "kana": "けっこん",
+      "kanji": "結婚",
+      "meaning": "marriage"
+    },
+    "meaning": "kết hôn"
+  },
+  {
+    "original": {
+      "id": "n5-04e80a2ba1",
+      "kana": "げつようび",
+      "kanji": "月曜日",
+      "meaning": "Monday"
+    },
+    "meaning": "thứ hai (trong tuần)"
+  },
+  {
+    "original": {
+      "id": "n5-2e1642b248",
+      "kana": "げんかん",
+      "kanji": "玄関",
+      "meaning": "entry hall"
+    },
+    "meaning": "cửa ra vào, tiền sảnh"
+  },
+  {
+    "original": {
+      "id": "n5-442c4aa1ca",
+      "kana": "げんき",
+      "kanji": "元気",
+      "meaning": "health; vitality"
+    },
+    "meaning": "khỏe mạnh, đầy sức sống"
+  },
+  {
+    "original": {
+      "id": "n5-47c1fdbe2f",
+      "kana": "ご",
+      "kanji": "五",
+      "meaning": "five"
+    },
+    "meaning": "năm"
+  },
+  {
+    "original": {
+      "id": "n5-05cf590971",
+      "kana": "こうえん",
+      "kanji": "公園",
+      "meaning": "park"
+    },
+    "meaning": "công viên"
+  },
+  {
+    "original": {
+      "id": "n5-8699b8bec2",
+      "kana": "こうさてん",
+      "kanji": "交差点",
+      "meaning": "intersection"
+    },
+    "meaning": "ngã tư đường, giao lộ"
+  },
+  {
+    "original": {
+      "id": "n5-1288e600be",
+      "kana": "こうちゃ",
+      "kanji": "紅茶",
+      "meaning": "black tea"
+    },
+    "meaning": "trà đen, hồng trà"
+  },
+  {
+    "original": {
+      "id": "n5-402eb0d21f",
+      "kana": "こうばん",
+      "kanji": "交番",
+      "meaning": "police box"
+    },
+    "meaning": "đồn cảnh sát nhỏ, bốt cảnh sát"
+  },
+  {
+    "original": {
+      "id": "n5-d890e45616",
+      "kana": "こえ",
+      "kanji": "声",
+      "meaning": "voice"
+    },
+    "meaning": "giọng nói, tiếng người"
+  },
+  {
+    "original": {
+      "id": "n5-c552e79d34",
+      "kana": "コート",
+      "kanji": "",
+      "meaning": "coat; tennis court"
+    },
+    "meaning": "áo khoác dài, áo măng-tô"
+  },
+  {
+    "original": {
+      "id": "n5-67126059f1",
+      "kana": "コーヒー",
+      "kanji": "",
+      "meaning": "coffee"
+    },
+    "meaning": "cà phê"
+  },
+  {
+    "original": {
+      "id": "n5-05123676c2",
+      "kana": "ここ",
+      "kanji": "",
+      "meaning": "here"
+    },
+    "meaning": "chỗ này, ở đây (gần người nói)"
+  },
+  {
+    "original": {
+      "id": "n5-9a7c962266",
+      "kana": "ごご",
+      "kanji": "午後",
+      "meaning": "afternoon"
+    },
+    "meaning": "buổi chiều"
+  },
+  {
+    "original": {
+      "id": "n5-f114f6f499",
+      "kana": "ここのか",
+      "kanji": "九日",
+      "meaning": "nine days; ninth day"
+    },
+    "meaning": "chín ngày; ngày mùng chín"
+  },
+  {
+    "original": {
+      "id": "n5-cff3c57405",
+      "kana": "ここのつ",
+      "kanji": "九つ",
+      "meaning": "nine"
+    },
+    "meaning": "chín cái, chín chiếc (vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-c92dbe626a",
+      "kana": "ごぜん",
+      "kanji": "午前",
+      "meaning": "morning"
+    },
+    "meaning": "buổi sáng"
+  },
+  {
+    "original": {
+      "id": "n5-d5d8c608aa",
+      "kana": "こたえる",
+      "kanji": "答える",
+      "meaning": "to answer"
+    },
+    "meaning": "trả lời"
+  },
+  {
+    "original": {
+      "id": "n5-a9191729e3",
+      "kana": "ごちそうさま",
+      "kanji": "",
+      "meaning": "feast"
+    },
+    "meaning": "cảm ơn vì bữa ăn (nói sau khi ăn)"
+  },
+  {
+    "original": {
+      "id": "n5-e9e492c68a",
+      "kana": "こちら",
+      "kanji": "",
+      "meaning": "this person or way"
+    },
+    "meaning": "phía này, nơi này (lịch sự của ここ)"
+  },
+  {
+    "original": {
+      "id": "n5-be9b8bcb5e",
+      "kana": "こっち",
+      "kanji": "",
+      "meaning": "this person or way"
+    },
+    "meaning": "phía này, đằng này"
+  },
+  {
+    "original": {
+      "id": "n5-2da7034c1e",
+      "kana": "コップ",
+      "kanji": "",
+      "meaning": "a glass"
+    },
+    "meaning": "cốc, ly"
+  },
+  {
+    "original": {
+      "id": "n5-0020b9ee4e",
+      "kana": "ことし",
+      "kanji": "今年",
+      "meaning": "this year"
+    },
+    "meaning": "năm nay"
+  },
+  {
+    "original": {
+      "id": "n5-491cfa69be",
+      "kana": "ことば",
+      "kanji": "言葉",
+      "meaning": "word; language"
+    },
+    "meaning": "từ ngữ, ngôn ngữ"
+  },
+  {
+    "original": {
+      "id": "n5-1f4bb6e503",
+      "kana": "こども",
+      "kanji": "子供",
+      "meaning": "child"
+    },
+    "meaning": "trẻ con, con cái"
+  },
+  {
+    "original": {
+      "id": "n5-bd3a2ad2ad",
+      "kana": "この",
+      "kanji": "",
+      "meaning": "this"
+    },
+    "meaning": "cuốn này, chiếc này (gần người nói)"
+  },
+  {
+    "original": {
+      "id": "n5-a2694d259e",
+      "kana": "ごはん",
+      "kanji": "御飯",
+      "meaning": "cooked rice; meal"
+    },
+    "meaning": "cơm; bữa ăn"
+  },
+  {
+    "original": {
+      "id": "n5-f586d7d023",
+      "kana": "コピーする",
+      "kanji": "",
+      "meaning": "to copy"
+    },
+    "meaning": "sao chép, phô tô"
+  },
+  {
+    "original": {
+      "id": "n5-61994485cb",
+      "kana": "こまる",
+      "kanji": "困る",
+      "meaning": "to be worried"
+    },
+    "meaning": "gặp khó khăn, bối rối"
+  },
+  {
+    "original": {
+      "id": "n5-4a11eb5fb4",
+      "kana": "ごめんなさい",
+      "kanji": "",
+      "meaning": "I beg your pardon; excuse me"
+    },
+    "meaning": "xin lỗi"
+  },
+  {
+    "original": {
+      "id": "n5-6313cc9cb5",
+      "kana": "これ",
+      "kanji": "",
+      "meaning": "this"
+    },
+    "meaning": "cái này, đây (ở gần người nói)"
+  },
+  {
+    "original": {
+      "id": "n5-3793173687",
+      "kana": "こんげつ",
+      "kanji": "今月",
+      "meaning": "this month"
+    },
+    "meaning": "tháng này"
+  },
+  {
+    "original": {
+      "id": "n5-7a27eadef1",
+      "kana": "こんしゅう",
+      "kanji": "今週",
+      "meaning": "this week"
+    },
+    "meaning": "tuần này"
+  },
+  {
+    "original": {
+      "id": "n5-e1978f90df",
+      "kana": "こんな",
+      "kanji": "",
+      "meaning": "such"
+    },
+    "meaning": "như thế này..."
+  },
+  {
+    "original": {
+      "id": "n5-0a65b39cf7",
+      "kana": "こんにちは",
+      "kanji": "",
+      "meaning": "hello; good day (daytime greeting, id)"
+    },
+    "meaning": "xin chào (ban ngày)"
+  },
+  {
+    "original": {
+      "id": "n5-eb1c9a5df9",
+      "kana": "こんばん",
+      "kanji": "今晩",
+      "meaning": "this evening"
+    },
+    "meaning": "tối nay, đêm nay"
+  },
+  {
+    "original": {
+      "id": "n5-6c0551dd8a",
+      "kana": "こんばんは",
+      "kanji": "",
+      "meaning": "good evening"
+    },
+    "meaning": "chào buổi tối"
+  },
+  {
+    "original": {
+      "id": "n5-7ba7ba2434",
+      "kana": "さあ",
+      "kanji": "",
+      "meaning": "well…"
+    },
+    "meaning": "nào, thôi nào (lời giục giã hoặc khi chưa biết rõ)"
+  },
+  {
+    "original": {
+      "id": "n5-a96e3a2b33",
+      "kana": "さいふ",
+      "kanji": "財布",
+      "meaning": "wallet"
+    },
+    "meaning": "ví tiền"
+  },
+  {
+    "original": {
+      "id": "n5-dbd7cd319c",
+      "kana": "さかな",
+      "kanji": "魚",
+      "meaning": "fish"
+    },
+    "meaning": "con cá"
+  },
+  {
+    "original": {
+      "id": "n5-20fcc4f54f",
+      "kana": "さき",
+      "kanji": "先",
+      "meaning": "the future; previous"
+    },
+    "meaning": "phía trước; trước đó; tương lai"
+  },
+  {
+    "original": {
+      "id": "n5-4c39babf5f",
+      "kana": "さく",
+      "kanji": "咲く",
+      "meaning": "to bloom"
+    },
+    "meaning": "nở (hoa)"
+  },
+  {
+    "original": {
+      "id": "n5-c10cb3070d",
+      "kana": "さくぶん",
+      "kanji": "作文",
+      "meaning": "composition; writing"
+    },
+    "meaning": "bài văn, việc viết văn"
+  },
+  {
+    "original": {
+      "id": "n5-4e2aefb855",
+      "kana": "さす",
+      "kanji": "差す",
+      "meaning": "to stretch out hands; to raise an umbrella"
+    },
+    "meaning": "giương (ô); đưa ra"
+  },
+  {
+    "original": {
+      "id": "n5-a371cc6a54",
+      "kana": "ざっし",
+      "kanji": "雑誌",
+      "meaning": "magazine"
+    },
+    "meaning": "cuốn tạp chí"
+  },
+  {
+    "original": {
+      "id": "n5-8af5030b7a",
+      "kana": "さとう",
+      "kanji": "砂糖",
+      "meaning": "sugar"
+    },
+    "meaning": "đường ăn (gia vị ngọt)"
+  },
+  {
+    "original": {
+      "id": "n5-688bc67044",
+      "kana": "さむい",
+      "kanji": "寒い",
+      "meaning": "cold"
+    },
+    "meaning": "lạnh giá (thời tiết mùa đông)"
+  },
+  {
+    "original": {
+      "id": "n5-0a1f511640",
+      "kana": "さようなら",
+      "kanji": "",
+      "meaning": "good-bye"
+    },
+    "meaning": "tạm biệt"
+  },
+  {
+    "original": {
+      "id": "n5-45c705d5b2",
+      "kana": "さらいねん",
+      "kanji": "再来年",
+      "meaning": "year after next"
+    },
+    "meaning": "năm sau nữa"
+  },
+  {
+    "original": {
+      "id": "n5-5cb07674a3",
+      "kana": "さん",
+      "kanji": "三",
+      "meaning": "three"
+    },
+    "meaning": "ba"
+  },
+  {
+    "original": {
+      "id": "n5-e2695084c9",
+      "kana": "さんぽ",
+      "kanji": "散歩",
+      "meaning": "to stroll"
+    },
+    "meaning": "đi dạo"
+  },
+  {
+    "original": {
+      "id": "n5-da4b805e0b",
+      "kana": "し",
+      "kanji": "四",
+      "meaning": "four"
+    },
+    "meaning": "bốn"
+  },
+  {
+    "original": {
+      "id": "n5-b366a3d677",
+      "kana": "しお",
+      "kanji": "塩",
+      "meaning": "salt"
+    },
+    "meaning": "muối ăn (gia vị)"
+  },
+  {
+    "original": {
+      "id": "n5-2c41aedcba",
+      "kana": "しかし",
+      "kanji": "",
+      "meaning": "however"
+    },
+    "meaning": "tuy nhiên, nhưng mà (văn phong trang trọng hơn でも)"
+  },
+  {
+    "original": {
+      "id": "n5-d5c916ca85",
+      "kana": "じかん",
+      "kanji": "時間",
+      "meaning": "time"
+    },
+    "meaning": "thời gian"
+  },
+  {
+    "original": {
+      "id": "n5-573bc15b1d",
+      "kana": "しごと",
+      "kanji": "仕事",
+      "meaning": "job"
+    },
+    "meaning": "công việc"
+  },
+  {
+    "original": {
+      "id": "n5-8ec35978bd",
+      "kana": "じしょ",
+      "kanji": "辞書",
+      "meaning": "dictionary"
+    },
+    "meaning": "cuốn từ điển"
+  },
+  {
+    "original": {
+      "id": "n5-178469ba7a",
+      "kana": "しずか",
+      "kanji": "静か",
+      "meaning": "quiet"
+    },
+    "meaning": "yên tĩnh"
+  },
+  {
+    "original": {
+      "id": "n5-dd36cae3a9",
+      "kana": "した",
+      "kanji": "下",
+      "meaning": "below"
+    },
+    "meaning": "dưới, dưới, bên dưới"
+  },
+  {
+    "original": {
+      "id": "n5-988db98632",
+      "kana": "しち",
+      "kanji": "七",
+      "meaning": "seven"
+    },
+    "meaning": "bảy"
+  },
+  {
+    "original": {
+      "id": "n5-2c5c99977c",
+      "kana": "しつもん",
+      "kanji": "質問",
+      "meaning": "question"
+    },
+    "meaning": "câu hỏi, việc hỏi"
+  },
+  {
+    "original": {
+      "id": "n5-ebf194a316",
+      "kana": "じてんしゃ",
+      "kanji": "自転車",
+      "meaning": "bicycle"
+    },
+    "meaning": "xe đạp"
+  },
+  {
+    "original": {
+      "id": "n5-78fd1a0e8a",
+      "kana": "じどうしゃ",
+      "kanji": "自動車",
+      "meaning": "automobile"
+    },
+    "meaning": "xe hơi, xe ô tô"
+  },
+  {
+    "original": {
+      "id": "n5-ec6fd2f845",
+      "kana": "しぬ",
+      "kanji": "死ぬ",
+      "meaning": "to die"
+    },
+    "meaning": "chết"
+  },
+  {
+    "original": {
+      "id": "n5-6156bfb418",
+      "kana": "じびき",
+      "kanji": "字引",
+      "meaning": "dictionary"
+    },
+    "meaning": "từ điển"
+  },
+  {
+    "original": {
+      "id": "n5-995a632b12",
+      "kana": "じぶん",
+      "kanji": "自分",
+      "meaning": "oneself"
+    },
+    "meaning": "bản thân, chính mình"
+  },
+  {
+    "original": {
+      "id": "n5-01420cdf0f",
+      "kana": "しまる",
+      "kanji": "閉まる",
+      "meaning": "to close; to be closed"
+    },
+    "meaning": "đóng, được đóng"
+  },
+  {
+    "original": {
+      "id": "n5-8e6c15bef9",
+      "kana": "しめる",
+      "kanji": "締める",
+      "meaning": "to tie"
+    },
+    "meaning": "thắt, buộc, siết chặt"
+  },
+  {
+    "original": {
+      "id": "n5-95827b08e3",
+      "kana": "しめる",
+      "kanji": "閉める",
+      "meaning": "to close something"
+    },
+    "meaning": "đóng (cửa, cửa sổ)"
+  },
+  {
+    "original": {
+      "id": "n5-091c8c0e07",
+      "kana": "じゃ",
+      "kanji": "",
+      "meaning": "well then…"
+    },
+    "meaning": "vậy thì, thế thì"
+  },
+  {
+    "original": {
+      "id": "n5-5101640e7e",
+      "kana": "しゃしん",
+      "kanji": "写真",
+      "meaning": "photograph"
+    },
+    "meaning": "bức ảnh"
+  },
+  {
+    "original": {
+      "id": "n5-f71424e3ff",
+      "kana": "シャツ",
+      "kanji": "",
+      "meaning": "shirt"
+    },
+    "meaning": "áo sơ mi"
+  },
+  {
+    "original": {
+      "id": "n5-d9c88143a2",
+      "kana": "シャワー",
+      "kanji": "",
+      "meaning": "shower"
+    },
+    "meaning": "vòi hoa sen, tắm vòi sen"
+  },
+  {
+    "original": {
+      "id": "n5-db9f5d4422",
+      "kana": "じゅう",
+      "kanji": "十",
+      "meaning": "ten"
+    },
+    "meaning": "mười"
+  },
+  {
+    "original": {
+      "id": "n5-5bae559507",
+      "kana": "じゅぎょう",
+      "kanji": "授業",
+      "meaning": "lesson; class work"
+    },
+    "meaning": "giờ học, tiết học"
+  },
+  {
+    "original": {
+      "id": "n5-4daa103d7d",
+      "kana": "しゅくだい",
+      "kanji": "宿題",
+      "meaning": "homework"
+    },
+    "meaning": "bài tập về nhà"
+  },
+  {
+    "original": {
+      "id": "n5-1763fc412a",
+      "kana": "じょうず",
+      "kanji": "上手",
+      "meaning": "skillful"
+    },
+    "meaning": "giỏi, khéo"
+  },
+  {
+    "original": {
+      "id": "n5-50525927ee",
+      "kana": "じょうぶ",
+      "kanji": "丈夫",
+      "meaning": "strong; durable"
+    },
+    "meaning": "bền, chắc; khỏe mạnh"
+  },
+  {
+    "original": {
+      "id": "n5-9476d7966d",
+      "kana": "しょうゆ",
+      "kanji": "",
+      "meaning": "soy sauce"
+    },
+    "meaning": "nước tương, xì dầu"
+  },
+  {
+    "original": {
+      "id": "n5-dcc87a37fb",
+      "kana": "しょくどう",
+      "kanji": "食堂",
+      "meaning": "dining hall"
+    },
+    "meaning": "nhà ăn, căn tin"
+  },
+  {
+    "original": {
+      "id": "n5-1fcb2fece8",
+      "kana": "しる",
+      "kanji": "知る",
+      "meaning": "to know"
+    },
+    "meaning": "biết"
+  },
+  {
+    "original": {
+      "id": "n5-98eace7008",
+      "kana": "しろ",
+      "kanji": "白",
+      "meaning": "white"
+    },
+    "meaning": "màu trắng"
+  },
+  {
+    "original": {
+      "id": "n5-8997f64f52",
+      "kana": "しろい",
+      "kanji": "白い",
+      "meaning": "white"
+    },
+    "meaning": "trắng"
+  },
+  {
+    "original": {
+      "id": "n5-b8317395af",
+      "kana": "しんぶん",
+      "kanji": "新聞",
+      "meaning": "newspaper"
+    },
+    "meaning": "tờ báo, nhật báo"
+  },
+  {
+    "original": {
+      "id": "n5-44d9d70862",
+      "kana": "すいようび",
+      "kanji": "水曜日",
+      "meaning": "Wednesday"
+    },
+    "meaning": "thứ Tư"
+  },
+  {
+    "original": {
+      "id": "n5-e82727193e",
+      "kana": "すう",
+      "kanji": "吸う",
+      "meaning": "to smoke; to suck"
+    },
+    "meaning": "hút, hít"
+  },
+  {
+    "original": {
+      "id": "n5-f0f5f6b29b",
+      "kana": "スカート",
+      "kanji": "",
+      "meaning": "skirt"
+    },
+    "meaning": "chân váy"
+  },
+  {
+    "original": {
+      "id": "n5-20cbecd474",
+      "kana": "すき",
+      "kanji": "好き",
+      "meaning": "likeable"
+    },
+    "meaning": "thích"
+  },
+  {
+    "original": {
+      "id": "n5-ce75057c4c",
+      "kana": "すぐ",
+      "kanji": "",
+      "meaning": "immediately; soon; easily; right (near); honest; upright"
+    },
+    "meaning": "ngay lập tức, tức thì (thời gian ngắn)"
+  },
+  {
+    "original": {
+      "id": "n5-0d38b01113",
+      "kana": "すくない",
+      "kanji": "少ない",
+      "meaning": "a few"
+    },
+    "meaning": "ít, hiếm (người: 人が～)"
+  },
+  {
+    "original": {
+      "id": "n5-a8722990f1",
+      "kana": "すぐに",
+      "kanji": "",
+      "meaning": "instantly"
+    },
+    "meaning": "ngay lập tức"
+  },
+  {
+    "original": {
+      "id": "n5-c373555102",
+      "kana": "すこし",
+      "kanji": "少し",
+      "meaning": "few"
+    },
+    "meaning": "một chút, một vài"
+  },
+  {
+    "original": {
+      "id": "n5-67f5908e10",
+      "kana": "すずしい",
+      "kanji": "涼しい",
+      "meaning": "refreshing"
+    },
+    "meaning": "mát mẻ, mát rượi (nhiệt độ dễ chịu vào mùa hè/thu)"
+  },
+  {
+    "original": {
+      "id": "n5-8149d77689",
+      "kana": "ストーブ",
+      "kanji": "",
+      "meaning": "heater"
+    },
+    "meaning": "lò sưởi, máy sưởi"
+  },
+  {
+    "original": {
+      "id": "n5-938a169f6c",
+      "kana": "スプーン",
+      "kanji": "",
+      "meaning": "spoon"
+    },
+    "meaning": "chiếc thìa, muỗng ăn"
+  },
+  {
+    "original": {
+      "id": "n5-0a33903ccf",
+      "kana": "スポーツ",
+      "kanji": "",
+      "meaning": "sport"
+    },
+    "meaning": "thể dục thể thao"
+  },
+  {
+    "original": {
+      "id": "n5-10fe0704ca",
+      "kana": "ズボン",
+      "kanji": "",
+      "meaning": "trousers"
+    },
+    "meaning": "quần dài"
+  },
+  {
+    "original": {
+      "id": "n5-feae64eac4",
+      "kana": "すみません",
+      "kanji": "",
+      "meaning": "sorry; excuse me"
+    },
+    "meaning": "xin lỗi, làm phiền (dùng để xin lỗi hoặc gọi nhân viên/nhờ vả)"
+  },
+  {
+    "original": {
+      "id": "n5-d671097071",
+      "kana": "すむ",
+      "kanji": "住む",
+      "meaning": "to live in"
+    },
+    "meaning": "sống, cư trú"
+  },
+  {
+    "original": {
+      "id": "n5-508131fe89",
+      "kana": "スリッパ",
+      "kanji": "",
+      "meaning": "slippers"
+    },
+    "meaning": "dép đi trong nhà"
+  },
+  {
+    "original": {
+      "id": "n5-c4cdc162d7",
+      "kana": "する",
+      "kanji": "",
+      "meaning": "to do"
+    },
+    "meaning": "làm"
+  },
+  {
+    "original": {
+      "id": "n5-c9a15e8777",
+      "kana": "すわる",
+      "kanji": "座る",
+      "meaning": "to sit"
+    },
+    "meaning": "ngồi"
+  },
+  {
+    "original": {
+      "id": "n5-898b067287",
+      "kana": "せ",
+      "kanji": "背",
+      "meaning": "height; stature"
+    },
+    "meaning": "chiều cao; lưng"
+  },
+  {
+    "original": {
+      "id": "n5-af7459ef1e",
+      "kana": "せいと",
+      "kanji": "生徒",
+      "meaning": "pupil"
+    },
+    "meaning": "học sinh"
+  },
+  {
+    "original": {
+      "id": "n5-4b0b49a42d",
+      "kana": "セーター",
+      "kanji": "",
+      "meaning": "sweater; jumper"
+    },
+    "meaning": "áo len ấm"
+  },
+  {
+    "original": {
+      "id": "n5-b48d0c99d4",
+      "kana": "せっけん",
+      "kanji": "",
+      "meaning": "economy"
+    },
+    "meaning": "xà phòng"
+  },
+  {
+    "original": {
+      "id": "n5-9d432ac114",
+      "kana": "せびろ",
+      "kanji": "背広",
+      "meaning": "business suit"
+    },
+    "meaning": "bộ com lê, bộ âu phục"
+  },
+  {
+    "original": {
+      "id": "n5-d12ee2e932",
+      "kana": "せまい",
+      "kanji": "狭い",
+      "meaning": "narrow"
+    },
+    "meaning": "hẹp, chật hẹp"
+  },
+  {
+    "original": {
+      "id": "n5-434707d737",
+      "kana": "ゼロ",
+      "kanji": "",
+      "meaning": "zero"
+    },
+    "meaning": "không, số không"
+  },
+  {
+    "original": {
+      "id": "n5-1729d60f09",
+      "kana": "せん",
+      "kanji": "千",
+      "meaning": "thousand"
+    },
+    "meaning": "nghìn (1.000)"
+  },
+  {
+    "original": {
+      "id": "n5-0eaa93c144",
+      "kana": "せんげつ",
+      "kanji": "先月",
+      "meaning": "last month"
+    },
+    "meaning": "tháng trước"
+  },
+  {
+    "original": {
+      "id": "n5-b8c4cd80db",
+      "kana": "せんしゅう",
+      "kanji": "先週",
+      "meaning": "last week"
+    },
+    "meaning": "tuần trước"
+  },
+  {
+    "original": {
+      "id": "n5-814bdc2cec",
+      "kana": "せんせい",
+      "kanji": "先生",
+      "meaning": "teacher; doctor"
+    },
+    "meaning": "thầy giáo, cô giáo, bác sĩ"
+  },
+  {
+    "original": {
+      "id": "n5-4d0ca7b320",
+      "kana": "せんたく",
+      "kanji": "洗濯",
+      "meaning": "washing"
+    },
+    "meaning": "giặt giũ"
+  },
+  {
+    "original": {
+      "id": "n5-acba6e07ba",
+      "kana": "ぜんぶ",
+      "kanji": "全部",
+      "meaning": "all"
+    },
+    "meaning": "toàn bộ, tất cả mọi thứ"
+  },
+  {
+    "original": {
+      "id": "n5-501df34d31",
+      "kana": "そうじ",
+      "kanji": "掃除",
+      "meaning": "to clean; to sweep"
+    },
+    "meaning": "dọn dẹp, quét dọn"
+  },
+  {
+    "original": {
+      "id": "n5-e75777d218",
+      "kana": "そうして",
+      "kanji": "",
+      "meaning": "and"
+    },
+    "meaning": "và rồi, sau đó"
+  },
+  {
+    "original": {
+      "id": "n5-5ef867ff81",
+      "kana": "そこ",
+      "kanji": "",
+      "meaning": "that place"
+    },
+    "meaning": "chỗ đó, đó (ở gần người nghe)"
+  },
+  {
+    "original": {
+      "id": "n5-105df79571",
+      "kana": "そちら",
+      "kanji": "",
+      "meaning": "over there"
+    },
+    "meaning": "phía đó, nơi đó"
+  },
+  {
+    "original": {
+      "id": "n5-80981fa136",
+      "kana": "そっち",
+      "kanji": "",
+      "meaning": "over there"
+    },
+    "meaning": "phía đó, đằng đó"
+  },
+  {
+    "original": {
+      "id": "n5-68ad5f4363",
+      "kana": "そと",
+      "kanji": "外",
+      "meaning": "outside"
+    },
+    "meaning": "bên ngoài"
+  },
+  {
+    "original": {
+      "id": "n5-cb1c02a574",
+      "kana": "その",
+      "kanji": "",
+      "meaning": "that"
+    },
+    "meaning": "đó, ấy (đứng trước danh từ, gần người nghe)"
+  },
+  {
+    "original": {
+      "id": "n5-38c854e97f",
+      "kana": "そば",
+      "kanji": "",
+      "meaning": "near; beside"
+    },
+    "meaning": "bên cạnh, gần"
+  },
+  {
+    "original": {
+      "id": "n5-6ff51bace3",
+      "kana": "そら",
+      "kanji": "空",
+      "meaning": "sky"
+    },
+    "meaning": "bầu trời"
+  },
+  {
+    "original": {
+      "id": "n5-79d922e359",
+      "kana": "それ",
+      "kanji": "",
+      "meaning": "that"
+    },
+    "meaning": "cái đó (gần người nghe)"
+  },
+  {
+    "original": {
+      "id": "n5-799b7cabe0",
+      "kana": "それから",
+      "kanji": "",
+      "meaning": "after that"
+    },
+    "meaning": "sau đó, tiếp theo"
+  },
+  {
+    "original": {
+      "id": "n5-46c1721526",
+      "kana": "それでは",
+      "kanji": "",
+      "meaning": "in that situation"
+    },
+    "meaning": "vậy thì, thế thì"
+  },
+  {
+    "original": {
+      "id": "n5-5b303264b9",
+      "kana": "だいがく",
+      "kanji": "大学",
+      "meaning": "university"
+    },
+    "meaning": "trường đại học"
+  },
+  {
+    "original": {
+      "id": "n5-992fc07339",
+      "kana": "たいしかん",
+      "kanji": "大使館",
+      "meaning": "embassy"
+    },
+    "meaning": "đại sứ quán"
+  },
+  {
+    "original": {
+      "id": "n5-2f62b9db5e",
+      "kana": "だいじょうぶ",
+      "kanji": "大丈夫",
+      "meaning": "all right"
+    },
+    "meaning": "không sao, ổn"
+  },
+  {
+    "original": {
+      "id": "n5-9ee7cd3382",
+      "kana": "だいすき",
+      "kanji": "大好き",
+      "meaning": "to be very likeable"
+    },
+    "meaning": "rất thích, yêu thích"
+  },
+  {
+    "original": {
+      "id": "n5-b3a8593e53",
+      "kana": "たいせつ",
+      "kanji": "大切",
+      "meaning": "important"
+    },
+    "meaning": "quan trọng, quý giá"
+  },
+  {
+    "original": {
+      "id": "n5-1c0b0f77b6",
+      "kana": "だいどころ",
+      "kanji": "台所",
+      "meaning": "kitchen"
+    },
+    "meaning": "nhà bếp"
+  },
+  {
+    "original": {
+      "id": "n5-e04372c490",
+      "kana": "たいへん",
+      "kanji": "",
+      "meaning": "very"
+    },
+    "meaning": "rất; vất vả, nghiêm trọng"
+  },
+  {
+    "original": {
+      "id": "n5-c74892f565",
+      "kana": "たかい",
+      "kanji": "高い",
+      "meaning": "tall; expensive"
+    },
+    "meaning": "cao (chiều cao, vị trí); đắt (giá cả tiền bạc)"
+  },
+  {
+    "original": {
+      "id": "n5-a7c72d9bb1",
+      "kana": "たくさん",
+      "kanji": "",
+      "meaning": "many"
+    },
+    "meaning": "nhiều"
+  },
+  {
+    "original": {
+      "id": "n5-2d5a93eb11",
+      "kana": "タクシー",
+      "kanji": "",
+      "meaning": "taxi"
+    },
+    "meaning": "xe taxi"
+  },
+  {
+    "original": {
+      "id": "n5-6298cfc5d6",
+      "kana": "だす",
+      "kanji": "出す",
+      "meaning": "to put out"
+    },
+    "meaning": "lấy ra, đưa ra, nộp"
+  },
+  {
+    "original": {
+      "id": "n5-932afda20b",
+      "kana": "たつ",
+      "kanji": "立つ",
+      "meaning": "to stand"
+    },
+    "meaning": "đứng"
+  },
+  {
+    "original": {
+      "id": "n5-e7ca1b2fd5",
+      "kana": "たて",
+      "kanji": "",
+      "meaning": "length; height"
+    },
+    "meaning": "chiều dọc; chiều cao"
+  },
+  {
+    "original": {
+      "id": "n5-372b08211e",
+      "kana": "たてもの",
+      "kanji": "建物",
+      "meaning": "building"
+    },
+    "meaning": "tòa nhà"
+  },
+  {
+    "original": {
+      "id": "n5-9b2d455dfe",
+      "kana": "たのしい",
+      "kanji": "楽しい",
+      "meaning": "enjoyable"
+    },
+    "meaning": "vui vẻ, vui tươi, thú vị"
+  },
+  {
+    "original": {
+      "id": "n5-7e9d38afeb",
+      "kana": "たのむ",
+      "kanji": "頼む",
+      "meaning": "to ask"
+    },
+    "meaning": "nhờ, yêu cầu"
+  },
+  {
+    "original": {
+      "id": "n5-80beed00bf",
+      "kana": "たばこ",
+      "kanji": "",
+      "meaning": "tobacco; cigarettes"
+    },
+    "meaning": "thuốc lá"
+  },
+  {
+    "original": {
+      "id": "n5-d9eba03b7b",
+      "kana": "たぶん",
+      "kanji": "",
+      "meaning": "probably"
+    },
+    "meaning": "có lẽ, có thể (phỏng đoán khả năng xảy ra khoảng 70-80%)"
+  },
+  {
+    "original": {
+      "id": "n5-5c89b3094a",
+      "kana": "たべもの",
+      "kanji": "食べ物",
+      "meaning": "food"
+    },
+    "meaning": "đồ ăn, thức ăn, thực phẩm"
+  },
+  {
+    "original": {
+      "id": "n5-86f67e2dc3",
+      "kana": "たべる",
+      "kanji": "食べる",
+      "meaning": "to eat"
+    },
+    "meaning": "ăn"
+  },
+  {
+    "original": {
+      "id": "n5-4d66739694",
+      "kana": "たまご",
+      "kanji": "卵",
+      "meaning": "egg"
+    },
+    "meaning": "quả trứng gà"
+  },
+  {
+    "original": {
+      "id": "n5-3d2ca62c5f",
+      "kana": "だれ",
+      "kanji": "誰",
+      "meaning": "who"
+    },
+    "meaning": "ai"
+  },
+  {
+    "original": {
+      "id": "n5-2e610178ae",
+      "kana": "たんじょうび",
+      "kanji": "誕生日",
+      "meaning": "birthday"
+    },
+    "meaning": "sinh nhật, ngày sinh"
+  },
+  {
+    "original": {
+      "id": "n5-55dbb815ba",
+      "kana": "だんだん",
+      "kanji": "",
+      "meaning": "gradually"
+    },
+    "meaning": "dần dần, từ từ"
+  },
+  {
+    "original": {
+      "id": "n5-d4779ac36c",
+      "kana": "ちいさい",
+      "kanji": "小さい",
+      "meaning": "little"
+    },
+    "meaning": "nhỏ bé, bé xíu"
+  },
+  {
+    "original": {
+      "id": "n5-38a8411ec3",
+      "kana": "ちいさな",
+      "kanji": "小さな",
+      "meaning": "little"
+    },
+    "meaning": "nhỏ, bé (đứng trước danh từ)"
+  },
+  {
+    "original": {
+      "id": "n5-a21ba677f2",
+      "kana": "ちかい",
+      "kanji": "近い",
+      "meaning": "near"
+    },
+    "meaning": "gần (khoảng cách, cự ly)"
+  },
+  {
+    "original": {
+      "id": "n5-35e9881c22",
+      "kana": "ちがう",
+      "kanji": "違う",
+      "meaning": "to differ"
+    },
+    "meaning": "khác, không đúng"
+  },
+  {
+    "original": {
+      "id": "n5-6d7293f7cf",
+      "kana": "ちかく",
+      "kanji": "近く",
+      "meaning": "near"
+    },
+    "meaning": "gần, lân cận"
+  },
+  {
+    "original": {
+      "id": "n5-3134199c25",
+      "kana": "ちかてつ",
+      "kanji": "地下鉄",
+      "meaning": "underground train"
+    },
+    "meaning": "tàu điện ngầm"
+  },
+  {
+    "original": {
+      "id": "n5-ffa3dda331",
+      "kana": "ちず",
+      "kanji": "地図",
+      "meaning": "map"
+    },
+    "meaning": "bản đồ địa lý"
+  },
+  {
+    "original": {
+      "id": "n5-f9b377e253",
+      "kana": "ちゃいろ",
+      "kanji": "茶色",
+      "meaning": "brown"
+    },
+    "meaning": "màu nâu"
+  },
+  {
+    "original": {
+      "id": "n5-3d12036023",
+      "kana": "ちゃわん",
+      "kanji": "",
+      "meaning": "rice bowl"
+    },
+    "meaning": "bát, chén cơm"
+  },
+  {
+    "original": {
+      "id": "n5-9b08365493",
+      "kana": "ちょうど",
+      "kanji": "",
+      "meaning": "exactly"
+    },
+    "meaning": "vừa đúng, chính xác"
+  },
+  {
+    "original": {
+      "id": "n5-602fdffbf2",
+      "kana": "ちょっと",
+      "kanji": "",
+      "meaning": "somewhat"
+    },
+    "meaning": "một chút, một lát (thời gian hoặc mức độ ngắn)"
+  },
+  {
+    "original": {
+      "id": "n5-c88e0ba104",
+      "kana": "つかう",
+      "kanji": "使う",
+      "meaning": "to use"
+    },
+    "meaning": "dùng, sử dụng"
+  },
+  {
+    "original": {
+      "id": "n5-156f17113e",
+      "kana": "つかれる",
+      "kanji": "疲れる",
+      "meaning": "to get tired"
+    },
+    "meaning": "mệt, mệt mỏi"
+  },
+  {
+    "original": {
+      "id": "n5-d00ef0a9d5",
+      "kana": "つぎ",
+      "kanji": "次",
+      "meaning": "next"
+    },
+    "meaning": "tiếp theo, kế tiếp"
+  },
+  {
+    "original": {
+      "id": "n5-9d4a68ce12",
+      "kana": "つく",
+      "kanji": "着く",
+      "meaning": "to arrive at"
+    },
+    "meaning": "đến nơi"
+  },
+  {
+    "original": {
+      "id": "n5-672321bac9",
+      "kana": "つくえ",
+      "kanji": "机",
+      "meaning": "desk"
+    },
+    "meaning": "bàn học, bàn làm việc"
+  },
+  {
+    "original": {
+      "id": "n5-6e922a750e",
+      "kana": "つくる",
+      "kanji": "作る",
+      "meaning": "to make"
+    },
+    "meaning": "làm, tạo ra, nấu"
+  },
+  {
+    "original": {
+      "id": "n5-edc22b8d98",
+      "kana": "つける",
+      "kanji": "",
+      "meaning": "to turn on"
+    },
+    "meaning": "bật (đèn, thiết bị)"
+  },
+  {
+    "original": {
+      "id": "n5-ba6c46f68c",
+      "kana": "つとめる",
+      "kanji": "勤める",
+      "meaning": "to work for someone"
+    },
+    "meaning": "làm việc cho (công ty, tổ chức)"
+  },
+  {
+    "original": {
+      "id": "n5-3a94b5e981",
+      "kana": "つまらない",
+      "kanji": "",
+      "meaning": "boring"
+    },
+    "meaning": "nhàm chán, buồn tẻ, tẻ nhạt"
+  },
+  {
+    "original": {
+      "id": "n5-a23d308800",
+      "kana": "つめたい",
+      "kanji": "冷たい",
+      "meaning": "cold to the touch"
+    },
+    "meaning": "lạnh buốt (cảm giác tiếp xúc: nước đá, đồ uống)"
+  },
+  {
+    "original": {
+      "id": "n5-d99745fbb6",
+      "kana": "つよい",
+      "kanji": "強い",
+      "meaning": "powerful"
+    },
+    "meaning": "mạnh mẽ, khỏe mạnh, cường tráng"
+  },
+  {
+    "original": {
+      "id": "n5-5b9670420a",
+      "kana": "て",
+      "kanji": "手",
+      "meaning": "hand"
+    },
+    "meaning": "bàn tay"
+  },
+  {
+    "original": {
+      "id": "n5-0cf2b43e9c",
+      "kana": "テープ",
+      "kanji": "",
+      "meaning": "tape"
+    },
+    "meaning": "băng, băng ghi âm"
+  },
+  {
+    "original": {
+      "id": "n5-ff161262dd",
+      "kana": "テーブル",
+      "kanji": "",
+      "meaning": "table"
+    },
+    "meaning": "bàn, bàn ăn"
+  },
+  {
+    "original": {
+      "id": "n5-dc0ae29019",
+      "kana": "テープレコーダー",
+      "kanji": "",
+      "meaning": "tape recorder"
+    },
+    "meaning": "máy ghi âm"
+  },
+  {
+    "original": {
+      "id": "n5-375cfbefdd",
+      "kana": "でかける",
+      "kanji": "出かける",
+      "meaning": "to go out"
+    },
+    "meaning": "ra ngoài"
+  },
+  {
+    "original": {
+      "id": "n5-218ea67735",
+      "kana": "てがみ",
+      "kanji": "手紙",
+      "meaning": "letter"
+    },
+    "meaning": "bức thư"
+  },
+  {
+    "original": {
+      "id": "n5-69d0d632fa",
+      "kana": "できる",
+      "kanji": "",
+      "meaning": "to be able to"
+    },
+    "meaning": "có thể, làm được"
+  },
+  {
+    "original": {
+      "id": "n5-151fd72164",
+      "kana": "でぐち",
+      "kanji": "出口",
+      "meaning": "exit"
+    },
+    "meaning": "lối ra"
+  },
+  {
+    "original": {
+      "id": "n5-90e9410bff",
+      "kana": "テスト",
+      "kanji": "",
+      "meaning": "test"
+    },
+    "meaning": "bài kiểm tra"
+  },
+  {
+    "original": {
+      "id": "n5-d33540fe8e",
+      "kana": "では",
+      "kanji": "",
+      "meaning": "with that..."
+    },
+    "meaning": "vậy thì, thế thì"
+  },
+  {
+    "original": {
+      "id": "n5-0144505953",
+      "kana": "デパート",
+      "kanji": "",
+      "meaning": "department store"
+    },
+    "meaning": "trung tâm thương mại bách hóa"
+  },
+  {
+    "original": {
+      "id": "n5-3f71089c32",
+      "kana": "でも",
+      "kanji": "",
+      "meaning": "but"
+    },
+    "meaning": "nhưng, tuy nhiên (liên từ chuyển ý)"
+  },
+  {
+    "original": {
+      "id": "n5-5ef4f7dde9",
+      "kana": "でる",
+      "kanji": "出る",
+      "meaning": "to appear; to leave"
+    },
+    "meaning": "ra, rời khỏi; xuất hiện"
+  },
+  {
+    "original": {
+      "id": "n5-c7e14d8454",
+      "kana": "テレビ",
+      "kanji": "",
+      "meaning": "television"
+    },
+    "meaning": "máy thu hình, tivi"
+  },
+  {
+    "original": {
+      "id": "n5-679e34031e",
+      "kana": "てんき",
+      "kanji": "天気",
+      "meaning": "weather"
+    },
+    "meaning": "thời tiết, tiết trời"
+  },
+  {
+    "original": {
+      "id": "n5-a7c36fdb70",
+      "kana": "でんき",
+      "kanji": "電気",
+      "meaning": "electricity; electric light"
+    },
+    "meaning": "điện, đèn điện"
+  },
+  {
+    "original": {
+      "id": "n5-62b5c13164",
+      "kana": "でんしゃ",
+      "kanji": "電車",
+      "meaning": "electric train"
+    },
+    "meaning": "tàu điện ngầm"
+  },
+  {
+    "original": {
+      "id": "n5-3c039918ba",
+      "kana": "でんわ",
+      "kanji": "電話",
+      "meaning": "telephone"
+    },
+    "meaning": "điện thoại, cuộc gọi"
+  },
+  {
+    "original": {
+      "id": "n5-6f4691297f",
+      "kana": "と",
+      "kanji": "戸",
+      "meaning": "Japanese style door"
+    },
+    "meaning": "cửa (kiểu Nhật)"
+  },
+  {
+    "original": {
+      "id": "n5-677d3c5fac",
+      "kana": "ドア",
+      "kanji": "",
+      "meaning": "Western style door"
+    },
+    "meaning": "cửa"
+  },
+  {
+    "original": {
+      "id": "n5-e1e7c2d290",
+      "kana": "トイレ",
+      "kanji": "",
+      "meaning": "toilet"
+    },
+    "meaning": "nhà vệ sinh, phòng vệ sinh"
+  },
+  {
+    "original": {
+      "id": "n5-d0fb41651f",
+      "kana": "どう",
+      "kanji": "",
+      "meaning": "how; in what way"
+    },
+    "meaning": "như thế nào (dùng để hỏi cảm tưởng, ý kiến)"
+  },
+  {
+    "original": {
+      "id": "n5-a891b73f8b",
+      "kana": "どうして",
+      "kanji": "",
+      "meaning": "for what reason"
+    },
+    "meaning": "tại sao, vì lý do gì (từ để hỏi nguyên nhân)"
+  },
+  {
+    "original": {
+      "id": "n5-a71cbc3ce4",
+      "kana": "どうぞ",
+      "kanji": "",
+      "meaning": "please"
+    },
+    "meaning": "xin mời (mời ăn, mời vào, đưa đồ)"
+  },
+  {
+    "original": {
+      "id": "n5-93b9cec3d4",
+      "kana": "どうぞよろしく",
+      "kanji": "",
+      "meaning": "pleased to meet you"
+    },
+    "meaning": "rất mong được giúp đỡ, làm quen"
+  },
+  {
+    "original": {
+      "id": "n5-03d03cf25d",
+      "kana": "どうぶつ",
+      "kanji": "動物",
+      "meaning": "animal"
+    },
+    "meaning": "động vật, muông thú"
+  },
+  {
+    "original": {
+      "id": "n5-d2cb14f88a",
+      "kana": "どうも",
+      "kanji": "",
+      "meaning": "thanks"
+    },
+    "meaning": "cảm ơn / xin chào (cách nói ngắn gọn)"
+  },
+  {
+    "original": {
+      "id": "n5-f840779b9e",
+      "kana": "とおい",
+      "kanji": "遠い",
+      "meaning": "far"
+    },
+    "meaning": "xa xôi, cách xa (khoảng cách không gian hoặc thời gian)"
+  },
+  {
+    "original": {
+      "id": "n5-e8579084ba",
+      "kana": "とおか",
+      "kanji": "十日",
+      "meaning": "ten days; the tenth day"
+    },
+    "meaning": "mười ngày; ngày mùng mười"
+  },
+  {
+    "original": {
+      "id": "n5-978a2cefa5",
+      "kana": "ときどき",
+      "kanji": "時々",
+      "meaning": "sometimes"
+    },
+    "meaning": "thỉnh thoảng"
+  },
+  {
+    "original": {
+      "id": "n5-e3ad76810f",
+      "kana": "とけい",
+      "kanji": "時計",
+      "meaning": "watch; clock"
+    },
+    "meaning": "đồng hồ (đeo tay, treo tường)"
+  },
+  {
+    "original": {
+      "id": "n5-ad884a3b70",
+      "kana": "どこ",
+      "kanji": "",
+      "meaning": "where"
+    },
+    "meaning": "ở đâu, chỗ nào (từ để hỏi nơi chốn)"
+  },
+  {
+    "original": {
+      "id": "n5-ca332ac7b4",
+      "kana": "ところ",
+      "kanji": "所",
+      "meaning": "place"
+    },
+    "meaning": "nơi chốn, địa điểm, chỗ"
+  },
+  {
+    "original": {
+      "id": "n5-358fc382cb",
+      "kana": "とし",
+      "kanji": "年",
+      "meaning": "year"
+    },
+    "meaning": "năm; tuổi"
+  },
+  {
+    "original": {
+      "id": "n5-de5a452667",
+      "kana": "としょかん",
+      "kanji": "図書館",
+      "meaning": "library"
+    },
+    "meaning": "thư viện"
+  },
+  {
+    "original": {
+      "id": "n5-5480c153dc",
+      "kana": "どちら",
+      "kanji": "",
+      "meaning": "which of two"
+    },
+    "meaning": "phía nào, hướng nào"
+  },
+  {
+    "original": {
+      "id": "n5-e8a4843059",
+      "kana": "どっち",
+      "kanji": "",
+      "meaning": "which"
+    },
+    "meaning": "cái nào, bên nào, phía nào"
+  },
+  {
+    "original": {
+      "id": "n5-a3679ee665",
+      "kana": "とても",
+      "kanji": "",
+      "meaning": "very"
+    },
+    "meaning": "rất"
+  },
+  {
+    "original": {
+      "id": "n5-10fb2e55c0",
+      "kana": "どなた",
+      "kanji": "",
+      "meaning": "who"
+    },
+    "meaning": "vị nào, ai (kính ngữ của だれ)"
+  },
+  {
+    "original": {
+      "id": "n5-c597c353cb",
+      "kana": "となり",
+      "kanji": "隣",
+      "meaning": "next door to"
+    },
+    "meaning": "bên cạnh, sát vách (cùng chủng loại hoặc ngay liền kề)"
+  },
+  {
+    "original": {
+      "id": "n5-cd4b8c6381",
+      "kana": "どの",
+      "kanji": "",
+      "meaning": "which"
+    },
+    "meaning": "cái nào, người nào (chọn một đối tượng cụ thể)"
+  },
+  {
+    "original": {
+      "id": "n5-397b682fa7",
+      "kana": "とぶ",
+      "kanji": "飛ぶ",
+      "meaning": "to fly; to hop"
+    },
+    "meaning": "bay, nhảy"
+  },
+  {
+    "original": {
+      "id": "n5-9d1aa046d6",
+      "kana": "とまる",
+      "kanji": "止まる",
+      "meaning": "to come to a halt"
+    },
+    "meaning": "dừng lại"
+  },
+  {
+    "original": {
+      "id": "n5-72c525f37a",
+      "kana": "ともだち",
+      "kanji": "友達",
+      "meaning": "friend"
+    },
+    "meaning": "bạn, anh, chị"
+  },
+  {
+    "original": {
+      "id": "n5-86e7fb81c6",
+      "kana": "どようび",
+      "kanji": "土曜日",
+      "meaning": "Saturday"
+    },
+    "meaning": "thứ Bảy"
+  },
+  {
+    "original": {
+      "id": "n5-7e4fccba7f",
+      "kana": "とり",
+      "kanji": "鳥",
+      "meaning": "bird"
+    },
+    "meaning": "chim"
+  },
+  {
+    "original": {
+      "id": "n5-3669c65744",
+      "kana": "とりにく",
+      "kanji": "鶏肉",
+      "meaning": "chicken meat"
+    },
+    "meaning": "thịt gà"
+  },
+  {
+    "original": {
+      "id": "n5-4cc27797ba",
+      "kana": "とる",
+      "kanji": "撮る",
+      "meaning": "to take a photo or record a film"
+    },
+    "meaning": "chụp (ảnh), quay (phim)"
+  },
+  {
+    "original": {
+      "id": "n5-1313ed47fb",
+      "kana": "とる",
+      "kanji": "取る",
+      "meaning": "to take something"
+    },
+    "meaning": "lấy, cầm, nhận"
+  },
+  {
+    "original": {
+      "id": "n5-b21477c7db",
+      "kana": "どれ",
+      "kanji": "",
+      "meaning": "which (of three or more)"
+    },
+    "meaning": "cái nào (chọn một trong ba vật trở lên)"
+  },
+  {
+    "original": {
+      "id": "n5-3ae88c29c4",
+      "kana": "ナイフ",
+      "kanji": "",
+      "meaning": "knife"
+    },
+    "meaning": "con dao ăn, dao thái"
+  },
+  {
+    "original": {
+      "id": "n5-5d32281da9",
+      "kana": "なか",
+      "kanji": "中",
+      "meaning": "middle"
+    },
+    "meaning": "trong, bên trong"
+  },
+  {
+    "original": {
+      "id": "n5-fcea29f192",
+      "kana": "ながい",
+      "kanji": "長い",
+      "meaning": "long"
+    },
+    "meaning": "dài"
+  },
+  {
+    "original": {
+      "id": "n5-07a4101167",
+      "kana": "なく",
+      "kanji": "鳴く",
+      "meaning": "to make a sound (of an animal); to cry; to chirp; to sing (of birds)"
+    },
+    "meaning": "kêu, hót (động vật)"
+  },
+  {
+    "original": {
+      "id": "n5-04015c3825",
+      "kana": "なくす",
+      "kanji": "無くす",
+      "meaning": "to lose something"
+    },
+    "meaning": "làm mất"
+  },
+  {
+    "original": {
+      "id": "n5-ef9536b1ee",
+      "kana": "なぜ",
+      "kanji": "",
+      "meaning": "why"
+    },
+    "meaning": "tại sao"
+  },
+  {
+    "original": {
+      "id": "n5-641ddbf693",
+      "kana": "なつ",
+      "kanji": "夏",
+      "meaning": "summer"
+    },
+    "meaning": "mùa hè"
+  },
+  {
+    "original": {
+      "id": "n5-e09167a3d4",
+      "kana": "なつやすみ",
+      "kanji": "夏休み",
+      "meaning": "summer holiday"
+    },
+    "meaning": "kỳ nghỉ hè"
+  },
+  {
+    "original": {
+      "id": "n5-cf58476318",
+      "kana": "など",
+      "kanji": "",
+      "meaning": "et cetera"
+    },
+    "meaning": "vân vân, chẳng hạn"
+  },
+  {
+    "original": {
+      "id": "n5-e65bf7ad23",
+      "kana": "ななつ",
+      "kanji": "七つ",
+      "meaning": "seven"
+    },
+    "meaning": "bảy cái, bảy chiếc (vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-75ed3c3b2b",
+      "kana": "なのか",
+      "kanji": "七日",
+      "meaning": "seven days; the seventh day"
+    },
+    "meaning": "bảy ngày; ngày mùng bảy"
+  },
+  {
+    "original": {
+      "id": "n5-a812b1ac7f",
+      "kana": "なまえ",
+      "kanji": "名前",
+      "meaning": "name"
+    },
+    "meaning": "tên, họ tên"
+  },
+  {
+    "original": {
+      "id": "n5-a95b0a87ad",
+      "kana": "ならう",
+      "kanji": "習う",
+      "meaning": "to learn"
+    },
+    "meaning": "học, học từ người khác"
+  },
+  {
+    "original": {
+      "id": "n5-1227b20370",
+      "kana": "ならぶ",
+      "kanji": "並ぶ",
+      "meaning": "to line up; to stand in a line"
+    },
+    "meaning": "xếp hàng, đứng thành hàng"
+  },
+  {
+    "original": {
+      "id": "n5-1635de1a94",
+      "kana": "ならべる",
+      "kanji": "並べる",
+      "meaning": "to line up; to set up"
+    },
+    "meaning": "xếp, bày thành hàng"
+  },
+  {
+    "original": {
+      "id": "n5-e05de4981d",
+      "kana": "なる",
+      "kanji": "",
+      "meaning": "to become"
+    },
+    "meaning": "trở thành, trở nên"
+  },
+  {
+    "original": {
+      "id": "n5-558866ef86",
+      "kana": "なん",
+      "kanji": "何",
+      "meaning": "what"
+    },
+    "meaning": "cái gì"
+  },
+  {
+    "original": {
+      "id": "n5-34108268e1",
+      "kana": "に",
+      "kanji": "二",
+      "meaning": "two"
+    },
+    "meaning": "hai"
+  },
+  {
+    "original": {
+      "id": "n5-c17f97fafc",
+      "kana": "にぎやか",
+      "kanji": "賑やか",
+      "meaning": "bustling; busy"
+    },
+    "meaning": "nhộn nhịp, náo nhiệt"
+  },
+  {
+    "original": {
+      "id": "n5-efac1fc502",
+      "kana": "にく",
+      "kanji": "肉",
+      "meaning": "meat"
+    },
+    "meaning": "thịt (bò, heo, gà)"
+  },
+  {
+    "original": {
+      "id": "n5-436f1c3c65",
+      "kana": "にし",
+      "kanji": "西",
+      "meaning": "west"
+    },
+    "meaning": "phía tây"
+  },
+  {
+    "original": {
+      "id": "n5-d8c3a3f0d0",
+      "kana": "にちようび",
+      "kanji": "日曜日",
+      "meaning": "Sunday"
+    },
+    "meaning": "Chủ Nhật"
+  },
+  {
+    "original": {
+      "id": "n5-2e6c7d2d9d",
+      "kana": "にもつ",
+      "kanji": "荷物",
+      "meaning": "luggage"
+    },
+    "meaning": "hành lý, kiện hàng"
+  },
+  {
+    "original": {
+      "id": "n5-b824bec2c5",
+      "kana": "ニュース",
+      "kanji": "",
+      "meaning": "news"
+    },
+    "meaning": "tin tức"
+  },
+  {
+    "original": {
+      "id": "n5-9ef6c9d703",
+      "kana": "にわ",
+      "kanji": "庭",
+      "meaning": "garden"
+    },
+    "meaning": "khu vườn"
+  },
+  {
+    "original": {
+      "id": "n5-3af80b5b2a",
+      "kana": "ぬぐ",
+      "kanji": "脱ぐ",
+      "meaning": "to take off clothes"
+    },
+    "meaning": "cởi (quần áo, giày)"
+  },
+  {
+    "original": {
+      "id": "n5-2f01adebd7",
+      "kana": "ぬるい",
+      "kanji": "温い",
+      "meaning": "luke warm"
+    },
+    "meaning": "âm ấm, không đủ nóng"
+  },
+  {
+    "original": {
+      "id": "n5-18046e46a1",
+      "kana": "ネクタイ",
+      "kanji": "",
+      "meaning": "tie; necktie"
+    },
+    "meaning": "cà vạt"
+  },
+  {
+    "original": {
+      "id": "n5-cbbfc8cad6",
+      "kana": "ねこ",
+      "kanji": "猫",
+      "meaning": "cat"
+    },
+    "meaning": "con mèo"
+  },
+  {
+    "original": {
+      "id": "n5-0c6e923ef9",
+      "kana": "ねる",
+      "kanji": "寝る",
+      "meaning": "to go to bed; to sleep"
+    },
+    "meaning": "ngủ, đi ngủ"
+  },
+  {
+    "original": {
+      "id": "n5-278c1e0e04",
+      "kana": "ノート",
+      "kanji": "",
+      "meaning": "notebook; exercise book"
+    },
+    "meaning": "vở ghi chép, cuốn tập"
+  },
+  {
+    "original": {
+      "id": "n5-7817fc9d64",
+      "kana": "のぼる",
+      "kanji": "登る",
+      "meaning": "to climb"
+    },
+    "meaning": "leo, trèo"
+  },
+  {
+    "original": {
+      "id": "n5-5e8fc8669c",
+      "kana": "のみもの",
+      "kanji": "飲み物",
+      "meaning": "a drink"
+    },
+    "meaning": "đồ uống, thức uống"
+  },
+  {
+    "original": {
+      "id": "n5-e0bcec9bd9",
+      "kana": "のむ",
+      "kanji": "飲む",
+      "meaning": "to drink"
+    },
+    "meaning": "uống"
+  },
+  {
+    "original": {
+      "id": "n5-822c5e11a6",
+      "kana": "のる",
+      "kanji": "乗る",
+      "meaning": "to get on; to ride"
+    },
+    "meaning": "lên, đi (xe, tàu)"
+  },
+  {
+    "original": {
+      "id": "n5-390ac6443d",
+      "kana": "は",
+      "kanji": "歯",
+      "meaning": "tooth"
+    },
+    "meaning": "răng"
+  },
+  {
+    "original": {
+      "id": "n5-28111455cd",
+      "kana": "パーティー",
+      "kanji": "",
+      "meaning": "party"
+    },
+    "meaning": "bữa tiệc, tiệc liên hoan"
+  },
+  {
+    "original": {
+      "id": "n5-542f39c93d",
+      "kana": "はい",
+      "kanji": "",
+      "meaning": "yes"
+    },
+    "meaning": "vâng, dạ, đúng vậy"
+  },
+  {
+    "original": {
+      "id": "n5-5cc1dad1e8",
+      "kana": "はいざら",
+      "kanji": "灰皿",
+      "meaning": "ashtray"
+    },
+    "meaning": "gạt tàn thuốc"
+  },
+  {
+    "original": {
+      "id": "n5-c428d02d43",
+      "kana": "はいる",
+      "kanji": "入る",
+      "meaning": "to enter; to contain"
+    },
+    "meaning": "vào, đi vào; chứa được"
+  },
+  {
+    "original": {
+      "id": "n5-645e1e3b4d",
+      "kana": "はがき",
+      "kanji": "葉書",
+      "meaning": "postcard"
+    },
+    "meaning": "bưu thiếp, bưu ảnh"
+  },
+  {
+    "original": {
+      "id": "n5-4729cc56f4",
+      "kana": "はく",
+      "kanji": "",
+      "meaning": "to wear; to put on trousers"
+    },
+    "meaning": "mặc (quần), đi (giày, tất)"
+  },
+  {
+    "original": {
+      "id": "n5-658b912df8",
+      "kana": "はこ",
+      "kanji": "箱",
+      "meaning": "box"
+    },
+    "meaning": "cái hộp, thùng các-tông"
+  },
+  {
+    "original": {
+      "id": "n5-7ce7f7d305",
+      "kana": "はし",
+      "kanji": "",
+      "meaning": "chopsticks"
+    },
+    "meaning": "đôi đũa ăn cơm"
+  },
+  {
+    "original": {
+      "id": "n5-8f663254b0",
+      "kana": "はし",
+      "kanji": "橋",
+      "meaning": "bridge"
+    },
+    "meaning": "cây cầu bắc qua sông"
+  },
+  {
+    "original": {
+      "id": "n5-8fea1e3f3c",
+      "kana": "はじまる",
+      "kanji": "始まる",
+      "meaning": "to begin"
+    },
+    "meaning": "bắt đầu"
+  },
+  {
+    "original": {
+      "id": "n5-e5b36d7b24",
+      "kana": "はじめ",
+      "kanji": "初め",
+      "meaning": "beginning"
+    },
+    "meaning": "ban đầu, lúc đầu"
+  },
+  {
+    "original": {
+      "id": "n5-3f18999e09",
+      "kana": "はじめて",
+      "kanji": "初めて",
+      "meaning": "for the first time"
+    },
+    "meaning": "lần đầu tiên"
+  },
+  {
+    "original": {
+      "id": "n5-a2c1e54c17",
+      "kana": "はじめまして",
+      "kanji": "",
+      "meaning": "How do you do?; I am glad to meet you"
+    },
+    "meaning": "rất hân hạnh được làm quen (lần đầu gặp)"
+  },
+  {
+    "original": {
+      "id": "n5-244e138920",
+      "kana": "はしる",
+      "kanji": "走る",
+      "meaning": "to run"
+    },
+    "meaning": "chạy"
+  },
+  {
+    "original": {
+      "id": "n5-bd7df6c7a2",
+      "kana": "バス",
+      "kanji": "",
+      "meaning": "bus"
+    },
+    "meaning": "xe buýt"
+  },
+  {
+    "original": {
+      "id": "n5-4385616659",
+      "kana": "バター",
+      "kanji": "",
+      "meaning": "butter"
+    },
+    "meaning": "bơ"
+  },
+  {
+    "original": {
+      "id": "n5-c65a346458",
+      "kana": "はたち",
+      "kanji": "二十歳",
+      "meaning": "20 years old; 20th year"
+    },
+    "meaning": "hai mươi tuổi"
+  },
+  {
+    "original": {
+      "id": "n5-9ea671262d",
+      "kana": "はたらく",
+      "kanji": "働く",
+      "meaning": "to work"
+    },
+    "meaning": "làm việc"
+  },
+  {
+    "original": {
+      "id": "n5-6eeff514e0",
+      "kana": "はち",
+      "kanji": "八",
+      "meaning": "eight"
+    },
+    "meaning": "tám"
+  },
+  {
+    "original": {
+      "id": "n5-153de06669",
+      "kana": "はつか",
+      "kanji": "二十日",
+      "meaning": "twenty days; twentieth"
+    },
+    "meaning": "hai mươi ngày; ngày hai mươi"
+  },
+  {
+    "original": {
+      "id": "n5-6485c3c2a7",
+      "kana": "はな",
+      "kanji": "花",
+      "meaning": "flower"
+    },
+    "meaning": "bông hoa"
+  },
+  {
+    "original": {
+      "id": "n5-8b5843f7fb",
+      "kana": "はな",
+      "kanji": "鼻",
+      "meaning": "nose"
+    },
+    "meaning": "mũi"
+  },
+  {
+    "original": {
+      "id": "n5-1ed0362cc3",
+      "kana": "はなし",
+      "kanji": "話",
+      "meaning": "talk; story"
+    },
+    "meaning": "câu chuyện, cuộc trò chuyện"
+  },
+  {
+    "original": {
+      "id": "n5-9d5bde24ec",
+      "kana": "はなす",
+      "kanji": "話す",
+      "meaning": "to speak"
+    },
+    "meaning": "nói, trò chuyện"
+  },
+  {
+    "original": {
+      "id": "n5-4db42e0181",
+      "kana": "はやい",
+      "kanji": "早い",
+      "meaning": "early"
+    },
+    "meaning": "sớm"
+  },
+  {
+    "original": {
+      "id": "n5-406d15f6e9",
+      "kana": "はやい",
+      "kanji": "速い",
+      "meaning": "quick"
+    },
+    "meaning": "nhanh"
+  },
+  {
+    "original": {
+      "id": "n5-f16244c585",
+      "kana": "はる",
+      "kanji": "春",
+      "meaning": "spring"
+    },
+    "meaning": "mùa xuân"
+  },
+  {
+    "original": {
+      "id": "n5-f47c4aee42",
+      "kana": "はる",
+      "kanji": "貼る",
+      "meaning": "to stick"
+    },
+    "meaning": "dán"
+  },
+  {
+    "original": {
+      "id": "n5-9edf8548bb",
+      "kana": "はれ",
+      "kanji": "晴れ",
+      "meaning": "clear weather"
+    },
+    "meaning": "trời quang, trời nắng"
+  },
+  {
+    "original": {
+      "id": "n5-3be88666ba",
+      "kana": "はれる",
+      "kanji": "晴れる",
+      "meaning": "to be sunny"
+    },
+    "meaning": "trời nắng lên, quang đãng"
+  },
+  {
+    "original": {
+      "id": "n5-9cd7c780c3",
+      "kana": "はん",
+      "kanji": "半",
+      "meaning": "half"
+    },
+    "meaning": "rưỡi, một nửa (thời gian)"
+  },
+  {
+    "original": {
+      "id": "n5-532c73de5d",
+      "kana": "ばん",
+      "kanji": "晩",
+      "meaning": "evening"
+    },
+    "meaning": "đêm, buổi tối"
+  },
+  {
+    "original": {
+      "id": "n5-098e9e7e67",
+      "kana": "パン",
+      "kanji": "",
+      "meaning": "bread"
+    },
+    "meaning": "bánh mì"
+  },
+  {
+    "original": {
+      "id": "n5-ee3206bb3f",
+      "kana": "ハンカチ",
+      "kanji": "",
+      "meaning": "handkerchief"
+    },
+    "meaning": "khăn tay"
+  },
+  {
+    "original": {
+      "id": "n5-67775e3b25",
+      "kana": "ばんごう",
+      "kanji": "番号",
+      "meaning": "number"
+    },
+    "meaning": "số, số thứ tự"
+  },
+  {
+    "original": {
+      "id": "n5-246b5ae84d",
+      "kana": "ばんごはん",
+      "kanji": "晩御飯",
+      "meaning": "evening meal"
+    },
+    "meaning": "bữa tối"
+  },
+  {
+    "original": {
+      "id": "n5-a1cda8cb11",
+      "kana": "はんぶん",
+      "kanji": "半分",
+      "meaning": "half minute"
+    },
+    "meaning": "một nửa"
+  },
+  {
+    "original": {
+      "id": "n5-0a38c65004",
+      "kana": "ひがし",
+      "kanji": "東",
+      "meaning": "east"
+    },
+    "meaning": "phía đông"
+  },
+  {
+    "original": {
+      "id": "n5-5b84039234",
+      "kana": "ひく",
+      "kanji": "引く",
+      "meaning": "to pull"
+    },
+    "meaning": "kéo"
+  },
+  {
+    "original": {
+      "id": "n5-23911a0718",
+      "kana": "ひく",
+      "kanji": "弾く",
+      "meaning": "to play an instrument with strings; including piano"
+    },
+    "meaning": "chơi, đánh (đàn)"
+  },
+  {
+    "original": {
+      "id": "n5-e25cf6ed2f",
+      "kana": "ひくい",
+      "kanji": "低い",
+      "meaning": "short; low"
+    },
+    "meaning": "thấp"
+  },
+  {
+    "original": {
+      "id": "n5-a81612169c",
+      "kana": "ひこうき",
+      "kanji": "飛行機",
+      "meaning": "aeroplane"
+    },
+    "meaning": "máy bay"
+  },
+  {
+    "original": {
+      "id": "n5-ec5bd86b72",
+      "kana": "ひだり",
+      "kanji": "左",
+      "meaning": "left hand side"
+    },
+    "meaning": "bên trái, phía bên trái"
+  },
+  {
+    "original": {
+      "id": "n5-d91ee7a9ed",
+      "kana": "ひと",
+      "kanji": "人",
+      "meaning": "person"
+    },
+    "meaning": "con người, nhân vật"
+  },
+  {
+    "original": {
+      "id": "n5-537f8af3d6",
+      "kana": "ひとつ",
+      "kanji": "一つ",
+      "meaning": "one"
+    },
+    "meaning": "1 cái, 1 chiếc (đếm đồ vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-3554fb81b8",
+      "kana": "ひとつき",
+      "kanji": "一月",
+      "meaning": "one month"
+    },
+    "meaning": "một tháng"
+  },
+  {
+    "original": {
+      "id": "n5-3fb1b70809",
+      "kana": "ひとり",
+      "kanji": "一人",
+      "meaning": "one person"
+    },
+    "meaning": "1 người, một mình"
+  },
+  {
+    "original": {
+      "id": "n5-7a9ce8e2df",
+      "kana": "ひま",
+      "kanji": "暇",
+      "meaning": "free time"
+    },
+    "meaning": "rảnh rỗi; thời gian rảnh"
+  },
+  {
+    "original": {
+      "id": "n5-13696bc9b5",
+      "kana": "ひゃく",
+      "kanji": "百",
+      "meaning": "hundred"
+    },
+    "meaning": "trăm (100)"
+  },
+  {
+    "original": {
+      "id": "n5-734d275fd9",
+      "kana": "びょういん",
+      "kanji": "病院",
+      "meaning": "hospital"
+    },
+    "meaning": "bệnh viện"
+  },
+  {
+    "original": {
+      "id": "n5-c551bc3f7c",
+      "kana": "びょうき",
+      "kanji": "病気",
+      "meaning": "illness"
+    },
+    "meaning": "bệnh tật, ốm đau"
+  },
+  {
+    "original": {
+      "id": "n5-5d7a8d133b",
+      "kana": "ひる",
+      "kanji": "昼",
+      "meaning": "noon; daytime"
+    },
+    "meaning": "ban ngày, buổi trưa"
+  },
+  {
+    "original": {
+      "id": "n5-0b492c3209",
+      "kana": "ひるごはん",
+      "kanji": "昼御飯",
+      "meaning": "midday meal"
+    },
+    "meaning": "bữa trưa"
+  },
+  {
+    "original": {
+      "id": "n5-230d5c7343",
+      "kana": "ひろい",
+      "kanji": "広い",
+      "meaning": "spacious; wide"
+    },
+    "meaning": "rộng"
+  },
+  {
+    "original": {
+      "id": "n5-ef9babb012",
+      "kana": "フィルム",
+      "kanji": "",
+      "meaning": "roll of film"
+    },
+    "meaning": "cuộn phim"
+  },
+  {
+    "original": {
+      "id": "n5-d156402900",
+      "kana": "ふうとう",
+      "kanji": "封筒",
+      "meaning": "envelope"
+    },
+    "meaning": "chiếc phong bì"
+  },
+  {
+    "original": {
+      "id": "n5-55c1439239",
+      "kana": "プール",
+      "kanji": "",
+      "meaning": "swimming pool"
+    },
+    "meaning": "hồ bơi, bể bơi"
+  },
+  {
+    "original": {
+      "id": "n5-71e2aefb9d",
+      "kana": "フォーク",
+      "kanji": "",
+      "meaning": "fork"
+    },
+    "meaning": "chiếc nĩa, xiên"
+  },
+  {
+    "original": {
+      "id": "n5-15f4136421",
+      "kana": "ふく",
+      "kanji": "吹く",
+      "meaning": "to blow"
+    },
+    "meaning": "thổi"
+  },
+  {
+    "original": {
+      "id": "n5-68571540e1",
+      "kana": "ふく",
+      "kanji": "服",
+      "meaning": "clothes"
+    },
+    "meaning": "quần áo"
+  },
+  {
+    "original": {
+      "id": "n5-0c1dbd4838",
+      "kana": "ふたつ",
+      "kanji": "二つ",
+      "meaning": "two"
+    },
+    "meaning": "hai cái, hai chiếc (vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-c518fb9116",
+      "kana": "ぶたにく",
+      "kanji": "豚肉",
+      "meaning": "pork"
+    },
+    "meaning": "thịt lợn, thịt heo"
+  },
+  {
+    "original": {
+      "id": "n5-94c2076821",
+      "kana": "ふたり",
+      "kanji": "二人",
+      "meaning": "two people"
+    },
+    "meaning": "2 người"
+  },
+  {
+    "original": {
+      "id": "n5-750786cc55",
+      "kana": "ふつか",
+      "kanji": "二日",
+      "meaning": "two days; second day of the month"
+    },
+    "meaning": "hai ngày; ngày mùng hai"
+  },
+  {
+    "original": {
+      "id": "n5-4162724f9a",
+      "kana": "ふとい",
+      "kanji": "太い",
+      "meaning": "fat"
+    },
+    "meaning": "to, dày (đường kính, thân người)"
+  },
+  {
+    "original": {
+      "id": "n5-eb9acca7ba",
+      "kana": "ふゆ",
+      "kanji": "冬",
+      "meaning": "winter"
+    },
+    "meaning": "mùa đông"
+  },
+  {
+    "original": {
+      "id": "n5-5791e248f1",
+      "kana": "ふる",
+      "kanji": "降る",
+      "meaning": "to fall (e.g. rain or snow)"
+    },
+    "meaning": "rơi (mưa, tuyết)"
+  },
+  {
+    "original": {
+      "id": "n5-aa60dd4a11",
+      "kana": "ふるい",
+      "kanji": "古い",
+      "meaning": "old (not used for people)"
+    },
+    "meaning": "cũ kỹ, cổ kính (đối nghĩa với 新しい)"
+  },
+  {
+    "original": {
+      "id": "n5-34784ed6ca",
+      "kana": "ふろ",
+      "kanji": "",
+      "meaning": "bath"
+    },
+    "meaning": "bồn tắm; việc tắm"
+  },
+  {
+    "original": {
+      "id": "n5-79ddbb2b98",
+      "kana": "ぶんしょう",
+      "kanji": "文章",
+      "meaning": "sentence; text"
+    },
+    "meaning": "câu văn, đoạn văn, văn bản"
+  },
+  {
+    "original": {
+      "id": "n5-f8fc73bd75",
+      "kana": "ページ",
+      "kanji": "",
+      "meaning": "page"
+    },
+    "meaning": "trang (sách)"
+  },
+  {
+    "original": {
+      "id": "n5-619dae70e9",
+      "kana": "へた",
+      "kanji": "下手",
+      "meaning": "unskillful"
+    },
+    "meaning": "kém, vụng"
+  },
+  {
+    "original": {
+      "id": "n5-91cf4ea2fd",
+      "kana": "ベッド",
+      "kanji": "",
+      "meaning": "bed"
+    },
+    "meaning": "chiếc giường ngủ"
+  },
+  {
+    "original": {
+      "id": "n5-db38ebd955",
+      "kana": "ペット",
+      "kanji": "",
+      "meaning": "pet"
+    },
+    "meaning": "thú cưng"
+  },
+  {
+    "original": {
+      "id": "n5-e78074927c",
+      "kana": "へや",
+      "kanji": "部屋",
+      "meaning": "room"
+    },
+    "meaning": "căn phòng"
+  },
+  {
+    "original": {
+      "id": "n5-71c372d7b2",
+      "kana": "へん",
+      "kanji": "辺",
+      "meaning": "area"
+    },
+    "meaning": "khu vực, vùng lân cận"
+  },
+  {
+    "original": {
+      "id": "n5-dd1183b005",
+      "kana": "ペン",
+      "kanji": "",
+      "meaning": "pen"
+    },
+    "meaning": "bút"
+  },
+  {
+    "original": {
+      "id": "n5-65783b95dd",
+      "kana": "べんきょう",
+      "kanji": "勉強",
+      "meaning": "to study"
+    },
+    "meaning": "học tập, rèn luyện"
+  },
+  {
+    "original": {
+      "id": "n5-84887dde48",
+      "kana": "べんり",
+      "kanji": "便利",
+      "meaning": "useful; convenient"
+    },
+    "meaning": "tiện lợi, hữu ích"
+  },
+  {
+    "original": {
+      "id": "n5-cfc75623ae",
+      "kana": "ぼうし",
+      "kanji": "帽子",
+      "meaning": "hat"
+    },
+    "meaning": "mũ, nón"
+  },
+  {
+    "original": {
+      "id": "n5-785a997045",
+      "kana": "ボールペン",
+      "kanji": "",
+      "meaning": "ball-point pen"
+    },
+    "meaning": "bút bi"
+  },
+  {
+    "original": {
+      "id": "n5-f71c69492e",
+      "kana": "ほか",
+      "kanji": "",
+      "meaning": "other; the rest"
+    },
+    "meaning": "khác; phần còn lại"
+  },
+  {
+    "original": {
+      "id": "n5-ab9f2792c4",
+      "kana": "ポケット",
+      "kanji": "",
+      "meaning": "pocket"
+    },
+    "meaning": "túi (quần, áo)"
+  },
+  {
+    "original": {
+      "id": "n5-418493d941",
+      "kana": "ほしい",
+      "kanji": "欲しい",
+      "meaning": "want"
+    },
+    "meaning": "muốn có (đồ vật, bạn bè)"
+  },
+  {
+    "original": {
+      "id": "n5-2dbe65ee1d",
+      "kana": "ポスト",
+      "kanji": "",
+      "meaning": "post"
+    },
+    "meaning": "hòm thư, thùng thư"
+  },
+  {
+    "original": {
+      "id": "n5-785adc4f9d",
+      "kana": "ほそい",
+      "kanji": "細い",
+      "meaning": "thin"
+    },
+    "meaning": "mảnh, thon, nhỏ"
+  },
+  {
+    "original": {
+      "id": "n5-04ab635f4b",
+      "kana": "ボタン",
+      "kanji": "",
+      "meaning": "button"
+    },
+    "meaning": "nút bấm, phím ấn trên thiết bị"
+  },
+  {
+    "original": {
+      "id": "n5-23ec5a0b3d",
+      "kana": "ホテル",
+      "kanji": "",
+      "meaning": "hotel"
+    },
+    "meaning": "khách sạn nghỉ dưỡng"
+  },
+  {
+    "original": {
+      "id": "n5-0e8f798dbf",
+      "kana": "ほん",
+      "kanji": "本",
+      "meaning": "book"
+    },
+    "meaning": "cuốn sách"
+  },
+  {
+    "original": {
+      "id": "n5-3839786bac",
+      "kana": "ほんだな",
+      "kanji": "本棚",
+      "meaning": "bookshelves"
+    },
+    "meaning": "giá sách, kệ sách"
+  },
+  {
+    "original": {
+      "id": "n5-849baaf2c3",
+      "kana": "ほんとう",
+      "kanji": "",
+      "meaning": "truth"
+    },
+    "meaning": "sự thật, thật sự"
+  },
+  {
+    "original": {
+      "id": "n5-a59ba12bc5",
+      "kana": "まいあさ",
+      "kanji": "毎朝",
+      "meaning": "every morning"
+    },
+    "meaning": "mỗi buổi sáng"
+  },
+  {
+    "original": {
+      "id": "n5-771fbe6b4d",
+      "kana": "まいげつ",
+      "kanji": "毎月",
+      "meaning": "every month"
+    },
+    "meaning": "mỗi tháng, hằng tháng"
+  },
+  {
+    "original": {
+      "id": "n5-fd1c93832f",
+      "kana": "まいしゅう",
+      "kanji": "毎週",
+      "meaning": "every week"
+    },
+    "meaning": "mỗi tuần, hằng tuần"
+  },
+  {
+    "original": {
+      "id": "n5-039a696225",
+      "kana": "まいにち",
+      "kanji": "毎日",
+      "meaning": "every day"
+    },
+    "meaning": "mỗi ngày, hàng ngày"
+  },
+  {
+    "original": {
+      "id": "n5-83700909d4",
+      "kana": "まいねん",
+      "kanji": "毎年",
+      "meaning": "every year"
+    },
+    "meaning": "mỗi năm, hằng năm"
+  },
+  {
+    "original": {
+      "id": "n5-2584943533",
+      "kana": "まいばん",
+      "kanji": "毎晩",
+      "meaning": "every night"
+    },
+    "meaning": "mỗi tối, hằng đêm"
+  },
+  {
+    "original": {
+      "id": "n5-319e218950",
+      "kana": "まえ",
+      "kanji": "前",
+      "meaning": "before"
+    },
+    "meaning": "phía trước, trước"
+  },
+  {
+    "original": {
+      "id": "n5-ae3e0a705f",
+      "kana": "まがる",
+      "kanji": "曲る",
+      "meaning": "to turn; to bend"
+    },
+    "meaning": "rẽ; cong, uốn cong"
+  },
+  {
+    "original": {
+      "id": "n5-b19034ded1",
+      "kana": "まずい",
+      "kanji": "",
+      "meaning": "unpleasant"
+    },
+    "meaning": "dở, không ngon; không ổn"
+  },
+  {
+    "original": {
+      "id": "n5-162e00c6ef",
+      "kana": "また",
+      "kanji": "",
+      "meaning": "again; and"
+    },
+    "meaning": "lại, hẹn gặp lại; ngoài ra"
+  },
+  {
+    "original": {
+      "id": "n5-6a7163f5f7",
+      "kana": "まだ",
+      "kanji": "",
+      "meaning": "yet; still"
+    },
+    "meaning": "chưa, vẫn chưa (hành động chưa diễn ra, đi với phủ định)"
+  },
+  {
+    "original": {
+      "id": "n5-4d76d06d84",
+      "kana": "まち",
+      "kanji": "町",
+      "meaning": "town; city"
+    },
+    "meaning": "thị trấn, thành phố"
+  },
+  {
+    "original": {
+      "id": "n5-6a39701228",
+      "kana": "まつ",
+      "kanji": "待つ",
+      "meaning": "to wait"
+    },
+    "meaning": "đợi, chờ"
+  },
+  {
+    "original": {
+      "id": "n5-ede9ab2f7f",
+      "kana": "まっすぐ",
+      "kanji": "",
+      "meaning": "straight ahead; direct"
+    },
+    "meaning": "thẳng, đi thẳng (không rẽ)"
+  },
+  {
+    "original": {
+      "id": "n5-27f9d40392",
+      "kana": "マッチ",
+      "kanji": "",
+      "meaning": "match"
+    },
+    "meaning": "diêm"
+  },
+  {
+    "original": {
+      "id": "n5-7734194821",
+      "kana": "まど",
+      "kanji": "窓",
+      "meaning": "window"
+    },
+    "meaning": "cửa sổ"
+  },
+  {
+    "original": {
+      "id": "n5-ab36109960",
+      "kana": "まるい",
+      "kanji": "丸い",
+      "meaning": "round; circular"
+    },
+    "meaning": "tròn"
+  },
+  {
+    "original": {
+      "id": "n5-a0ff0f67c8",
+      "kana": "まん",
+      "kanji": "万",
+      "meaning": "ten thousand"
+    },
+    "meaning": "mười nghìn, vạn (10.000)"
+  },
+  {
+    "original": {
+      "id": "n5-6318b0423a",
+      "kana": "まんねんひつ",
+      "kanji": "万年筆",
+      "meaning": "fountain pen"
+    },
+    "meaning": "bút máy"
+  },
+  {
+    "original": {
+      "id": "n5-7309a238e8",
+      "kana": "みがく",
+      "kanji": "磨く",
+      "meaning": "to brush teeth; to polish"
+    },
+    "meaning": "đánh (răng), đánh bóng"
+  },
+  {
+    "original": {
+      "id": "n5-f1046f3190",
+      "kana": "みぎ",
+      "kanji": "右",
+      "meaning": "right side"
+    },
+    "meaning": "bên phải, phía bên phải"
+  },
+  {
+    "original": {
+      "id": "n5-8568eded6e",
+      "kana": "みじかい",
+      "kanji": "短い",
+      "meaning": "short"
+    },
+    "meaning": "ngắn"
+  },
+  {
+    "original": {
+      "id": "n5-69a792520f",
+      "kana": "みず",
+      "kanji": "水",
+      "meaning": "water"
+    },
+    "meaning": "nước uống"
+  },
+  {
+    "original": {
+      "id": "n5-0c8a588e53",
+      "kana": "みせ",
+      "kanji": "店",
+      "meaning": "shop"
+    },
+    "meaning": "cửa hàng, tiệm"
+  },
+  {
+    "original": {
+      "id": "n5-db35a99e28",
+      "kana": "みせる",
+      "kanji": "見せる",
+      "meaning": "to show"
+    },
+    "meaning": "cho xem, đưa cho xem"
+  },
+  {
+    "original": {
+      "id": "n5-dc29195f18",
+      "kana": "みち",
+      "kanji": "道",
+      "meaning": "street"
+    },
+    "meaning": "con đường, tuyến đường đi"
+  },
+  {
+    "original": {
+      "id": "n5-1713d0bbe8",
+      "kana": "みっか",
+      "kanji": "三日",
+      "meaning": "three days; third day of the month"
+    },
+    "meaning": "ba ngày; ngày mùng ba"
+  },
+  {
+    "original": {
+      "id": "n5-b36b221d33",
+      "kana": "みっつ",
+      "kanji": "三つ",
+      "meaning": "three"
+    },
+    "meaning": "ba cái, ba chiếc (vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-85e4ba2f28",
+      "kana": "みどり",
+      "kanji": "緑",
+      "meaning": "green"
+    },
+    "meaning": "màu xanh lá cây, cây cối xanh tươi"
+  },
+  {
+    "original": {
+      "id": "n5-d2b9c47656",
+      "kana": "みなさん",
+      "kanji": "皆さん",
+      "meaning": "everyone"
+    },
+    "meaning": "mọi người, các bạn"
+  },
+  {
+    "original": {
+      "id": "n5-84e465b526",
+      "kana": "みなみ",
+      "kanji": "南",
+      "meaning": "south"
+    },
+    "meaning": "phía nam"
+  },
+  {
+    "original": {
+      "id": "n5-e8cdf8b85a",
+      "kana": "みみ",
+      "kanji": "耳",
+      "meaning": "ear"
+    },
+    "meaning": "đôi tai"
+  },
+  {
+    "original": {
+      "id": "n5-85b37b6884",
+      "kana": "みる",
+      "kanji": "見る",
+      "meaning": "to see; to watch"
+    },
+    "meaning": "nhìn, xem"
+  },
+  {
+    "original": {
+      "id": "n5-2676514561",
+      "kana": "みんな",
+      "kanji": "",
+      "meaning": "everyone"
+    },
+    "meaning": "mọi người, tất cả các bạn"
+  },
+  {
+    "original": {
+      "id": "n5-bf44ddad08",
+      "kana": "むいか",
+      "kanji": "六日",
+      "meaning": "six days; sixth day of the month"
+    },
+    "meaning": "sáu ngày; ngày mùng sáu"
+  },
+  {
+    "original": {
+      "id": "n5-8e862f05f0",
+      "kana": "むこう",
+      "kanji": "向こう",
+      "meaning": "over there"
+    },
+    "meaning": "phía bên kia, đằng kia"
+  },
+  {
+    "original": {
+      "id": "n5-0a3894175f",
+      "kana": "むずかしい",
+      "kanji": "難しい",
+      "meaning": "difficult"
+    },
+    "meaning": "khó khăn, hóc búa"
+  },
+  {
+    "original": {
+      "id": "n5-7ecc2c4bfc",
+      "kana": "むっつ",
+      "kanji": "六つ",
+      "meaning": "six"
+    },
+    "meaning": "6 cái, 6 chiếc (đồ vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-5028971b39",
+      "kana": "むら",
+      "kanji": "村",
+      "meaning": "village"
+    },
+    "meaning": "làng, thôn"
+  },
+  {
+    "original": {
+      "id": "n5-ae534d4ca8",
+      "kana": "め",
+      "kanji": "目",
+      "meaning": "eye"
+    },
+    "meaning": "đôi mắt, con mắt"
+  },
+  {
+    "original": {
+      "id": "n5-eb5450490b",
+      "kana": "メートル",
+      "kanji": "",
+      "meaning": "metre"
+    },
+    "meaning": "mét (đơn vị đo chiều dài)"
+  },
+  {
+    "original": {
+      "id": "n5-72eb77e07a",
+      "kana": "めがね",
+      "kanji": "眼鏡",
+      "meaning": "glasses"
+    },
+    "meaning": "kính"
+  },
+  {
+    "original": {
+      "id": "n5-c5b7ad76fd",
+      "kana": "もう",
+      "kanji": "",
+      "meaning": "already"
+    },
+    "meaning": "đã... rồi (diễn tả hành động đã hoàn tất)"
+  },
+  {
+    "original": {
+      "id": "n5-3ae16ad93a",
+      "kana": "もういちど",
+      "kanji": "もう一度",
+      "meaning": "again"
+    },
+    "meaning": "một lần nữa"
+  },
+  {
+    "original": {
+      "id": "n5-d10bb92f3e",
+      "kana": "もくようび",
+      "kanji": "木曜日",
+      "meaning": "Thursday"
+    },
+    "meaning": "thứ Năm"
+  },
+  {
+    "original": {
+      "id": "n5-16fda19d79",
+      "kana": "もつ",
+      "kanji": "持つ",
+      "meaning": "to hold"
+    },
+    "meaning": "cầm, mang; có, sở hữu"
+  },
+  {
+    "original": {
+      "id": "n5-a8f5f4c59e",
+      "kana": "もっと",
+      "kanji": "",
+      "meaning": "more"
+    },
+    "meaning": "hơn nữa, thêm nữa"
+  },
+  {
+    "original": {
+      "id": "n5-782272bfda",
+      "kana": "もの",
+      "kanji": "物",
+      "meaning": "thing"
+    },
+    "meaning": "đồ vật, vật dụng"
+  },
+  {
+    "original": {
+      "id": "n5-5b92758003",
+      "kana": "もん",
+      "kanji": "門",
+      "meaning": "gate"
+    },
+    "meaning": "cổng"
+  },
+  {
+    "original": {
+      "id": "n5-4f0f6b6ae7",
+      "kana": "もんだい",
+      "kanji": "問題",
+      "meaning": "problem"
+    },
+    "meaning": "câu hỏi bài tập, vấn đề cần giải quyết"
+  },
+  {
+    "original": {
+      "id": "n5-8d29f60b23",
+      "kana": "やおや",
+      "kanji": "八百屋",
+      "meaning": "greengrocer"
+    },
+    "meaning": "cửa hàng rau quả"
+  },
+  {
+    "original": {
+      "id": "n5-936289666e",
+      "kana": "やさい",
+      "kanji": "野菜",
+      "meaning": "vegetable"
+    },
+    "meaning": "rau xanh, rau củ"
+  },
+  {
+    "original": {
+      "id": "n5-ead1ae2736",
+      "kana": "やさしい",
+      "kanji": "易しい",
+      "meaning": "easy; simple"
+    },
+    "meaning": "dễ, đơn giản"
+  },
+  {
+    "original": {
+      "id": "n5-33b86212ca",
+      "kana": "やすい",
+      "kanji": "安い",
+      "meaning": "cheap"
+    },
+    "meaning": "rẻ (giá cả phải chăng)"
+  },
+  {
+    "original": {
+      "id": "n5-d4a1d27d3b",
+      "kana": "やすみ",
+      "kanji": "休み",
+      "meaning": "rest; holiday"
+    },
+    "meaning": "ngày nghỉ, sự nghỉ ngơi"
+  },
+  {
+    "original": {
+      "id": "n5-3e3efcb45f",
+      "kana": "やすむ",
+      "kanji": "休む",
+      "meaning": "to rest"
+    },
+    "meaning": "nghỉ, nghỉ ngơi"
+  },
+  {
+    "original": {
+      "id": "n5-62c4216674",
+      "kana": "やっつ",
+      "kanji": "八つ",
+      "meaning": "eight"
+    },
+    "meaning": "tám"
+  },
+  {
+    "original": {
+      "id": "n5-e8a5cbdf0a",
+      "kana": "やま",
+      "kanji": "山",
+      "meaning": "mountain"
+    },
+    "meaning": "núi, ngọn núi"
+  },
+  {
+    "original": {
+      "id": "n5-f81d503d6f",
+      "kana": "やる",
+      "kanji": "",
+      "meaning": "to do"
+    },
+    "meaning": "làm; cho (đối tượng thấp hơn)"
+  },
+  {
+    "original": {
+      "id": "n5-285b008622",
+      "kana": "ゆうがた",
+      "kanji": "夕方",
+      "meaning": "evening"
+    },
+    "meaning": "chiều tối"
+  },
+  {
+    "original": {
+      "id": "n5-ae2b9f6d7e",
+      "kana": "ゆうはん",
+      "kanji": "夕飯",
+      "meaning": "dinner"
+    },
+    "meaning": "bữa tối"
+  },
+  {
+    "original": {
+      "id": "n5-8b86921749",
+      "kana": "ゆうびんきょく",
+      "kanji": "郵便局",
+      "meaning": "post office"
+    },
+    "meaning": "bưu điện"
+  },
+  {
+    "original": {
+      "id": "n5-39fff8fc4b",
+      "kana": "ゆうべ",
+      "kanji": "昨夜",
+      "meaning": "last night"
+    },
+    "meaning": "tối qua, đêm qua"
+  },
+  {
+    "original": {
+      "id": "n5-50b217ed0b",
+      "kana": "ゆうめい",
+      "kanji": "有名",
+      "meaning": "famous"
+    },
+    "meaning": "nổi tiếng"
+  },
+  {
+    "original": {
+      "id": "n5-78c044b951",
+      "kana": "ゆき",
+      "kanji": "雪",
+      "meaning": "snow"
+    },
+    "meaning": "tuyết"
+  },
+  {
+    "original": {
+      "id": "n5-d980cb1531",
+      "kana": "ゆっくりと",
+      "kanji": "",
+      "meaning": "slowly"
+    },
+    "meaning": "chậm rãi, thong thả"
+  },
+  {
+    "original": {
+      "id": "n5-4f8e83945d",
+      "kana": "ようか",
+      "kanji": "八日",
+      "meaning": "eight days; eighth day of the month"
+    },
+    "meaning": "tám ngày; ngày mùng tám"
+  },
+  {
+    "original": {
+      "id": "n5-1907b6fc38",
+      "kana": "ようふく",
+      "kanji": "洋服",
+      "meaning": "western-style clothes"
+    },
+    "meaning": "quần áo kiểu phương Tây"
+  },
+  {
+    "original": {
+      "id": "n5-19db29fbbb",
+      "kana": "よく",
+      "kanji": "",
+      "meaning": "often; well"
+    },
+    "meaning": "thường xuyên; tốt, giỏi"
+  },
+  {
+    "original": {
+      "id": "n5-4cb7c969c4",
+      "kana": "よこ",
+      "kanji": "横",
+      "meaning": "beside; side; width"
+    },
+    "meaning": "bên cạnh; chiều ngang"
+  },
+  {
+    "original": {
+      "id": "n5-222ae96df7",
+      "kana": "よっか",
+      "kanji": "四日",
+      "meaning": "four days; fouth day of the month"
+    },
+    "meaning": "bốn ngày; ngày mùng bốn"
+  },
+  {
+    "original": {
+      "id": "n5-1000ee441a",
+      "kana": "よっつ",
+      "kanji": "四つ",
+      "meaning": "four"
+    },
+    "meaning": "4 cái, 4 chiếc (đồ vật chung)"
+  },
+  {
+    "original": {
+      "id": "n5-76f05a0739",
+      "kana": "よぶ",
+      "kanji": "呼ぶ",
+      "meaning": "to call out; to invite"
+    },
+    "meaning": "gọi, mời"
+  },
+  {
+    "original": {
+      "id": "n5-eb7e675902",
+      "kana": "よむ",
+      "kanji": "読む",
+      "meaning": "to read"
+    },
+    "meaning": "đọc"
+  },
+  {
+    "original": {
+      "id": "n5-6c214111ea",
+      "kana": "より",
+      "kanji": "",
+      "meaning": "than; (used for comparison)"
+    },
+    "meaning": "hơn (dùng khi so sánh)"
+  },
+  {
+    "original": {
+      "id": "n5-1a0aec6793",
+      "kana": "よる",
+      "kanji": "夜",
+      "meaning": "evening; night"
+    },
+    "meaning": "đêm, buổi tối"
+  },
+  {
+    "original": {
+      "id": "n5-83da293775",
+      "kana": "よわい",
+      "kanji": "弱い",
+      "meaning": "weak"
+    },
+    "meaning": "yếu ớt, yếu đuối, kém cỏi"
+  },
+  {
+    "original": {
+      "id": "n5-61fd50f12e",
+      "kana": "らいげつ",
+      "kanji": "来月",
+      "meaning": "next month"
+    },
+    "meaning": "tháng sau"
+  },
+  {
+    "original": {
+      "id": "n5-7a4ef637be",
+      "kana": "らいしゅう",
+      "kanji": "来週",
+      "meaning": "next week"
+    },
+    "meaning": "tuần sau"
+  },
+  {
+    "original": {
+      "id": "n5-c68f2caa2f",
+      "kana": "らいねん",
+      "kanji": "来年",
+      "meaning": "next year"
+    },
+    "meaning": "năm sau, sang năm"
+  },
+  {
+    "original": {
+      "id": "n5-670f2dd0dc",
+      "kana": "ラジオ",
+      "kanji": "",
+      "meaning": "radio"
+    },
+    "meaning": "máy radio, đài phát thanh"
+  },
+  {
+    "original": {
+      "id": "n5-924572e50c",
+      "kana": "ラジカセ",
+      "kanji": "",
+      "meaning": "radio cassette player"
+    },
+    "meaning": "máy nghe đài kiêm băng cát xét"
+  },
+  {
+    "original": {
+      "id": "n5-a45af4ed89",
+      "kana": "りっぱ",
+      "kanji": "",
+      "meaning": "splendid"
+    },
+    "meaning": "tuyệt vời, đáng khâm phục, khang trang"
+  },
+  {
+    "original": {
+      "id": "n5-dc7d39c7af",
+      "kana": "りゅうがくせい",
+      "kanji": "留学生",
+      "meaning": "overseas student"
+    },
+    "meaning": "du học sinh"
+  },
+  {
+    "original": {
+      "id": "n5-0139a208fe",
+      "kana": "りょうしん",
+      "kanji": "両親",
+      "meaning": "both parents"
+    },
+    "meaning": "cha mẹ"
+  },
+  {
+    "original": {
+      "id": "n5-ee85169acd",
+      "kana": "りょうり",
+      "kanji": "料理",
+      "meaning": "cuisine"
+    },
+    "meaning": "món ăn, việc nấu nướng"
+  },
+  {
+    "original": {
+      "id": "n5-2ba96bef9a",
+      "kana": "りょこう",
+      "kanji": "旅行",
+      "meaning": "travel"
+    },
+    "meaning": "du lịch, chuyến đi"
+  },
+  {
+    "original": {
+      "id": "n5-92b3bb727e",
+      "kana": "れい",
+      "kanji": "零",
+      "meaning": "zero"
+    },
+    "meaning": "không, số không"
+  },
+  {
+    "original": {
+      "id": "n5-f7a15687a1",
+      "kana": "れいぞうこ",
+      "kanji": "冷蔵庫",
+      "meaning": "refrigerator"
+    },
+    "meaning": "chiếc tủ lạnh"
+  },
+  {
+    "original": {
+      "id": "n5-0455201fe6",
+      "kana": "レコード",
+      "kanji": "",
+      "meaning": "record"
+    },
+    "meaning": "đĩa nhạc"
+  },
+  {
+    "original": {
+      "id": "n5-31893e4378",
+      "kana": "レストラン",
+      "kanji": "",
+      "meaning": "restaurant"
+    },
+    "meaning": "nhà hàng sang trọng"
+  },
+  {
+    "original": {
+      "id": "n5-d23f06249a",
+      "kana": "れんしゅう",
+      "kanji": "練習",
+      "meaning": "to practice"
+    },
+    "meaning": "luyện tập"
+  },
+  {
+    "original": {
+      "id": "n5-5fc0f979e6",
+      "kana": "ろうか",
+      "kanji": "廊下",
+      "meaning": "corridor"
+    },
+    "meaning": "hành lang"
+  },
+  {
+    "original": {
+      "id": "n5-f9ccc7bfdf",
+      "kana": "ろく",
+      "kanji": "六",
+      "meaning": "six"
+    },
+    "meaning": "sáu"
+  },
+  {
+    "original": {
+      "id": "n5-38249a2dd2",
+      "kana": "ワイシャツ",
+      "kanji": "",
+      "meaning": "business shirt"
+    },
+    "meaning": "áo sơ mi"
+  },
+  {
+    "original": {
+      "id": "n5-640761cb8b",
+      "kana": "わかい",
+      "kanji": "若い",
+      "meaning": "young"
+    },
+    "meaning": "trẻ"
+  },
+  {
+    "original": {
+      "id": "n5-ecee43eb04",
+      "kana": "わかる",
+      "kanji": "分かる",
+      "meaning": "to be understood"
+    },
+    "meaning": "hiểu, biết"
+  },
+  {
+    "original": {
+      "id": "n5-0ca0de9dea",
+      "kana": "わすれる",
+      "kanji": "忘れる",
+      "meaning": "to forget"
+    },
+    "meaning": "quên"
+  },
+  {
+    "original": {
+      "id": "n5-d5c2e69813",
+      "kana": "わたくし",
+      "kanji": "私",
+      "meaning": "(humble) I; myself"
+    },
+    "meaning": "tôi (cách nói khiêm nhường)"
+  },
+  {
+    "original": {
+      "id": "n5-b1d440d4e1",
+      "kana": "わたす",
+      "kanji": "渡す",
+      "meaning": "to hand over"
+    },
+    "meaning": "trao, đưa cho"
+  },
+  {
+    "original": {
+      "id": "n5-78255b9860",
+      "kana": "わたる",
+      "kanji": "渡る",
+      "meaning": "to go across"
+    },
+    "meaning": "băng qua, đi qua"
+  },
+  {
+    "original": {
+      "id": "n5-13b6dbec03",
+      "kana": "わるい",
+      "kanji": "悪い",
+      "meaning": "bad"
+    },
+    "meaning": "xấu, tồi tệ"
+  }
+]

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { connectNotebook } from '../frontend/js/notebook-sync.js';
+import { connectNotebook } from '../frontend/src/notebook-sync.ts';
 
 test('keeps the old revision of a conflicting draft even after more local edits', async (t) => {
   const key = 'kotoba.notebook.pending.v1';
