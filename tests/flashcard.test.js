@@ -57,3 +57,31 @@ test('flipped cards retain the Vietnamese deck’s display kana and example audi
   assert.ok(html.includes('Tôi xem ví dụ.'));
   assert.match(html, /data-action="speak-example"/);
 });
+
+test('the front shows Japanese context and audio without revealing Vietnamese answers', () => {
+  const word = {
+    ...words[0], hanViet: 'LỆ', meaning: 'nghĩa bí mật',
+    example: '例を見ます。', exampleMeaning: 'bản dịch bí mật',
+  };
+  const state = createState({ words: [word] });
+  const front = flashView(state, currentWord(state));
+  assert.ok(front.includes('例を見ます。'));
+  assert.match(front, /data-action="speak-example"/);
+  for (const answer of [word.hanViet, word.meaning, word.exampleMeaning]) {
+    assert.ok(!front.includes(answer));
+  }
+  state.flipped = true;
+  const back = flashView(state, currentWord(state));
+  assert.ok(back.includes(word.meaning));
+  assert.ok(back.includes(word.exampleMeaning));
+});
+
+test('a front without kanji or an example shows kana and only word audio', () => {
+  const word = { ...words[0], kanji: '', kana: 'パン', meaning: 'bánh mì' };
+  const state = createState({ words: [word] });
+  const front = flashView(state, currentWord(state));
+  assert.ok(front.includes('パン'));
+  assert.match(front, /data-action="speak"/);
+  assert.doesNotMatch(front, /data-action="speak-example"/);
+  assert.ok(!front.includes(word.meaning));
+});

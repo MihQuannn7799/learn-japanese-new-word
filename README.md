@@ -33,7 +33,7 @@ Sổ tay, dấu đã nhớ và thiết lập học được ghi vào `backend/st
 
 ## Cách học
 
-- **Flashcard** · Chạm thẻ hoặc nhấn `Space` để xem nghĩa, kana và câu ví dụ nếu có. Vuốt trái cho từ **Chưa nhớ**, vuốt phải cho từ **Đã nhớ**. Bạn cũng có thể dùng hai nút bên dưới thẻ hoặc phím `←` / `→`.
+- **Flashcard** · Mặt trước hiện từ, cách đọc và câu ví dụ tiếng Nhật nếu có, kèm nút **Nghe từ** và **Nghe câu**. Chạm thẻ hoặc nhấn `Space` để xem nghĩa và bản dịch câu. Vuốt trái cho từ **Chưa nhớ**, vuốt phải cho từ **Đã nhớ**. Bạn cũng có thể dùng hai nút bên dưới thẻ hoặc phím `←` / `→`.
 - Khi thả tay sau một lần vuốt đủ xa, thẻ trượt ra theo hướng kéo. Kéo ngắn rồi thả sẽ đưa thẻ về chỗ cũ.
 - Chọn **Ngẫu nhiên** để xáo toàn bộ từ trong sổ tay, **Chưa nhớ** để ôn từ chưa nhớ, hoặc **Đã nhớ** để kiểm tra lại từ đã nhớ. Phần trăm dùng tổng số thẻ ở đầu lượt học và cập nhật sau mỗi lần đánh dấu. Chọn lại bộ thẻ hoặc bấm **Học lại bộ này** ở cuối lượt để cập nhật danh sách.
 - **Nghe chép** · Chọn **Nghe cả danh sách** để phát từng dòng từ trên xuống. Bấm biểu tượng loa để nghe một dòng đúng một lần, gõ kana hoặc kanji và chọn **Kiểm tra**. Có thể xem đáp án ở từng dòng.
