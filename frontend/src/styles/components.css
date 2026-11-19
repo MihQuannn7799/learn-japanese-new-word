@@ -38,7 +38,7 @@
 .is-dragging .card-toggle { cursor: grabbing; }
 .card-toggle:focus-visible { outline-offset: -5px; border-radius: 15px; }
 #card-answer { width: 100%; min-width: 0; }
-.card-meaning { font: bold clamp(1.8rem, 4.4vw, 3rem)/1.13 Georgia, serif; }
+.card-meaning { font-family: inherit; font-size: clamp(1.8rem, 4.4vw, 3rem); font-weight: 600; line-height: 1.4; overflow-wrap: break-word; word-break: normal; }
 .flip-hint { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 10px; color: var(--muted); font-size: .8rem; }
 .flash-example { display: grid; gap: 3px; width: fit-content; max-width: 100%; margin: 10px auto 0; padding: 7px 12px; border-radius: 8px; background: var(--white); font-size: .9rem; overflow-wrap: anywhere; }
 .flash-example .muted { font-size: .81rem; }
