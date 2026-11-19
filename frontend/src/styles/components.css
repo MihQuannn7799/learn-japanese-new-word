@@ -42,8 +42,10 @@
 .flip-hint { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 10px; color: var(--muted); font-size: .8rem; }
 .flash-example { display: grid; gap: 3px; width: fit-content; max-width: 100%; margin: 10px auto 0; padding: 7px 12px; border-radius: 8px; background: var(--white); font-size: .9rem; overflow-wrap: anywhere; }
 .flash-example .muted { font-size: .81rem; }
-.flash-face:has(.flash-example-audio) .card-toggle { padding-bottom: 9px; }
-.flash-example-audio { justify-self: center; align-self: start; margin-bottom: 9px; }
+.flash-face .card-toggle { padding-bottom: 12px; }
+.flash-audio-actions { display: flex; flex-wrap: wrap; justify-content: center; align-self: start; gap: 8px; margin: 0 12px 18px; }
+.flash-audio-actions .btn { border-radius: 999px; }
+.flash-example-front { background: transparent; margin-top: 18px; font-size: 1.05rem; line-height: 1.7; }
 .swipe-label { display: flex; position: absolute; z-index: 1; top: 59px; align-items: center; gap: 4px; padding: 4px 8px; border: 1px solid currentColor; border-radius: 8px; background: var(--white); font-size: .85rem; font-weight: 750; opacity: 0; pointer-events: none; }
 .swipe-label-left { right: 18px; color: var(--ink); }
 .swipe-label-right { left: 18px; color: var(--green-dark); }
